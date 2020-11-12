@@ -1,0 +1,316 @@
+下表展现NotoUnicode对统一码的支持。
+「。」开头强调该区段被字体NotoUnicode或其它系统字体或Noto字体填满。具体数值看「／」
+「／」之前的数字指字体包含该区段字数，之后的数字表示该区段总字数。如果是「／。」表示该区段被字体填满。
+「！」结尾强调NotoUnicode或其它字体在该区段缺字。具体数值看「／」
+「？」意味着情况不明。
+凡是被括号包裹的字体要么是系统默认字体，要么是过大不宜加入NotoUnicode，有3个：思源黑体、Noto Serif Tangut、BabelStone Han。
+「〓」因为某些原因被GB 2312收纳了。这里当作分隔和别的记录。
+
+。　U+0000-U+007F; Basic Latin〓〓Noto Sans（95／。），（Segoe UI Symbol有／。）
+。　U+0080-U+00FF; Latin-1 Supplement〓〓Noto Sans（96／。），（Segoe UI Symbol有／。）
+。　U+0100-U+017F; Latin Extended-A〓〓Noto Sans（128／。）
+。　U+0180-U+024F; Latin Extended-B〓〓Noto Sans（208／。）
+。　U+0250-U+02AF; IPA Extensions〓〓Noto Sans（96／。）
+。　U+02B0-U+02FF; Spacing Modifier Letters〓〓Noto Sans（80／。）
+。　U+0300-U+036F; Combining Diacritical Marks〓〓Noto Sans（112／。）
+。　U+0370-U+03FF; Greek and Coptic〓〓Noto Sans（121／135）+ Noto Sans Coptic（14／135）=（135／。）
+。　U+0400-U+04FF; Cyrillic〓〓Noto Sans（256／。）
+。　U+0500-U+052F; Cyrillic Supplement〓〓Noto Sans（48／。）
+。　U+0530-U+058F; Armenian〓Noto Sans Armenian（91／。）
+。　U+0590-U+05FF; Hebrew〓Noto Sans Hebrew（87／88）+ 按www.unicode.org/charts/PDF/U0590.pdf画了个U+05EF =（88／。）
+　U+0600-U+06FF; Arabic〓Noto Sans Arabic（248／255）！
+。　U+0700-U+074F; Syriac〓（Segoe UI Historic有77／。）
+。　U+0750-U+077F; Arabic Supplement〓Noto Sans Arabic（48／。），（Segoe UI有／。）
+。　U+0780-U+07BF; Thaana〓（MV Boli有50／。）
+　U+07C0-U+07FF; N'Ko〓（Ebrima有59／62）!
+　U+0800-U+083F; Samaritan〓
+　U+0840-U+085F; Mandaic〓
+　U+0860-U+086F; Syriac Supplement〓Noto Syriac无！
+　U+08A0-U+08FF; Arabic Extended-A〓Noto Sans Arabic（60／84）！
+。　U+0900-U+097F; Devanāgarī〓Noto Sans Devanagari（128／。）
+。　U+0980-U+09FF; Bengali〓Noto Sans Bengali（96／。）
+。　U+0A00-U+0A7F; Gurmukhi〓Noto Sans Gurmukhi（80／。）
+。　U+0A80-U+0AFF; Gujarati〓Noto Sans Gujarati（91／。）
+　U+0B00-U+0B7F; Oriya〓（Nirmala UI有84／91）！
+。　U+0B80-U+0BFF; Tamil〓Noto Sans Grantha（15／72）！（Nirmala UI有72／。）
+　U+0C00-U+0C7F; Telugu〓（Nirmala UI有93／98）！
+　U+0C80-U+0CFF; Kannada〓（Nirmala UI有86／89）！
+　U+0D00-U+0D7F; Malayalam〓（Nirmala UI有98／118）！
+　U+0D80-U+0DFF; Sinhala〓
+。　U+0E00-U+0E7F; Thai〓〓（Microsoft Sans Serif有87／。）
+　U+0E80-U+0EFF; Lao〓
+　U+0F00-U+0FFF; Tibetan〓
+。　U+1000-U+109F; Myanmar〓（Myanmar Text有160／。）
+。　U+10A0-U+10FF; Georgian〓Noto Sans Georgian（88／。），（Segoe UI有／。）
+　U+1100-U+11FF; Hangul Jamo〓
+。　U+1200-U+137F; Ethiopic〓（Ebrima有358／。）
+。　U+1380-U+139F; Ethiopic Supplement〓（Ebrima有26／。）
+　U+13A0-U+13FF; Cherokee〓〓
+。　U+1400-U+167F; Unified Canadian Aboriginal Syllabics〓〓（Gadugi有640／。）
+。　U+1680-U+169F; Ogham〓（Segoe UI Historic有29／。）
+。　U+16A0-U+16FF; Runic〓Noto Sans Runic（89／。）
+。　U+1700-U+171F; Tagalog〓〓Noto Sans Tagalog（20／。）
+。　U+1720-U+173F; Hanunóo〓〓Noto Sans Hanunoo（23／。）
+　U+1740-U+175F; Buhid〓
+　U+1760-U+177F; Tagbanwa〓
+。　U+1780-U+17FF; Khmer〓（Khmer UI有114／。）
+。　U+1800-U+18AF; Mongolian〓Noto Sans Mongolian（157／。）
+。　U+18B0-U+18FF; Unified Canadian Aboriginal Syllabics Extended〓（Gadugi有70／。）
+　U+1900-U+194F; Limbu〓
+。　U+1950-U+197F; Tai Le〓（Microsoft Tai Le有35／。）
+。　U+1980-U+19DF; New Tai Lue〓（Microsoft New Tai Lue有83／。）
+。　U+19E0-U+19FF; Khmer Symbols〓（Khmer UI有32／。）
+。　U+1A00-U+1A1F; Buginese〓（Leelawadee UI有30／。）
+　U+1A20-U+1AAF; Tai Tham〓
+。　U+1AB0-U+1AFF; Combining Diacritical Marks Extended〓〓Noto Sans（17／。）
+　U+1B00-U+1B7F; Balinese〓
+。　U+1B80-U+1BBF; Sundanese〓Noto Sans Sundanese（64／。）
+　U+1BC0-U+1BFF; Batak〓
+　U+1C00-U+1C4F; Lepcha〓
+。　U+1C50-U+1C7F; Ol Chiki〓（Nirmala UI有48／。）
+。　U+1C80-U+1C8F; Cyrillic Extended-C〓〓Noto Sans（9／。）
+。　U+1C90-U+1CBF; Georgian Extended〓Noto Sans Georgian（46／。）
+。　U+1CC0-U+1CCF; Sundanese Supplement〓Noto Sans Sundanese（8／。）
+。　U+1CD0-U+1CFF; Vedic Extensions〓Noto Sans Devanagari（41／43）+ Noto Sans Bengali（12／43，补上U+1CF7）+ 按www.unicode.org/charts/PDF/U1CD0.pdf画了个U+1CFA =（43／。）
+。　U+1D00-U+1D7F; Phonetic Extensions〓〓Noto Sans（128／。），（Segoe UI有128／。）
+。　U+1D80-U+1DBF; Phonetic Extensions Supplement〓Noto Sans（64／。），（Segoe UI有64／。）
+。　U+1DC0-U+1DFF; Combining Diacritical Marks Supplement〓Noto Sans（63／。）
+。　U+1E00-U+1EFF; Latin Extended Additional〓〓Noto Sans（256／。）,（Segoe UI有256／。）
+。　U+1F00-U+1FFF; Greek Extended〓〓Noto Sans（233／。）,（Segoe UI有233／。）
+。　U+2000-U+206F; General Punctuation〓〓Noto Sans（111／。），Arimo（111／。给空字形U+200C U+200D U+2028 U+2029 U+205F-U+2069加了说明字符）
+。　U+2070-U+209F; Superscripts and Subscripts〓〓Noto Sans（42／。），（Segoe UI Symbol有／。）
+。　U+20A0-U+20CF; Currency Symbols〓〓Noto Sans（32／。）
+。　U+20D0-U+20FF; Combining Diacritical Marks for Symbols〓〓Noto Sans（1／33）、Noto Sans Old Permic（1／33）、Noto Sans Symbols（7／33）、Noto Sans Symbols2（2／33）！，（Segoe UI Symbol有33／。）
+。　U+2100-U+214F; Letterlike Symbols〓〓Noto Sans（80／。）
+。　U+2150-U+218F; Number Forms〓〓Noto Sans（18／60）+ Noto Sans Symbols（42／60）=（60／。）
+。　U+2190-U+21FF; Arrows〓〓（Segoe UI Symbol有112／。）
+。　U+2200-U+22FF; Mathematical Operators〓〓（Segoe UI Symbol有256／。）
+　U+2300-U+23FF; Miscellaneous Technical〓〓Noto Sans Symbols2（37／256）+ Noto Sans Symbols（103／256）+ Arimo（4／256）=（142／256，有重复）！
+。　U+2400-U+243F; Control Pictures〓（Segoe UI Symbol有39／。）
+。　U+2440-U+245F; Optical Character Recognition〓（Segoe UI Symbol有11／。）
+。　U+2460-U+24FF; Enclosed Alphanumerics〓〓（Segoe UI Symbol有160／。）
+。　U+2500-U+257F; Box Drawing〓〓（Segoe UI Symbol有128／。）
+。　U+2580-U+259F; Block Elements〓〓（Segoe UI Symbol有32／。）
+。　U+25A0-U+25FF; Geometric Shapes〓〓（Segoe UI Symbol有96／。）
+。　U+2600-U+26FF; Miscellaneous Symbols〓〓（Segoe UI Symbol有256／。）
+。　U+2700-U+27BF; Dingbats〓〓（Segoe UI Symbol有192／。）
+　U+27C0-U+27EF; Miscellaneous Mathematical Symbols-A〓〓
+。　U+27F0-U+27FF; Supplemental Arrows-A〓（Segoe UI Symbol有16／。）
+。　U+2800-U+28FF; Braille Patterns〓（Segoe UI Symbol有256／。）
+。　U+2900-U+297F; Supplemental Arrows-B〓（Segoe UI Symbol有128／。）
+。　U+2980-U+29FF; Miscellaneous Mathematical Symbols-B〓（Segoe UI Symbol有128／。）
+。　U+2A00-U+2AFF; Supplemental Mathematical Operators〓（Segoe UI Symbol有256／。）
+　U+2B00-U+2BFF; Miscellaneous Symbols and Arrows〓〓Noto Sans Symbols2（218／253）！
+。　U+2C00-U+2C5F; Glagolitic〓（Segoe UI Historic有94／。）
+。　U+2C60-U+2C7F; Latin Extended-C〓〓Noto Sans（32／。）
+。　U+2C80-U+2CFF; Coptic〓（Segoe UI Historic有123／。），（Segoe UI Symbol有／。）
+。　U+2D00-U+2D2F; Georgian Supplement〓Noto Sans Georgian（40／。），（Segoe UI有40／。）
+　U+2D30-U+2D7F; Tifinagh〓（Ebrima有57／59）！
+。　U+2D80-U+2DDF; Ethiopic Extended〓（Ebrima有79／。）
+。　U+2DE0-U+2DFF; Cyrillic Extended-A〓Noto Sans（32／。），（Segoe UI有32／。）
+。　U+2E00-U+2E7F; Supplemental Punctuation〓〓Noto Sans（83／。）
+。　U+2E80-U+2EFF; CJK Radicals Supplement〓（微软雅黑有115／。）
+。　U+2F00-U+2FDF; Kangxi Radicals〓（微软雅黑有214／。）
+。　U+2FF0-U+2FFF; Ideographic Description Characters〓（微软雅黑有12／。）
+。　U+3000-U+303F; CJK Symbols and Punctuation〓〓（微软雅黑有64／。）
+。　U+3040-U+309F; Hiragana〓〓（微软雅黑有93／。）
+。　U+30A0-U+30FF; Katakana〓〓（微软雅黑有96／。）
+。　U+3100-U+312F; Bopomofo〓（思源黑体有43／。）
+。　U+3130-U+318F; Hangul Compatibility Jamo〓（思源黑体有94／。）
+。　U+3190-U+319F; Kanbun〓（微软雅黑有16／。）
+　U+31A0-U+31BF; Bopomofo Extended〓（思源有？）
+。　U+31C0-U+31EF; CJK Strokes〓（微软雅黑有36／。）
+。　U+31F0-U+31FF; Katakana Phonetic Extensions〓〓（微软雅黑有16／。）
+。　U+3200-U+32FF; Enclosed CJK Letters and Months〓（思源黑体有255／。）
+。　U+3300-U+33FF; CJK Compatibility〓〓（Meiryo UI有256／。）
+　U+3400-U+4DBF; CJK Unified Ideographs Extension A〓放不下（微软雅黑有6582／6592？）！
+。　U+4DC0-U+4DFF; Yijing Hexagram Symbols〓（Segoe UI Symbol有64／。）
+　U+4E00-U+9FFF; CJK Unified Ideographs〓放不下（思源黑体有20976／20989？）！
+。　U+A000-U+A48F; Yi Syllables〓（Microsoft Yi Baiti有1165／。）
+。　U+A490-U+A4CF; Yi Radicals〓（Microsoft Yi Baiti有55／。）
+。　U+A4D0-U+A4FF; Lisu〓（Segoe UI有48／。）
+。　U+A500-U+A63F; Vai〓（Ebrima有300／。）
+。　U+A640-U+A69F; Cyrillic Extended-B〓Noto Sans（96／。）
+　U+A6A0-U+A6FF; Bamum〓
+。　U+A700-U+A71F; Modifier Tone Letters〓Noto Sans（32／。）删除了声调连字
+。　U+A720-U+A7FF; Latin Extended-D〓〓Noto Sans（180／。）
+　U+A800-U+A82F; Syloti Nagri〓
+。　U+A830-U+A83F; Common Indic Number Forms〓Noto Sans Devanagari = Sans Tirhuta= Sans Takri= Sans Gurmukhi= Sans Gujarati（10／。）
+。　U+A840-U+A87F; Phags-pa〓（Microsoft PhagsPa有56／。）
+　U+A880-U+A8DF; Saurashtra〓
+。　U+A8E0-U+A8FF; Devanāgarī Extended〓Noto Sans Devanagari（32／。）
+。　U+A900-U+A92F; Kayah Li〓Noto Sans Kayah Li（48／。）
+　U+A930-U+A95F; Rejang〓
+。　U+A960-U+A97F; Hangul Jamo Extended-A〓（思源黑体有29／。）
+　U+A980-U+A9DF; Javanese〓
+　U+A9E0-U+A9FF; Myanmar Extended-B〓（Myanmar Text有0／31？）！
+　U+AA00-U+AA5F; Cham〓
+　U+AA60-U+AA7F; Myanmar Extended-A〓（Myanmar Text有28／32？）！
+　U+AA80-U+AADF; Tai Viet〓
+　U+AAE0-U+AAFF; Meetei Mayek Extensions〓
+。　U+AB00-U+AB2F; Ethiopic Extended-A〓（Ebrima有32／。）
+。　U+AB30-U+AB6F; Latin Extended-E〓〓Noto Sans（60／。）
+　U+AB70-U+ABBF; Cherokee Supplement〓
+　U+ABC0-U+ABFF; Meetei Mayek〓
+。　U+AC00-U+D7AF; Hangul Syllables〓（思源黑体有11172／。）
+。　U+D7B0-U+D7FF; Hangul Jamo Extended-B〓（思源黑体有72／。）
+　U+D800-U+DB7F; High Surrogates〓不需要？
+　U+DB80-U+DBFF; High Private Use Surrogates〓不需要？
+　U+DC00-U+DFFF; Low Surrogates〓不需要？
+。　U+E000-U+F8FF; Private Use Area〓〓不需要
+。　U+F900-U+FAFF; CJK Compatibility Ideographs〓（思源黑体有366／472？），（BabelStone Han有）
+。　U+FB00-U+FB4F; Alphabetic Presentation Forms〓〓Noto Sans（7／58）+ Noto Sans Armenian（5／58）+ Noto Sans Hebrew（46／58）=（58／。）
+　U+FB50-U+FDFF; Arabic Presentation Forms-A〓Noto Sans Arabic（235／611）！
+　U+FE00-U+FE0F; Variation Selectors〓〓Noto Sans Manichaean（1／16）不需要？
+。　U+FE10-U+FE1F; Vertical Forms〓〓（微软雅黑有10／。）
+。　U+FE20-U+FE2F; Combining Half Marks〓Noto Sans（16／。）
+。　U+FE30-U+FE4F; CJK Compatibility Forms〓〓（微软雅黑有32／。）
+。　U+FE50-U+FE6F; Small Form Variants〓〓（微软雅黑有26／。）
+。　U+FE70-U+FEFF; Arabic Presentation Forms-B〓Noto Sans Arabic（140／141）+ Arimo（1／141，给空字形U+FEFF加了说明字符）=（141／。）
+。　U+FF00-U+FFEF; Halfwidth and Fullwidth Forms〓〓（思源黑体有225／。）
+。　U+FFF0-U+FFFF; Specials〓〓Noto Sans（2／5）+ Noto Sans Symbols2（3／5）=（5／。）
+。U+10000-U+1007F; Linear B Syllabary〓Noto Sans Linear B（88／。）
+。U+10080-U+100FF; Linear B Ideograms〓Noto Sans Linear B（123／。）
+。U+10100-U+1013F; Aegean Numbers〓Noto Sans Linear B（57／。）
+。U+10140-U+1018F; Ancient Greek Numbers〓Noto Sans Symbols2（79／。）
+。U+10190-U+101CF; Ancient Symbols〓Noto Sans Symbols2（13／14）+ BabelStone Shapes（1／14）=（14／。）
+。U+101D0-U+101FF; Phaistos Disc〓Noto Sans Symbols2（46／。）
+。U+10280-U+1029F; Lycian〓（Segoe UI Historic有29／。）
+。U+102A0-U+102DF; Carian〓（Segoe UI Historic有49／。）
+。U+102E0-U+102FF; Coptic Epact Numbers〓Noto Sans Coptic（28／。），Noto Sans Symbols2（28／。但造型完全不同）
+。U+10300-U+1032F; Old Italic〓〓Noto Sans Old Italic（39／。）
+。U+10330-U+1034F; Gothic〓（Segoe UI Historic有27／。）
+。U+10350-U+1037F; Old Permic〓Noto Sans Old Permic（43／。）
+。U+10380-U+1039F; Ugaritic〓（Segoe UI Historic有31／。）
+。U+103A0-U+103DF; Old Persian〓（Segoe UI Historic有50／。）
+。U+10400-U+1044F; Deseret〓（Segoe UI Symbol有80／。）
+。U+10450-U+1047F; Shavian〓（Segoe UI Historic有48／。）
+。U+10480-U+104AF; Osmanya〓（Ebrima有40／。）
+。U+104B0-U+104FF; Osage〓Noto Sans Osage（72／。）
+。U+10500-U+1052F; Elbasan〓Noto Sans Elbasan（40／。）
+。U+10530-U+1056F; Caucasian Albanian〓Noto Sans CaucAlban（53／。）
+。U+10600-U+1077F; Linear A〓Noto Sans Linear A（341／。）
+。U+10800-U+1083F; Cypriot Syllabary〓（Segoe UI Historic有55／。）
+。U+10840-U+1085F; Imperial Aramaic〓（Segoe UI Historic有31／。）
+。U+10860-U+1087F; Palmyrene〓Noto Sans Palmyrene（32／。）
+。U+10880-U+108AF; Nabataean〓Noto Sans Nabataean（40／。）
+。U+108E0-U+108FF; Hatran〓Noto Sans Hatran（26／。）
+。U+10900-U+1091F; Phoenician〓（Segoe UI Historic有29／。）
+。U+10920-U+1093F; Lydian〓（Segoe UI Historic有27／。）
+。U+10980-U+1099F; Meroitic Hieroglyphs〓Noto Sans Meroitic（32／。）
+。U+109A0-U+109FF; Meroitic Cursive〓Noto Sans Meroitic（90／。）
+U+10A00-U+10A5F; Kharoshthi〓（Segoe UI Historic有65／68）！
+。U+10A60-U+10A7F; Old South Arabian〓（Segoe UI Historic有32／。）
+。U+10A80-U+10A9F; Old North Arabian〓Noto Sans Old North Arabian（32／。）
+。U+10AC0-U+10AFF; Manichaean〓Noto Sans Manichaean（51／。）
+U+10B00-U+10B3F; Avestan〓
+。U+10B40-U+10B5F; Inscriptional Parthian〓（Segoe UI Historic有30／。）
+。U+10B60-U+10B7F; Inscriptional Pahlavi〓（Segoe UI Historic有27／。）
+。U+10B80-U+10BAF; Psalter Pahlavi〓Noto Sans PsaPahlavi（29／。）
+。U+10C00-U+10C4F; Old Turkic〓（Segoe UI Historic有73／。）
+。U+10C80-U+10CFF; Old Hungarian〓Noto Sans Old Hungarian（108／。）
+。U+10D00-U+10D3F; Hanifi Rohingya〓Noto Sans Hanifi Rohingya（50／。）
+。U+10E60-U+10E7F; Rumi Numeral Symbols〓Noto Sans Symbols2（31／。）
+U+10E80-U+10EBF; Yezidi〓Noto无！
+。U+10F00-U+10F2F; Old Sogdian〓Noto Sans OldSogdian（40／。）
+。U+10F30-U+10F6F; Sogdian〓Noto Sans Sogdian（42／。）
+U+10FB0-U+10FDF; Chorasmian〓Noto无！
+。U+10FE0-U+10FFF; Elymaic〓Noto Sans Elymaic（23／。）
+。U+11000-U+1107F; Brahmi〓（Segoe UI Historic有109／。）
+U+11080-U+110CF; Kaithi〓
+。U+110D0-U+110FF; Sora Sompeng〓（Nirmala UI有35／。）
+U+11100-U+1114F; Chakma〓
+。U+11150-U+1117F; Mahajani〓Noto Sans Mahajani（39／。）
+U+11180-U+111DF; Sharada〓Noto Sans Sharada（94／96）！？
+U+111E0-U+111FF; Sinhala Archaic Numbers〓
+。U+11200-U+1124F; Khojki〓Noto Sans Khojki（62／。）
+。U+11280-U+112AF; Multani〓Noto Sans Multani（38／。）
+。U+112B0-U+112FF; Khudawadi〓Noto Sans Khudawadi（69／。）
+。U+11300-U+1137F; Grantha〓Noto Sans Grantha（86／。）
+U+11400-U+1147F; Newa〓Noto Sans Newa（94／97）！？
+。U+11480-U+114DF; Tirhuta〓Noto Sans Tirhuta（82／。）
+。U+11580-U+115FF; Siddham〓〓Noto Sans Siddham（92／。）
+U+11600-U+1165F; Modi〓github.com/notofonts/NotoSansModi没有字体？
+。U+11660-U+1167F; Mongolian Supplement〓Noto Sans Mongolian（13／。）
+。U+11680-U+116CF; Takri〓Noto Sans Takri（67／。）
+。U+11700-U+1173F; Ahom〓Noto Serif Ahom（58／。）
+。U+11800-U+1184F; Dogra〓Noto Serif Dogra（60／。）
+。U+118A0-U+118FF; Warang Citi〓Noto Sans Warang Citi（84／。）
+U+11900-U+1195F; Dives Akuru〓Noto无！
+U+119A0-U+119FF; Nandināgarī〓Noto无！
+。U+11A00-U+11A4F; Zanabazar Square〓Noto Sans Zanabazar Square（72／。）但按www.unicode.org/charts/PDF/U11A00.pdf修改了U+11A47，原形类似+号
+。U+11A50-U+11AAF; Soyombo〓Noto Sans Soyombo（83／。）
+。U+11AC0-U+11AFF; Pau Cin Hau〓Noto Sans PauCinHau（57／。）
+。U+11C00-U+11C6F; Bhaiksuki〓Noto Sans Bhaiksuki（97／。）
+。U+11C70-U+11CBF; Marchen〓Noto Sans Marchen（68／。）
+。U+11D00-U+11D5F; Masaram Gondi〓Noto Sans Masaram Gondi（75／。）按www.unicode.org/charts/PDF/U11D00.pdf给空字形U+11D45加了说明字符
+。U+11D60-U+11DAF; Gunjala Gondi〓Noto Sans Gunjala Gondi（63／。）按www.unicode.org/charts/PDF/U11D60.pdf给空字形U+11D97加了说明字符
+U+11EE0-U+11EFF; Makasar〓Noto无！
+。U+11FB0-U+11FBF; Lisu Supplement〓〓Noto Lisu无！从Noto Sans借用一个U+2144（1／。）
+。U+11FC0-U+11FFF; Tamil Supplement〓Noto Sans Tamil Supplement（51／。）
+U+12000-U+123FF; Cuneiform〓（Segoe UI Historic有921／922）！
+。U+12400-U+1247F; Cuneiform Numbers and Punctuation〓（Segoe UI Historic有116／。）
+U+12480-U+1254F; Early Dynastic Cuneiform〓
+。U+13000-U+1342F; Egyptian Hieroglyphs〓〓（Segoe UI Historic有1071／。）
+U+13430-U+1343F; Egyptian Hieroglyph Format Controls〓Noto无！
+U+14400-U+1467F; Anatolian Hieroglyphs〓
+U+16800-U+16A3F; Bamum Supplement〓
+。U+16A40-U+16A6F; Mro〓Noto Sans Mro（43／。）
+。U+16AD0-U+16AFF; Bassa Vah〓Noto Sans Bassa Vah（36／。）
+。U+16B00-U+16B8F; Pahawh Hmong〓Noto Sans Pahawh Hmong（127／。）
+U+16E40-U+16E9F; Medefaidrin〓Noto无！
+。U+16F00-U+16F9F; Miao〓Noto Sans Miao（149／。）
+。U+16FE0-U+16FFF; Ideographic Symbols and Punctuation〓Noto Serif Tangut（1／7，是U+16FE0）+ Khitan Small Linear（1／7，是U+16FE4空字形，按www.unicode.org/charts/PDF/U16FE0.pdf画了个说明字符）+ BabelStone Han（4／7，作了修改）+ 借用U+02FE当作U+16FE2，借用U+2017当作U+16FE3 =（7／。）
+。U+17000-U+187FF; Tangut〓Noto Serif Tangut有，放不下
+。U+18800-U+18AFF; Tangut Components〓Noto Serif Tangut有，放不下
+。U+18B00-U+18CFF; Khitan Small Script〓〓Noto无，Khitan Small Linear（470／。）
+U+18D00-U+18D8F; Tangut Supplement〓Noto Tangut无！
+U+1B000-U+1B0FF; Kana Supplement〓〓Noto无？
+U+1B100-U+1B12F; Kana Extended-A〓Noto无？
+U+1B130-U+1B16F; Small Kana Extension〓〓Noto无？
+U+1B170-U+1B2FF; Nüshu〓〓
+。U+1BC00-U+1BC9F; Duployan〓Noto Sans Duployan（143／。）
+。U+1BCA0-U+1BCAF; Shorthand Format Controls〓Noto Sans Duployan（4／。）
+。U+1D000-U+1D0FF; Byzantine Musical Symbols〓Noto Music（246／。）
+。U+1D100-U+1D1FF; Musical Symbols〓（Segoe UI Symbol有231／。）
+。U+1D200-U+1D24F; Ancient Greek Musical Notation〓Noto Music（70／。）
+。U+1D2E0-U+1D2FF; Mayan Numerals〓Noto Sans Mayan Numerals（20／。），（Noto Sans Symbols2有／。）
+。U+1D300-U+1D35F; Tai Xuan Jing Symbols〓（Segoe UI Symbol有87／。），（Noto Sans Symbols2有／。）
+。U+1D360-U+1D37F; Counting Rod Numerals〓〓Noto Sans Symbols2（25／。）其中U+1D374-U+1D376“画正字”因为过丑作了调整
+。U+1D400-U+1D7FF; Mathematical Alphanumeric Symbols〓（Segoe UI Symbol有996／。）
+U+1D800-U+1DAAF; Sutton SignWriting〓Noto无！
+U+1E000-U+1E02F; Glagolitic Supplement〓
+。U+1E100-U+1E14F; Nyiakeng Puachue Hmong〓Noto Serif Hmong Nyiakeng（71／。）
+。U+1E2C0-U+1E2FF; Wancho〓Noto Sans Wancho（59／。）
+。U+1E800-U+1E8DF; Mende Kikakui〓Noto Sans Mende Kikakui（213／。）
+U+1E900-U+1E95F; Adlam〓
+。U+1EC70-U+1ECBF; Indic Siyaq Numbers〓Noto Sans Indic Siyaq Numbers（68／。）
+U+1ED00-U+1ED4F; Ottoman Siyaq Numbers〓Noto无！
+U+1EE00-U+1EEFF; Arabic Mathematical Alphabetic Symbols〓
+。U+1F000-U+1F02F; Mahjong Tiles〓（Segoe UI Symbol有44／。），（Noto Sans Symbols2有／。）
+。U+1F030-U+1F09F; Domino Tiles〓（Segoe UI Symbol有100／。），（Noto Sans Symbols2有／。）
+。U+1F0A0-U+1F0FF; Playing Cards〓（Segoe UI Symbol有82／。），（Noto Sans Symbols2有／。）
+。U+1F100-U+1F1FF; Enclosed Alphanumeric Supplement〓〓Noto Sans Symbols（157／200）！（BabelStone Han有）
+。U+1F200-U+1F2FF; Enclosed Ideographic Supplement〓（BabelStone Han有）
+U+1F300-U+1F5FF; Miscellaneous Symbols and Pictographs〓〓Noto Sans Symbols（5／768）、Noto Sans Symbols2（291／768）！
+。U+1F600-U+1F64F; Emoticons〓（Segoe UI Symbol有80／。）
+。U+1F650-U+1F67F; Ornamental Dingbats〓（Segoe UI Symbol有48／。）
+U+1F680-U+1F6FF; Transport and Map Symbols〓Noto Sans Symbols2（41／114）！
+。U+1F700-U+1F77F; Alchemical Symbols〓（Segoe UI Symbol有116／。）
+。U+1F780-U+1F7FF; Geometric Shapes Extended〓〓Noto Sans Symbols2（101／。）
+。U+1F800-U+1F8FF; Supplemental Arrows-C〓Noto Sans Symbols2（148／150）+ BabelStone Shapes（2／150）=（150／。）
+U+1F900-U+1F9FF; Supplemental Symbols and Pictographs〓〓Noto Sans Symbols2（2／254）！
+。U+1FA00-U+1FA6F; Chess Symbols〓Noto Sans Symbols2（98／。）
+U+1FA70-U+1FAFF; Symbols and Pictographs Extended-A〓
+。U+1FB00-U+1FBFF; Symbols for Legacy Computing〓Noto无，BabelStone Shapes（212／。）
+U+20000-U+2A6DF; CJK Unified Ideographs Extension B〓放不下
+U+2A700-U+2B73F; CJK Unified Ideographs Extension C〓〓放不下
+U+2B740-U+2B81F; CJK Unified Ideographs Extension D〓放不下
+U+2B820-U+2CEAF; CJK Unified Ideographs Extension E〓放不下
+U+2CEB0-U+2EBEF; CJK Unified Ideographs Extension F〓〓放不下
+U+2F800-U+2FA1F; CJK Compatibility Ideographs Supplement〓放不下
+U+30000-U+3134F; CJK Unified Ideographs Extension G〓放不下
+。U+E0000-U+E007F; Tags〓无需字形，（BabelStone Han有）
+。U+E0100-U+E01EF; Variation Selectors Supplement〓无需字形，（BabelStone Han有）
+。U+F0000-U+FFFFF; Supplementary Private Use Area-A〓不需要
+。U+100000-U+10FFFF; Supplementary Private Use Area-B〓不需要
