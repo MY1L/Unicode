@@ -7,9 +7,21 @@
 
 而装这些我不了解的文字的字体，也只是为了BabelMap和浏览器显示不缺字，实际上我并不迫切地需要正确地排版这么多语言文字，只要看得见字就行，如果以后遇到需要正确排版的情况可以单独安装。
 
-于是我先将70+个字体合并为一：「Noto Unicode」，删除所有OT特性和不在统一码表里的字符（合字、异体等等），由此体积压缩了一半。针对BabelMap每个区段只能用一个字体的设定，画了些Noto缺的字符把整个区段填满。如果系统默认字体已经存在能填满某区段的，那就不加某区段，避免字体过大或装不下，因为字体包含单字上限65535——毕竟看到这的人肯定需要对东亚文字排版，要另装思源系列的。Noto Unicode支持的统一码区段列表太长这儿放不下，记录在sysBlocks.txt。
+于是我先将70+个字体合并为一：「Noto Unicode」，删除所有OT特性和不在统一码表里的字符（合字、异体等等），由此体积压缩了一半。针对BabelMap每个区段只能用一个字体的设定，画了些Noto缺的字符把整个区段填满。如果系统默认字体已经存在能填满某区段的就不加，避免字体过大或装不下，因字体包含单字上限65535——毕竟看到这的人肯定需要对东亚文字排版，要另装思源系列。Noto Unicode支持的统一码区段列表太长这儿放不下，记录在sysBlocks.txt。
 
-没有做完，只是尽量覆盖罕用和一般人不太在乎排版的SMP区域。BMP区域下次更新。以下为该个字体缝合的Noto字体列表：
+没有做完，只是尽量覆盖罕用和一般人不太在乎排版的SMP区域。BMP区域下次更新。
+
+## 更新
+2.003 第一版，初次发布，总字数11270+
+
+2.2.003 第二版，覆盖BMP区域，总字数15948+，因No tofu字体缺字而自画了些字符补全，自制了个“tofu（豆腐）”字符用于缺字提示。追加的Noto字体列表以后再写，当前sysBlocks.txt未更新。
+- 按 www.unicode.org/charts/PDF/U0D80.pdf 画了U+0D81补全该区。
+- 按 www.unicode.org/charts/PDF/U11180.pdf 画了U+111CE、U+111CF补全该区。
+- 按 www.unicode.org/charts/PDF/U11400.pdf 画了U+1145A、U+11460、U+11461补全该区。
+- 按 www.unicode.org/charts/PDF/U16FE0.pdf 造了整个区！
+
+## 涵盖
+以下为该个字体（2.003版）缝合的Noto字体列表：
 
 > 下列依次是：文件名 版本，GitHub更新日期，厂商或作者，-损失的OT特性。
 > - 如果厂商或作者后面直接是句号，表示没有损失任何特性，原字体就是光秃秃的。
@@ -29,7 +41,7 @@
 1. NotoSansDevanagari-Regular 2.001，2020-7-5，Monotype，-abvm abvs akhn blwf blwm blws cjct dist half haln locl nukt pres psts rkrf rphf vatu。
 1. NotoSansDuployan-Regular 2.000，2020-7-4，Monotype。
 1. NotoSansElbasan-Regular 2.000，2020-7-4，Monotype，-ccmp mark。
-1. NotoSansElymaic-Italic 1.000，2020-7-4，Morgane Pierson，-aalt dlig kern salt ss01~ss03。
+1. NotoSansElymaic-Italic 1.000，2020-7-4，Morgane Pierson，-aalt dlig kern salt ss01~ss03。这个字体没有Regular。
 1. NotoSansGeorgian-Regular 2.001，2020-7-4，Monotype，-aalt case ccmp kern mark mkmk。
 1. NotoSansGrantha-Regular 2.001，2020-7-4，Monotype，-abvs blwf blws calt cjct dist haln kern mark mkmk pstf psts rlig rphf ss01~ss10。
 1. NotoSansGujarati-Regular 2.001，2020-7-5，Monotype，-abvm abvs akhn blwf blwm blws cjct dist half haln nukt pres psts rkrf rphf vatu。
@@ -71,7 +83,7 @@
 1. NotoSansRunic-Regular 2.000，2020-7-4，Monotype。
 1. NotoSansSharada-Regular 2.001，2020-7-4，Monotype，-abvs akhn blws dist mark mkmk。
 1. NotoSansSiddham-Regular 2.001，2020-7-4，Monotype，-ccmp dist half kern mark mkmk pref pres psts ss01~ss04。
-1. NotoSansSogdian-Regular 2.000，2020-7-4，Monotype，-aalt calt fina init mark medi salt ss01~ss15 ss20~ss23。
+1. NotoSansSogdian-Regular 2.000，2020-7-4，Monotype，-aalt calt fina init mark medi salt ss01～ss15 ss20~ss23。
 1. NotoSansSoyombo-Regular 2.000，2020-7-4，Monotype，-ccmp dist half mark mkmk pref psts。
 1. NotoSansSundanese-Regular 2.001，2020-7-4，Monotype，-ccmp mark mkmk。
 1. NotoSansSymbols2-Regular 2.002，2020-7-4，Monotype，-ccmp mark mkmk。与Segoe UI…重复的区块没有添加。
@@ -84,15 +96,14 @@
 1. NotoSansWancho-Regular 2.000，2020-7-4，Monotype，-kern locl mark。
 1. NotoSansWarangCiti-Regular 3.000，2020-7-4，Mangu Purty，-ccmp kern mark。
 1. NotoSansZanabazarSquare-Regular 2.002，2020-7-4，Monotype，-ccmp kern mark mkmk rclt ss01。
-1. NotoSerifAhom-Regular 2.003，2020-7-5，Monotype，-ccmp dist kern mark mkmk rlig salt。
+1. NotoSerifAhom-Regular 2.003，2020-7-5，Monotype，-ccmp dist kern mark mkmk rlig salt。这行及以下字体没有Sans。
 1. NotoSerifDogra-Regular 1.002，2020-7-4，Ek Type，-aalt calt dist kern mark ss01~ss03。
 1. NotoSerifNyiakengPuachueHmong-Regular 1.000，2020-7-4，Dalton Maag Ltd，-kern mark。
-1. NotoSerifTangut-Regular 2.001，2020-7-4，Monotype。6890+字太多，仅用1字U+16FE0。
 1. Arimo-Regular 1.330，2020-8-5，对Arial的兼容字体，虽在Noto家族无Noto之名，-ccmp dlig kern locl mark mkmk。
 
 1. KhitanSmallLinear 13.001，2020-4-5，景永时／BabelStone，-ccmp。
 1. BabelStone Han 13.0.8，2020-7-19，BabelStone，-calt ccmp。仅使用部分字符填空。
 1. BabelStoneShapes 13.0.1，2020-7-6，BabelStone，-ccmp。
 
-## 字体版本
-2.003 第一版，初次发布，总字数11270+
+## 撤销
+1. ~NotoSerifTangut-Regular 2.001，2020-7-4，Monotype。6890+字太多，仅用1字U+16FE0。~ 一个字我干脆自己画了，而且Serif画风也与其它字不符。
