@@ -2,7 +2,9 @@
 苦于译名混乱，对统一码[Blocks-13.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作临时汉化。为适应旧软件，汉化的文件编码不是UTF。
 
 ## 更新
-第二版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，修改之处见如下注释。
+第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，修改之处见如下注释。
+
+第2.1版：Arabic Mathematical Alphabetic Symbols更正为“阿拉伯数学字母符号”，2021-1-5
 
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
@@ -55,7 +57,7 @@
 |Punctuation|标点||
 |Radicals|部首||
 |Selectors|选择符||
-|SignWriting|手语|“GB/T”，似乎该类文字可以是动画|
+|SignWriting|手语|“GB/T”|
 |Strokes|笔画||
 |Extensions *Supplement*|扩充补遗|只是“扩充补充”比较傻|
 |Supplement|补充|后置|

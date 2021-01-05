@@ -312,7 +312,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1E900..1E95F; 1E900阿德拉姆|Adlam
 1EC70..1ECBF; 1EC70印度帐目数字|Indic Siyaq Numbers
 1ED00..1ED4F; 1ED00奥斯曼帐目数字|Ottoman Siyaq Numbers
-1EE00..1EEFF; 1EE00阿拉伯数学字母数字符号|Arabic Mathematical Alphabetic Symbols
+1EE00..1EEFF; 1EE00阿拉伯数学字母符号|Arabic Mathematical Alphabetic Symbols
 1F000..1F02F; 1F000麻将牌|Mahjong Tiles
 1F030..1F09F; 1F030多米诺牌|Domino Tiles
 1F0A0..1F0FF; 1F0A0扑克|Playing Cards
