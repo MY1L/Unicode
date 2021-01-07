@@ -84,7 +84,7 @@
 18B0..18FF; 18B0统一加拿大土著音节扩充|Unified Canadian Aboriginal Syllabics Extended
 1900..194F; 1900林布|Limbu
 1950..197F; 1950傣纳|Tai Le
-1980..19DF; 1980新傣泐|New Tai Lue
+1980..19DF; 1980新傣仂|New Tai Lue
 19E0..19FF; 19E0高棉符号|Khmer Symbols
 1A00..1A1F; 1A00布吉|Buginese
 1A20..1AAF; 1A20傣昙|Tai Tham
@@ -154,7 +154,7 @@
 4E00..9FFF; 4E00中日韩统一表意文字|CJK Unified Ideographs
 A000..A48F; A000彝文音节|Yi Syllables
 A490..A4CF; A490彝文部首|Yi Radicals
-A4D0..A4FF; A4D0老傈僳文|Lisu
+A4D0..A4FF; A4D0傈僳(老)|Lisu
 A500..A63F; A500瓦伊|Vai
 A640..A69F; A640西里尔扩充乙|Cyrillic Extended-B
 A6A0..A6FF; A6A0巴默姆|Bamum
@@ -223,8 +223,8 @@ FFF0..FFFF; FFF0特殊|Specials
 108E0..108FF; 108E0哈特拉|Hatran
 10900..1091F; 10900腓尼基|Phoenician
 10920..1093F; 10920吕底亚|Lydian
-10980..1099F; 10980麦罗埃象形文字|Meroitic Hieroglyphs
-109A0..109FF; 109A0麦罗埃草书|Meroitic Cursive
+10980..1099F; 10980麦罗埃圣书体|Meroitic Hieroglyphs
+109A0..109FF; 109A0麦罗埃草书体|Meroitic Cursive
 10A00..10A5F; 10A00佉卢|Kharoshthi
 10A60..10A7F; 10A60古南阿拉伯|Old South Arabian
 10A80..10A9F; 10A80古北阿拉伯|Old North Arabian
@@ -272,18 +272,18 @@ FFF0..FFFF; FFF0特殊|Specials
 11D00..11D5F; 11D00马萨拉姆贡德|Masaram Gondi
 11D60..11DAF; 11D60贡贾拉贡德|Gunjala Gondi
 11EE0..11EFF; 11EE0望加锡|Makasar
-11FB0..11FBF; 11FB0老傈僳文补充|Lisu Supplement
+11FB0..11FBF; 11FB0傈僳补充|Lisu Supplement
 11FC0..11FFF; 11FC0泰米尔补充|Tamil Supplement
 12000..123FF; 12000楔形文字|Cuneiform
 12400..1247F; 12400楔形数字及标点|Cuneiform Numbers and Punctuation
 12480..1254F; 12480早王朝楔形文字|Early Dynastic Cuneiform
 13000..1342F; 13000埃及圣书体|Egyptian Hieroglyphs
-13430..1343F; 13430埃及圣书体版式控制符|Egyptian Hieroglyph Format Controls
+13430..1343F; 13430埃及圣书体格式控制符|Egyptian Hieroglyph Format Controls
 14400..1467F; 14400安纳托利亚象形文字|Anatolian Hieroglyphs
 16800..16A3F; 16800巴默姆补充|Bamum Supplement
 16A40..16A6F; 16A40姆鲁|Mro
 16AD0..16AFF; 16AD0巴索奥瓦|Bassa Vah
-16B00..16B8F; 16B00救世苗文|Pahawh Hmong
+16B00..16B8F; 16B00苗(帕皓)|Pahawh Hmong
 16E40..16E9F; 16E40梅代法伊德林|Medefaidrin
 16F00..16F9F; 16F00苗(柏格理)|Miao
 16FE0..16FFF; 16FE0表意符号及标点|Ideographic Symbols and Punctuation
@@ -296,7 +296,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1B130..1B16F; 1B130小型假名扩充|Small Kana Extension
 1B170..1B2FF; 1B170女书|Nüshu
 1BC00..1BC9F; 1BC00杜普雷速记|Duployan
-1BCA0..1BCAF; 1BCA0速记版式控制符|Shorthand Format Controls
+1BCA0..1BCAF; 1BCA0速记格式控制符|Shorthand Format Controls
 1D000..1D0FF; 1D000拜占庭乐符|Byzantine Musical Symbols
 1D100..1D1FF; 1D100乐符|Musical Symbols
 1D200..1D24F; 1D200古希腊音符|Ancient Greek Musical Notation
@@ -306,7 +306,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1D400..1D7FF; 1D400数学字母数字符号|Mathematical Alphanumeric Symbols
 1D800..1DAAF; 1D800萨顿手语|Sutton SignWriting
 1E000..1E02F; 1E000格拉哥里补充|Glagolitic Supplement
-1E100..1E14F; 1E100创世纪苗文|Nyiakeng Puachue Hmong
+1E100..1E14F; 1E100苗(创世)|Nyiakeng Puachue Hmong
 1E2C0..1E2FF; 1E2C0弯绰|Wancho
 1E800..1E8DF; 1E800门迪基卡奎|Mende Kikakui
 1E900..1E95F; 1E900阿德拉姆|Adlam

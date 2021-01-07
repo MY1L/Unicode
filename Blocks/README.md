@@ -6,6 +6,8 @@
 
 第2.1版：Arabic Mathematical Alphabetic Symbols更正为“阿拉伯数学字母符号”，2021-1-5
 
+第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
+
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
 
@@ -29,13 +31,15 @@
 |Control|控制||
 |Controls|控制符||
 |Cuneiform|楔形／楔形文字||
-|Cursive|草书|不译“世俗体”(Demotic)|
+|Cursive|草书体|不译“世俗体”(Demotic)|
 |Description|描述||
+|Diacritical|变音||
 |Dingbats|什锦||
 |Enclosed|附围|带圈或围括号或附标……|
 |Extended／Extensions|扩充|曾译“扩展”|
 |Form(s)|形式||
-|Hieroglyph(s)|圣书体／象形文字|译法存疑|
+|Format|格式|见cv8280047评论区|
+|Hieroglyph(s)|圣书体／象形文字||
 |Ideograms／Ideographic|表意／表意文字||
 |Letters|字／字母||
 |Linear|线形|线形文字|
@@ -48,9 +52,11 @@
 |Musical Symbols|乐符||
 |Counting Rod *Numerals*|算筹|“算筹”已含数字涵义|
 |Number(s)／Numeral(s)|数字||
+|Old Turkic|突厥|没有“(今)突厥”了|
 |Operators|运算符||
 |Patterns|点字|仅限描述盲文|
 |Phonetic|音标||
+|Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌|
 |Pictographs|象形||
 |Pictures|图形||
 |Presentation|表达||
@@ -58,11 +64,12 @@
 |Radicals|部首||
 |Selectors|选择符||
 |SignWriting|手语|“GB/T”|
+|Spacing|有距|直译“间距”，指字符相对同形结合标记而言左右有间距|
 |Strokes|笔画||
 |Extensions *Supplement*|扩充补遗|只是“扩充补充”比较傻|
 |Supplement|补充|后置|
 |Supplemental／Supplementary|增补|前置|
-|Surrogates|替代|或译“代理(对)”|
+|Surrogates|替代|或译“代理(对)”（Surrogate Pair）|
 |Syllabics|音节|音节文字|
 |*Marks* for *Symbols*|记号||
 |Hexagram *Symbols*|六十四卦|“卦”已含符号涵义|
@@ -73,19 +80,16 @@
 |Unified|统一||
 |Variants／Variation|变体||
 
-## 存疑
+## 双标
+这些译法例外。
 
 |英文|中文|注释|
 | -: | :- | :- |
-|Diacritical|变音|“尝试”译“读音”|
-|Duployan|杜普雷速记|有译“杜普雷严”，“尝试”译“迪普卢瓦耶”但只搜到Duploye或Duployer|
-|Ethiopic|吉兹|直译“埃塞俄比亚”，但区段收的是阿姆哈拉语用吉兹（ግዕዝ）字母|
-|Format|版式|相关字符作用不似“格式”|
+|Duployan|杜普雷速记|“尝试”按Duployé译“迪普卢瓦耶”|
+|Ethiopic|吉兹|直译“埃塞俄比亚”，但区段收的是阿姆哈拉语用吉兹(ግዕዝ)字母|
 |Hangul Jamo|谚文字母|直译“韩文字母”，但有朝鲜|
-|Lisu|老傈僳文|直译“傈僳”，但区段收的是传教士创造的老傈僳文，又称富能仁文|
-|Miao|苗(柏格理)|直译“苗”，但区段收的是传教士柏格理创造的滇东北老苗文|
-|Pahawh Hmong|救世苗文|杨雄录创造，“尝试”译“帕皓苗”，“GB/T”译“苗文”，均搜不到有效结果|
-|Nyiakeng Puachue Hmong|创世纪苗文|直译“创世完成苗”（[Hmnp.該怎麼翻譯？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=361148)），“尝试”译“涅该布瓦启苗”，均搜不到有效结果，“GB/T”2017无|
-|Old Turkic|突厥|没有“(今)突厥”了|
-|Playing Cards|扑克|亦译“纸牌”，但语感似泛指|
-|Spacing|有距|直译“间距”，指字符相对同形结合标记而言左右有间距，“尝试”译“有字宽”|
+|Lisu|傈僳(老)|直译“傈僳”，但区段收的是传教士SaraBaThaw创制的老傈僳文，又称“富能仁文”(Fraser)|
+|Miao|苗(柏格理)|直译“苗”，但区段收的是传教士柏格理(Pollard)创制的滇东北老苗文，ISO 15924代码Plrd|
+|Pahawh Hmong|苗(帕皓)|直译“字母表苗”，“尝试”译“帕皓苗”，“GB/T”译“苗文”，异名“救世苗文”|
+|Nyiakeng Puachue Hmong|苗(创世)|直译“创世完成苗\创世纪苗文”（[Hmnp.該怎麼翻譯？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=361148)），“尝试”译“涅该布瓦启苗”，“GB/T”2017无|
+|New Tai Lue|新傣仂|“尝试”译“新傣泐”|
