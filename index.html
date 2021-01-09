@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8"/>
+<meta name="author" content="MYIL"/>
+<title>契丹小字排版调试</title>
+<link rel="shortcut icon" href="Kits/icon.png" type="image/png"/>
+<style>
+@font-face{font-family:"MoKs";src:url("Kits/MonuKits.otf")}
+*[title]:after{content:attr(title);font-size:.8rem;font-feature-settings:'zero';color:#FFF;background:#F07B;border-radius:.2em;padding:.2ex .8ch;position:absolute;visibility:hidden;z-index:1}
+*[title]:hover:after{visibility:visible}
+@media(min-width:64em) and (max-width:999em){
+body{grid-template-columns:1em 1fr 5fr minmax(16em,2fr) 1ch;grid-template-rows:1fr 3fr 5em 1ex;grid-gap:1ch}
+header{grid-column:3;box-shadow:0 3em 1em #FFF}
+main{grid-area:2/3/4/4}
+	}
+@media(max-width:64rem){
+body{grid-template-columns:5fr minmax(16em,2fr);grid-template-rows:2fr 2fr 5fr 5em}
+header{grid-area:1/1/2/3}
+main{grid-area:3/1/4/3}
+	}
+body{display:grid;position:fixed;height:100%;width:100%;font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei UI',sans-serif,font-size:100%;color:#222}
+header{margin:1em;background:#FFFC;z-index:1}
+p{margin:0 0 1em;font-size:.9em}
+main{overflow:auto;position:relative;padding:0 0 1em 2em;
+	scrollbar-width:thin}
+	nav::-webkit-scrollbar,main::-webkit-scrollbar{width:.5em;height:.5em}
+	nav::-webkit-scrollbar-thumb,main::-webkit-scrollbar-thumb{border-radius:1em;background:#CCC}
+	nav::-webkit-scrollbar-track,main::-webkit-scrollbar-track{border-radius:1em;box-shadow:inset 0 0 .5em #DDD}
+	main::-webkit-scrollbar-corner{box-shadow:-.5em -.5em 1em #07F}
+h2{font-size:1.5em;font-weight:normal;margin:1.5em 0 0}
+h2:before{color:#08F0;content:"❛";position:relative;top:-.5em;transition:.5s}h2:hover:before{color:#08F;top:-.2em}
+@keyframes wave{from{background-position:0 100%}to{background-position:-2em 100%}}
+@keyframes beat{from{transform:scale(.9,.9)}to{transform:scale(1,1)}}
+a{color:#F07;text-decoration:none}
+a:hover{color:#07F;animation:wave 1s infinite linear;
+	background:linear-gradient(45deg,#09F9 0%,#07F1 20%,#07F3 50%,#09F9 50%) repeat-x;background-size:2em .2em}
+a:active{background-size:1em .25em}
+a[target]:after{content:'↗';color:#07F;font-size:1em;line-height:.6em}
+header a[target]:after{font-size:.6em!important;position:relative;top:-.5em}
+b:after{font-weight:normal;margin:-1.5em -2em}
+pre{font-family:MoKs;padding:.5em;font-size:3em;line-height:2em;border:solid .1em #F07;border-radius:.2em;white-space:pre-line}
+pre:focus{border-color:#07F;animation:wave .6s infinite linear;
+	background:linear-gradient(45deg,#09F9 0%,#07F1 20%,#07F3 50%,#09F9 50%) repeat-x;background-size:2em .1em}
+table{border-spacing:0;border:solid 1px #CCC;background:#EEE;text-align:center}
+caption{text-align:left;margin:.8em 0}
+th{border:solid 1px #CCC;padding:.5em .2em;font-weight:normal}
+td{border:solid 1px #CCC;font-size:2em;background:#FFF;width:1.2em;white-space:nowrap}
+td[title]{font-family:MoKs}
+td[title]:after{margin:-3em;font-family:monospace}
+tfoot{text-align:left}
+img{opacity:0}
+li{margin:0 1em}
+li:hover:first-letter{color:#08F}
+::selection{background:#FF99}
+</style>
+	</head>
+
+<body id="testFont">
+
+<header>
+<p><a target="_blank" href="https://github.com/MY1L">MYIL</a>： 以下为 Monu Kits（<a target="_blank" href="https://github.com/MY1L/Unicode/releases">下载</a>）可用字符（7040+个，99%都是凑数）一览。对了，光标悬停在某些字符上会有提示。</p>
+<pre contenteditable="true">在这复制粘贴以测试→<br><br></pre>
+<p>尽量以纯文本形式粘贴，可以用空格隔开小字。<span style="color:#CCC">不妨发掘字体内藏的彩蛋。</span>本页主要为火狐设计。如果发现问题请<a target="_blank" href="https://github.com/MY1L/Unicode/issues">来此</a></p>
+	</header>
+<main>
+
+<h2 id="U0000">表意符号及标点 & 契丹小字</h2>
+<table>
+<caption>
+<ol>备注
+<li>IdeoSym.：U+16FE0‒U+16FFF（7/32个码位）<a target="_blank" href="https://www.unicode.org/charts/PDF/U16FE0.pdf">统一码表U16FE0.pdf</a></li>
+<li>Kits.：U+18B00‒U+18CFF（470/512个码位）<a target="_blank" href="https://www.unicode.org/charts/PDF/U18B00.pdf">统一码表U18B00.pdf</a></li>
+</ol>
+
+	</caption>
+<thead>
+<tr><td colspan="3" class="th">Ideographic Symbols and Punctuation & Khitan Small Script</td></tr>
+	</thead>
+<tbody>
+<td title="U+16FE4 KHITAN SMALL SCRIPT FILLER">𖿤</td>
+<td title="KHITAN SMALL SCRIPT CHARACTER-18BBE">𘮾</td>
+<td title="KHITAN SMALL SCRIPT CHARACTER-18B00 : DITTO">𘬀</td>
+	</tbody></table>
+
+	</main>
+<img src="https://s01.flagcounter.com/mini/lTHA/bg_FFFFFF/txt_D1D1D1/border_FFFFFF/flags_0/" width="1">
+<img src="https://www.cutercounter.com/hits.php?id=hxxakcd&nd=5&style=1" border="0"></body>
+</html>
