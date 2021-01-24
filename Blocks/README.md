@@ -8,6 +8,8 @@
 
 第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
 
+第3.1版：更改一处：“图符”。
+
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
 
@@ -58,7 +60,7 @@
 |Phonetic|音标||
 |Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌|
 |Pictographs|象形||
-|Pictures|图形||
+|Pictures|图符|曾译“图形”|
 |Presentation|表达||
 |Punctuation|标点||
 |Radicals|部首||

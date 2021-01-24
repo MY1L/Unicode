@@ -112,7 +112,7 @@
 2190..21FF; 2190箭头|Arrows
 2200..22FF; 2200数学运算符|Mathematical Operators
 2300..23FF; 2300各式技术符|Miscellaneous Technical
-2400..243F; 2400控制图形|Control Pictures
+2400..243F; 2400控制图符|Control Pictures
 2440..245F; 2440光学字符识别|Optical Character Recognition
 2460..24FF; 2460附围字母数字|Enclosed Alphanumerics
 2500..257F; 2500制表符|Box Drawing
