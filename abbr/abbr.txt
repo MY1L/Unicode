@@ -1,0 +1,308 @@
+  $0000-$007F; Basic Latin	|	Latn. = ASCII
+  $0080-$00FF; Latin-1 Supplement	|	Latn1.
+  $0100-$017F; Latin Extended-A	|	LatnExtA.
+  $0180-$024F; Latin Extended-B	|	LatnExtB.
+  $0250-$02AF; IPA Extensions	|	IPAExt.
+  $02B0-$02FF; Spacing Modifier Letters	|	ModLer.
+  $0300-$036F; Combining Diacritical Marks	|	Diac.
+  $0370-$03FF; Greek and Coptic	|	Grek.
+  $0400-$04FF; Cyrillic	|	Cyrl.
+  $0500-$052F; Cyrillic Supplement	|	CyrlSup.
+  $0530-$058F; Armenian	|	Armn.
+  $0590-$05FF; Hebrew	|	Hebr.
+  $0600-$06FF; Arabic	|	Arab.
+  $0700-$074F; Syriac	|	Syrc.
+  $0750-$077F; Arabic Supplement	|	ArabSup.
+  $0780-$07BF; Thaana	|	Thaa.
+  $07C0-$07FF; N’Ko	|	Nkoo. = Nko
+  $0800-$083F; Samaritan	|	Samr.
+  $0840-$085F; Mandaic	|	Mand.
+  $0860-$086F; Syriac Supplement	|	SyrcSup.
+  $08A0-$08FF; Arabic Extended-A	|	ArabExtA.
+  $0900-$097F; Devanagari	|	Deva.
+  $0980-$09FF; Bengali	|	Beng.
+  $0A00-$0A7F; Gurmukhi	|	Guru.
+  $0A80-$0AFF; Gujarati	|	Gujr.
+  $0B00-$0B7F; Oriya	|	Orya.
+  $0B80-$0BFF; Tamil	|	Taml.
+  $0C00-$0C7F; Telugu	|	Telu.
+  $0C80-$0CFF; Kannada	|	Knda.
+  $0D00-$0D7F; Malayalam	|	Mlym.
+  $0D80-$0DFF; Sinhala	|	Sinh.
+  $0E00-$0E7F; Thai	|	Thai.
+  $0E80-$0EFF; Lao	|	Laoo.
+  $0F00-$0FFF; Tibetan	|	Tibt.
+  $1000-$109F; Myanmar	|	Mymr.
+  $10A0-$10FF; Georgian	|	Geor.
+  $1100-$11FF; Hangul Jamo	|	Jamo.
+  $1200-$137F; Ethiopic	|	Ethi.
+  $1380-$139F; Ethiopic Supplement	|	EthiSup.
+  $13A0-$13FF; Cherokee	|	Cher.
+  $1400-$167F; Unified Canadian Aboriginal Syllabics	|	Cans.
+  $1680-$169F; Ogham	|	Ogam.
+  $16A0-$16FF; Runic	|	Runr.
+  $1700-$171F; Tagalog	|	Tglg.
+  $1720-$173F; Hanunoo	|	Hano.
+  $1740-$175F; Buhid	|	Buhd.
+  $1760-$177F; Tagbanwa	|	Tagb.
+  $1780-$17FF; Khmer	|	Khmr.
+  $1800-$18AF; Mongolian	|	Mong.
+  $18B0-$18FF; Unified Canadian Aboriginal Syllabics Extended	|	CansExt.
+  $1900-$194F; Limbu	|	Limb.
+  $1950-$197F; Tai Le	|	Tale.
+  $1980-$19DF; New Tai Lue	|	Talu.
+  $19E0-$19FF; Khmer Symbols	|	KhmrSym.
+  $1A00-$1A1F; Buginese	|	Bugi.
+  $1A20-$1AAF; Tai Tham	|	Lana.
+  $1AB0-$1AFF; Combining Diacritical Marks Extended	|	DiacExt.
+  $1B00-$1B7F; Balinese	|	Bali.
+  $1B80-$1BBF; Sundanese	|	Sund.
+  $1BC0-$1BFF; Batak	|	Batk.
+  $1C00-$1C4F; Lepcha	|	Lepc.
+  $1C50-$1C7F; Ol Chiki	|	Olck.
+  $1C80-$1C8F; Cyrillic Extended-C	|	CyrlExtC.
+  $1C90-$1CBF; Georgian Extended	|	GeorExt.
+  $1CC0-$1CCF; Sundanese Supplement	|	SundSup.
+  $1CD0-$1CFF; Vedic Extensions	|	VedicExt.
+  $1D00-$1D7F; Phonetic Extensions	|	PhonExt.
+  $1D80-$1DBF; Phonetic Extensions Supplement	|	PhonExtSup.
+  $1DC0-$1DFF; Combining Diacritical Marks Supplement	|	DiacSup.
+  $1E00-$1EFF; Latin Extended Additional	|	LatnExtAdd.
+  $1F00-$1FFF; Greek Extended	|	GrekExt.
+  $2000-$206F; General Punctuation	|	Punc.
+  $2070-$209F; Superscripts and Subscripts	|	SupSub.
+  $20A0-$20CF; Currency Symbols	|	Currency.
+  $20D0-$20FF; Combining Diacritical Marks for Symbols	|	DiacSym.
+  $2100-$214F; Letterlike Symbols	|	Lerlike.
+  $2150-$218F; Number Forms	|	NumForm.
+  $2190-$21FF; Arrows	|	Arow.
+  $2200-$22FF; Mathematical Operators	|	MathOpor.
+  $2300-$23FF; Miscellaneous Technical	|	MiscTech.
+  $2400-$243F; Control Pictures	|	CtrlPict.
+  $2440-$245F; Optical Character Recognition	|	OCR.
+  $2460-$24FF; Enclosed Alphanumerics	|	EncAaNum.
+  $2500-$257F; Box Drawing	|	BoxDraw.
+  $2580-$259F; Block Elements	|	BlockEle.
+  $25A0-$25FF; Geometric Shapes	|	GeoShape.
+  $2600-$26FF; Miscellaneous Symbols	|	MiscSym.
+  $2700-$27BF; Dingbats	|	Ding.
+  $27C0-$27EF; Miscellaneous Mathematical Symbols-A	|	MiscMathSymA.
+  $27F0-$27FF; Supplemental Arrows-A	|	SupArowA.
+  $2800-$28FF; Braille Patterns	|	Brai.
+  $2900-$297F; Supplemental Arrows-B	|	SupArowB.
+  $2980-$29FF; Miscellaneous Mathematical Symbols-B	|	MiscMathSymB.
+  $2A00-$2AFF; Supplemental Mathematical Operators	|	SupMathOpor.
+  $2B00-$2BFF; Miscellaneous Symbols and Arrows	|	MiscArow.
+  $2C00-$2C5F; Glagolitic	|	Glag.
+  $2C60-$2C7F; Latin Extended-C	|	LatnExtC.
+  $2C80-$2CFF; Coptic	|	Copt.
+  $2D00-$2D2F; Georgian Supplement	|	GeorSup.
+  $2D30-$2D7F; Tifinagh	|	Tfng.
+  $2D80-$2DDF; Ethiopic Extended	|	EthiExt.
+  $2DE0-$2DFF; Cyrillic Extended-A	|	CyrlExtA.
+  $2E00-$2E7F; Supplemental Punctuation	|	SupPunc.
+  $2E80-$2EFF; CJK Radicals Supplement	|	CjkRadiSup.
+  $2F00-$2FDF; Kangxi Radicals	|	Kgxi.
+  $2FF0-$2FFF; Ideographic Description Characters	|	IDC.
+  $3000-$303F; CJK Symbols and Punctuation	|	CjkSym.
+  $3040-$309F; Hiragana	|	Hira.
+  $30A0-$30FF; Katakana	|	Kana.
+  $3100-$312F; Bopomofo	|	Bopo.
+  $3130-$318F; Hangul Compatibility Jamo	|	ComJamo.
+  $3190-$319F; Kanbun	|	Kanbun.
+  $31A0-$31BF; Bopomofo Extended	|	BopoExt.
+  $31C0-$31EF; CJK Strokes	|	CjkStrokes.
+  $31F0-$31FF; Katakana Phonetic Extensions	|	KanaExt.
+  $3200-$32FF; Enclosed CJK Letters and Months	|	EncCJK.
+  $3300-$33FF; CJK Compatibility	|	CjkCom.
+  $3400-$4DBF; CJK Unified Ideographs Extension A	|	CjkExtA.
+  $4DC0-$4DFF; Yijing Hexagram Symbols	|	Yijing.
+  $4E00-$9FFF; CJK Unified Ideographs	|	CJK.
+  $A000-$A48F; Yi Syllables	|	Yiii. = Yi.
+  $A490-$A4CF; Yi Radicals	|	YiRadi.
+  $A4D0-$A4FF; Lisu	|	Lisu.
+  $A500-$A63F; Vai	|	Vaii.
+  $A640-$A69F; Cyrillic Extended-B	|	CyrlExtB.
+  $A6A0-$A6FF; Bamum	|	Bamu.
+  $A700-$A71F; Modifier Tone Letters	|	ModToneLer.
+  $A720-$A7FF; Latin Extended-D	|	LatnExtD.
+  $A800-$A82F; Syloti Nagri	|	Sylo.
+  $A830-$A83F; Common Indic Number Forms	|	IndiNumForm.
+  $A840-$A87F; Phags-pa	|	Phag.
+  $A880-$A8DF; Saurashtra	|	Saur.
+  $A8E0-$A8FF; Devanagari Extended	|	DevaExt.
+  $A900-$A92F; Kayah Li	|	Kali.
+  $A930-$A95F; Rejang	|	Rjng.
+  $A960-$A97F; Hangul Jamo Extended-A	|	JamoExtA.
+  $A980-$A9DF; Javanese	|	Java.
+  $A9E0-$A9FF; Myanmar Extended-B	|	MymrExtB.
+  $AA00-$AA5F; Cham	|	Cham.
+  $AA60-$AA7F; Myanmar Extended-A	|	MymrExtA.
+  $AA80-$AADF; Tai Viet	|	Tavt.
+  $AAE0-$AAFF; Meetei Mayek Extensions	|	MteiExt.
+  $AB00-$AB2F; Ethiopic Extended-A	|	EthiExtA.
+  $AB30-$AB6F; Latin Extended-E	|	LatnExtE.
+  $AB70-$ABBF; Cherokee Supplement	|	CherSup.
+  $ABC0-$ABFF; Meetei Mayek	|	Mtei.
+  $AC00-$D7AF; Hangul Syllables	|	Hang.
+  $D7B0-$D7FF; Hangul Jamo Extended-B	|	JamoExtB.
+  $D800-$DB7F; High Surrogates	|	HighSrgs.
+  $DB80-$DBFF; High Private Use Surrogates	|	HighPUSrgs.
+  $DC00-$DFFF; Low Surrogates	|	LowSrgs.
+  $E000-$F8FF; Private Use Area	|	PUA.
+  $F900-$FAFF; CJK Compatibility Ideographs	|	CjkComIdeo.
+  $FB00-$FB4F; Alphabetic Presentation Forms	|	AlbtPF.
+  $FB50-$FDFF; Arabic Presentation Forms-A	|	ArabPFA.
+  $FE00-$FE0F; Variation Selectors	|	VS.
+  $FE10-$FE1F; Vertical Forms	|	VertForm.
+  $FE20-$FE2F; Combining Half Marks	|	HalfMarks.
+  $FE30-$FE4F; CJK Compatibility Forms	|	CjkComForm.
+  $FE50-$FE6F; Small Form Variants	|	SmlForm.
+  $FE70-$FEFF; Arabic Presentation Forms-B	|	ArabPFB.
+  $FF00-$FFEF; Halfwidth and Fullwidth Forms	|	HalfFull.
+  $FFF0-$FFFF; Specials	|	Spec.
+$10000-$1007F; Linear B Syllabary	|	Linb.
+$10080-$100FF; Linear B Ideograms	|	LinbIdeo.
+$10100-$1013F; Aegean Numbers	|	AegeanNum.
+$10140-$1018F; Ancient Greek Numbers	|	AncGrekNum.
+$10190-$101CF; Ancient Symbols	|	AncSym.
+$101D0-$101FF; Phaistos Disc	|	Phaistos.
+$10280-$1029F; Lycian	|	Lyci.
+$102A0-$102DF; Carian	|	Cari.
+$102E0-$102FF; Coptic Epact Numbers	|	CoptNum.
+$10300-$1032F; Old Italic	|	Ital.
+$10330-$1034F; Gothic	|	Goth.
+$10350-$1037F; Old Permic	|	Perm.
+$10380-$1039F; Ugaritic	|	Ugar.
+$103A0-$103DF; Old Persian	|	Xpeo.
+$10400-$1044F; Deseret	|	Dsrt.
+$10450-$1047F; Shavian	|	Shaw. = Shaw
+$10480-$104AF; Osmanya	|	Osma.
+$104B0-$104FF; Osage	|	Osge.
+$10500-$1052F; Elbasan	|	Elba.
+$10530-$1056F; Caucasian Albanian	|	Aghb.
+$10600-$1077F; Linear A	|	Lina.
+$10800-$1083F; Cypriot Syllabary	|	Cprt.
+$10840-$1085F; Imperial Aramaic	|	Armi.
+$10860-$1087F; Palmyrene	|	Palm.
+$10880-$108AF; Nabataean	|	Nbat.
+$108E0-$108FF; Hatran	|	Hatr.
+$10900-$1091F; Phoenician	|	Phnx.
+$10920-$1093F; Lydian	|	Lydi.
+$10980-$1099F; Meroitic Hieroglyphs	|	Mero.
+$109A0-$109FF; Meroitic Cursive	|	Merc.
+$10A00-$10A5F; Kharoshthi	|	Khar.
+$10A60-$10A7F; Old South Arabian	|	Sarb.
+$10A80-$10A9F; Old North Arabian	|	Narb.
+$10AC0-$10AFF; Manichaean	|	Mani.
+$10B00-$10B3F; Avestan	|	Avst.
+$10B40-$10B5F; Inscriptional Parthian	|	Prti.
+$10B60-$10B7F; Inscriptional Pahlavi	|	Phli.
+$10B80-$10BAF; Psalter Pahlavi	|	Phlp.
+$10C00-$10C4F; Old Turkic	|	Orkh.
+$10C80-$10CFF; Old Hungarian	|	Hung.
+$10D00-$10D3F; Hanifi Rohingya	|	Rohg.
+$10E60-$10E7F; Rumi Numeral Symbols	|	Rumi.
+$10E80-$10EBF; Yezidi	|	Yezi.
+$10F00-$10F2F; Old Sogdian	|	Sogo.
+$10F30-$10F6F; Sogdian	|	Sogd.
+$10FB0-$10FDF; Chorasmian	|	Chrs.
+$10FE0-$10FFF; Elymaic	|	Elym.
+$11000-$1107F; Brahmi	|	Brah.
+$11080-$110CF; Kaithi	|	Kthi.
+$110D0-$110FF; Sora Sompeng	|	Sora.
+$11100-$1114F; Chakma	|	Cakm.
+$11150-$1117F; Mahajani	|	Mahj.
+$11180-$111DF; Sharada	|	Shrd.
+$111E0-$111FF; Sinhala Archaic Numbers	|	SinhArchNum.
+$11200-$1124F; Khojki	|	Khoj.
+$11280-$112AF; Multani	|	Mult.
+$112B0-$112FF; Khudawadi	|	Sind. = Sindhi
+$11300-$1137F; Grantha	|	Gran.
+$11400-$1147F; Newa	|	Newa.
+$11480-$114DF; Tirhuta	|	Tirh.
+$11580-$115FF; Siddham	|	Sidd.
+$11600-$1165F; Modi	|	Modi.
+$11660-$1167F; Mongolian Supplement	|	MongSup.
+$11680-$116CF; Takri	|	Takr.
+$11700-$1173F; Ahom	|	Ahom.
+$11800-$1184F; Dogra	|	Dogr.
+$118A0-$118FF; Warang Citi	|	Wara.
+$11900-$1195F; Dives Akuru	|	Diak.
+$119A0-$119FF; Nandinagari	|	Nand.
+$11A00-$11A4F; Zanabazar Square	|	Zanb.
+$11A50-$11AAF; Soyombo	|	Soyo.
+$11AC0-$11AFF; Pau Cin Hau	|	Pauc.
+$11C00-$11C6F; Bhaiksuki	|	Bhks.
+$11C70-$11CBF; Marchen	|	Marc.
+$11D00-$11D5F; Masaram Gondi	|	Gonm.
+$11D60-$11DAF; Gunjala Gondi	|	Gong.
+$11EE0-$11EFF; Makasar	|	Maka.
+$11FB0-$11FBF; Lisu Supplement	|	LisuSup.
+$11FC0-$11FFF; Tamil Supplement	|	TamlSup.
+$12000-$123FF; Cuneiform	|	Xsux.
+$12400-$1247F; Cuneiform Numbers and Punctuation	|	XsuxNum.
+$12480-$1254F; Early Dynastic Cuneiform	|	EyDyXsux.
+$13000-$1342F; Egyptian Hieroglyphs	|	Egyp.
+$13430-$1343F; Egyptian Hieroglyph Format Controls	|	EgypFormCtrl.
+$14400-$1467F; Anatolian Hieroglyphs	|	Hluw.
+$16800-$16A3F; Bamum Supplement	|	BamuSup.
+$16A40-$16A6F; Mro	|	Mroo.
+$16AD0-$16AFF; Bassa Vah	|	Bass.
+$16B00-$16B8F; Pahawh Hmong	|	Hmng.
+$16E40-$16E9F; Medefaidrin	|	Medf.
+$16F00-$16F9F; Miao	|	Plrd. = Pollard
+$16FE0-$16FFF; Ideographic Symbols and Punctuation	|	IdeoSym.
+$17000-$187FF; Tangut	|	Tang.
+$18800-$18AFF; Tangut Components	|	TangComp.
+$18B00-$18CFF; Khitan Small Script	|	Kits.
+$18D00-$18D8F; Tangut Supplement	|	TangSup.
+$1B000-$1B0FF; Kana Supplement	|	KanaSup.
+$1B100-$1B12F; Kana Extended-A	|	KanaExtA.
+$1B130-$1B16F; Small Kana Extension	|	SmlKanaExt.
+$1B170-$1B2FF; Nüshu	|	Nshu.
+$1BC00-$1BC9F; Duployan	|	Dupl.
+$1BCA0-$1BCAF; Shorthand Format Controls	|	DuplFormCtrl.
+$1D000-$1D0FF; Byzantine Musical Symbols	|	ByzMu.
+$1D100-$1D1FF; Musical Symbols	|	Music.
+$1D200-$1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
+$1D2E0-$1D2FF; Mayan Numerals	|	MayaNum.
+$1D300-$1D35F; Tai Xuan Jing Symbols	|	TXJing.
+$1D360-$1D37F; Counting Rod Numerals	|	CountingRod.
+$1D400-$1D7FF; Mathematical Alphanumeric Symbols	|	MathAaNum.
+$1D800-$1DAAF; Sutton SignWriting	|	Sgnw.
+$1E000-$1E02F; Glagolitic Supplement	|	GlagSup.
+$1E100-$1E14F; Nyiakeng Puachue Hmong	|	Hmnp.
+$1E2C0-$1E2FF; Wancho	|	Wcho.
+$1E800-$1E8DF; Mende Kikakui	|	Mend.
+$1E900-$1E95F; Adlam	|	Adlm.
+$1EC70-$1ECBF; Indic Siyaq Numbers	|	IndiSiyaqNum.
+$1ED00-$1ED4F; Ottoman Siyaq Numbers	|	OttoSiyaqNum.
+$1EE00-$1EEFF; Arabic Mathematical Alphabetic Symbols	|	ArabMath.
+$1F000-$1F02F; Mahjong Tiles	|	Majg.
+$1F030-$1F09F; Domino Tiles	|	Domino.
+$1F0A0-$1F0FF; Playing Cards	|	PlayCard.
+$1F100-$1F1FF; Enclosed Alphanumeric Supplement	|	EncAaNumSup.
+$1F200-$1F2FF; Enclosed Ideographic Supplement	|	EncIdeoSup.
+$1F300-$1F5FF; Miscellaneous Symbols and Pictographs	|	MiscPic.
+$1F600-$1F64F; Emoticons	|	Emon.
+$1F650-$1F67F; Ornamental Dingbats	|	OrnaDing.
+$1F680-$1F6FF; Transport and Map Symbols	|	TransMap.
+$1F700-$1F77F; Alchemical Symbols	|	Alch.
+$1F780-$1F7FF; Geometric Shapes Extended	|	GeoShapeExt.
+$1F800-$1F8FF; Supplemental Arrows-C	|	SupArowC.
+$1F900-$1F9FF; Supplemental Symbols and Pictographs	|	SupSymPic.
+$1FA00-$1FA6F; Chess Symbols	|	ChessSym.
+$1FA70-$1FAFF; Symbols and Pictographs Extended-A	|	SymPicExtA.
+$1FB00-$1FBFF; Symbols for Legacy Computing	|	SymfLC.
+$20000-$2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB.
+$2A700-$2B73F; CJK Unified Ideographs Extension C	|	CjkExtC.
+$2B740-$2B81F; CJK Unified Ideographs Extension D	|	CjkExtD.
+$2B820-$2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE.
+$2CEB0-$2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF.
+$2F800-$2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup.
+$30000-$3134F; CJK Unified Ideographs Extension G	|	CjkExtG.
+$E0000-$E007F; Tags	|	Tags.
+$E0100-$E01EF; Variation Selectors Supplement	|	VsSup.
+$F0000-$FFFFF; Supplementary Private Use Area-A	|	PUAA.
+$100000-$10FFFF; Supplementary Private Use Area-B	|	PUAB.
