@@ -1,12 +1,13 @@
 ÏÂ±íÕ¹ÏÖNotoUnicode¶ÔÍ³Ò»ÂëµÄÖ§³Ö¡£
-¡¸¡£¡¹¿ªÍ·Ç¿µ÷¸ÃÇø¶Î±»×ÖÌåNotoUnicode»òÆäËüÏµÍ³×ÖÌå»òNoto×ÖÌåÌîÂú¡£¾ßÌåÊıÖµ¿´¡¸£¯¡¹
+¡¸£¬¡¹¿ªÍ·Ç¿µ÷¸ÃÇø¶Î±»ÆäËüÏµÍ³×ÖÌå»òÆäËüNoto×ÖÌåÌîÂú¡£¾ßÌåÊıÖµ¿´¡¸£¯¡¹
+¡¸¡£¡¹¿ªÍ·Ç¿µ÷¸ÃÇø¶Î±»Noto UnicodeÌîÂú¡£¾ßÌåÊıÖµ¿´¡¸£¯¡¹
 ¡¸£¯¡¹Ö®Ç°µÄÊı×ÖÖ¸×ÖÌå°üº¬¸ÃÇø¶Î×ÖÊı£¬Ö®ºóµÄÊı×Ö±íÊ¾¸ÃÇø¶Î×Ü×ÖÊı¡£Èç¹ûÊÇ¡¸£¯¡£¡¹±íÊ¾¸ÃÇø¶Î±»×ÖÌåÌîÂú¡£
 ¡¸£¡¡¹½áÎ²Ç¿µ÷NotoUnicode»òÆäËü×ÖÌåÔÚ¸ÃÇø¶ÎÈ±×Ö¡£¾ßÌåÊıÖµ¿´¡¸£¯¡¹
 ¡¸£¿¡¹ÒâÎ¶×ÅÇé¿ö²»Ã÷¡£
 ·²ÊÇ±»À¨ºÅ°ü¹üµÄ×ÖÌåÒªÃ´ÊÇÏµÍ³Ä¬ÈÏ×ÖÌå£¬ÒªÃ´ÊÇ¹ı´ó²»ÒË¼ÓÈëNotoUnicode£¬ÓĞ3¸ö£ºË¼Ô´ºÚÌå¡¢Noto Serif Tangut¡¢BabelStone Han¡£
 ¡¸¡ş¡¹ÊÇ¸öÈÕ±¾È±×Ö·ûºÅ£¬ÒòÎªÄ³Ğ©Ô­Òò±»GB 2312ÊÕÄÉÁË¡£ÕâÀïµ±×÷·Ö¸ôºÍ±ğµÄ¼ÇÂ¼¡£
 
-¡£¡¡U+0000-U+007F; Basic Latin¡şNoto Sans£¨95£¯¡££©£¬£¨Segoe UI SymbolÓĞ£¯¡££©
+¡£¡¡U+0000-U+007F; Basic Latin¡şNoto Sans£¨95£¯¡£+33¿ØÖÆ×ÖÍ¼·û£©£¬£¨Segoe UI SymbolÓĞ£¯¡££©
 ¡£¡¡U+0080-U+00FF; Latin-1 Supplement¡şNoto Sans£¨96£¯¡££©£¬£¨Segoe UI SymbolÓĞ£¯¡££©
 ¡£¡¡U+0100-U+017F; Latin Extended-A¡şNoto Sans£¨128£¯¡££©
 ¡£¡¡U+0180-U+024F; Latin Extended-B¡şNoto Sans£¨208£¯¡££©
@@ -17,8 +18,8 @@
 ¡£¡¡U+0400-U+04FF; Cyrillic¡şNoto Sans£¨256£¯¡££©
 ¡£¡¡U+0500-U+052F; Cyrillic Supplement¡şNoto Sans£¨48£¯¡££©
 ¡£¡¡U+0530-U+058F; Armenian¡şNoto Sans Armenian£¨91£¯¡££©
-¡£¡¡U+0590-U+05FF; Hebrew¡şNoto Sans Hebrew£¨87£¯88£©+ °´www.unicode.org/charts/PDF/U0590.pdf»­ÁË¸öU+05EF =£¨88£¯¡££©
-¡£¡¡U+0600-U+06FF; Arabic¡şNoto Sans Arabic UI£¨255£¯¡££©
+¡£¡¡U+0590-U+05FF; Hebrew¡şNoto Sans Hebrew£¨87£¯88£©+ °´www.unicode.org/charts/PDF/U0590.pdf»­µÄU+05EF =£¨88£¯¡££©
+¡£¡¡U+0600-U+06FF; Arabic¡şNoto Sans Arabic UI£¨255£¯¡£2020-11-18×ÔÖÆU+061C[ALM]£©
 £¬¡¡U+0700-U+074F; Syriac¡ş£¨Segoe UI HistoricÓĞ77£¯¡££©
 ¡£¡¡U+0750-U+077F; Arabic Supplement¡şNoto Sans Arabic UI£¨48£¯¡££©£¬£¨Segoe UIÓĞ£¯¡££©
 £¬¡¡U+0780-U+07BF; Thaana¡ş£¨MV BoliÓĞ50£¯¡££©
@@ -26,17 +27,17 @@
 ¡£¡¡U+0800-U+083F; Samaritan¡şNoto Sans Samaritan£¨61£¯¡££©
 ¡£¡¡U+0840-U+085F; Mandaic¡şNoto Sans Mandaic£¨29£¯¡££©
 ¡¡U+0860-U+086F; Syriac Supplement¡şNoto SyriacÎŞ£¡
-¡¡U+08A0-U+08FF; Arabic Extended-A¡şNoto Sans Arabic UI£¨73£¯84£©£¡
+¡¡U+08A0-U+08FF; Arabic Extended-A¡şNoto Sans Arabic UI£¨75£¯84£©£¡
 ¡£¡¡U+0900-U+097F; Devanagari¡şNoto Sans Devanagari£¨128£¯¡££©
 ¡£¡¡U+0980-U+09FF; Bengali¡şNoto Sans Bengali£¨96£¯¡££©
 ¡£¡¡U+0A00-U+0A7F; Gurmukhi¡şNoto Sans Gurmukhi£¨80£¯¡££©
 ¡£¡¡U+0A80-U+0AFF; Gujarati¡şNoto Sans Gujarati£¨91£¯¡££©
 ¡¡U+0B00-U+0B7F; Oriya¡ş£¨Nirmala UIÓĞ84£¯91£©£¡
-¡£¡¡U+0B80-U+0BFF; Tamil¡şNoto Sans Grantha£¨15£¯72£©£¡£¨Nirmala UIÓĞ72£¯¡££©
+£¬¡¡U+0B80-U+0BFF; Tamil¡şNoto Sans Grantha£¨15£¯72£©£¡£¨Nirmala UIÓĞ72£¯¡££©
 ¡¡U+0C00-U+0C7F; Telugu¡ş£¨Nirmala UIÓĞ93£¯98£©£¡
 ¡¡U+0C80-U+0CFF; Kannada¡ş£¨Nirmala UIÓĞ86£¯89£©£¡
 ¡¡U+0D00-U+0D7F; Malayalam¡ş£¨Nirmala UIÓĞ98£¯118£©£¡
-¡£¡¡U+0D80-U+0DFF; Sinhala¡şNoto Sans Sinhala£¨91£¯¡££©
+¡£¡¡U+0D80-U+0DFF; Sinhala¡şNoto Sans Sinhala£¨91£¯¡£°´www.unicode.org/charts/PDF/U0D80.pdfĞŞ¸ÄU+0D81£©
 £¬¡¡U+0E00-U+0E7F; Thai¡ş£¨Microsoft Sans SerifÓĞ87£¯¡££©
 ¡¡U+0E80-U+0EFF; Lao¡ş
 ¡¡U+0F00-U+0FFF; Tibetan¡ş
@@ -50,11 +51,11 @@
 £¬¡¡U+1680-U+169F; Ogham¡ş£¨Segoe UI HistoricÓĞ29£¯¡££©
 ¡£¡¡U+16A0-U+16FF; Runic¡şNoto Sans Runic£¨89£¯¡££©
 ¡£¡¡U+1700-U+171F; Tagalog¡şNoto Sans Tagalog£¨20£¯¡££©
-¡£¡¡U+1720-U+173F; Hanun¨®o¡şNoto Sans Hanunoo£¨23£¯¡££©
+¡£¡¡U+1720-U+173F; Hanunoo¡şNoto Sans Hanunoo£¨23£¯¡££©
 ¡£¡¡U+1740-U+175F; Buhid¡şNoto Sans Buhid£¨20£¯¡££©
 ¡£¡¡U+1760-U+177F; Tagbanwa¡şNoto Sans Tagbanwa£¨18£¯¡££©
 £¬¡¡U+1780-U+17FF; Khmer¡ş£¨Khmer UIÓĞ114£¯¡££©
-¡£¡¡U+1800-U+18AF; Mongolian¡şNoto Sans Mongolian£¨157£¯¡££©
+¡£¡¡U+1800-U+18AF; Mongolian¡şNoto Sans Mongolian£¨157£¯¡£2020-11-18×ÔÖÆU+180B[FVS1]~180D[FVS3]£¬2021-1-20×ÔÖÆU+180E[MVS]£©
 £¬¡¡U+18B0-U+18FF; Unified Canadian Aboriginal Syllabics Extended¡ş£¨GadugiÓĞ70£¯¡££©
 ¡£¡¡U+1900-U+194F; Limbu¡şNoto Sans Limbu£¨68£¯¡££©
 £¬¡¡U+1950-U+197F; Tai Le¡ş£¨Microsoft Tai LeÓĞ35£¯¡££©
@@ -71,13 +72,13 @@
 ¡£¡¡U+1C80-U+1C8F; Cyrillic Extended-C¡şNoto Sans£¨9£¯¡££©
 ¡£¡¡U+1C90-U+1CBF; Georgian Extended¡şNoto Sans Georgian£¨46£¯¡££©
 ¡£¡¡U+1CC0-U+1CCF; Sundanese Supplement¡şNoto Sans Sundanese£¨8£¯¡££©
-¡£¡¡U+1CD0-U+1CFF; Vedic Extensions¡şNoto Sans Devanagari UI£¨41£¯43£©+ Noto Sans Bengali£¨12£¯43£¬²¹ÉÏU+1CF7£©+ °´www.unicode.org/charts/PDF/U1CD0.pdf»­ÁË¸öU+1CFA =£¨43£¯¡££©
+¡£¡¡U+1CD0-U+1CFF; Vedic Extensions¡şNoto Sans Devanagari UI£¨41£¯43£©+ Noto Sans Bengali£¨12£¯43£¬²¹ÉÏU+1CF7£©+ °´www.unicode.org/charts/PDF/U1CD0.pdf»­µÄU+1CFA =£¨43£¯¡££©
 ¡£¡¡U+1D00-U+1D7F; Phonetic Extensions¡şNoto Sans£¨128£¯¡££©£¬£¨Segoe UIÓĞ128£¯¡££©
 ¡£¡¡U+1D80-U+1DBF; Phonetic Extensions Supplement¡şNoto Sans£¨64£¯¡££©£¬£¨Segoe UIÓĞ64£¯¡££©
 ¡£¡¡U+1DC0-U+1DFF; Combining Diacritical Marks Supplement¡şNoto Sans£¨63£¯¡££©
 ¡£¡¡U+1E00-U+1EFF; Latin Extended Additional¡şNoto Sans£¨256£¯¡££©,£¨Segoe UIÓĞ256£¯¡££©
 ¡£¡¡U+1F00-U+1FFF; Greek Extended¡şNoto Sans£¨233£¯¡££©,£¨Segoe UIÓĞ233£¯¡££©
-¡£¡¡U+2000-U+206F; General Punctuation¡şNoto Sans£¨111£¯¡££©£¬Arimo£¨111£¯¡£¸ø¿Õ×ÖĞÎU+200C U+200D U+2028 U+2029 U+205F-U+2069¼ÓÁËËµÃ÷×Ö·û£©
+¡£¡¡U+2000-U+206F; General Punctuation¡şNoto Sans£¨111£¯¡££©£¬Arimo£¨111£¯¡£¸ø¿Õ×ÖĞÎU+200C U+200D U+2028 U+2029 U+205F~2069¼ÓÁËËµÃ÷×Ö·û£©
 ¡£¡¡U+2070-U+209F; Superscripts and Subscripts¡şNoto Sans£¨42£¯¡££©£¬£¨Segoe UI SymbolÓĞ£¯¡££©
 ¡£¡¡U+20A0-U+20CF; Currency Symbols¡şNoto Sans£¨32£¯¡££©
 ¡£¡¡U+20D0-U+20FF; Combining Diacritical Marks for Symbols¡şNoto Sans£¨1£¯33£©+ Noto Sans Old Permic£¨1£¯33£©+ Noto Sans Symbols£¨7£¯33£©+ Noto Sans Symbols2£¨2£¯33£©+ Noto Sans Math£¨25£¯33£©=£¨33£¯¡££©£¬£¨Segoe UI SymbolÓĞ33£¯¡££©
@@ -100,7 +101,7 @@
 £¬¡¡U+2900-U+297F; Supplemental Arrows-B¡ş£¨Segoe UI SymbolÓĞ128£¯¡££©
 £¬¡¡U+2980-U+29FF; Miscellaneous Mathematical Symbols-B¡ş£¨Segoe UI SymbolÓĞ128£¯¡££©
 £¬¡¡U+2A00-U+2AFF; Supplemental Mathematical Operators¡ş£¨Segoe UI SymbolÓĞ256£¯¡££©
-¡£¡¡U+2B00-U+2BFF; Miscellaneous Symbols and Arrows¡şNoto Sans Symbols2£¨218£¯253£©+ Noto Sans Math£¨34£¯253£©+ BabelStone Han£¨½öU+2B97£©=£¨253£¯¡££©
+¡£¡¡U+2B00-U+2BFF; Miscellaneous Symbols and Arrows¡şNoto Sans Symbols2£¨219£¯253£©+ Noto Sans Math£¨34£¯253£©=£¨253£¯¡££©
 ¡£¡¡U+2C00-U+2C5F; Glagolitic¡şNoto Sans Glagolitic£¨94£¯¡££©£¬£¨Segoe UI HistoricÓĞ94£¯¡££©
 ¡£¡¡U+2C60-U+2C7F; Latin Extended-C¡şNoto Sans£¨32£¯¡££©
 £¬¡¡U+2C80-U+2CFF; Coptic¡ş£¨Segoe UI HistoricÓĞ123£¯¡££©£¬£¨Segoe UI SymbolÓĞ£¯¡££©
@@ -118,7 +119,7 @@
 £¬¡¡U+3100-U+312F; Bopomofo¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ43£¯¡££©
 £¬¡¡U+3130-U+318F; Hangul Compatibility Jamo¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ94£¯¡££©
 £¬¡¡U+3190-U+319F; Kanbun¡ş£¨Î¢ÈíÑÅºÚÓĞ16£¯¡££©
-¡£¡¡U+31A0-U+31BF; Bopomofo Extended¡şNoto Sans CJK£¨28£¯32£©+ °´www.unicode.org/charts/PDF/U31A0.pdf»­ÁËU+31BC¡¢U+31BD¡¢U+31BE¡¢U+31BF =£¨32£¯¡££©
+¡£¡¡U+31A0-U+31BF; Bopomofo Extended¡şNoto Sans CJK£¨28£¯32£©+ °´www.unicode.org/charts/PDF/U31A0.pdf»­µÄU+31BC~31BF =£¨32£¯¡££©
 £¬¡¡U+31C0-U+31EF; CJK Strokes¡ş£¨Î¢ÈíÑÅºÚÓĞ36£¯¡££©
 £¬¡¡U+31F0-U+31FF; Katakana Phonetic Extensions¡ş£¨Î¢ÈíÑÅºÚÓĞ16£¯¡££©
 £¬¡¡U+3200-U+32FF; Enclosed CJK Letters and Months¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ255£¯¡££©
@@ -134,7 +135,7 @@
 ¡£¡¡U+A6A0-U+A6FF; Bamum¡şNoto Sans Bamum£¨88£¯¡££©
 ¡£¡¡U+A700-U+A71F; Modifier Tone Letters¡şNoto Sans£¨32£¯¡££©É¾³ıÁËÉùµ÷Á¬×Ö
 ¡£¡¡U+A720-U+A7FF; Latin Extended-D¡şNoto Sans£¨180£¯¡££©
-¡¡U+A800-U+A82F; Syloti Nagri¡şNoto Sans Syloti Nagri£¨44£¯45£©£¡
+¡£¡¡U+A800-U+A82F; Syloti Nagri¡şNoto Sans Syloti Nagri£¨44£¯45£©+ °´www.unicode.org/charts/PDF/UA800.pdf»­µÄU+A82C =£¨45£¯¡££©
 ¡£¡¡U+A830-U+A83F; Common Indic Number Forms¡şNoto Sans Devanagari = Sans Tirhuta= Sans Takri= Sans Gurmukhi= Sans Gujarati= Sans Kaithi£¨10£¯¡££©
 £¬¡¡U+A840-U+A87F; Phags-pa¡ş£¨Microsoft PhagsPaÓĞ56£¯¡££©
 ¡£¡¡U+A880-U+A8DF; Saurashtra¡şNoto Sans Saurashtra£¨82£¯¡££©
@@ -154,9 +155,9 @@
 ¡£¡¡U+ABC0-U+ABFF; Meetei Mayek¡şNoto Sans MeeteiMayek£¨56£¯¡££©
 £¬¡¡U+AC00-U+D7AF; Hangul Syllables¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ11172£¯¡££©
 £¬¡¡U+D7B0-U+D7FF; Hangul Jamo Extended-B¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ72£¯¡££©
-¡¡U+D800-U+DB7F; High Surrogates¡ş²»ĞèÒª£¿
-¡¡U+DB80-U+DBFF; High Private Use Surrogates¡ş²»ĞèÒª£¿
-¡¡U+DC00-U+DFFF; Low Surrogates¡ş²»ĞèÒª£¿
+£¬¡¡U+D800-U+DB7F; High Surrogates¡ş²»ĞèÒª
+£¬¡¡U+DB80-U+DBFF; High Private Use Surrogates¡ş²»ĞèÒª
+£¬¡¡U+DC00-U+DFFF; Low Surrogates¡ş²»ĞèÒª
 £¬¡¡U+E000-U+F8FF; Private Use Area¡ş²»ĞèÒª
 £¬¡¡U+F900-U+FAFF; CJK Compatibility Ideographs¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ366£¯472£©£¬£¨BabelStone HanÓĞ£¯¡££©
 ¡£¡¡U+FB00-U+FB4F; Alphabetic Presentation Forms¡şNoto Sans£¨7£¯58£©+ Noto Sans Armenian£¨5£¯58£©+ Noto Sans Hebrew£¨46£¯58£©=£¨58£¯¡££©
@@ -173,7 +174,7 @@
 ¡£U+10080-U+100FF; Linear B Ideograms¡şNoto Sans Linear B£¨123£¯¡££©
 ¡£U+10100-U+1013F; Aegean Numbers¡şNoto Sans Linear B£¨57£¯¡££©
 ¡£U+10140-U+1018F; Ancient Greek Numbers¡şNoto Sans Symbols2£¨79£¯¡££©
-¡£U+10190-U+101CF; Ancient Symbols¡şNoto Sans Symbols2£¨13£¯14£©+ BabelStone Shapes£¨1£¯14£©=£¨14£¯¡££©
+¡£U+10190-U+101CF; Ancient Symbols¡şNoto Sans Symbols2£¨14£¯¡££©
 ¡£U+101D0-U+101FF; Phaistos Disc¡şNoto Sans Symbols2£¨46£¯¡££©
 £¬U+10280-U+1029F; Lycian¡ş£¨Segoe UI HistoricÓĞ29£¯¡££©
 £¬U+102A0-U+102DF; Carian¡ş£¨Segoe UI HistoricÓĞ49£¯¡££©
@@ -219,15 +220,15 @@ U+10FB0-U+10FDF; Chorasmian¡şNotoÎŞ£¿
 £¬U+11000-U+1107F; Brahmi¡ş£¨Segoe UI HistoricÓĞ109£¯¡££©
 ¡£U+11080-U+110CF; Kaithi¡şNoto Sans Kaithi£¨67£¯¡££©
 £¬U+110D0-U+110FF; Sora Sompeng¡ş£¨Nirmala UIÓĞ35£¯¡££©
-U+11100-U+1114F; Chakma¡şNoto Sans Chakma£¨70£¯71£©£¡
+¡£U+11100-U+1114F; Chakma¡şNoto Sans Chakma£¨70£¯71£©+ °´www.unicode.org/charts/PDF/U11100.pdf»­µÄU+11147 =£¨71£¯¡££©
 ¡£U+11150-U+1117F; Mahajani¡şNoto Sans Mahajani£¨39£¯¡££©
-¡£U+11180-U+111DF; Sharada¡şNoto Sans Sharada£¨94£¯96£©+ °´www.unicode.org/charts/PDF/U11180.pdf»­ÁËU+111CE¡¢U+111CF =£¨96£¯¡££©
+¡£U+11180-U+111DF; Sharada¡şNoto Sans Sharada£¨94£¯96£©+ °´www.unicode.org/charts/PDF/U11180.pdf»­µÄU+111CE¡¢U+111CF =£¨96£¯¡££©
 ¡£U+111E0-U+111FF; Sinhala Archaic Numbers¡şNoto Sans Sinhala£¨20£¯¡££©
 ¡£U+11200-U+1124F; Khojki¡şNoto Sans Khojki£¨62£¯¡££©
 ¡£U+11280-U+112AF; Multani¡şNoto Sans Multani£¨38£¯¡££©
 ¡£U+112B0-U+112FF; Khudawadi¡şNoto Sans Khudawadi£¨69£¯¡££©
 ¡£U+11300-U+1137F; Grantha¡şNoto Sans Grantha£¨86£¯¡££©
-¡£U+11400-U+1147F; Newa¡şNoto Sans Newa£¨94£¯97£©+ °´www.unicode.org/charts/PDF/U11400.pdf»­ÁËU+1145A¡¢U+11460¡¢U+11461 =£¨97£¯¡££©
+¡£U+11400-U+1147F; Newa¡şNoto Sans Newa£¨94£¯97£©+ °´www.unicode.org/charts/PDF/U11400.pdf»­µÄU+1145A¡¢U+11460¡¢U+11461 =£¨97£¯¡££©
 ¡£U+11480-U+114DF; Tirhuta¡şNoto Sans Tirhuta£¨82£¯¡££©
 ¡£U+11580-U+115FF; Siddham¡şNoto Sans Siddham£¨92£¯¡££©
 ¡£U+11600-U+1165F; Modi¡şNoto Sans Modi£¨79£¯¡££©
@@ -249,7 +250,7 @@ U+11EE0-U+11EFF; Makasar¡şNotoÎŞ£¿
 ¡£U+11FB0-U+11FBF; Lisu Supplement¡şNoto LisuÎŞ£¡´ÓNoto Sans½èÓÃÒ»¸öU+2144£¨1£¯¡££©
 ¡£U+11FC0-U+11FFF; Tamil Supplement¡şNoto Sans Tamil Supplement£¨51£¯¡££©
 ¡£U+12000-U+123FF; Cuneiform¡şNoto Sans Cuneiform£¨922£¯¡££©£¬£¨Segoe UI HistoricÓĞ921£¯922£©
-¡£U+12400-U+1247F; Cuneiform Numbers and Punctuation¡ş£¨Segoe UI HistoricÓĞ116£¯¡££©
+£¬U+12400-U+1247F; Cuneiform Numbers and Punctuation¡ş£¨Segoe UI HistoricÓĞ116£¯¡££©
 ¡£U+12480-U+1254F; Early Dynastic Cuneiform¡şNoto Sans Cuneiform£¨196£¯¡££©
 £¬U+13000-U+1342F; Egyptian Hieroglyphs¡ş£¨Segoe UI HistoricÓĞ1071£¯¡££©
 U+13430-U+1343F; Egyptian Hieroglyph Format Controls¡şNoto Egyptian HieroglyphsÎŞ£¡
@@ -260,15 +261,15 @@ U+13430-U+1343F; Egyptian Hieroglyph Format Controls¡şNoto Egyptian HieroglyphsÎ
 ¡£U+16B00-U+16B8F; Pahawh Hmong¡şNoto Sans Pahawh Hmong£¨127£¯¡££©
 ¡£U+16E40-U+16E9F; Medefaidrin¡şNoto Sans Medefaidrin£¨91£¯¡££©
 ¡£U+16F00-U+16F9F; Miao¡şNoto Sans Miao£¨149£¯¡££©
-¡£U+16FE0-U+16FFF; Ideographic Symbols and Punctuation¡ş°´www.unicode.org/charts/PDF/U16FE0.pdf»­ÁË¶à¸ö×Ö·û+ ½èÓÃU+02FEµ±×÷U+16FE2£¬½èÓÃU+2017µ±×÷U+16FE3 =£¨7£¯¡££©
+¡£U+16FE0-U+16FFF; Ideographic Symbols and Punctuation¡ş°´www.unicode.org/charts/PDF/U16FE0.pdf»­µÄ¶à¸ö×Ö·û+ ½èÓÃU+02FEµ±×÷U+16FE2£¬½èÓÃU+2017µ±×÷U+16FE3 =£¨7£¯¡££©
 £¬U+17000-U+187FF; Tangut¡şNoto Serif TangutÓĞ£¬·Å²»ÏÂ
 £¬U+18800-U+18AFF; Tangut Components¡şNoto Serif TangutÓĞ£¬·Å²»ÏÂ
 ¡£U+18B00-U+18CFF; Khitan Small Script¡şNotoÎŞ£¬Khitan Small Linear£¨470£¯¡££©
 U+18D00-U+18D8F; Tangut Supplement¡şNoto TangutÎŞ£¡
 £¬U+1B000-U+1B0FF; Kana Supplement¡şNotoÎŞ£¿£¨BabelStone HanÓĞ256£¯¡££©
 £¬U+1B100-U+1B12F; Kana Extended-A¡şNotoÎŞ£¿£¨BabelStone HanÓĞ31£¯¡££©
-£¬U+1B130-U+1B16F; Small Kana Extension¡şNotoÎŞ£¿£¨BabelStone HanÓĞ7£¯¡££©
-U+1B170-U+1B2FF; N¨¹shu¡ş
+£¬U+1B130-U+1B16F; Small Kana Extension¡şNotoÎŞ£¿£¨BabelStone HanÓĞ7£¯¡££©ÎÒµÄMonu×ÖÌåÒ²ÓĞÌîÂú
+£¬U+1B170-U+1B2FF; N¨¹shu¡ş
 ¡£U+1BC00-U+1BC9F; Duployan¡şNoto Sans Duployan£¨143£¯¡££©
 ¡£U+1BCA0-U+1BCAF; Shorthand Format Controls¡şNoto Sans Duployan£¨4£¯¡££©
 ¡£U+1D000-U+1D0FF; Byzantine Musical Symbols¡şNoto Music£¨246£¯¡££©
@@ -277,8 +278,8 @@ U+1B170-U+1B2FF; N¨¹shu¡ş
 ¡£U+1D2E0-U+1D2FF; Mayan Numerals¡şNoto Sans Mayan Numerals£¨20£¯¡££©£¬£¨Noto Sans Symbols2ÓĞ£¯¡££©
 £¬U+1D300-U+1D35F; Tai Xuan Jing Symbols¡ş£¨Segoe UI SymbolÓĞ87£¯¡££©£¬£¨Noto Sans Symbols2ÓĞ£¯¡££©
 ¡£U+1D360-U+1D37F; Counting Rod Numerals¡şNoto Sans Symbols2£¨25£¯¡££©ÆäÖĞU+1D374-U+1D376¡°»­Õı×Ö¡±ÒòÎª¹ı³ó×÷ÁËµ÷Õû
-¡£U+1D400-U+1D7FF; Mathematical Alphanumeric Symbols¡ş£¨Segoe UI SymbolÓĞ996£¯¡££©
-U+1D800-U+1DAAF; Sutton SignWriting¡şNotoÎŞ£¿
+£¬U+1D400-U+1D7FF; Mathematical Alphanumeric Symbols¡ş£¨Segoe UI SymbolÓĞ996£¯¡££©
+¡£U+1D800-U+1DAAF; Sutton SignWriting¡şNoto Sans SignWriting£¨672£¯¡££©
 ¡£U+1E000-U+1E02F; Glagolitic Supplement¡şNoto Sans Glagolitic£¨38£¯¡££©
 ¡£U+1E100-U+1E14F; Nyiakeng Puachue Hmong¡şNoto Serif Hmong Nyiakeng£¨71£¯¡££©
 ¡£U+1E2C0-U+1E2FF; Wancho¡şNoto Sans Wancho£¨59£¯¡££©
@@ -290,19 +291,19 @@ U+1ED00-U+1ED4F; Ottoman Siyaq Numbers¡şNotoÎŞ£¿
 £¬U+1F000-U+1F02F; Mahjong Tiles¡ş£¨Segoe UI SymbolÓĞ44£¯¡££©£¬£¨Noto Sans Symbols2ÓĞ£¯¡££©
 £¬U+1F030-U+1F09F; Domino Tiles¡ş£¨Segoe UI SymbolÓĞ100£¯¡££©£¬£¨Noto Sans Symbols2ÓĞ£¯¡££©
 £¬U+1F0A0-U+1F0FF; Playing Cards¡ş£¨Segoe UI SymbolÓĞ82£¯¡££©£¬£¨Noto Sans Symbols2ÓĞ£¯¡££©
-¡£U+1F100-U+1F1FF; Enclosed Alphanumeric Supplement¡şNoto Sans Symbols£¨157£¯200£©+£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ167£¯200£©BabelStone HanÓĞ
-£¬U+1F200-U+1F2FF; Enclosed Ideographic Supplement¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ58£¯64£©BabelStone HanÓĞ
+£¬U+1F100-U+1F1FF; Enclosed Alphanumeric Supplement¡şNoto Sans Symbols£¨157£¯200£©+£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ167£¯200£©£¬BabelStone HanÓĞ
+£¬U+1F200-U+1F2FF; Enclosed Ideographic Supplement¡ş£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ58£¯64£©£¬BabelStone HanÓĞ
 U+1F300-U+1F5FF; Miscellaneous Symbols and Pictographs¡şNoto Sans Symbols£¨5£¯768£©¡¢Noto Sans Symbols2£¨291£¯768£©£¡
 £¬U+1F600-U+1F64F; Emoticons¡ş£¨Segoe UI SymbolÓĞ80£¯¡££©
 £¬U+1F650-U+1F67F; Ornamental Dingbats¡ş£¨Segoe UI SymbolÓĞ48£¯¡££©
-U+1F680-U+1F6FF; Transport and Map Symbols¡şNoto Sans Symbols2£¨41£¯114£©£¡
+U+1F680-U+1F6FF; Transport and Map Symbols¡şNoto Sans Symbols2£¨45£¯114£©£¡
 £¬U+1F700-U+1F77F; Alchemical Symbols¡ş£¨Segoe UI SymbolÓĞ116£¯¡££©
 ¡£U+1F780-U+1F7FF; Geometric Shapes Extended¡şNoto Sans Symbols2£¨101£¯¡££©
-¡£U+1F800-U+1F8FF; Supplemental Arrows-C¡şNoto Sans Symbols2£¨148£¯150£©+ BabelStone Shapes£¨2£¯150£©=£¨150£¯¡££©
+¡£U+1F800-U+1F8FF; Supplemental Arrows-C¡şNoto Sans Symbols2£¨150£¯¡££©
 U+1F900-U+1F9FF; Supplemental Symbols and Pictographs¡şNoto Sans Symbols2£¨2£¯254£©£¡
 ¡£U+1FA00-U+1FA6F; Chess Symbols¡şNoto Sans Symbols2£¨98£¯¡££©
-U+1FA70-U+1FAFF; Symbols and Pictographs Extended-A¡ş
-¡£U+1FB00-U+1FBFF; Symbols for Legacy Computing¡şNotoÎŞ£¬BabelStone Shapes£¨212£¯¡££©
+¡£U+1FA70-U+1FAFF; Symbols and Pictographs Extended-A¡şNoto Sans Symbols2£¨57£¯¡££©
+¡£U+1FB00-U+1FBFF; Symbols for Legacy Computing¡şNoto Sans Symbols2£¨212£¯¡££©
 U+20000-U+2A6DF; CJK Unified Ideographs Extension B¡ş·Å²»ÏÂ£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ2108£¯42718£©£¬£¨SimSun-ExtBÓĞ42711£¯42718£©
 £¬U+2A700-U+2B73F; CJK Unified Ideographs Extension C¡ş·Å²»ÏÂ£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ47£¯4149£©£¬£¨SimSun-ExtBÓĞ£¯¡££©
 £¬U+2B740-U+2B81F; CJK Unified Ideographs Extension D¡ş·Å²»ÏÂ£¨Noto Sans CJK\Ë¼Ô´ºÚÌåÓĞ34£¯222£©£¬£¨SimSun-ExtBÓĞ£¯¡££©
