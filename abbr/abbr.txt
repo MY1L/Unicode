@@ -3,7 +3,7 @@
   $0100-$017F; Latin Extended-A	|	LatnExtA.
   $0180-$024F; Latin Extended-B	|	LatnExtB.
   $0250-$02AF; IPA Extensions	|	IPAExt.
-  $02B0-$02FF; Spacing Modifier Letters	|	ModLer.
+  $02B0-$02FF; Spacing Modifier Letters	|	ModLttr.
   $0300-$036F; Combining Diacritical Marks	|	Diac.
   $0370-$03FF; Greek and Coptic	|	Grek.
   $0400-$04FF; Cyrillic	|	Cyrl.
@@ -73,7 +73,7 @@
   $2070-$209F; Superscripts and Subscripts	|	SupSub.
   $20A0-$20CF; Currency Symbols	|	Currency.
   $20D0-$20FF; Combining Diacritical Marks for Symbols	|	DiacSym.
-  $2100-$214F; Letterlike Symbols	|	Lerlike.
+  $2100-$214F; Letterlike Symbols	|	Lttrlike.
   $2150-$218F; Number Forms	|	NumForm.
   $2190-$21FF; Arrows	|	Arow.
   $2200-$22FF; Mathematical Operators	|	MathOpor.
@@ -124,7 +124,7 @@
   $A500-$A63F; Vai	|	Vaii.
   $A640-$A69F; Cyrillic Extended-B	|	CyrlExtB.
   $A6A0-$A6FF; Bamum	|	Bamu.
-  $A700-$A71F; Modifier Tone Letters	|	ModToneLer.
+  $A700-$A71F; Modifier Tone Letters	|	ModToneLttr.
   $A720-$A7FF; Latin Extended-D	|	LatnExtD.
   $A800-$A82F; Syloti Nagri	|	Sylo.
   $A830-$A83F; Common Indic Number Forms	|	IndiNumForm.
@@ -267,7 +267,7 @@ $1D000-$1D0FF; Byzantine Musical Symbols	|	ByzMu.
 $1D100-$1D1FF; Musical Symbols	|	Music.
 $1D200-$1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
 $1D2E0-$1D2FF; Mayan Numerals	|	MayaNum.
-$1D300-$1D35F; Tai Xuan Jing Symbols	|	TXJing.
+$1D300-$1D35F; Tai Xuan Jing Symbols	|	TXjing.
 $1D360-$1D37F; Counting Rod Numerals	|	CountingRod.
 $1D400-$1D7FF; Mathematical Alphanumeric Symbols	|	MathAaNum.
 $1D800-$1DAAF; Sutton SignWriting	|	Sgnw.
