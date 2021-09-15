@@ -1,5 +1,5 @@
 # 统一码区段汉化
-苦于译名混乱，对统一码[Blocks-13.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作临时汉化。为适应旧软件，汉化的文件编码不是UTF。
+苦于译名混乱，对统一码[Blocks-14.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作汉化。
 
 ## 更新
 第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，修改之处见如下注释。
@@ -10,6 +10,8 @@
 
 第3.1版：更改一处：“图符”。
 
+第4版：添加统一码14.0新增区段，及改动区段范围：阿洪姆从..1173F扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，这个错导致字体Last发布延迟）。文件开头注释也汉化了些。
+
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
 
@@ -19,7 +21,7 @@
 |Alphabetic|字母||
 |Alphanumerics|字母数字||
 |*Ancient* Greek|古希腊||
-|Ancient|古代|实际似指古罗马|
+|Ancient|古代|实际多为古罗马……|
 |and|及||
 |Arrows|箭头||
 |Block Elements|方块构素|Block作区段名不译“区段”|
@@ -50,7 +52,7 @@
 |Miscellaneous|各式|曾译“杂项”|
 |Modifier Tone Letters|声调修饰字|改变语序|
 |Modifier|修饰||
-|Musical Notation|音符|记谱符号|
+|Musical Notation|音符|Note“音符”，Notation“谱”|
 |Musical Symbols|乐符||
 |Counting Rod *Numerals*|算筹|“算筹”已含数字涵义|
 |Number(s)／Numeral(s)|数字||
@@ -94,4 +96,7 @@
 |Miao|苗(柏格理)|直译“苗”，但区段收的是传教士柏格理(Pollard)创制的滇东北老苗文，ISO 15924代码Plrd|
 |Pahawh Hmong|苗(帕皓)|直译“字母表苗”，“尝试”译“帕皓苗”，“GB/T”译“苗文”，异名“救世苗文”|
 |Nyiakeng Puachue Hmong|苗(创世)|直译“创世完成苗\创世纪苗文”（[Hmnp.該怎麼翻譯？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=361148)），“尝试”译“涅该布瓦启苗”，“GB/T”2017无|
-|New Tai Lue|新傣仂|“尝试”译“新傣泐”|
+|New Tai Lue|新傣仂|“尝试”译“新傣泐”，[我们的文字](http://www.nlc.cn/cmptest/wmdwz/ssmz/index_11.htm)：古代傣族称西双版纳为“泐”|
+|Tai Le|傣纳|又译“德宏傣文”|
+|Tai Tham|傣昙|即 老傣文、(老)傣泐文|
+|Znamenny|兹那门尼|“尝试”译“兹纳门内”|

@@ -1,344 +1,340 @@
-# Blocks-13.0.0.txt
-# Date: 2019-07-10, 19:06:00 GMT [KW]
-# 2019 Unicode, Inc.
-# For terms of use, see http://www.unicode.org/terms_of_use.html
+# Blocks-14.0.0.txt
+# æ—¥æœŸï¼š2021-01-22, 23:29:00 GMT [KW]
+# Â© 2021 UnicodeÂ®, Inc.
+# ä½¿ç”¨æ¡æ¬¾è¯¦è§ http://www.unicode.org/terms_of_use.html
 #
 # Unicode Character Database
-# For documentation, see http://www.unicode.org/reports/tr44/
+# ç›¸å…³æ–‡æ¡£è¯¦è§ http://www.unicode.org/reports/tr44/
 #
-# Format:
-# Start Code..End Code; Block Name
+# æ ¼å¼:
+# å§‹ç ..ç»ˆç ; åŒºæ®µ(Block)å
 
 # ================================================
-
-# Note:   When comparing block names, casing, whitespace, hyphens,
-#         and underbars are ignored.
-#         For example, "Latin Extended-A" and "latin extended a" are equivalent.
-#         For more information on the comparison of property values,
-#            see UAX #44: http://www.unicode.org/reports/tr44/
+#æ³¨æ„ï¼šåŒºæ®µåå¯¹æ¯”æ—¶ï¼Œå¿½ç•¥å¤§å°å†™ã€ç©ºæ ¼ã€è¿å­—ç¬¦å’Œä¸‹åˆ’çº¿ï¼Œä¾‹å¦‚"Latin Extended-A"ä¸"latin extended a"æ˜¯ç­‰ä»·çš„ã€‚
+#å…³äºå±æ€§å€¼æ¯”è¾ƒçš„è¯¦ç»†ä¿¡æ¯ï¼š UAX #44: http://www.unicode.org/reports/tr44/
 #
-#  All block ranges start with a value where (cp MOD 16) = 0,
-#  and end with a value where (cp MOD 16) = 15. In other words,
-#  the last hexadecimal digit of the start of range is ...0
-#  and the last hexadecimal digit of the end of range is ...F.
-#  This constraint on block ranges guarantees that allocations
-#  are done in terms of whole columns, and that code chart display
-#  never involves splitting columns in the charts.
+#æ‰€æœ‰åŒºæ®µèµ·å§‹å€¼ä¸º (cp MOD 16) = 0ï¼Œç»“æŸå€¼ä¸º (cp MOD 16) = 15ï¼Œæ¢è¨€ä¹‹ï¼ŒåŒºæ®µå§‹ç æœ«å°¾16è¿›åˆ¶æ•°ä¸º...0ï¼Œç»ˆç åˆ™ä¸º...Fã€‚è¿™ç¡®ä¿åŒºæ®µæ€»è¢«æ•´åˆ—åœ°åˆ†é…ä¸”ç è¡¨ä¸è¢«ä¸­æ–­ã€‚
 #
-#  All code points not explicitly listed for Block
-#  have the value No_Block.
 
-# Property:	Block
-#
-# @missing: 0000..10FFFF; No_Block
-
-0000..007F; 0000»ù±¾À­¶¡|Basic Latin
-0080..00FF; 0080À­¶¡Ò»²¹³ä|Latin-1 Supplement
-0100..017F; 0100À­¶¡À©³ä¼×|Latin Extended-A
-0180..024F; 0180À­¶¡À©³äÒÒ|Latin Extended-B
-0250..02AF; 0250¹ú¼ÊÒô±êÀ©³ä|IPA Extensions
-02B0..02FF; 02B0ÓĞ¾àĞŞÊÎ×Ö|Spacing Modifier Letters
-0300..036F; 0300½áºÏ±äÒô±ê¼Ç|Combining Diacritical Marks
-0370..03FF; 0370Ï£À°¼°¿ÆÆÕÌØ|Greek and Coptic
-0400..04FF; 0400Î÷Àï¶û|Cyrillic
-0500..052F; 0500Î÷Àï¶û²¹³ä|Cyrillic Supplement
-0530..058F; 0530ÑÇÃÀÄáÑÇ|Armenian
-0590..05FF; 0590Ï£²®À´|Hebrew
-0600..06FF; 0600°¢À­²®|Arabic
-0700..074F; 0700ĞğÀûÑÇ|Syriac
-0750..077F; 0750°¢À­²®²¹³ä|Arabic Supplement
-0780..07BF; 0780ËşÄÉ|Thaana
-07C0..07FF; 07C0¶÷¿Æ(Î÷·ÇÊéÃæ)|N¡¯Ko
-0800..083F; 0800ÈöÂíÀûÑÇ|Samaritan
-0840..085F; 0840ÂüµÂ¶÷|Mandaic
-0860..086F; 0860ĞğÀûÑÇ²¹³ä|Syriac Supplement
-08A0..08FF; 08A0°¢À­²®À©³ä¼×|Arabic Extended-A
-0900..097F; 0900Ìì³ÇÌå|Devanagari
-0980..09FF; 0980ÃÏ¼ÓÀ­|Bengali
-0A00..0A7F; 0A00¹ûÂ³ÄÂÆæ|Gurmukhi
-0A80..0AFF; 0A80¹Å¼ªÀ­ÌØ|Gujarati
-0B00..0B7F; 0B00°ÂÀïÑÇ|Oriya
-0B80..0BFF; 0B80Ì©Ã×¶û|Tamil
-0C00..0C7F; 0C00Ì©Â¬¹Ì|Telugu
-0C80..0CFF; 0C80¿¨ÄÉ´ï|Kannada
-0D00..0D7F; 0D00ÂíÀ­ÑÅÀ­Ä·|Malayalam
-0D80..0DFF; 0D80É®Ù¤ÂŞ|Sinhala
-0E00..0E7F; 0E00Ì©ÎÄ|Thai
-0E80..0EFF; 0E80ÀÏÎÎ|Lao
-0F00..0FFF; 0F00²ØÎÄ|Tibetan
-1000..109F; 1000ÃåÎÄ|Myanmar
-10A0..10FF; 10A0¸ñÂ³¼ªÑÇ|Georgian
-1100..11FF; 1100ÑèÎÄ×ÖÄ¸|Hangul Jamo
-1200..137F; 1200¼ª×È|Ethiopic
-1380..139F; 1380¼ª×È²¹³ä|Ethiopic Supplement
-13A0..13FF; 13A0ÇĞÂŞ»ù|Cherokee
-1400..167F; 1400Í³Ò»¼ÓÄÃ´óÍÁÖøÒô½Ú|Unified Canadian Aboriginal Syllabics
-1680..169F; 1680Å·¸Ê|Ogham
-16A0..16FF; 16A0Â¬¶÷|Runic
-1700..171F; 1700Ëû¼ÓÂ»|Tagalog
-1720..173F; 1720¹şÅ¬Å¬°Â|Hanunoo
-1740..175F; 1740²¼Ï£µÂ|Buhid
-1760..177F; 1760µÙÑÇ¸ñ°àÍß|Tagbanwa
-1780..17FF; 1780¸ßÃŞ|Khmer
-1800..18AF; 1800ÃÉÎÄ|Mongolian
-18B0..18FF; 18B0Í³Ò»¼ÓÄÃ´óÍÁÖøÒô½ÚÀ©³ä|Unified Canadian Aboriginal Syllabics Extended
-1900..194F; 1900ÁÖ²¼|Limbu
-1950..197F; 1950´öÄÉ|Tai Le
-1980..19DF; 1980ĞÂ´öØì|New Tai Lue
-19E0..19FF; 19E0¸ßÃŞ·ûºÅ|Khmer Symbols
-1A00..1A1F; 1A00²¼¼ª|Buginese
-1A20..1AAF; 1A20´öê¼|Tai Tham
-1AB0..1AFF; 1AB0½áºÏ±äÒô±ê¼ÇÀ©³ä|Combining Diacritical Marks Extended
-1B00..1B7F; 1B00°ÍÀå|Balinese
-1B80..1BBF; 1B80ÙãËû|Sundanese
-1BC0..1BFF; 1BC0°ÍËş¿Ë|Batak
-1C00..1C4F; 1C00À×²¼²é|Lepcha
-1C50..1C7F; 1C50°Â¶ûÆæ»ù|Ol Chiki
-1C80..1C8F; 1C80Î÷Àï¶ûÀ©³ä±û|Cyrillic Extended-C
-1C90..1CBF; 1C90¸ñÂ³¼ªÑÇÀ©³ä|Georgian Extended
-1CC0..1CCF; 1CC0ÙãËû²¹³ä|Sundanese Supplement
-1CD0..1CFF; 1CD0·ÍÍÓÀ©³ä|Vedic Extensions
-1D00..1D7F; 1D00Òô±êÀ©³ä|Phonetic Extensions
-1D80..1DBF; 1D80Òô±êÀ©³ä²¹ÒÅ|Phonetic Extensions Supplement
-1DC0..1DFF; 1DC0½áºÏ±äÒô±ê¼Ç²¹³ä|Combining Diacritical Marks Supplement
-1E00..1EFF; 1E00À­¶¡À©³ä×·¼Ó|Latin Extended Additional
-1F00..1FFF; 1F00Ï£À°À©³ä|Greek Extended
-2000..206F; 2000Í¨ÓÃ±êµã|General Punctuation
-2070..209F; 2070ÉÏ±ê¼°ÏÂ±ê|Superscripts and Subscripts
-20A0..20CF; 20A0»õ±Ò·ûºÅ|Currency Symbols
-20D0..20FF; 20D0½áºÏ±äÒô¼ÇºÅ|Combining Diacritical Marks for Symbols
-2100..214F; 2100Àà×Ö·ûºÅ|Letterlike Symbols
-2150..218F; 2150Êı×ÖĞÎÊ½|Number Forms
-2190..21FF; 2190¼ıÍ·|Arrows
-2200..22FF; 2200ÊıÑ§ÔËËã·û|Mathematical Operators
-2300..23FF; 2300¸÷Ê½¼¼Êõ·û|Miscellaneous Technical
-2400..243F; 2400¿ØÖÆÍ¼·û|Control Pictures
-2440..245F; 2440¹âÑ§×Ö·ûÊ¶±ğ|Optical Character Recognition
-2460..24FF; 2460¸½Î§×ÖÄ¸Êı×Ö|Enclosed Alphanumerics
-2500..257F; 2500ÖÆ±í·û|Box Drawing
-2580..259F; 2580·½¿é¹¹ËØ|Block Elements
-25A0..25FF; 25A0¼¸ºÎĞÎ×´|Geometric Shapes
-2600..26FF; 2600¸÷Ê½·ûºÅ|Miscellaneous Symbols
-2700..27BF; 2700Ê²½õ|Dingbats
-27C0..27EF; 27C0¸÷Ê½ÊıÑ§·ûºÅ¼×|Miscellaneous Mathematical Symbols-A
-27F0..27FF; 27F0Ôö²¹¼ıÍ·¼×|Supplemental Arrows-A
-2800..28FF; 2800²¼À³Ò¶Ã¤ÎÄµã×Ö|Braille Patterns
-2900..297F; 2900Ôö²¹¼ıÍ·ÒÒ|Supplemental Arrows-B
-2980..29FF; 2980¸÷Ê½ÊıÑ§·ûºÅÒÒ|Miscellaneous Mathematical Symbols-B
-2A00..2AFF; 2A00Ôö²¹ÊıÑ§ÔËËã·û|Supplemental Mathematical Operators
-2B00..2BFF; 2B00¸÷Ê½·ûºÅ¼°¼ıÍ·|Miscellaneous Symbols and Arrows
-2C00..2C5F; 2C00¸ñÀ­¸çÀï|Glagolitic
-2C60..2C7F; 2C60À­¶¡À©³ä±û|Latin Extended-C
-2C80..2CFF; 2C80¿ÆÆÕÌØ|Coptic
-2D00..2D2F; 2D00¸ñÂ³¼ªÑÇ²¹³ä|Georgian Supplement
-2D30..2D7F; 2D30Ìá·ÇÄÉ|Tifinagh
-2D80..2DDF; 2D80¼ª×ÈÀ©³ä|Ethiopic Extended
-2DE0..2DFF; 2DE0Î÷Àï¶ûÀ©³ä¼×|Cyrillic Extended-A
-2E00..2E7F; 2E00Ôö²¹±êµã|Supplemental Punctuation
-2E80..2EFF; 2E80ÖĞÈÕº«²¿Ê×²¹³ä|CJK Radicals Supplement
-2F00..2FDF; 2F00¿µÎõ²¿Ê×|Kangxi Radicals
-2FF0..2FFF; 2FF0±íÒâÃèÊö×Ö·û|Ideographic Description Characters
-3000..303F; 3000ÖĞÈÕº«·ûºÅ¼°±êµã|CJK Symbols and Punctuation
-3040..309F; 3040Æ½¼ÙÃû|¤Ò¤é¤¬¤Ê|Hiragana
-30A0..30FF; 30A0Æ¬¼ÙÃû|¥«¥¿¥«¥Ê|Katakana
-3100..312F; 3100×¢Òô|¨Å¨Æ¨Ç¨È|Bopomofo
-3130..318F; 3130ÑèÎÄ¼æÈİ×ÖÄ¸|Hangul Compatibility Jamo
-3190..319F; 3190ººÎÄÑµ¶Á|Kanbun
-31A0..31BF; 31A0×¢ÒôÀ©³ä|Bopomofo Extended
-31C0..31EF; 31C0ÖĞÈÕº«±Ê»­|CJK Strokes
-31F0..31FF; 31F0Æ¬¼ÙÃûÒô±êÀ©³ä|Katakana Phonetic Extensions
-3200..32FF; 3200¸½Î§ÖĞÈÕº«×ÖÄ¸¼°ÔÂ·İ|Enclosed CJK Letters and Months
-3300..33FF; 3300ÖĞÈÕº«¼æÈİ|CJK Compatibility
-3400..4DBF; 3400ÖĞÈÕº«Í³Ò»±íÒâÀ©³ä¼×|CJK Unified Ideographs Extension A
-4DC0..4DFF; 4DC0Ò×¾­ÁùÊ®ËÄØÔ|Yijing Hexagram Symbols
-4E00..9FFF; 4E00ÖĞÈÕº«Í³Ò»±íÒâÎÄ×Ö|CJK Unified Ideographs
-A000..A48F; A000ÒÍÎÄÒô½Ú|Yi Syllables
-A490..A4CF; A490ÒÍÎÄ²¿Ê×|Yi Radicals
-A4D0..A4FF; A4D0ÀüËÛ(ÀÏ)|Lisu
-A500..A63F; A500ÍßÒÁ|Vai
-A640..A69F; A640Î÷Àï¶ûÀ©³äÒÒ|Cyrillic Extended-B
-A6A0..A6FF; A6A0°ÍÄ¬Ä·|Bamum
-A700..A71F; A700Éùµ÷ĞŞÊÎ×Ö|Modifier Tone Letters
-A720..A7FF; A720À­¶¡À©³ä¶¡|Latin Extended-D
-A800..A82F; A800Î÷ÂåµÙ³ÇÌå|Syloti Nagri
-A830..A83F; A830Í¨ÓÃÓ¡¶ÈÊı×ÖĞÎÊ½|Common Indic Number Forms
-A840..A87F; A840°ËË¼°Í|Phags-pa
-A880..A8DF; A880Ë÷À­Ê²ÌØÀ­|Saurashtra
-A8E0..A8FF; A8E0Ìì³ÇÌåÀ©³ä|Devanagari Extended
-A900..A92F; A900¿ËÒ®Àû|Kayah Li
-A930..A95F; A930À×½ª|Rejang
-A960..A97F; A960ÑèÎÄ×ÖÄ¸À©³ä¼×|Hangul Jamo Extended-A
-A980..A9DF; A980×¦ÍÛ|Javanese
-A9E0..A9FF; A9E0ÃåÎÄÀ©³äÒÒ|Myanmar Extended-B
-AA00..AA5F; AA00Õ¼ÎÄ|Cham
-AA60..AA7F; AA60ÃåÎÄÀ©³ä¼×|Myanmar Extended-A
-AA80..AADF; AA80´öÔ½|Tai Viet
-AAE0..AAFF; AAE0Ã×´úÎÄÀ©³ä|Meetei Mayek Extensions
-AB00..AB2F; AB00¼ª×ÈÀ©³ä¼×|Ethiopic Extended-A
-AB30..AB6F; AB30À­¶¡À©³äÎì|Latin Extended-E
-AB70..ABBF; AB70ÇĞÂŞ»ù²¹³ä|Cherokee Supplement
-ABC0..ABFF; ABC0Ã×´úÎÄ|Meetei Mayek
-AC00..D7AF; AC00ÑèÎÄÒô½Ú|Hangul Syllables
-D7B0..D7FF; D7B0ÑèÎÄ×ÖÄ¸À©³äÒÒ|Hangul Jamo Extended-B
-D800..DB7F; D800¸ßÎ»Ìæ´ú|High Surrogates
-DB80..DBFF; DB80¸ßÎ»Ë½ÓÃÌæ´ú|High Private Use Surrogates
-DC00..DFFF; DC00µÍÎ»Ìæ´ú|Low Surrogates
-E000..F8FF; E000Ë½ÓÃÇø|Private Use Area
-F900..FAFF; F900ÖĞÈÕº«¼æÈİ±íÒâÎÄ×Ö|CJK Compatibility Ideographs
-FB00..FB4F; FB00×ÖÄ¸±í´ïĞÎÊ½|Alphabetic Presentation Forms
-FB50..FDFF; FB50°¢À­²®±í´ïĞÎÊ½¼×|Arabic Presentation Forms-A
-FE00..FE0F; FE00±äÌåÑ¡Ôñ·û|Variation Selectors
-FE10..FE1F; FE10ÊúÅÅĞÎÊ½|Vertical Forms
-FE20..FE2F; FE20½áºÏ°ë±ß±ê¼Ç|Combining Half Marks
-FE30..FE4F; FE30ÖĞÈÕº«¼æÈİĞÎÊ½|CJK Compatibility Forms
-FE50..FE6F; FE50Ğ¡ĞÍĞÎÊ½±äÌå|Small Form Variants
-FE70..FEFF; FE70°¢À­²®±í´ïĞÎÊ½ÒÒ|Arabic Presentation Forms-B
-FF00..FFEF; FF00°ë½Ç¼°È«½Ç|Halfwidth and Fullwidth Forms
-FFF0..FFFF; FFF0ÌØÊâ|Specials
-10000..1007F; 10000ÏßĞÎBÒô½Ú|Linear B Syllabary
-10080..100FF; 10080ÏßĞÎB±íÒâ|Linear B Ideograms
-10100..1013F; 10100°®ÇÙÊı×Ö|Aegean Numbers
-10140..1018F; 10140¹ÅÏ£À°Êı×Ö|Ancient Greek Numbers
-10190..101CF; 10190¹Å´ú·ûºÅ|Ancient Symbols
-101D0..101FF; 101D0·ÑË¹ÍĞË¹Ô²ÅÌ|Phaistos Disc
-10280..1029F; 10280ÂÀ»ùÑÇ|Lycian
-102A0..102DF; 102A0¼ÓÀïÑÇ|Carian
-102E0..102FF; 102E0¿ÆÆÕÌØÈòÓàÊı×Ö|Coptic Epact Numbers
-10300..1032F; 10300¹ÅÒâ´óÀû|Old Italic
-10330..1034F; 10330¸çÌØ|Gothic
-10350..1037F; 10350¹Å±Ë¶ûÄ·|Old Permic
-10380..1039F; 10380ÎÚ¼ÓÀïÌØ|Ugaritic
-103A0..103DF; 103A0¹Å²¨Ë¹|Old Persian
-10400..1044F; 10400µÂÈöÂÉ|Deseret
-10450..1047F; 10450Ïô²®ÄÉ|Shavian
-10480..104AF; 10480ÒÁË¹ÂíÄáÑÇ|Osmanya
-104B0..104FF; 104B0°ÂÉ«ÖÎ|Osage
-10500..1052F; 10500°®¶û°ÍÉ£|Elbasan
-10530..1056F; 10530¸ß¼ÓË÷°¢¶û°ÍÄáÑÇ|Caucasian Albanian
-10600..1077F; 10600ÏßĞÎA|Linear A
-10800..1083F; 10800ÈûÆÖÂ·Ë¹Òô½Ú|Cypriot Syllabary
-10840..1085F; 10840Íõ³¯ÑÇÀ­Ä·|Imperial Aramaic
-10860..1087F; 10860°Í¶ûÃ×À­|Palmyrene
-10880..108AF; 10880ÄÇ°ÍÌ©|Nabataean
-108E0..108FF; 108E0¹şÌØÀ­|Hatran
-10900..1091F; 10900ëèÄá»ù|Phoenician
-10920..1093F; 10920ÂÀµ×ÑÇ|Lydian
-10980..1099F; 10980ÂóÂŞ°£Ê¥ÊéÌå|Meroitic Hieroglyphs
-109A0..109FF; 109A0ÂóÂŞ°£²İÊéÌå|Meroitic Cursive
-10A00..10A5F; 10A00ÒÂ¬|Kharoshthi
-10A60..10A7F; 10A60¹ÅÄÏ°¢À­²®|Old South Arabian
-10A80..10A9F; 10A80¹Å±±°¢À­²®|Old North Arabian
-10AC0..10AFF; 10AC0Ä¦Äá|Manichaean
-10B00..10B3F; 10B00°¢Î¬Ë¹Ëş|Avestan
-10B40..10B5F; 10B40±®ÃúÌåÅÁÌáÑÇ|Inscriptional Parthian
-10B60..10B7F; 10B60±®ÃúÌå°ÍÁĞÎ¬|Inscriptional Pahlavi
-10B80..10BAF; 10B80Ê«ÆªÌå°ÍÁĞÎ¬|Psalter Pahlavi
-10C00..10C4F; 10C00Í»ØÊ|Old Turkic
-10C80..10CFF; 10C80¹ÅĞÙÑÀÀû|Old Hungarian
-10D00..10D3F; 10D00¹şÄá·ÆÂŞĞËÑÇ|Hanifi Rohingya
-10E60..10E7F; 10E60Â³Ã×Êı×Ö·ûºÅ|Rumi Numeral Symbols
-10E80..10EBF; 10E80Ò®Î÷µÏ|Yezidi
-10F00..10F2F; 10F00¹ÅËÚÌØ|Old Sogdian
-10F30..10F6F; 10F30ËÚÌØ|Sogdian
-10FB0..10FDF; 10FB0»¨Øİ×ÓÄ£|Chorasmian
-10FE0..10FFF; 10FE0ÒÔÀûÂò|Elymaic
-11000..1107F; 11000ÆÅÂŞÃ×|Brahmi
-11080..110CF; 11080¿ªÌİ|Kaithi
-110D0..110FF; 110D0Ë÷À­Ë÷Ä·Åí|Sora Sompeng
-11100..1114F; 11100²é¿ËÂí|Chakma
-11150..1117F; 11150Ä¬¹ş½ÜÄÚ|Mahajani
-11180..111DF; 11180É³ÀÕµÂ|Sharada
-111E0..111FF; 111E0É®Ù¤ÂŞ¹ÅÊı×Ö|Sinhala Archaic Numbers
-11200..1124F; 11200¿Æ½Ü»ù|Khojki
-11280..112AF; 11280Ä¾¶ûÌ¹|Multani
-112B0..112FF; 112B0¿â´ï±¾µÂ|Khudawadi
-11300..1137F; 11300¸ñÀ¼Ëû|Grantha
-11400..1147F; 11400ÄÚÍß|Newa
-11480..114DF; 11480µÙÀÕºúËş|Tirhuta
-11580..115FF; 11580Ï¤ê¼|Siddham
-11600..1165F; 11600ÄªµÏ|Modi
-11660..1167F; 11660ÃÉÎÄ²¹³ä|Mongolian Supplement
-11680..116CF; 11680Ëş¿ËÀï|Takri
-11700..1173F; 11700°¢ºéÄ·|Ahom
-11800..1184F; 11800µÀ¸ñÀ­|Dogra
-118A0..118FF; 118A0ÍßÀÊÆæµÙ|Warang Citi
-11900..1195F; 11900µÏÎ¬Ï£°¢¿âÂ³|Dives Akuru
-119A0..119FF; 119A0ÄÛµÏ³ÇÌå|Nandinagari
-11A00..11A4F; 11A00ÔıÄÇ°ÍÔı¶û·½×Ö|Zanabazar Square
-11A50..11AAF; 11A50Ë÷ÓÀ²¼|Soyombo
-11AC0..11AFF; 11AC0°üÇÕºÀ|Pau Cin Hau
-11C00..11C6F; 11C00±È¿ËÊæ»ù|Bhaiksuki
-11C70..11CBF; 11C70Âê¶ûÇÕÌå|Marchen
-11D00..11D5F; 11D00ÂíÈøÀ­Ä·¹±µÂ|Masaram Gondi
-11D60..11DAF; 11D60¹±¼ÖÀ­¹±µÂ|Gunjala Gondi
-11EE0..11EFF; 11EE0Íû¼ÓÎı|Makasar
-11FB0..11FBF; 11FB0ÀüËÛ²¹³ä|Lisu Supplement
-11FC0..11FFF; 11FC0Ì©Ã×¶û²¹³ä|Tamil Supplement
-12000..123FF; 12000Ğ¨ĞÎÎÄ×Ö|Cuneiform
-12400..1247F; 12400Ğ¨ĞÎÊı×Ö¼°±êµã|Cuneiform Numbers and Punctuation
-12480..1254F; 12480ÔçÍõ³¯Ğ¨ĞÎÎÄ×Ö|Early Dynastic Cuneiform
-13000..1342F; 13000°£¼°Ê¥ÊéÌå|Egyptian Hieroglyphs
-13430..1343F; 13430°£¼°Ê¥ÊéÌå¸ñÊ½¿ØÖÆ·û|Egyptian Hieroglyph Format Controls
-14400..1467F; 14400°²ÄÉÍĞÀûÑÇÏóĞÎÎÄ×Ö|Anatolian Hieroglyphs
-16800..16A3F; 16800°ÍÄ¬Ä·²¹³ä|Bamum Supplement
-16A40..16A6F; 16A40Ä·Â³|Mro
-16AD0..16AFF; 16AD0°ÍË÷°ÂÍß|Bassa Vah
-16B00..16B8F; 16B00Ãç(ÅÁğ©)|Pahawh Hmong
-16E40..16E9F; 16E40Ã·´ú·¨ÒÁµÂÁÖ|Medefaidrin
-16F00..16F9F; 16F00Ãç(°Ø¸ñÀí)|Miao
-16FE0..16FFF; 16FE0±íÒâ·ûºÅ¼°±êµã|Ideographic Symbols and Punctuation
-17000..187FF; 17000Î÷ÏÄ|Tangut
-18800..18AFF; 18800Î÷ÏÄÆ«ÅÔ|Tangut Components
-18B00..18CFF; 18B00Æõµ¤Ğ¡×Ö|Khitan Small Script
-18D00..18D8F; 18D00Î÷ÏÄ²¹³ä|Tangut Supplement
-1B000..1B0FF; 1B000¼ÙÃû²¹³ä|Kana Supplement
-1B100..1B12F; 1B100¼ÙÃûÀ©³ä¼×|Kana Extended-A
-1B130..1B16F; 1B130Ğ¡ĞÍ¼ÙÃûÀ©³ä|Small Kana Extension
-1B170..1B2FF; 1B170Å®Êé|N¨¹shu
-1BC00..1BC9F; 1BC00¶ÅÆÕÀ×ËÙ¼Ç|Duployan
-1BCA0..1BCAF; 1BCA0ËÙ¼Ç¸ñÊ½¿ØÖÆ·û|Shorthand Format Controls
-1D000..1D0FF; 1D000°İÕ¼Í¥ÀÖ·û|Byzantine Musical Symbols
-1D100..1D1FF; 1D100ÀÖ·û|Musical Symbols
-1D200..1D24F; 1D200¹ÅÏ£À°Òô·û|Ancient Greek Musical Notation
-1D2E0..1D2FF; 1D2E0ÂêÑÅÊı×Ö|Mayan Numerals
-1D300..1D35F; 1D300Ì«Ğş¾­ØÔØ³|Tai Xuan Jing Symbols
-1D360..1D37F; 1D360Ëã³ï|Counting Rod Numerals
-1D400..1D7FF; 1D400ÊıÑ§×ÖÄ¸Êı×Ö·ûºÅ|Mathematical Alphanumeric Symbols
-1D800..1DAAF; 1D800Èø¶ÙÊÖÓï|Sutton SignWriting
-1E000..1E02F; 1E000¸ñÀ­¸çÀï²¹³ä|Glagolitic Supplement
-1E100..1E14F; 1E100Ãç(´´ÊÀ)|Nyiakeng Puachue Hmong
-1E2C0..1E2FF; 1E2C0Íä´Â|Wancho
-1E800..1E8DF; 1E800ÃÅµÏ»ù¿¨¿ü|Mende Kikakui
-1E900..1E95F; 1E900°¢µÂÀ­Ä·|Adlam
-1EC70..1ECBF; 1EC70Ó¡¶ÈÕÊÄ¿Êı×Ö|Indic Siyaq Numbers
-1ED00..1ED4F; 1ED00°ÂË¹ÂüÕÊÄ¿Êı×Ö|Ottoman Siyaq Numbers
-1EE00..1EEFF; 1EE00°¢À­²®ÊıÑ§×ÖÄ¸·ûºÅ|Arabic Mathematical Alphabetic Symbols
-1F000..1F02F; 1F000Âé½«ÅÆ|Mahjong Tiles
-1F030..1F09F; 1F030¶àÃ×ÅµÅÆ|Domino Tiles
-1F0A0..1F0FF; 1F0A0ÆË¿Ë|Playing Cards
-1F100..1F1FF; 1F100¸½Î§×ÖÄ¸Êı×Ö²¹³ä|Enclosed Alphanumeric Supplement
-1F200..1F2FF; 1F200¸½Î§±íÒâÎÄ×Ö²¹³ä|Enclosed Ideographic Supplement
-1F300..1F5FF; 1F300¸÷Ê½·ûºÅ¼°ÏóĞÎ|Miscellaneous Symbols and Pictographs
-1F600..1F64F; 1F600±íÇé|Emoticons
-1F650..1F67F; 1F650×°ÊÎÊ²½õ|Ornamental Dingbats
-1F680..1F6FF; 1F680½»Í¨¼°µØÍ¼·ûºÅ|Transport and Map Symbols
-1F700..1F77F; 1F700Á¶½ğÊõ·û|Alchemical Symbols
-1F780..1F7FF; 1F780¼¸ºÎĞÎ×´À©³ä|Geometric Shapes Extended
-1F800..1F8FF; 1F800Ôö²¹¼ıÍ·±û|Supplemental Arrows-C
-1F900..1F9FF; 1F900Ôö²¹·ûºÅ¼°ÏóĞÎ|Supplemental Symbols and Pictographs
-1FA00..1FA6F; 1FA00Æå·û|Chess Symbols
-1FA70..1FAFF; 1FA70·ûºÅ¼°ÏóĞÎÀ©³ä¼×|Symbols and Pictographs Extended-A
-1FB00..1FBFF; 1FB00´«Í³µçÄÔ·ûºÅ|Symbols for Legacy Computing
-20000..2A6DF; 20000ÖĞÈÕº«Í³Ò»±íÒâÀ©³äÒÒ|CJK Unified Ideographs Extension B
-2A700..2B73F; 2A700ÖĞÈÕº«Í³Ò»±íÒâÀ©³ä±û|CJK Unified Ideographs Extension C
-2B740..2B81F; 2B740ÖĞÈÕº«Í³Ò»±íÒâÀ©³ä¶¡|CJK Unified Ideographs Extension D
-2B820..2CEAF; 2B820ÖĞÈÕº«Í³Ò»±íÒâÀ©³äÎì|CJK Unified Ideographs Extension E
-2CEB0..2EBEF; 2CEB0ÖĞÈÕº«Í³Ò»±íÒâÀ©³ä¼º|CJK Unified Ideographs Extension F
-2F800..2FA1F; 2F800ÖĞÈÕº«¼æÈİ±íÒâ²¹³ä|CJK Compatibility Ideographs Supplement
-30000..3134F; 30000ÖĞÈÕº«Í³Ò»±íÒâÀ©³ä¸ı|CJK Unified Ideographs Extension G
-E0000..E007F; E0000±êÇ©|Tags
-E0100..E01EF; E0100±äÌåÑ¡Ôñ·û²¹³ä|Variation Selectors Supplement
-F0000..FFFFF; F0000Ôö²¹Ë½ÓÃÇø¼×|Supplementary Private Use Area-A
-100000..10FFFF; 100000Ôö²¹Ë½ÓÃÇøÒÒ|Supplementary Private Use Area-B
+0000..007F; 0000åŸºæœ¬æ‹‰ä¸|Basic Latin
+0080..00FF; 0080æ‹‰ä¸ä¸€è¡¥å……|Latin-1 Supplement
+0100..017F; 0100æ‹‰ä¸æ‰©å……ç”²|Latin Extended-A
+0180..024F; 0180æ‹‰ä¸æ‰©å……ä¹™|Latin Extended-B
+0250..02AF; 0250å›½é™…éŸ³æ ‡æ‰©å……|IPA Extensions
+02B0..02FF; 02B0æœ‰è·ä¿®é¥°å­—|Spacing Modifier Letters
+0300..036F; 0300ç»“åˆå˜éŸ³æ ‡è®°|Combining Diacritical Marks
+0370..03FF; 0370å¸Œè…ŠåŠç§‘æ™®ç‰¹|Greek and Coptic
+0400..04FF; 0400è¥¿é‡Œå°”|Cyrillic
+0500..052F; 0500è¥¿é‡Œå°”è¡¥å……|Cyrillic Supplement
+0530..058F; 0530äºšç¾å°¼äºš|Armenian
+0590..05FF; 0590å¸Œä¼¯æ¥|Hebrew
+0600..06FF; 0600é˜¿æ‹‰ä¼¯|Arabic
+0700..074F; 0700å™åˆ©äºš|Syriac
+0750..077F; 0750é˜¿æ‹‰ä¼¯è¡¥å……|Arabic Supplement
+0780..07BF; 0780å¡”çº³|Thaana
+07C0..07FF; 07C0æ©ç§‘(è¥¿éä¹¦é¢)|NKo
+0800..083F; 0800æ’’é©¬åˆ©äºš|Samaritan
+0840..085F; 0840æ›¼å¾·æ©|Mandaic
+0860..086F; 0860å™åˆ©äºšè¡¥å……|Syriac Supplement
+0870..089F; 0870é˜¿æ‹‰ä¼¯æ‰©å……ä¹™|Arabic Extended-B
+08A0..08FF; 08A0é˜¿æ‹‰ä¼¯æ‰©å……ç”²|Arabic Extended-A
+0900..097F; 0900å¤©åŸä½“|Devanagari
+0980..09FF; 0980å­ŸåŠ æ‹‰|Bengali
+0A00..0A7F; 0A00æœé²ç©†å¥‡|Gurmukhi
+0A80..0AFF; 0A80å¤å‰æ‹‰ç‰¹|Gujarati
+0B00..0B7F; 0B00å¥¥é‡Œäºš|Oriya
+0B80..0BFF; 0B80æ³°ç±³å°”|Tamil
+0C00..0C7F; 0C00æ³°å¢å›º|Telugu
+0C80..0CFF; 0C80å¡çº³è¾¾|Kannada
+0D00..0D7F; 0D00é©¬æ‹‰é›…æ‹‰å§†|Malayalam
+0D80..0DFF; 0D80åƒ§ä¼½ç½—|Sinhala
+0E00..0E7F; 0E00æ³°æ–‡|Thai
+0E80..0EFF; 0E80è€æŒ|Lao
+0F00..0FFF; 0F00è—æ–‡|Tibetan
+1000..109F; 1000ç¼…æ–‡|Myanmar
+10A0..10FF; 10A0æ ¼é²å‰äºš|Georgian
+1100..11FF; 1100è°šæ–‡å­—æ¯|Hangul Jamo
+1200..137F; 1200å‰å…¹|Ethiopic
+1380..139F; 1380å‰å…¹è¡¥å……|Ethiopic Supplement
+13A0..13FF; 13A0åˆ‡ç½—åŸº|Cherokee
+1400..167F; 1400ç»Ÿä¸€åŠ æ‹¿å¤§åœŸè‘—éŸ³èŠ‚|Unified Canadian Aboriginal Syllabics
+1680..169F; 1680æ¬§ç”˜|Ogham
+16A0..16FF; 16A0å¢æ©|Runic
+1700..171F; 1700ä»–åŠ ç¦„|Tagalog
+1720..173F; 1720å“ˆåŠªåŠªå¥¥|Hanunoo
+1740..175F; 1740å¸ƒå¸Œå¾·|Buhid
+1760..177F; 1760è’‚äºšæ ¼ç­ç“¦|Tagbanwa
+1780..17FF; 1780é«˜æ£‰|Khmer
+1800..18AF; 1800è’™æ–‡|Mongolian
+18B0..18FF; 18B0ç»Ÿä¸€åŠ æ‹¿å¤§åœŸè‘—éŸ³èŠ‚æ‰©å……|Unified Canadian Aboriginal Syllabics Extended
+1900..194F; 1900æ—å¸ƒ|Limbu
+1950..197F; 1950å‚£çº³|Tai Le
+1980..19DF; 1980æ–°å‚£ä»‚|New Tai Lue
+19E0..19FF; 19E0é«˜æ£‰ç¬¦å·|Khmer Symbols
+1A00..1A1F; 1A00å¸ƒå‰|Buginese
+1A20..1AAF; 1A20å‚£æ˜™|Tai Tham
+1AB0..1AFF; 1AB0ç»“åˆå˜éŸ³æ ‡è®°æ‰©å……|Combining Diacritical Marks Extended
+1B00..1B7F; 1B00å·´å˜|Balinese
+1B80..1BBF; 1B80å·½ä»–|Sundanese
+1BC0..1BFF; 1BC0å·´å¡”å…‹|Batak
+1C00..1C4F; 1C00é›·å¸ƒæŸ¥|Lepcha
+1C50..1C7F; 1C50å¥¥å°”å¥‡åŸº|Ol Chiki
+1C80..1C8F; 1C80è¥¿é‡Œå°”æ‰©å……ä¸™|Cyrillic Extended-C
+1C90..1CBF; 1C90æ ¼é²å‰äºšæ‰©å……|Georgian Extended
+1CC0..1CCF; 1CC0å·½ä»–è¡¥å……|Sundanese Supplement
+1CD0..1CFF; 1CD0å é™€æ‰©å……|Vedic Extensions
+1D00..1D7F; 1D00éŸ³æ ‡æ‰©å……|Phonetic Extensions
+1D80..1DBF; 1D80éŸ³æ ‡æ‰©å……è¡¥é—|Phonetic Extensions Supplement
+1DC0..1DFF; 1DC0ç»“åˆå˜éŸ³æ ‡è®°è¡¥å……|Combining Diacritical Marks Supplement
+1E00..1EFF; 1E00æ‹‰ä¸æ‰©å……è¿½åŠ |Latin Extended Additional
+1F00..1FFF; 1F00å¸Œè…Šæ‰©å……|Greek Extended
+2000..206F; 2000é€šç”¨æ ‡ç‚¹|General Punctuation
+2070..209F; 2070ä¸Šæ ‡åŠä¸‹æ ‡|Superscripts and Subscripts
+20A0..20CF; 20A0è´§å¸ç¬¦å·|Currency Symbols
+20D0..20FF; 20D0ç»“åˆå˜éŸ³è®°å·|Combining Diacritical Marks for Symbols
+2100..214F; 2100ç±»å­—ç¬¦å·|Letterlike Symbols
+2150..218F; 2150æ•°å­—å½¢å¼|Number Forms
+2190..21FF; 2190ç®­å¤´|Arrows
+2200..22FF; 2200æ•°å­¦è¿ç®—ç¬¦|Mathematical Operators
+2300..23FF; 2300å„å¼æŠ€æœ¯ç¬¦|Miscellaneous Technical
+2400..243F; 2400æ§åˆ¶å›¾ç¬¦|Control Pictures
+2440..245F; 2440å…‰å­¦å­—ç¬¦è¯†åˆ«|Optical Character Recognition
+2460..24FF; 2460é™„å›´å­—æ¯æ•°å­—|Enclosed Alphanumerics
+2500..257F; 2500åˆ¶è¡¨ç¬¦|Box Drawing
+2580..259F; 2580æ–¹å—æ„ç´ |Block Elements
+25A0..25FF; 25A0å‡ ä½•å½¢çŠ¶|Geometric Shapes
+2600..26FF; 2600å„å¼ç¬¦å·|Miscellaneous Symbols
+2700..27BF; 2700ä»€é”¦|Dingbats
+27C0..27EF; 27C0å„å¼æ•°å­¦ç¬¦å·ç”²|Miscellaneous Mathematical Symbols-A
+27F0..27FF; 27F0å¢è¡¥ç®­å¤´ç”²|Supplemental Arrows-A
+2800..28FF; 2800å¸ƒè±å¶ç›²æ–‡ç‚¹å­—|Braille Patterns
+2900..297F; 2900å¢è¡¥ç®­å¤´ä¹™|Supplemental Arrows-B
+2980..29FF; 2980å„å¼æ•°å­¦ç¬¦å·ä¹™|Miscellaneous Mathematical Symbols-B
+2A00..2AFF; 2A00å¢è¡¥æ•°å­¦è¿ç®—ç¬¦|Supplemental Mathematical Operators
+2B00..2BFF; 2B00å„å¼ç¬¦å·åŠç®­å¤´|Miscellaneous Symbols and Arrows
+2C00..2C5F; 2C00æ ¼æ‹‰å“¥é‡Œ|Glagolitic
+2C60..2C7F; 2C60æ‹‰ä¸æ‰©å……ä¸™|Latin Extended-C
+2C80..2CFF; 2C80ç§‘æ™®ç‰¹|Coptic
+2D00..2D2F; 2D00æ ¼é²å‰äºšè¡¥å……|Georgian Supplement
+2D30..2D7F; 2D30æéçº³|Tifinagh
+2D80..2DDF; 2D80å‰å…¹æ‰©å……|Ethiopic Extended
+2DE0..2DFF; 2DE0è¥¿é‡Œå°”æ‰©å……ç”²|Cyrillic Extended-A
+2E00..2E7F; 2E00å¢è¡¥æ ‡ç‚¹|Supplemental Punctuation
+2E80..2EFF; 2E80ä¸­æ—¥éŸ©éƒ¨é¦–è¡¥å……|CJK Radicals Supplement
+2F00..2FDF; 2F00åº·ç†™éƒ¨é¦–|Kangxi Radicals
+2FF0..2FFF; 2FF0è¡¨æ„æè¿°å­—ç¬¦|Ideographic Description Characters
+3000..303F; 3000ä¸­æ—¥éŸ©ç¬¦å·åŠæ ‡ç‚¹|CJK Symbols and Punctuation
+3040..309F; 3040å¹³å‡å|ã²ã‚‰ãŒãª|Hiragana
+30A0..30FF; 30A0ç‰‡å‡å|ã‚«ã‚¿ã‚«ãƒŠ|Katakana
+3100..312F; 3100æ³¨éŸ³|ã„…ã„†ã„‡ã„ˆ|Bopomofo
+3130..318F; 3130è°šæ–‡å…¼å®¹å­—æ¯|Hangul Compatibility Jamo
+3190..319F; 3190æ±‰æ–‡è®­è¯»|Kanbun
+31A0..31BF; 31A0æ³¨éŸ³æ‰©å……|Bopomofo Extended
+31C0..31EF; 31C0ä¸­æ—¥éŸ©ç¬”ç”»|CJK Strokes
+31F0..31FF; 31F0ç‰‡å‡åéŸ³æ ‡æ‰©å……|Katakana Phonetic Extensions
+3200..32FF; 3200é™„å›´ä¸­æ—¥éŸ©å­—æ¯åŠæœˆä»½|Enclosed CJK Letters and Months
+3300..33FF; 3300ä¸­æ—¥éŸ©å…¼å®¹|CJK Compatibility
+3400..4DBF; 3400ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……ç”²|CJK Unified Ideographs Extension A
+4DC0..4DFF; 4DC0æ˜“ç»å…­åå››å¦|Yijing Hexagram Symbols
+4E00..9FFF; 4E00ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ–‡å­—|CJK Unified Ideographs
+A000..A48F; A000å½æ–‡éŸ³èŠ‚|Yi Syllables
+A490..A4CF; A490å½æ–‡éƒ¨é¦–|Yi Radicals
+A4D0..A4FF; A4D0å‚ˆåƒ³(è€)|Lisu
+A500..A63F; A500ç“¦ä¼Š|Vai
+A640..A69F; A640è¥¿é‡Œå°”æ‰©å……ä¹™|Cyrillic Extended-B
+A6A0..A6FF; A6A0å·´é»˜å§†|Bamum
+A700..A71F; A700å£°è°ƒä¿®é¥°å­—|Modifier Tone Letters
+A720..A7FF; A720æ‹‰ä¸æ‰©å……ä¸|Latin Extended-D
+A800..A82F; A800è¥¿æ´›è’‚åŸä½“|Syloti Nagri
+A830..A83F; A830é€šç”¨å°åº¦æ•°å­—å½¢å¼|Common Indic Number Forms
+A840..A87F; A840å…«æ€å·´|Phags-pa
+A880..A8DF; A880ç´¢æ‹‰ä»€ç‰¹æ‹‰|Saurashtra
+A8E0..A8FF; A8E0å¤©åŸä½“æ‰©å……|Devanagari Extended
+A900..A92F; A900å…‹è€¶åˆ©|Kayah Li
+A930..A95F; A930é›·å§œ|Rejang
+A960..A97F; A960è°šæ–‡å­—æ¯æ‰©å……ç”²|Hangul Jamo Extended-A
+A980..A9DF; A980çˆªå“‡|Javanese
+A9E0..A9FF; A9E0ç¼…æ–‡æ‰©å……ä¹™|Myanmar Extended-B
+AA00..AA5F; AA00å æ–‡|Cham
+AA60..AA7F; AA60ç¼…æ–‡æ‰©å……ç”²|Myanmar Extended-A
+AA80..AADF; AA80å‚£è¶Š|Tai Viet
+AAE0..AAFF; AAE0ç±³ä»£æ–‡æ‰©å……|Meetei Mayek Extensions
+AB00..AB2F; AB00å‰å…¹æ‰©å……ç”²|Ethiopic Extended-A
+AB30..AB6F; AB30æ‹‰ä¸æ‰©å……æˆŠ|Latin Extended-E
+AB70..ABBF; AB70åˆ‡ç½—åŸºè¡¥å……|Cherokee Supplement
+ABC0..ABFF; ABC0ç±³ä»£æ–‡|Meetei Mayek
+AC00..D7AF; AC00è°šæ–‡éŸ³èŠ‚|Hangul Syllables
+D7B0..D7FF; D7B0è°šæ–‡å­—æ¯æ‰©å……ä¹™|Hangul Jamo Extended-B
+D800..DB7F; D800é«˜ä½æ›¿ä»£|High Surrogates
+DB80..DBFF; DB80é«˜ä½ç§ç”¨æ›¿ä»£|High Private Use Surrogates
+DC00..DFFF; DC00ä½ä½æ›¿ä»£|Low Surrogates
+E000..F8FF; E000ç§ç”¨åŒº|Private Use Area
+F900..FAFF; F900ä¸­æ—¥éŸ©å…¼å®¹è¡¨æ„æ–‡å­—|CJK Compatibility Ideographs
+FB00..FB4F; FB00å­—æ¯è¡¨è¾¾å½¢å¼|Alphabetic Presentation Forms
+FB50..FDFF; FB50é˜¿æ‹‰ä¼¯è¡¨è¾¾å½¢å¼ç”²|Arabic Presentation Forms-A
+FE00..FE0F; FE00å˜ä½“é€‰æ‹©ç¬¦|Variation Selectors
+FE10..FE1F; FE10ç«–æ’å½¢å¼|Vertical Forms
+FE20..FE2F; FE20ç»“åˆåŠè¾¹æ ‡è®°|Combining Half Marks
+FE30..FE4F; FE30ä¸­æ—¥éŸ©å…¼å®¹å½¢å¼|CJK Compatibility Forms
+FE50..FE6F; FE50å°å‹å½¢å¼å˜ä½“|Small Form Variants
+FE70..FEFF; FE70é˜¿æ‹‰ä¼¯è¡¨è¾¾å½¢å¼ä¹™|Arabic Presentation Forms-B
+FF00..FFEF; FF00åŠè§’åŠå…¨è§’|Halfwidth and Fullwidth Forms
+FFF0..FFFF; FFF0ç‰¹æ®Š|Specials
+10000..1007F; 10000çº¿å½¢BéŸ³èŠ‚|Linear B Syllabary
+10080..100FF; 10080çº¿å½¢Bè¡¨æ„|Linear B Ideograms
+10100..1013F; 10100çˆ±ç´æ•°å­—|Aegean Numbers
+10140..1018F; 10140å¤å¸Œè…Šæ•°å­—|Ancient Greek Numbers
+10190..101CF; 10190å¤ä»£ç¬¦å·|Ancient Symbols
+101D0..101FF; 101D0è´¹æ–¯æ‰˜æ–¯åœ†ç›˜|Phaistos Disc
+10280..1029F; 10280å•åŸºäºš|Lycian
+102A0..102DF; 102A0åŠ é‡Œäºš|Carian
+102E0..102FF; 102E0ç§‘æ™®ç‰¹é—°ä½™æ•°å­—|Coptic Epact Numbers
+10300..1032F; 10300å¤æ„å¤§åˆ©|Old Italic
+10330..1034F; 10330å“¥ç‰¹|Gothic
+10350..1037F; 10350å¤å½¼å°”å§†|Old Permic
+10380..1039F; 10380ä¹ŒåŠ é‡Œç‰¹|Ugaritic
+103A0..103DF; 103A0å¤æ³¢æ–¯|Old Persian
+10400..1044F; 10400å¾·æ’’å¾‹|Deseret
+10450..1047F; 10450è§ä¼¯çº³|Shavian
+10480..104AF; 10480ä¼Šæ–¯é©¬å°¼äºš|Osmanya
+104B0..104FF; 104B0å¥¥è‰²æ²»|Osage
+10500..1052F; 10500çˆ±å°”å·´æ¡‘|Elbasan
+10530..1056F; 10530é«˜åŠ ç´¢é˜¿å°”å·´å°¼äºš|Caucasian Albanian
+10570..105BF; 10570ç»´æ–¯åº“å¥‡|Vithkuqi
+10600..1077F; 10600çº¿å½¢A|Linear A
+10780..107BF; 10780æ‹‰ä¸æ‰©å……å·±|Latin Extended-F
+10800..1083F; 10800å¡æµ¦è·¯æ–¯éŸ³èŠ‚|Cypriot Syllabary
+10840..1085F; 10840ç‹æœäºšæ‹‰å§†|Imperial Aramaic
+10860..1087F; 10860å·´å°”ç±³æ‹‰|Palmyrene
+10880..108AF; 10880é‚£å·´æ³°|Nabataean
+108E0..108FF; 108E0å“ˆç‰¹æ‹‰|Hatran
+10900..1091F; 10900è…“å°¼åŸº|Phoenician
+10920..1093F; 10920å•åº•äºš|Lydian
+10980..1099F; 10980éº¦ç½—åŸƒåœ£ä¹¦ä½“|Meroitic Hieroglyphs
+109A0..109FF; 109A0éº¦ç½—åŸƒè‰ä¹¦ä½“|Meroitic Cursive
+10A00..10A5F; 10A00ä½‰å¢|Kharoshthi
+10A60..10A7F; 10A60å¤å—é˜¿æ‹‰ä¼¯|Old South Arabian
+10A80..10A9F; 10A80å¤åŒ—é˜¿æ‹‰ä¼¯|Old North Arabian
+10AC0..10AFF; 10AC0æ‘©å°¼|Manichaean
+10B00..10B3F; 10B00é˜¿ç»´æ–¯å¡”|Avestan
+10B40..10B5F; 10B40ç¢‘é“­ä½“å¸•æäºš|Inscriptional Parthian
+10B60..10B7F; 10B60ç¢‘é“­ä½“å·´åˆ—ç»´|Inscriptional Pahlavi
+10B80..10BAF; 10B80è¯—ç¯‡ä½“å·´åˆ—ç»´|Psalter Pahlavi
+10C00..10C4F; 10C00çªå¥|Old Turkic
+10C80..10CFF; 10C80å¤åŒˆç‰™åˆ©|Old Hungarian
+10D00..10D3F; 10D00å“ˆå°¼è²ç½—å…´äºš|Hanifi Rohingya
+10E60..10E7F; 10E60é²ç±³æ•°å­—ç¬¦å·|Rumi Numeral Symbols
+10E80..10EBF; 10E80è€¶è¥¿è¿ª|Yezidi
+10F00..10F2F; 10F00å¤ç²Ÿç‰¹|Old Sogdian
+10F30..10F6F; 10F30ç²Ÿç‰¹|Sogdian
+10F70..10FAF; 10F70å›é¹˜|Old Uyghur
+10FB0..10FDF; 10FB0èŠ±å‰Œå­æ¨¡|Chorasmian
+10FE0..10FFF; 10FE0ä»¥åˆ©ä¹°|Elymaic
+11000..1107F; 11000å©†ç½—ç±³|Brahmi
+11080..110CF; 11080å¼€æ¢¯|Kaithi
+110D0..110FF; 110D0ç´¢æ‹‰ç´¢å§†å½­|Sora Sompeng
+11100..1114F; 11100æŸ¥å…‹é©¬|Chakma
+11150..1117F; 11150é»˜å“ˆæ°å†…|Mahajani
+11180..111DF; 11180æ²™å‹’å¾·|Sharada
+111E0..111FF; 111E0åƒ§ä¼½ç½—å¤æ•°å­—|Sinhala Archaic Numbers
+11200..1124F; 11200ç§‘æ°åŸº|Khojki
+11280..112AF; 11280æœ¨å°”å¦|Multani
+112B0..112FF; 112B0åº“è¾¾æœ¬å¾·|Khudawadi
+11300..1137F; 11300æ ¼å…°ä»–|Grantha
+11400..1147F; 11400å†…ç“¦|Newa
+11480..114DF; 11480è’‚å‹’èƒ¡å¡”|Tirhuta
+11580..115FF; 11580æ‚‰æ˜™|Siddham
+11600..1165F; 11600è«è¿ª|Modi
+11660..1167F; 11660è’™æ–‡è¡¥å……|Mongolian Supplement
+11680..116CF; 11680å¡”å…‹é‡Œ|Takri
+11700..1174F; 11700é˜¿æ´ªå§†|Ahom
+11800..1184F; 11800é“æ ¼æ‹‰|Dogra
+118A0..118FF; 118A0ç“¦æœ—å¥‡è’‚|Warang Citi
+11900..1195F; 11900è¿ªç»´å¸Œé˜¿åº“é²|Dives Akuru
+119A0..119FF; 119A0å«©è¿ªåŸä½“|Nandinagari
+11A00..11A4F; 11A00æœ­é‚£å·´æœ­å°”æ–¹å­—|Zanabazar Square
+11A50..11AAF; 11A50ç´¢æ°¸å¸ƒ|Soyombo
+11AB0..11ABF; 11AB0ç»Ÿä¸€åŠ æ‹¿å¤§åœŸè‘—éŸ³èŠ‚æ‰©å……ç”²|Unified Canadian Aboriginal Syllabics Extended-A
+11AC0..11AFF; 11AC0åŒ…é’¦è±ª|Pau Cin Hau
+11C00..11C6F; 11C00æ¯”å…‹èˆ’åŸº|Bhaiksuki
+11C70..11CBF; 11C70ç›å°”é’¦ä½“|Marchen
+11D00..11D5F; 11D00é©¬è¨æ‹‰å§†è´¡å¾·|Masaram Gondi
+11D60..11DAF; 11D60è´¡è´¾æ‹‰è´¡å¾·|Gunjala Gondi
+11EE0..11EFF; 11EE0æœ›åŠ é”¡|Makasar
+11FB0..11FBF; 11FB0å‚ˆåƒ³è¡¥å……|Lisu Supplement
+11FC0..11FFF; 11FC0æ³°ç±³å°”è¡¥å……|Tamil Supplement
+12000..123FF; 12000æ¥”å½¢æ–‡å­—|Cuneiform
+12400..1247F; 12400æ¥”å½¢æ•°å­—åŠæ ‡ç‚¹|Cuneiform Numbers and Punctuation
+12480..1254F; 12480æ—©ç‹æœæ¥”å½¢æ–‡å­—|Early Dynastic Cuneiform
+12F90..12FFF; 12F90å¡æµ¦è·¯æ–¯-ç±³è¯ºæ–¯|Cypro-Minoan
+13000..1342F; 13000åŸƒåŠåœ£ä¹¦ä½“|Egyptian Hieroglyphs
+13430..1343F; 13430åŸƒåŠåœ£ä¹¦ä½“æ ¼å¼æ§åˆ¶ç¬¦|Egyptian Hieroglyph Format Controls
+14400..1467F; 14400å®‰çº³æ‰˜åˆ©äºšè±¡å½¢æ–‡å­—|Anatolian Hieroglyphs
+16800..16A3F; 16800å·´é»˜å§†è¡¥å……|Bamum Supplement
+16A40..16A6F; 16A40å§†é²|Mro
+16A70..16ACF; 16A70é€šè¨|Tangsa
+16AD0..16AFF; 16AD0å·´ç´¢å¥¥ç“¦|Bassa Vah
+16B00..16B8F; 16B00è‹—(å¸•çš“)|Pahawh Hmong
+16E40..16E9F; 16E40æ¢…ä»£æ³•ä¼Šå¾·æ—|Medefaidrin
+16F00..16F9F; 16F00è‹—(æŸæ ¼ç†)|Miao
+16FE0..16FFF; 16FE0è¡¨æ„ç¬¦å·åŠæ ‡ç‚¹|Ideographic Symbols and Punctuation
+17000..187FF; 17000è¥¿å¤|Tangut
+18800..18AFF; 18800è¥¿å¤åæ—|Tangut Components
+18B00..18CFF; 18B00å¥‘ä¸¹å°å­—|Khitan Small Script
+18D00..18D7F; 18D00è¥¿å¤è¡¥å……|Tangut Supplement
+1AFF0..1AFFF; 1AFF0å‡åæ‰©å……ä¹™|Kana Extended-B
+1B000..1B0FF; 1B000å‡åè¡¥å……|Kana Supplement
+1B100..1B12F; 1B100å‡åæ‰©å……ç”²|Kana Extended-A
+1B130..1B16F; 1B130å°å‹å‡åæ‰©å……|Small Kana Extension
+1B170..1B2FF; 1B170å¥³ä¹¦|NÃ¼shu
+1BC00..1BC9F; 1BC00æœæ™®é›·é€Ÿè®°|Duployan
+1BCA0..1BCAF; 1BCA0é€Ÿè®°æ ¼å¼æ§åˆ¶ç¬¦|Shorthand Format Controls
+1CF00..1CFCF; 1CF00å…¹é‚£é—¨å°¼éŸ³ç¬¦|Znamenny Musical Notation
+1D000..1D0FF; 1D000æ‹œå åº­ä¹ç¬¦|Byzantine Musical Symbols
+1D100..1D1FF; 1D100ä¹ç¬¦|Musical Symbols
+1D200..1D24F; 1D200å¤å¸Œè…ŠéŸ³ç¬¦|Ancient Greek Musical Notation
+1D2E0..1D2FF; 1D2E0ç›é›…æ•°å­—|Mayan Numerals
+1D300..1D35F; 1D300å¤ªç„ç»å¦çˆ»|Tai Xuan Jing Symbols
+1D360..1D37F; 1D360ç®—ç­¹|Counting Rod Numerals
+1D400..1D7FF; 1D400æ•°å­¦å­—æ¯æ•°å­—ç¬¦å·|Mathematical Alphanumeric Symbols
+1D800..1DAAF; 1D800è¨é¡¿æ‰‹è¯­|Sutton SignWriting
+1DF00..1DFFF; 1DF00æ‹‰ä¸æ‰©å……åºš|Latin Extended-G
+1E000..1E02F; 1E000æ ¼æ‹‰å“¥é‡Œè¡¥å……|Glagolitic Supplement
+1E100..1E14F; 1E100è‹—(åˆ›ä¸–)|Nyiakeng Puachue Hmong
+1E290..1E2BF; 1E290æ‰˜æ‰˜|Toto
+1E2C0..1E2FF; 1E2C0å¼¯ç»°|Wancho
+1E7E0..1E7FF; 1E7E0å‰å…¹æ‰©å……ä¹™|Ethiopic Extended-B
+1E800..1E8DF; 1E800é—¨è¿ªåŸºå¡å¥|Mende Kikakui
+1E900..1E95F; 1E900é˜¿å¾·æ‹‰å§†|Adlam
+1EC70..1ECBF; 1EC70å°åº¦å¸ç›®æ•°å­—|Indic Siyaq Numbers
+1ED00..1ED4F; 1ED00å¥¥æ–¯æ›¼å¸ç›®æ•°å­—|Ottoman Siyaq Numbers
+1EE00..1EEFF; 1EE00é˜¿æ‹‰ä¼¯æ•°å­¦å­—æ¯ç¬¦å·|Arabic Mathematical Alphabetic Symbols
+1F000..1F02F; 1F000éº»å°†ç‰Œ|Mahjong Tiles
+1F030..1F09F; 1F030å¤šç±³è¯ºç‰Œ|Domino Tiles
+1F0A0..1F0FF; 1F0A0æ‰‘å…‹|Playing Cards
+1F100..1F1FF; 1F100é™„å›´å­—æ¯æ•°å­—è¡¥å……|Enclosed Alphanumeric Supplement
+1F200..1F2FF; 1F200é™„å›´è¡¨æ„æ–‡å­—è¡¥å……|Enclosed Ideographic Supplement
+1F300..1F5FF; 1F300å„å¼ç¬¦å·åŠè±¡å½¢|Miscellaneous Symbols and Pictographs
+1F600..1F64F; 1F600è¡¨æƒ…|Emoticons
+1F650..1F67F; 1F650è£…é¥°ä»€é”¦|Ornamental Dingbats
+1F680..1F6FF; 1F680äº¤é€šåŠåœ°å›¾ç¬¦å·|Transport and Map Symbols
+1F700..1F77F; 1F700ç‚¼é‡‘æœ¯ç¬¦|Alchemical Symbols
+1F780..1F7FF; 1F780å‡ ä½•å½¢çŠ¶æ‰©å……|Geometric Shapes Extended
+1F800..1F8FF; 1F800å¢è¡¥ç®­å¤´ä¸™|Supplemental Arrows-C
+1F900..1F9FF; 1F900å¢è¡¥ç¬¦å·åŠè±¡å½¢|Supplemental Symbols and Pictographs
+1FA00..1FA6F; 1FA00æ£‹ç¬¦|Chess Symbols
+1FA70..1FAFF; 1FA70ç¬¦å·åŠè±¡å½¢æ‰©å……ç”²|Symbols and Pictographs Extended-A
+1FB00..1FBFF; 1FB00ä¼ ç»Ÿç”µè„‘ç¬¦å·|Symbols for Legacy Computing
+20000..2A6DF; 20000ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……ä¹™|CJK Unified Ideographs Extension B
+2A700..2B73F; 2A700ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……ä¸™|CJK Unified Ideographs Extension C
+2B740..2B81F; 2B740ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……ä¸|CJK Unified Ideographs Extension D
+2B820..2CEAF; 2B820ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……æˆŠ|CJK Unified Ideographs Extension E
+2CEB0..2EBEF; 2CEB0ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……å·±|CJK Unified Ideographs Extension F
+2F800..2FA1F; 2F800ä¸­æ—¥éŸ©å…¼å®¹è¡¨æ„è¡¥å……|CJK Compatibility Ideographs Supplement
+30000..3134F; 30000ä¸­æ—¥éŸ©ç»Ÿä¸€è¡¨æ„æ‰©å……åºš|CJK Unified Ideographs Extension G
+E0000..E007F; E0000æ ‡ç­¾|Tags
+E0100..E01EF; E0100å˜ä½“é€‰æ‹©ç¬¦è¡¥å……|Variation Selectors Supplement
+F0000..FFFFF; F0000å¢è¡¥ç§ç”¨åŒºç”²|Supplementary Private Use Area-A
+100000..10FFFF; 100000å¢è¡¥ç§ç”¨åŒºä¹™|Supplementary Private Use Area-B
 
 # EOF
