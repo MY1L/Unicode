@@ -1,5 +1,4 @@
-# Noto Unicode 4
-![豆腐](/NotoUnicode/TOFU.png)
+# Noto Unicode 5
 这是个工具字体，意思是**不负责排版**仅负责显示，类似Unifont字体。
 
 制作该字体的急迫性在于，我用一般软件如BabelMap时，点字体菜单总是因为[Noto Fonts](https://github.com/notofonts)装得太多影响到选取。
@@ -9,8 +8,7 @@
 而装这些我不了解的文字的字体，也只为BabelMap和浏览器显示不缺字，实际上我并不迫切需要准确地排版这么多语言文字，只要看得见字就行，如果以后遇到需要准确排版的情况可以单独安装。
 
 于是我将100+个字体合并为一：「Noto Unicode」，删除所有OT特性和不在统一码表里的字符（合字、异体等等），由此体积压缩了一半。针对BabelMap每个区段只能用一个字体的设定，画了些Noto缺的字符把整个区段填满。如果系统默认字体已经存在能填满某区段的就不加，避免字体过大或装不下，因字体包含单字上限65535——毕竟看到这儿的人肯定需要对东亚文字排版，得另装思源系列。Noto Unicode支持的统一码区段列表太长这儿放不下，记录在sysBlocks.txt。
-
-没有做完，只是尽量覆盖罕用和一般人不太在乎排版的SMP平面。2020年底太忙难以完成，2021年再说。
+尽量覆盖罕用和一般人不太在乎排版的SMP平面。
 
 ## 更新
 2.003 第一版，初次发布，总字数11270+(计算方法差异，此字数忽略部分控制字，下同)
@@ -23,7 +21,7 @@
 3.2.03 第三版，填满了更多区段，总字数16208+
 - [100+字体合一：工具字体Noto Unicode初发布v3 - 哔哩哔哩](https://www.bilibili.com/read/cv8805564)
 - 尤其在2020-11-18：自制阿拉伯「ALM」U+061C，自制蒙古「FVS」U+180B~180D
-- U+31A0~31BF，除了U+31BF改了Noto Sans CJK的ハ，其它制作都很麻烦……
+- U+31A0～31BF，除了U+31BF~改了Noto Sans CJK的ハ~，其它制作都很麻烦……
 
 4 第四版，添加和补充区段，总字数16976+
 - 自制蒙古「MVS」U+180E
@@ -31,6 +29,12 @@
 - 用Noto Sans Symbols2新版2.003替换BabelStone字体：各式符号及箭头（U+2B97）、古代符号（U+1019C）、增补箭头丙（U+1F8B0 U+1F8B1）、传统电脑符号（全部）
 - 刷新5个阿拉伯区段，除了U+FDFD这一字符，因为变化过大
 - 添加33个控制字图符，但大多不计总字数内
+
+5 第5版，添加和补充区段，修改一些自制字符，总字数17205+
+- 2021-‎10-‎5：自制「FVS4」U+180F、「С̲」U+20C0，补全蒙文、货币2个区段
+- 改善虚线圈相关自制字符，注音扩充：U+31BC～31BFㆼㆽㆾㆿ，蒙文：FVS2、FVS3
+- 替换卢恩区段为自制字体[Ctrl Runr](https://github.com/MY1L/Ctrl#runr)
+- 添加藏文、统一加拿大土著音节扩充甲区段。
 
 ## 涵盖
 以下为该个字体缝合的Noto字体列表。
@@ -56,6 +60,7 @@
 1. NotoSansBengali-Regular 2.001，2020-7-5，Monotype，-abvm abvs akhn blwf blwm blws cjct dist half init kern nukt pres pstf psts rphf vatu。
 1. NotoSansBhaiksuki-Regular 2.001，2020-7-4，Monotype，-abvs ccmp dist kern mark mkmk rlig rphf ss01。
 1. NotoSansBuhid-Regular 2.000，2020-7-4，Monotype，-ccmp mark。
+1. NotoSansCanadianAboriginal-Regular 2.001，2021-10-2，Monotype，-salt。与Gadugi重复的区段没有添加。
 1. NotoSansCaucasianAlbanian-Regular 2.001，2020-7-4，Monotype，-ccmp kern mark mkmk。
 1. NotoSansChakma-Regular 2.001，2020-9-18，Monotype，-abvs blwf blws dist liga mark mkmk pres pstf ss01～ss03。
 1. NotoSansCham-Regular 2.000，2020-7-4，Monotype，-calt ccmp clig dist kern liga locl mark mkmk pref pres。
@@ -115,7 +120,6 @@
 1. NotoSansPauCinHau-Regular 2.000，2020-7-4，Monotype，-kern。
 1. NotoSansPsalterPahlavi-Regular 2.000，2020-7-4，Monotype，-calt ccmp fina init kern medi rclt。
 1. NotoSansRejang-Regular 2.000，2020-7-4，Monotype，-mark。
-1. NotoSansRunic-Regular 2.000，2020-7-4，Monotype。
 1. NotoSansSamaritan-Regular 2.000，2020-7-4，Monotype，-calt dist mark mkmk。
 1. NotoSansSaurashtra-Regular 2.000，2020-7-4，Monotype，-ccmp dist mark。
 1. NotoSansSharada-Regular 2.001，2020-9-18，Monotype，-abvs akhn blws dist mark mkmk。
@@ -143,9 +147,11 @@
 1. NotoSerifBalinese-Regular 2.000，2020-7-4，Monotype，-blwf ccmp dist liga mark mkmk。
 1. NotoSerifDogra-Regular 1.002，2020-7-4，Ek Type，-aalt calt dist kern mark ss01～ss03。
 1. NotoSerifNyiakengPuachueHmong-Regular 1.000，2020-7-4，Dalton Maag Ltd，-kern mark。
+1. NotoSerifTibetan-Regular 2.001，2021-10-5，Monotype，-abvs blws calt ccmp kern mark mkmk。
 1. NotoSerifYezidi-Regular 1.000，2020-10-27，Dalton Maag Ltd，-kern mark。
 1. Arimo-Regular 1.330，2020-8-5，对Arial的兼容字体，虽在Noto家族无Noto之名，-ccmp dlig kern locl mark mkmk。
 
+1. Ctrl Runr β6，2021-8-31，綿雲飴里，-aalt ccmp kern mark。
 1. KhitanSmallLinear 13.001，2020-4-5，景永时／BabelStone，-ccmp。
 
 </details>
@@ -154,3 +160,4 @@
 1. ~NotoSerifTangut-Regular 2.001，2020-7-4=2020-9-18，Monotype。6890+字太多仅用1字U+16FE0。~ 一个字我干脆自己画了，而且Serif画风也与其它字不符。
 1. ~BabelStone Han 13.0.8，2020-7-19，BabelStone，-calt ccmp。仅部分新字符。~ 被Noto Sans Symbols2 2.003替代。
 1. ~BabelStoneShapes 13.0.1，2020-7-6，BabelStone，-ccmp。~ 被Noto Sans Symbols2 2.003替代。
+1. ~NotoSansRunic-Regular 2.000，2020-7-4，Monotype。~ 丑，被我的自制字体[Ctrl Runr](https://github.com/MY1L/Ctrl#runr)β6替代。
