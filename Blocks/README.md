@@ -10,7 +10,9 @@
 
 第3.1版：更改一处：“图符”。
 
-第4版：添加统一码14.0新增区段，及改动区段范围：阿洪姆从..1173F扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，这个错导致字体Last发布延迟）。文件开头注释也汉化了些。
+第4版：添加统一码14.0新增区段，及改动区段范围：阿含从..1173F扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。文件开头注释也汉化了些。
+
+第4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
 
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
@@ -46,7 +48,7 @@
 |Hieroglyph(s)|圣书体／象形文字||
 |Ideograms／Ideographic|表意／表意文字||
 |Letters|字／字母||
-|Linear|线形|线形文字|
+|Linear|线形／线形文字||
 |Marks|标记||
 |Mathematical|数学||
 |Miscellaneous|各式|曾译“杂项”|
@@ -70,7 +72,7 @@
 |SignWriting|手语|“GB/T”|
 |Spacing|有距|直译“间距”，指字符相对同形结合标记而言左右有间距|
 |Strokes|笔画||
-|Extensions *Supplement*|扩充补遗|只是“扩充补充”比较傻|
+|Extensions *Supplement*|扩充增补|只是“扩充补充”比较傻，曾译“补遗”|
 |Supplement|补充|后置|
 |Supplemental／Supplementary|增补|前置|
 |Surrogates|替代|或译“代理(对)”（Surrogate Pair）|
@@ -96,7 +98,6 @@
 |Miao|苗(柏格理)|直译“苗”，但区段收的是传教士柏格理(Pollard)创制的滇东北老苗文，ISO 15924代码Plrd|
 |Pahawh Hmong|苗(帕皓)|直译“字母表苗”，“尝试”译“帕皓苗”，“GB/T”译“苗文”，异名“救世苗文”|
 |Nyiakeng Puachue Hmong|苗(创世)|直译“创世完成苗\创世纪苗文”（[Hmnp.該怎麼翻譯？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=361148)），“尝试”译“涅该布瓦启苗”，“GB/T”2017无|
-|New Tai Lue|新傣仂|“尝试”译“新傣泐”，[我们的文字](http://www.nlc.cn/cmptest/wmdwz/ssmz/index_11.htm)：古代傣族称西双版纳为“泐”|
-|Tai Le|傣纳|又译“德宏傣文”|
+|New Tai Lue|新傣仂|“尝试”曾译“新傣泐”，[我们的文字](http://www.nlc.cn/cmptest/wmdwz/ssmz/index_11.htm)：古代傣族称西双版纳为“泐”|
+|Tai Le|傣㐻|又译“德宏傣文”|
 |Tai Tham|傣昙|即 老傣文、(老)傣泐文|
-|Znamenny|兹那门尼|“尝试”译“兹纳门内”|
