@@ -14,6 +14,8 @@
 
 第4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
 
+第4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
+
 ## 译法对照表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
 
@@ -65,7 +67,7 @@
 |Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌|
 |Pictographs|象形||
 |Pictures|图符|曾译“图形”|
-|Presentation|表达||
+|Presentation|表现|曾译“表达”|
 |Punctuation|标点||
 |Radicals|部首||
 |Selectors|选择符||
@@ -91,8 +93,8 @@
 
 |英文|中文|注释|
 | -: | :- | :- |
-|Duployan|杜普雷速记|“尝试”按Duployé译“迪普卢瓦耶”|
-|Ethiopic|吉兹|直译“埃塞俄比亚”，但区段收的是阿姆哈拉语用吉兹(ግዕዝ)字母|
+|Duployan|杜普雷速记|“尝试”按法语Duployé译“迪普卢瓦耶”|
+|Ethiopic|埃塞|直译“埃塞俄比亚”，但区段收的是ግዕዝ([格厄兹字母](https://www.zhihu.com/topic/21821106/hot))|
 |Hangul Jamo|谚文字母|直译“韩文字母”，但有朝鲜|
 |Lisu|傈僳(老)|直译“傈僳”，但区段收的是传教士SaraBaThaw创制的老傈僳文，又称“富能仁文”(Fraser)|
 |Miao|苗(柏格理)|直译“苗”，但区段收的是传教士柏格理(Pollard)创制的滇东北老苗文，ISO 15924代码Plrd|

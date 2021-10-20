@@ -54,8 +54,8 @@
 1000..109F; 1000缅文|Myanmar
 10A0..10FF; 10A0格鲁吉亚|Georgian
 1100..11FF; 1100谚文字母|Hangul Jamo
-1200..137F; 1200吉兹|Ethiopic
-1380..139F; 1380吉兹补充|Ethiopic Supplement
+1200..137F; 1200埃塞|ግዕዝ|Ethiopic
+1380..139F; 1380埃塞补充|Ethiopic Supplement
 13A0..13FF; 13A0切罗基|Cherokee
 1400..167F; 1400统一加拿大土著音节|Unified Canadian Aboriginal Syllabics
 1680..169F; 1680欧甘|Ogham
@@ -117,7 +117,7 @@
 2C80..2CFF; 2C80科普特|Coptic
 2D00..2D2F; 2D00格鲁吉亚补充|Georgian Supplement
 2D30..2D7F; 2D30提非纳|Tifinagh
-2D80..2DDF; 2D80吉兹扩充|Ethiopic Extended
+2D80..2DDF; 2D80埃塞扩充|Ethiopic Extended
 2DE0..2DFF; 2DE0西里尔扩充甲|Cyrillic Extended-A
 2E00..2E7F; 2E00增补标点|Supplemental Punctuation
 2E80..2EFF; 2E80中日韩部首补充|CJK Radicals Supplement
@@ -159,7 +159,7 @@ AA00..AA5F; AA00占文|Cham
 AA60..AA7F; AA60缅文扩充甲|Myanmar Extended-A
 AA80..AADF; AA80傣越|Tai Viet
 AAE0..AAFF; AAE0米代文扩充|Meetei Mayek Extensions
-AB00..AB2F; AB00吉兹扩充甲|Ethiopic Extended-A
+AB00..AB2F; AB00埃塞扩充甲|Ethiopic Extended-A
 AB30..AB6F; AB30拉丁扩充戊|Latin Extended-E
 AB70..ABBF; AB70切罗基补充|Cherokee Supplement
 ABC0..ABFF; ABC0米代文|Meetei Mayek
@@ -170,14 +170,14 @@ DB80..DBFF; DB80高位私用替代|High Private Use Surrogates
 DC00..DFFF; DC00低位替代|Low Surrogates
 E000..F8FF; E000私用区|Private Use Area
 F900..FAFF; F900中日韩兼容表意文字|CJK Compatibility Ideographs
-FB00..FB4F; FB00字母表达形式|Alphabetic Presentation Forms
-FB50..FDFF; FB50阿拉伯表达形式甲|Arabic Presentation Forms-A
+FB00..FB4F; FB00字母表现形式|Alphabetic Presentation Forms
+FB50..FDFF; FB50阿拉伯表现形式甲|Arabic Presentation Forms-A
 FE00..FE0F; FE00变体选择符|Variation Selectors
 FE10..FE1F; FE10竖排形式|Vertical Forms
 FE20..FE2F; FE20结合半边标记|Combining Half Marks
 FE30..FE4F; FE30中日韩兼容形式|CJK Compatibility Forms
 FE50..FE6F; FE50小型形式变体|Small Form Variants
-FE70..FEFF; FE70阿拉伯表达形式乙|Arabic Presentation Forms-B
+FE70..FEFF; FE70阿拉伯表现形式乙|Arabic Presentation Forms-B
 FF00..FFEF; FF00半角及全角|Halfwidth and Fullwidth Forms
 FFF0..FFFF; FFF0特殊|Specials
 10000..1007F; 10000线形乙音节|Linear B Syllabary
@@ -204,7 +204,7 @@ FFF0..FFFF; FFF0特殊|Specials
 10600..1077F; 10600线形文字甲|Linear A
 10780..107BF; 10780拉丁扩充己|Latin Extended-F
 10800..1083F; 10800塞浦路斯音节|Cypriot Syllabary
-10840..1085F; 10840王朝亚拉姆|Imperial Aramaic
+10840..1085F; 10840王朝阿拉姆|Imperial Aramaic
 10860..1087F; 10860巴尔米拉|Palmyrene
 10880..108AF; 10880那巴泰|Nabataean
 108E0..108FF; 108E0哈特拉|Hatran
@@ -213,8 +213,8 @@ FFF0..FFFF; FFF0特殊|Specials
 10980..1099F; 10980麦罗埃圣书体|Meroitic Hieroglyphs
 109A0..109FF; 109A0麦罗埃草书体|Meroitic Cursive
 10A00..10A5F; 10A00佉卢|Kharoshthi
-10A60..10A7F; 10A60古南阿拉伯|Old South Arabian
-10A80..10A9F; 10A80古北阿拉伯|Old North Arabian
+10A60..10A7F; 10A60古南阿拉比亚|Old South Arabian
+10A80..10A9F; 10A80古北阿拉比亚|Old North Arabian
 10AC0..10AFF; 10AC0摩尼|Manichaean
 10B00..10B3F; 10B00阿维斯塔|Avestan
 10B40..10B5F; 10B40碑铭体帕提亚|Inscriptional Parthian
@@ -303,7 +303,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1E100..1E14F; 1E100苗(创世)|Nyiakeng Puachue Hmong
 1E290..1E2BF; 1E290托托|Toto
 1E2C0..1E2FF; 1E2C0万乔|Wancho
-1E7E0..1E7FF; 1E7E0吉兹扩充乙|Ethiopic Extended-B
+1E7E0..1E7FF; 1E7E0埃塞扩充乙|Ethiopic Extended-B
 1E800..1E8DF; 1E800门迪基卡奎|Mende Kikakui
 1E900..1E95F; 1E900阿德拉姆|Adlam
 1EC70..1ECBF; 1EC70印度帐目数字|Indic Siyaq Numbers
