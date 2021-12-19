@@ -16,6 +16,9 @@
 ## MonuLast
 我b站的介绍视频：[1个对应111万4112个字符的字体](https://www.bilibili.com/video/BV1XT4y1N7TG/)，Last取“Last Resort”之意。这里放的是旧6版，新版在[Releases][r]。
 
+## MonuHani
+自制的若干思源黑没有的汉字字形、算筹（画正字），和一些古文字形，“Hani”是泛指汉字的 [ISO 15924 四字代码](/abbr/)。下载在[Releases](https://github.com/MY1L/Unicode/releases?q=MonuHani&expanded=true)。
+
 ## README.md
 本文档。
 
