@@ -1,8 +1,9 @@
 # 区段名缩略
 **abbreviate**，“缩略”，简写作abbr。
 
-苦于名称过长，对统一码[Blocks-13.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
+苦于名称过长，对统一码[Blocks-14.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
 
+- 2022-‎9-‎12 v2，添加统一码14.0新增区段，补充表格。
 - 2021-3-3 v1.1，修改太玄经和3个Letter相关的缩略。
 
 ## 出典
@@ -17,6 +18,7 @@
 |Jpan|Japanese|Han + Hiragana + Katakana|
 |Qaaa|Reserved for private use|私用始|
 |Qabx|Reserved for private use|私用终|
+|Sye|Symbols (Emoji variant)|绘文字，ISO作`Zsye`|
 |Zinh|Inherited|继承|
 |Zyyy|Common|公用|
 |Zzzz|Unknown|[不明](https://github.com/MY1L/unMing)|
@@ -84,7 +86,7 @@
 |XsuxNum|Cuneiform Numbers|Cuneiform Numbers And Punctuation|
 ||Yijing|Yijing Hexagram Symbols|
 
-#### 暂时没用上
+#### 暂未用上
 |缩略|原文|
 | -: | :- |
 |Diacriticals For Symbols|Combining Diacritical Marks For Symbols／Combining Marks For Symbols|
@@ -97,45 +99,56 @@
 |Super And Sub|Superscripts And Subscripts|
 |UCAS|Unified Canadian Aboriginal Syllabics／Canadian Syllabics|
 
-### 有abbr实例，以及我编的
+### 已有实例，以及我编的
 |缩略|简写|原文|注释|
 | -: | :- | :- | :- |
 |AaNum|Alpanum|Alphanumeric(s)|缩略存疑|
 |Albt||Alphabetic|
 |Alch||Alchemical|
-|Anc||Ancient|
-|Arch||Archaic|
+|Anc||Ancient|如[Roadmaps]|
+|Arch||Archaic|如[Roadmaps]|
 |Arow||Arrows|
-|BlockEle||Block Elements|缩略存疑|
+|Blocks|BlockEle.|Block Elements|如[Roadmaps]|
 |BoxDraw||Box Drawing|
 |Byz||Byzantine|同欧陆风云|
 |Ctrl||Control(s)|
 |comb||combining|
-|Diac|Diacriticals|Combining Diacritical Marks|缩略存疑|
+|Diac|Diacriticals|Combining Diacritical Marks|如[Roadmaps]|
 |Ding||Dingbats|缩略存疑|
-|DuplFormCtrl||Shorthand Format Controls|
 |EyDy||EarlyDynastic|缩略存疑|
 |Emon||Emoticons|
 |Form||Form(s)／Format|
 |GeoShape||Geometric Shapes|
+|Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
 |Indi||Indic|
+|Kbn||Kanbun|如[Roadmaps]|
 |Kgxi|Kangxi|Kangxi Radicals|缩略存疑|
 |Lttr||Letter(s)|
 |Lttrlike||Letterlike Symbols|
 |Majg|Mahjong|Mahjong Tiles|
+|mirr||mirror|微软描述右到左文字的缩略，没用上|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
 |Opor||Operators|缩略存疑|
-|Otto||Ottoman|欧陆风云作`TUR`|
+|Otto||Ottoman|欧陆风云作`TUR`，不适合|
 |Phon||Phonetic|
 |Pic||Pictographs|
 |PlayCard||Playing Cards|
-|Punc||Punctuation|
+|Punc|Punct.|Punctuation|如[Roadmaps]|
 |Radi||Radicals|缩略存疑|
-|Spec||Specials|
+|Sh||Shorthand|如[Roadmaps]|
+|Spec||Specials|如[Roadmaps]|
 |Srgs||Surrogates|缩略存疑|
-|Syll||Syllabics／Syllabary|但如不重复可以省略，没用上|
+|Syll||Syllabics／Syllabary|但如不重复可省略，没用上|
 |SymfLC||Symbols for Legacy Computing|缩略存疑|
 |Tech||Technical|
 |Trans||Transport|
-|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|模仿Yijing|
+|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|仿`Yijing`|
+|Vert.|VertForm.|Vertical Forms|如[Roadmaps]|
+
+#### 见于[Roadmaps]但未用
+|简写|原文|
+| -: | :- |
+|Symbs.|Symbols|
+
+[Roadmaps]: https://www.unicode.org/roadmaps/index.html
