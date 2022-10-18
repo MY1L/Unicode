@@ -243,6 +243,7 @@
 11D00..11D5F; Masaram Gondi	|	Gonm.
 11D60..11DAF; Gunjala Gondi	|	Gong.
 11EE0..11EFF; Makasar	|	Maka.
+11F00..11F5F; kavi	|	kavi.
 11FB0..11FBF; Lisu Supplement	|	LisuSup.
 11FC0..11FFF; Tamil Supplement	|	TamlSup.
 12000..123FF; Cuneiform	|	Xsux.
@@ -284,7 +285,8 @@
 1E000..1E02F; Glagolitic Supplement	|	GlagSup.
 1E100..1E14F; Nyiakeng Puachue Hmong	|	Hmnp.
 1E290..1E2BF; Toto	|	Toto.
-1E2C0..1E2FF; Wancho	|	Wcho.
+1E2C0..1E2FF; Wancho	  |	  Wcho.
+1E4D0..1E4FF; Mundari Bani    |	      Muba.
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
@@ -314,6 +316,7 @@
 2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF.
 2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup.
 30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG.
+31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH.
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
