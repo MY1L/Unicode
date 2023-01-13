@@ -1,4 +1,4 @@
-  0000..007F; Basic Latin	|	Latn. ; ASCII
+﻿  0000..007F; Basic Latin	|	Latn. ; ASCII
   0080..00FF; Latin-1 Supplement	|	Latn1.
   0100..017F; Latin Extended-A	|	LatnExtA.
   0180..024F; Latin Extended-B	|	LatnExtB.
@@ -207,6 +207,7 @@
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
 10E60..10E7F; Rumi Numeral Symbols	|	Rumi.
 10E80..10EBF; Yezidi	|	Yezi.
+10EC0..10EFF; Arabic Extended-C	|	ArabExtC.
 10F00..10F2F; Old Sogdian	|	Sogo.
 10F30..10F6F; Sogdian	|	Sogd.
 10F70..10FAF; Old Uyghur	|	Ougr.
@@ -238,11 +239,13 @@
 11A50..11AAF; Soyombo	|	Soyo.
 11AB0..11ABF; Unified Canadian Aboriginal Syllabics Extended-A	|	CansExtA.
 11AC0..11AFF; Pau Cin Hau	|	Pauc.
+11B00..11B5F; Devanagari Extended-A	|	DevaExtA.
 11C00..11C6F; Bhaiksuki	|	Bhks.
 11C70..11CBF; Marchen	|	Marc.
 11D00..11D5F; Masaram Gondi	|	Gonm.
 11D60..11DAF; Gunjala Gondi	|	Gong.
 11EE0..11EFF; Makasar	|	Maka.
+11F00..11F5F; Kawi	|	Kawi.
 11FB0..11FBF; Lisu Supplement	|	LisuSup.
 11FC0..11FFF; Tamil Supplement	|	TamlSup.
 12000..123FF; Cuneiform	|	Xsux.
@@ -250,7 +253,7 @@
 12480..1254F; Early Dynastic Cuneiform	|	EyDyXsux.
 12F90..12FFF; Cypro-Minoan	|	Cpmn.
 13000..1342F; Egyptian Hieroglyphs	|	Egyp.
-13430..1343F; Egyptian Hieroglyph Format Controls	|	EgypFormCtrl.
+13430..1345F; Egyptian Hieroglyph Format Controls	|	EgypFormCtrl.
 14400..1467F; Anatolian Hieroglyphs	|	Hluw.
 16800..16A3F; Bamum Supplement	|	BamuSup.
 16A40..16A6F; Mro	|	Mroo. = Mro.
@@ -275,6 +278,7 @@
 1D000..1D0FF; Byzantine Musical Symbols	|	ByzMu.
 1D100..1D1FF; Musical Symbols	|	Music.
 1D200..1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
+1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik.
 1D2E0..1D2FF; Mayan Numerals	|	MayaNum.
 1D300..1D35F; Tai Xuan Jing Symbols	|	TXjing.
 1D360..1D37F; Counting Rod Numerals	|	CountingRod.
@@ -282,9 +286,11 @@
 1D800..1DAAF; Sutton SignWriting	|	Sgnw.
 1DF00..1DFFF; Latin Extended-G	|	LatnExtG.
 1E000..1E02F; Glagolitic Supplement	|	GlagSup.
+1E030..1E08F; Cyrillic Extended-D	|	CyrlExtD.
 1E100..1E14F; Nyiakeng Puachue Hmong	|	Hmnp.
 1E290..1E2BF; Toto	|	Toto.
 1E2C0..1E2FF; Wancho	|	Wcho.
+1E4D0..1E4FF; Nag Mundari	|	Nagm.
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
@@ -314,6 +320,7 @@
 2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF.
 2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup.
 30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG.
+31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH.
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.

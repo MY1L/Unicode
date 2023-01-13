@@ -1,10 +1,13 @@
 # 区段名缩略
 **abbreviate**，“缩略”，简写作abbr。
 
-苦于名称过长，对统一码[Blocks-14.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
+苦于名称过长，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
 
-- 2022-‎9-‎12 v2，添加统一码14.0新增区段，补充表格。
-- 2021-3-3 v1.1，修改太玄经和3个Letter相关的缩略。
+### 更新记录
+- 2021-3-3 v1.1：修改太玄经和3个Letter相关的缩略
+- 2021-9-16 v2：修正、添加统一码14版新增区段缩略
+  - 2022-‎9-‎12 修正以下表格。
+- 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略
 
 ## 出典
 
@@ -24,7 +27,7 @@
 |Zzzz|Unknown|[不明](https://github.com/MY1L/unMing)|
 
 ### 统一码别名
-据[PropertyValueAliases-13.0.0.txt](http://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt)：
+据[PropertyValueAliases-](http://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/PropertyValueAliases.txt)：
 
 |缩略|简写|原文|
 | -: | :- | :- |
