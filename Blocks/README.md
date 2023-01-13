@@ -1,22 +1,17 @@
 # 统一码区段汉化
-苦于译名混乱，对统一码[Blocks-14.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作汉化。
+苦于译名混乱，对统一码[Blocks-15.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作汉化。
 
 ## 更新
-第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，修改之处见如下注释。
+- 第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，改动之处见注释。
+  - 2.1版，2021-1-5，更正：“阿拉伯数学字母符号”
+- 第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
+  - 3.1版，更正：“图符”
+- 第4版：添加统一码14.0新增区段，及改动区段范围：阿含从..1173F扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。文件开头注释也汉化了些。
+  - 4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
+  - 4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
+- 第5版：添加统一码15.0新增区段，改动部分区段范围，修改译名：那巴泰 → 奈伯特、王朝阿拉姆 → 帝国阿拉姆、…象形文字 → …意音文字，等。
 
-第2.1版：Arabic Mathematical Alphabetic Symbols更正为“阿拉伯数学字母符号”，2021-1-5
-
-第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
-
-第3.1版：更改一处：“图符”。
-
-第4版：添加统一码14.0新增区段，及改动区段范围：阿含从..1173F扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。文件开头注释也汉化了些。
-
-第4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
-
-第4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
-
-## 译法对照表
+## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
 
 |英文|中文|注释|
@@ -32,6 +27,7 @@
 |Box Drawing|制表符||
 |Character(s)|字符||
 |CJK|中日韩||
+|CodePoint|码位||
 |Combining|结合|曾译“组合”|
 |Common／General|通用|General曾译“常用”|
 |Compatibility|兼容||
@@ -47,10 +43,10 @@
 |Extended／Extensions|扩充|曾译“扩展”|
 |Form(s)|形式||
 |Format|格式|见cv8280047评论区|
-|Hieroglyph(s)|圣书体／象形文字||
+|Hieroglyph(s)|圣书体／意音文字|不译“象形文字”，[黑之圣雷](https://www.zhihu.com/question/480891401)反对|
 |Ideograms／Ideographic|表意／表意文字||
 |Letters|字／字母||
-|Linear|线形／线形文字||
+|Linear|线形／线形文字|不译“线性文字”|
 |Marks|标记||
 |Mathematical|数学||
 |Miscellaneous|各式|曾译“杂项”|
@@ -65,9 +61,9 @@
 |Patterns|点字|仅限描述盲文|
 |Phonetic|音标||
 |Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌|
-|Pictographs|象形||
+|Pictographs|象形|这才是“象形文字”吧……|
 |Pictures|图符|曾译“图形”|
-|Presentation|表现|曾译“表达”|
+|Presentation|表现|曾译“表达”，“尝试”译“显现”|
 |Punctuation|标点||
 |Radicals|部首||
 |Selectors|选择符||
@@ -93,7 +89,7 @@
 
 |英文|中文|注释|
 | -: | :- | :- |
-|Duployan|杜普雷速记|“尝试”按法语Duployé译“迪普卢瓦耶”|
+|Duployan|杜普雷速记|字客网译“杜洛耶速记”，“尝试”按法语Duployé译“迪普卢瓦耶”|
 |Ethiopic|埃塞|直译“埃塞俄比亚”，但区段收的是ግዕዝ([格厄兹字母](https://www.zhihu.com/topic/21821106/hot))|
 |Hangul Jamo|谚文字母|直译“韩文字母”，但有朝鲜|
 |Lisu|傈僳(老)|直译“傈僳”，但区段收的是传教士SaraBaThaw创制的老傈僳文，又称“富能仁文”(Fraser)|
