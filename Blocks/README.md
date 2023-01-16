@@ -11,6 +11,7 @@
   - 4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
 - 第5版：添加统一码15.0新增区段，改动部分区段范围，修改译名：那巴泰 → 奈伯特、王朝阿拉姆 → 帝国阿拉姆、…象形文字 → …意音文字，等。
 - 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版 `Blocks-roadmap.txt`
+  - 6.1版：修正路线图版区段范围。补充有 ISO 15924 代码的路线图外译名。
 
 ## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
@@ -44,7 +45,7 @@
 |Extended／Extensions|扩充|曾译“扩展”|
 |Form(s)|形式||
 |Format|格式|见cv8280047评论区|
-|Hieroglyph(s)|圣书体／意音文字|不译“象形文字”，[黑之圣雷](https://www.zhihu.com/question/480891401)反对|
+|Hieroglyph(s)|圣书体／意音文字|不译“象形文字”：[黑之圣雷](https://www.zhihu.com/question/480891401)反对|
 |Ideograms／Ideographic|表意／表意文字||
 |Legacy Computing|遗留电脑|Legacy曾译“传统”，Computing不译“计算”|
 |Letters|字／字母||
@@ -118,3 +119,12 @@
 |14|SSP|Supplementary Special-purpose Plane|增补殊用平面|2|337|65197|
 |15|PUA-A|Supplementary Private Use Area-A|增补私用区甲|1|65534|0|
 |16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|1|65534|0|
+
+## 图外
+- Visible Speech：钟雨柔：“**可视语音**”:汉字革命与字母普遍主义在中国
+  - 这是类似音标的非语言，且没有主流语言用它作为文字。
+  - ISO 15924	Visp	280	Visible Speech
+- KLI：[Klingon Language Institute](http://klingon.wiki/En/KlingonLanguageInstitute)（克林贡语言学院）的缩写，可简称“克语”
+  - ISO 15924	Piqd	293	Klingon (KLI pIqaD)
+- Sarati：https://lotr.huijiwiki.com/wiki/**萨拉提**
+  - ISO 15924	Sara	292	Sarati

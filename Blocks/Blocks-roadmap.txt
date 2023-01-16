@@ -319,7 +319,7 @@ FFF0..FFFF; FFF0特殊|Specials
 12F90..12FFF; 12F90塞浦路斯-米诺斯|Cypro-Minoan
 13000..1342F; 13000埃及圣书体|Egyptian Hieroglyphs
 13430..1345F; 13430埃及圣书体格式控制符|Egyptian Hieroglyph Format Controls
-13440..143FF; 〓1344?埃及圣书体扩充甲(Egyptian Hieroglyphs Extended-A)
+13480..143FF; 〓1348?埃及圣书体扩充甲(Egyptian Hieroglyphs Extended-A)
 14400..1467F; 14400安纳托利亚意音文字|Anatolian Hieroglyphs
 14680..151FF; 〓1468?埃及圣书体扩充乙(Egyptian Hieroglyphs Extended-B)
 15500..15AFF; 〓1550?玛雅意音文字(Mayan Hieroglyphs)
@@ -454,5 +454,12 @@ E0000..E007F; E0000标签|Tags
 E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
 F0000..FFFFF; F0000增补私用区甲|Supplementary Private Use Area-A
 100000..10FFFF; 100000增补私用区乙|Supplementary Private Use Area-B
+
+# 路线图外格式:
+# ISO 15924代码.译名|原名
+
+# Visp.可视语音|Visible Speech
+# Piqd.克林贡(克语 皮卡德)|Klingon (KLI pIqaD)
+# Sara.萨拉提|Sarati
 
 # EOF

@@ -87,11 +87,11 @@
   25A0..25FF; Geometric Shapes	|	GeoShape.
   2600..26FF; Miscellaneous Symbols	|	MiscSym.
   2700..27BF; Dingbats	|	Ding.
-  27C0..27EF; Miscellaneous Mathematical Symbols-A	|	MiscMathSymA.
+  27C0..27EF; Miscellaneous Mathematical Symbols-A	|	MiscMathA.
   27F0..27FF; Supplemental Arrows-A	|	SupArowA.
   2800..28FF; Braille Patterns	|	Brai.
   2900..297F; Supplemental Arrows-B	|	SupArowB.
-  2980..29FF; Miscellaneous Mathematical Symbols-B	|	MiscMathSymB.
+  2980..29FF; Miscellaneous Mathematical Symbols-B	|	MiscMathB.
   2A00..2AFF; Supplemental Mathematical Operators	|	SupMathOpor.
   2B00..2BFF; Miscellaneous Symbols and Arrows	|	MiscArow.
   2C00..2C5F; Glagolitic	|	Glag.
@@ -168,6 +168,8 @@
 10140..1018F; Ancient Greek Numbers	|	AncGrekNum.
 10190..101CF; Ancient Symbols	|	AncSym.
 101D0..101FF; Phaistos Disc	|	Phaistos.
+10200..1023F; 〓(Northern Palaeohispanic)	|	？
+10240..1027F; 〓(Southern Palaeohispanic)	|	？
 10280..1029F; Lycian	|	Lyci.
 102A0..102DF; Carian	|	Cari.
 102E0..102FF; Coptic Epact Numbers	|	CoptNum.
@@ -176,6 +178,7 @@
 10350..1037F; Old Permic	|	Perm.
 10380..1039F; Ugaritic	|	Ugar.
 103A0..103DF; Old Persian	|	Xpeo.
+103E0..103FF; 〓¿Shavian Quikscript Extensions?	|	ShawQS.
 10400..1044F; Deseret	|	Dsrt.
 10450..1047F; Shavian	|	Shaw. ; Shaw
 10480..104AF; Osmanya	|	Osma.
@@ -183,28 +186,38 @@
 10500..1052F; Elbasan	|	Elba.
 10530..1056F; Caucasian Albanian	|	Aghb.
 10570..105BF; Vithkuqi	|	Vith.
+105C0..105FF; 〓【Todhri】	|	？
 10600..1077F; Linear A	|	Lina.
 10780..107BF; Latin Extended-F	|	LatnExtF.
+107C0..107FF; 〓(Rejang Extended)	|	RjngExt.
 10800..1083F; Cypriot Syllabary	|	Cprt.
 10840..1085F; Imperial Aramaic	|	Armi.
 10860..1087F; Palmyrene	|	Palm.
 10880..108AF; Nabataean	|	Nbat.
+108B0..108DF; 〓(Proto-Sinaitic)	|	Psin.
 108E0..108FF; Hatran	|	Hatr.
 10900..1091F; Phoenician	|	Phnx.
 10920..1093F; Lydian	|	Lydi.
+10940..1095F; 〓(Sidetic)	|	？
+10960..1097F; 〓¿Numidian?	|	？
 10980..1099F; Meroitic Hieroglyphs	|	Mero.
 109A0..109FF; Meroitic Cursive	|	Merc.
 10A00..10A5F; Kharoshthi	|	Khar.
 10A60..10A7F; Old South Arabian	|	Sarb.
 10A80..10A9F; Old North Arabian	|	Narb.
+10AA0..10ABF; 〓(Balti)	|	？
 10AC0..10AFF; Manichaean	|	Mani.
 10B00..10B3F; Avestan	|	Avst.
 10B40..10B5F; Inscriptional Parthian	|	Prti.
 10B60..10B7F; Inscriptional Pahlavi	|	Phli.
 10B80..10BAF; Psalter Pahlavi	|	Phlp.
+10BB0..10BDF; 〓(Book Pahlavi)	|	Phlv.
+10BE0..10BFF; 〓(Baburi)	|	？
 10C00..10C4F; Old Turkic	|	Orkh.
 10C80..10CFF; Old Hungarian	|	Hung.
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
+10D40..10D8F; 〓【Garay】	|	？
+10D90..10DFF; 〓¿Byblos?	|	？
 10E60..10E7F; Rumi Numeral Symbols	|	Rumi.
 10E80..10EBF; Yezidi	|	Yezi.
 10EC0..10EFF; Arabic Extended-C	|	ArabExtC.
@@ -221,82 +234,161 @@
 11180..111DF; Sharada	|	Shrd.
 111E0..111FF; Sinhala Archaic Numbers	|	SinhArchNum.
 11200..1124F; Khojki	|	Khoj.
+11250..1127F; 〓(Landa)	|	？
 11280..112AF; Multani	|	Mult.
 112B0..112FF; Khudawadi	|	Sind. ; Sindhi
 11300..1137F; Grantha	|	Gran.
+11380..113FF; 〓【Tulu-Tigalari】	|	？
 11400..1147F; Newa	|	Newa.
 11480..114DF; Tirhuta	|	Tirh.
+114E0..114FF; 〓(Tani)	|	Tani!
+11500..1157F; 〓(Ranjana)	|	Ranj.
 11580..115FF; Siddham	|	Sidd.
 11600..1165F; Modi	|	Modi.
 11660..1167F; Mongolian Supplement	|	MongSup.
 11680..116CF; Takri	|	Takr.
+116D0..116FF; 〓【Myanmar Extended-C】	|	MymrExtC.
 11700..1174F; Ahom	|	Ahom.
+11750..117AF; 〓(Zou)	|	Zou!
+117B0..117FF; 〓(Pyu)	|	Pyu!
 11800..1184F; Dogra	|	Dogr.
+11850..1188F; 〓(Sirmauri)	|	？
 118A0..118FF; Warang Citi	|	Wara.
 11900..1195F; Dives Akuru	|	Diak.
+11960..1199F; 〓(Vatteluttu)	|	？
 119A0..119FF; Nandinagari	|	Nand.
 11A00..11A4F; Zanabazar Square	|	Zanb.
 11A50..11AAF; Soyombo	|	Soyo.
 11AB0..11ABF; Unified Canadian Aboriginal Syllabics Extended-A	|	CansExtA.
 11AC0..11AFF; Pau Cin Hau	|	Pauc.
 11B00..11B5F; Devanagari Extended-A	|	DevaExtA.
+11B60..11B7F; 〓¿Sharada Extensions?	|	ShrdExt.
+11B80..11BBF; 〓(Tolong Siki)	|	？
+11BC0..11BFF; 〓【Sunuwar】	|	Sunu.
 11C00..11C6F; Bhaiksuki	|	Bhks.
 11C70..11CBF; Marchen	|	Marc.
 11D00..11D5F; Masaram Gondi	|	Gonm.
 11D60..11DAF; Gunjala Gondi	|	Gong.
+11DB0..11DEF; 〓(Leke)	|	Leke.
+11E00..11E6F; 〓(Tocharian)	|	？
+11E70..11ECF; 〓(Khotanese)	|	？
 11EE0..11EFF; Makasar	|	Maka.
 11F00..11F5F; Kawi	|	Kawi.
+11F60..11FAF; 〓(Pallava)	|	？
 11FB0..11FBF; Lisu Supplement	|	LisuSup.
 11FC0..11FFF; Tamil Supplement	|	TamlSup.
 12000..123FF; Cuneiform	|	Xsux.
 12400..1247F; Cuneiform Numbers and Punctuation	|	XsuxNum.
 12480..1254F; Early Dynastic Cuneiform	|	EyDyXsux.
+12580..12DFF; 〓(Proto-Cuneiform)	|	Pcun.
+12E00..12F8F; 〓(Indus)	|	Inds.
 12F90..12FFF; Cypro-Minoan	|	Cpmn.
 13000..1342F; Egyptian Hieroglyphs	|	Egyp.
-13430..1345F; Egyptian Hieroglyph Format Controls	|	EgypFormCtrl.
+13430..1345F; Egyptian Hieroglyph Format Controls	|	EgypFC.
+13480..143FF; 〓(Egyptian Hieroglyphs Extended-A)	|	EgypExtA.
 14400..1467F; Anatolian Hieroglyphs	|	Hluw.
+14680..151FF; 〓(Egyptian Hieroglyphs Extended-B)	|	EgypExtB.
+15500..15AFF; 〓(Mayan Hieroglyphs)	|	Maya.
+15B00..15B3F; 〓(Lampung)	|	？
+15B40..15B6F; 〓(Kerinci)	|	？
+15B80..15FFF; 〓(Mandombe)	|	？
+16000..1607F; 〓Cirth	|	Cirt.
+16080..160FF; 〓Tengwar	|	Teng.
+16100..1613F; 〓【Gurung Khema】	|	？
+16140..1617F; 〓¿¿¿Khe Prih???	|	？
+161A0..161FF; 〓Moon	|	Moon.
+16200..1677F; 〓Blissymbols	|	Blis.
 16800..16A3F; Bamum Supplement	|	BamuSup.
 16A40..16A6F; Mro	|	Mroo. = Mro.
 16A70..16ACF; Tangsa	|	Tnsa.
 16AD0..16AFF; Bassa Vah	|	Bass.
 16B00..16B8F; Pahawh Hmong	|	Hmng.
+16B90..16BFF; 〓(Woleai)	|	Wole.
+16C00..16C7F; 〓(Kpelle)	|	Kpel.
+16C80..16CCF; 〓(Afaka)	|	Afak.
+16CD0..16CFF; 〓(Tangsa(Khimhun))	|	Tnsa(Khimhun)
+16D00..16D3F; 〓(Tikamuli)	|	？
+16D40..16D7F; 〓【Kirat Rai】	|	？
+16D80..16DAF; 〓(Chisoi)	|	？
+16DB0..16DCF; 〓¿Lontara bilang-bilang?	|	？
+16DD0..16DFF; 〓(Kulitan)	|	？
+16E00..16E3F; 〓(Mwangwego)	|	？
 16E40..16E9F; Medefaidrin	|	Medf.
+16EA0..16EFF; 〓(Buginese Supplement)	|	BugiSup.
 16F00..16F9F; Miao	|	Plrd. ; Pollard
+16FA0..16FAF; 〓¿Bopomofo Extended-A?	|	BopoExtA.
+16FB0..16FDF; 〓(Kanbun Extended-A)	|	KbnExtA.
 16FE0..16FFF; Ideographic Symbols and Punctuation	|	IdeoSym.
 17000..187FF; Tangut	|	Tang.
 18800..18AFF; Tangut Components	|	TangComp.
 18B00..18CFF; Khitan Small Script	|	Kits.
 18D00..18D7F; Tangut Supplement	|	TangSup.
+18D80..195FF; 〓(Khitan large script)	|	Kitl.
+19600..19B9F; 〓(Jurchen)	|	Jurc.
+19E00..1A2FF; 〓(Pau Cin Hau Syllabary)	|	PaucSyll.
+1A300..1A75F; 〓(Eskaya)	|	？
+1A780..1A7FF; 〓¿Kaida?	|	？
+1A800..1ACFF; 〓(Naxi Dongba)	|	Nkdb.
+1AD00..1AFCF; 〓¿Naxi Geba?	|	Nkgb.
+1AFD0..1AFEF; 〓¿Kana Extended-C?	|	KanaExtC.
 1AFF0..1AFFF; Kana Extended-B	|	KanaExtB.
 1B000..1B0FF; Kana Supplement	|	KanaSup.
 1B100..1B12F; Kana Extended-A	|	KanaExtA.
 1B130..1B16F; Small Kana Extension	|	SmlKanaExt.
 1B170..1B2FF; Nüshu	|	Nshu.
+1B300..1B5FF; 〓(Shuishu)	|	Shui.
+1B600..1B9FF; 〓(Lisu Syllabic Script)	|	LisuSyll.
 1BC00..1BC9F; Duployan	|	Dupl.
-1BCA0..1BCAF; Shorthand Format Controls	|	ShFormCtrl. = ShFC.
+1BCA0..1BCAF; Shorthand Format Controls	|	ShFC.
+1BCB0..1BCFF; 〓(Pitman Shorthand)	|	PitmanSh.
+1BD00..1C37F; 〓(Proto-Elamite)	|	Pelm.
+1C380..1C4FF; 〓(Linear Elamite)	|	LinElm!
+1CA80..1CBFF; 〓¿¿¿Rongorongo???	|	Roro.
+1CC00..1CEBF; 〓【Symbols for Legacy Computing Supplement】	|	SymfLCSup.
 1CF00..1CFCF; Znamenny Musical Notation	|	Znamenny.
 1D000..1D0FF; Byzantine Musical Symbols	|	ByzMu.
 1D100..1D1FF; Musical Symbols	|	Music.
 1D200..1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
+1D250..1D26F; 〓(Flute)	|	Flute.
+1D280..1D2AF; 〓(Pipa)	|	Pipa.
 1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik.
 1D2E0..1D2FF; Mayan Numerals	|	MayaNum.
 1D300..1D35F; Tai Xuan Jing Symbols	|	TXjing.
 1D360..1D37F; Counting Rod Numerals	|	CountRod.
+1D380..1D3FF; 〓¿Mathematical Alphanumeric Symbols Supplement?	|	MathAaNumSup.
 1D400..1D7FF; Mathematical Alphanumeric Symbols	|	MathAaNum.
 1D800..1DAAF; Sutton SignWriting	|	Sgnw.
+1DAE0..1DAFF; 〓(Jianzi Format Controls)	|	JanzFC!
+1DB00..1DC8F; 〓(Jianzi Musical Notation)	|	Janz!
 1DF00..1DFFF; Latin Extended-G	|	LatnExtG.
 1E000..1E02F; Glagolitic Supplement	|	GlagSup.
 1E030..1E08F; Cyrillic Extended-D	|	CyrlExtD.
 1E100..1E14F; Nyiakeng Puachue Hmong	|	Hmnp.
+1E150..1E1FF; 〓(Eebee Hmong)	|	？
+1E200..1E26F; 〓(Western Cham)	|	WCham.
 1E290..1E2BF; Toto	|	Toto.
 1E2C0..1E2FF; Wancho	|	Wcho.
+1E300..1E41F; 〓(Loma)	|	Loma.
+1E420..1E4CF; 〓(Bagam)	|	？
 1E4D0..1E4FF; Nag Mundari	|	Nagm.
+1E500..1E52F; 〓(Pungchen)	|	？
+1E530..1E55F; 〓¿Pungchung?	|	？
+1E560..1E59F; 〓¿Marchung?	|	？
+1E5A0..1E5CF; 〓(Brusha)	|	？
+1E5D0..1E5FF; 〓【Ol Onal】	|	？
+1E600..1E65F; 〓¿Chola?	|	？
+1E660..1E6BF; 〓¿Chalukya (Box-Headed)?	|	？
+1E6C0..1E6FF; 〓(Yo Lai Tay)	|	？
+1E700..1E72F; 〓¿Beria?	|	？
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
+1EC00..1EC6F; 〓(Persian Siyaq Numbers)	|	PersSiyaqNum!
 1EC70..1ECBF; Indic Siyaq Numbers	|	IndiSiyaqNum.
+1ECC0..1ECFF; 〓(Diwani Siyaq Numbers)	|	DwniSiyaqNum!
 1ED00..1ED4F; Ottoman Siyaq Numbers	|	OttoSiyaqNum.
 1EE00..1EEFF; Arabic Mathematical Alphabetic Symbols	|	ArabMath.
+1EF00..1EF3F; 〓¿Arabic Supplemental Symbols?	|	ArabSupSym.
 1F000..1F02F; Mahjong Tiles	|	Majg.
 1F030..1F09F; Domino Tiles	|	Domino.
 1F0A0..1F0FF; Playing Cards	|	PlayCard.
@@ -313,6 +405,7 @@
 1FA00..1FA6F; Chess Symbols	|	ChessSym.
 1FA70..1FAFF; Symbols and Pictographs Extended-A	|	SymPicExtA.
 1FB00..1FBFF; Symbols for Legacy Computing	|	SymfLC.
+1FC00..1FFFF; 〓¿Extended Pictographic Characters (Emoji)?	|	Zsye.
 20000..2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB.
 2A700..2B73F; CJK Unified Ideographs Extension C	|	CjkExtC.
 2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD.
@@ -321,7 +414,23 @@
 2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup.
 30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG.
 31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH.
+32400..352FF; 〓(Seal Script)	|	Seal!
+35400..36BFF; 〓(Oracle Bone Script)	|	Orcl!
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
 100000..10FFFF; Supplementary Private Use Area-B	|	PUAB.
+
+# 标注：
+#	区段名与Blocks-roadmap.txt不一致的是来自ISO 15924
+#	标示此区段尚为路线图：〓
+#	【已正式被UTC或WG2接受的】
+#	(已正式向UTC或WG2提案的)
+#	¿尚未编写详细提案的?
+#	¿¿¿欠分配的???
+#	我诌的仿ISO15924缩写，码位可能冲突：!
+#	我诌不出来：？
+
+# ??80..??FF; Visible Speech	|	Visp.
+# ??D0..??FF; Klingon	|	Piqd.
+# ???0..???F; Sarati	|	Sara.

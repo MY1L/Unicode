@@ -4,15 +4,16 @@
 苦于名称过长，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
 
 ### 更新记录
-- 2021-3-3 v1.1：修改太玄经和3个Letter相关的缩略
-- 2021-9-16 v2：修正、添加统一码14版新增区段缩略
-  - 2022-‎9-‎12 修正以下表格。
-- 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略
+- 2021-3-3 v1.1：修改太玄经和3个Letter相关的缩略。
+- 2021-9-16 v2：修正、添加统一码14.0版新增区段缩略。
+  - 2022-‎9-‎12 修正下方表格。
+- 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略。
+- 2023-1-1? v4：追加路线图版 `abbr-roadmap.txt`。更改：CountingRod. → CountRod.，FormCtrl. → FC.，MiscMathSym → MiscMath
 
 ## 出典
 
 ### ISO四字代码
-国际标准化组织的标准：ISO 15924（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。四字代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
+国际标准化组织的标准：[ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。四字代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
 
 #### 区段名没用上，但字符可以用
 |缩略|原意|注释|
@@ -89,7 +90,7 @@
 |XsuxNum|Cuneiform Numbers|Cuneiform Numbers And Punctuation|
 ||Yijing|Yijing Hexagram Symbols|
 
-#### 暂未用上
+#### 未用上
 |缩略|原文|
 | -: | :- |
 |Diacriticals For Symbols|Combining Diacritical Marks For Symbols／Combining Marks For Symbols|
@@ -121,6 +122,7 @@
 |EyDy||EarlyDynastic|缩略存疑|
 |Emon||Emoticons|
 |Form||Form(s)／Format|
+|FC|FormCtrl.|Format Controls|如[Roadmaps]|
 |GeoShape||Geometric Shapes|
 |Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
@@ -131,6 +133,7 @@
 |Lttrlike||Letterlike Symbols|
 |Majg|Mahjong|Mahjong Tiles|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
+|MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
 |Opor||Operators|缩略存疑|
 |Otto||Ottoman|欧陆风云作`TUR`，不适合|
@@ -140,9 +143,10 @@
 |Punc|Punct.|Punctuation|如[Roadmaps]|
 |Radi||Radicals|缩略存疑|
 |Sh||Shorthand|如[Roadmaps]|
+|ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
 |Spec||Specials|如[Roadmaps]|
 |Srgs||Surrogates|缩略存疑|
-|Syll||Syllabics／Syllabary|但如不重复可省略，没用上|
+|Syll||Syllabic(s)／Syllabary|如不重复可省略|
 |SymfLC||Symbols for Legacy Computing|缩略存疑|
 |Tech||Technical|
 |Trans||Transport|
@@ -152,6 +156,20 @@
 #### 见于[Roadmaps]但未用
 |简写|原文|
 | -: | :- |
-|Symbs.|Symbols|
+|Cyr-x|Cyrillic Extended|
+|Eg.|Egyptian|
+|Ep|Epact|
+|Eth.|Ethiopic|
+|Hi.|Hieroglyph|
+|Hier.|Hieroglyphs|
+|Ids.|Ideographs|
+|Kk.|Katakana Phonetic Extensions|
+|№|Numbers|
+|Non**char**s.|Non**character**s|
+|Punct.|Punctuation|
+|Supp.|Supplement|
+|Symb.／Syms.／Symbs.|Symbols|
+|Syr.|Syriac|
+|Unif.|Unified|
 
 [Roadmaps]: https://www.unicode.org/roadmaps/index.html
