@@ -8,7 +8,8 @@
 - 2021-9-16 v2：修正、添加统一码14.0版新增区段缩略。
   - 2022-‎9-‎12 修正下方表格。
 - 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略。
-- 2023-1-1? v4：追加路线图版 `abbr-roadmap.txt`。更改：CountingRod. → CountRod.，FormCtrl. → FC.，MiscMathSym → MiscMath
+- 2023-1-16 v4：追加路线图版 `abbr-roadmap.txt`。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
+  - v4.1：更改：CountingRod. → RodNum.
 
 ## 出典
 
@@ -22,7 +23,6 @@
 |Jpan|Japanese|Han + Hiragana + Katakana|
 |Qaaa|Reserved for private use|私用始|
 |Qabx|Reserved for private use|私用终|
-|Sye|Symbols (Emoji variant)|绘文字，ISO作`Zsye`|
 |Zinh|Inherited|继承|
 |Zyyy|Common|公用|
 |Zzzz|Unknown|[不明](https://github.com/MY1L/unMing)|
@@ -57,10 +57,9 @@
 ||Alchemical|Alchemical Symbols|
 |ArabMath|Arabic Math|Arabic Mathematical Alphabetic Symbols|
 |Brai|Braille|Braille Patterns|
-|Cjk|CJK|CJK Unified Ideographs|
-|CjkSym|CJK Symbols|CJK Symbols And Punctuation|
+|Cjk／Han|CJK|CJK Unified Ideographs|
+|CjkSym／HanSym|CJK Symbols|CJK Symbols And Punctuation|
 |ComJamo|Compat Jamo|Hangul Compatibility Jamo|
-||Counting Rod|Counting Rod Numerals|
 ||Domino|Domino Tiles|
 |EncCJK|Enclosed CJK|Enclosed CJK Letters And Months|
 |Grek|Greek|Greek And Coptic|
@@ -90,7 +89,7 @@
 |XsuxNum|Cuneiform Numbers|Cuneiform Numbers And Punctuation|
 ||Yijing|Yijing Hexagram Symbols|
 
-#### 未用上
+#### 未用
 |缩略|原文|
 | -: | :- |
 |Diacriticals For Symbols|Combining Diacritical Marks For Symbols／Combining Marks For Symbols|
@@ -126,6 +125,7 @@
 |GeoShape||Geometric Shapes|
 |Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
+|Horz||Horizontal|Vert反义词，这里没用上|
 |Indi||Indic|
 |Kbn||Kanbun|如[Roadmaps]|
 |Kgxi|Kangxi|Kangxi Radicals|缩略存疑|
@@ -142,6 +142,7 @@
 |PlayCard||Playing Cards|
 |Punc|Punct.|Punctuation|如[Roadmaps]|
 |Radi||Radicals|缩略存疑|
+|RodNum.|Rod Nums|Counting Rod Numerals|如[Roadmaps]|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
 |Spec||Specials|如[Roadmaps]|
@@ -165,7 +166,6 @@
 |Ids.|Ideographs|
 |Kk.|Katakana Phonetic Extensions|
 |№|Numbers|
-|Non**char**s.|Non**character**s|
 |Punct.|Punctuation|
 |Supp.|Supplement|
 |Symb.／Syms.／Symbs.|Symbols|

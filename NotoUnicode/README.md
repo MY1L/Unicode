@@ -1,27 +1,28 @@
-# Noto Unicode 5.9
+# Noto Unicode 5.902
 这是个工具字体，意思是**不负责排版**仅负责显示，类似Unifont字体。
 
-制作该字体的急迫性在于，我用一般软件如BabelMap时，点字体菜单总是因为[Noto Fonts](https://github.com/notofonts)装得太多影响到选取。
+制作该字体的急迫性在于，我用一般软件如BabelMap时，点字体菜单总是因为Noto系列字体太多影响到选取。
 
 ![Noto太多了](/NotoUnicode/Notoomany.png)
 
-而装这些我不了解的文字的字体，也只为BabelMap和浏览器显示不缺字，实际上我并不迫切需要准确地排版这么多语言文字，只要看得见字就行，如果以后遇到需要准确排版的情况可以单独安装。
+而装这些我不了解的文字的字体，也只为BabelMap、浏览器等显示不缺字，实际上我并不迫切需要准确地排版这么多文种，只要看得见字就行，如果遇到需要准确排版的情况还可单独另装。
 
-于是我将100+个字体合并为一：「Noto Unicode<sup> 不妨简称为NotoUni</sup>」，删除所有OT特性和不在统一码表里的字符（合字、异体等等），由此体积压缩了一半。针对BabelMap每个区段只能用一个字体的设定，画了些Noto缺的字符把整个区段填满。如果系统默认字体已经存在能填满某区段的就不加，避免字体过大或装不下，因字体包含单字上限65535——毕竟看到这儿的人肯定需要对东亚文字排版，得另装思源系列。Noto Unicode支持的统一码区段列表太长这儿放不下，记录在sysBlocks.txt。
+于是我将100+个字体合并为一：「Noto Unicode<sup> 不妨简称为NotoUni</sup>」，删除所有OT特性和不在统一码表里的字符（合字、异体等等），由此体积压缩了一半。针对BabelMap每个区段只能用一个字体的设定，画了些Noto缺的字符把整个区段填满——毕竟某些区段如“表意符号及标点”性质上就不太可能只用一个字体显示完。
+如果系统默认字体已经存在能填满某区段的就不加，避免字体过大或装不下，因字体包含单字上限65535——我想来这里的人如需对东亚文字排版，早已装了思源及其衍生了吧。NotoUni支持的统一码区段列表太长这儿放不下，记录在sysBlocks.txt。
 尽量覆盖罕用和一般人不太在乎排版的SMP平面。
 
 ## 更新
 2.003 第一版，初次发布，总字数11270+(计算方法差异，此字数忽略部分控制字，下同)
 
 2.2.003 第二版，覆盖BMP平面，总字数15948+，因No tofu字体缺字而自画了些字符补全，自制了个“TOFU（豆腐）”字符用于缺字提示
-- 按 www.unicode.org/charts/PDF/U11180.pdf 画了U+111CE、U+111CF补全该区
-- 按 www.unicode.org/charts/PDF/U11400.pdf 画了U+1145A、U+11460、U+11461补全该区
-- 按 www.unicode.org/charts/PDF/U16FE0.pdf 造了U+16FE0~16FFF整个区！大多改自Noto Sans CJK，U+16FE0用的㇋改，U+16FF0用的“饣+忄”，U+16FF1用的“巡”右笔
+- 按 [U11180.pdf](http://www.unicode.org/charts/PDF/U11180.pdf) 画了U+111CE、U+111CF补全该区
+- 按 [U11400.pdf](http://www.unicode.org/charts/PDF/U11400.pdf) 画了U+1145A、U+11460、U+11461补全该区
+- 按 [U16FE0.pdf](http://www.unicode.org/charts/PDF/U16FE0.pdf) 造了U+16FE0~16FFF整个区！大多改自Noto Sans CJK，U+16FE0用的㇋改，U+16FF0用的“饣+忄”，U+16FF1用的“巡”右笔
 
 3.2.03 第三版，填满了更多区段，总字数16208+
 - [100+字体合一：工具字体Noto Unicode初发布v3 - 哔哩哔哩](https://www.bilibili.com/read/cv8805564)
-- 尤其在2020-11-18：自制阿拉伯「ALM」U+061C，自制蒙古「FVS」U+180B~180D
-- U+31A0～31BF，除了U+31BF~改了Noto Sans CJK的ハ~，其它制作都很麻烦……
+- 尤其在2020-11-18：自制阿拉伯「ALM」U+061C，自制蒙文「FVS」U+180B~180D
+- 注音扩充U+31A0～31BF，除了U+31BF~改了思源的ハ~，其它制作都很麻烦……
 
 4 第四版，添加和补充区段，总字数16976+
 - 自制蒙古「MVS」U+180E
@@ -30,11 +31,13 @@
 - 刷新5个阿拉伯区段，除了U+FDFD这一字符，因为变化过大
 - 添加33个控制字图符，但大多不计总字数内
 
-5 第五版，添加和补充区段，修改一些自制字符，总字数17205+
-- 2021-10-5：自制「FVS4」U+180F、「С̲」U+20C0，补全蒙文、货币2个区段
-- 改善虚线圈相关自制字符，注音扩充：U+31BC～31BFㆼㆽㆾㆿ，蒙文：FVS2、FVS3
-- 替换卢恩区段为自制字体[Ctrl Runr](https://github.com/MY1L/Ctrl#runr)
-- 添加藏文、统一加拿大土著音节扩充甲区段。
+5 第五版，添加和补充区段，修改若干自制字符，总字数17205+
+- 2021-‎10-‎5：自制「FVS4」U+180F、「С̲」U+20C0，从而补全 蒙文、货币 2个区段
+- 改善虚线圈相关自制字符、注音扩充U+31BC～31BF（ㆼㆽㆾㆿ）、蒙文（FVS2 FVS3）
+- 替换卢恩区段为自制字体[Ctrl Runr][r]
+- 添加 藏文、统一加拿大土著音节扩充甲 2个区段
+
+<!-- 6 第六版，添加和补充区段，修改自制字符，总字数…… -->
 
 ## 涵盖
 以下为该个字体缝合的Noto字体列表。
@@ -43,7 +46,7 @@
 > - 如果厂商或作者后面直接是句号，表示没有损失任何特性，原字体就是光秃秃的。
 > - 版本后面跟着「\」的表示大概是写错的版本。
 > - 有些Monotype与他人合作的字体也记作Monotype。
-> - 「Segoe UI…」指Segoe UI、Segoe UI Symbol和Segoe UI Historic。
+> - 「Segoe UI…」指Segoe UI、Segoe UI Symbol或Segoe UI Historic。
 
 <details><summary><strong>——列表很长，点此展开\折叠——</strong></summary>
 
@@ -151,13 +154,15 @@
 1. NotoSerifYezidi-Regular 1.000，2020-10-27，Dalton Maag Ltd，-kern mark。
 1. Arimo-Regular 1.330，2020-8-5，对Arial的兼容字体，虽在Noto家族无Noto之名，-ccmp dlig kern locl mark mkmk。
 
-1. Ctrl Runr β6，2021-8-31，綿雲飴里，-aalt ccmp kern mark。
+1. [CtrlRunr][r] β6，2021-8-31，綿雲飴里，-aalt ccmp kern mark。
 1. KhitanSmallLinear 13.001，2020-4-5，景永时／BabelStone，-ccmp。
 
 </details>
 
 ## 撤销
-1. ~NotoSerifTangut-Regular 2.001，2020-7-4=2020-9-18，Monotype。6890+字太多仅用1字U+16FE0。~ 一个字我干脆自己画了，而且Serif画风也与其它字不符。
+1. ~NotoSerifTangut-Regular 2.001，2020-7-4=2020-9-18，Monotype。6890+字太多仅用1字U+16FE0。~ 一个字索性自己画了，而且Serif画风也与同区段其它字不符。
 1. ~BabelStone Han 13.0.8，2020-7-19，BabelStone，-calt ccmp。仅部分新字符。~ 被Noto Sans Symbols2 2.003替代。
 1. ~BabelStoneShapes 13.0.1，2020-7-6，BabelStone，-ccmp。~ 被Noto Sans Symbols2 2.003替代。
-1. ~NotoSansRunic-Regular 2.000，2020-7-4，Monotype。~ 丑，被我的自制字体[Ctrl Runr](https://github.com/MY1L/Ctrl#runr)β6替代。
+1. ~NotoSansRunic-Regular 2.000，2020-7-4，Monotype。~ 丑，被我的自制字体[Ctrl Runr][r]替代。
+
+[r]: https://github.com/MY1L/Ctrl#runr

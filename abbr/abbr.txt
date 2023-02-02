@@ -102,21 +102,21 @@
   2D80..2DDF; Ethiopic Extended	|	EthiExt.
   2DE0..2DFF; Cyrillic Extended-A	|	CyrlExtA.
   2E00..2E7F; Supplemental Punctuation	|	SupPunc.
-  2E80..2EFF; CJK Radicals Supplement	|	CjkRadiSup.
+  2E80..2EFF; CJK Radicals Supplement	|	CjkRadiSup. ≈ HanRadiSup.
   2F00..2FDF; Kangxi Radicals	|	Kgxi.
   2FF0..2FFF; Ideographic Description Characters	|	IDC.
-  3000..303F; CJK Symbols and Punctuation	|	CjkSym.
+  3000..303F; CJK Symbols and Punctuation	|	CjkSym. ≈ HanSym.
   3040..309F; Hiragana	|	Hira.
   30A0..30FF; Katakana	|	Kana.
   3100..312F; Bopomofo	|	Bopo.
   3130..318F; Hangul Compatibility Jamo	|	ComJamo.
   3190..319F; Kanbun	|	Kbn.
   31A0..31BF; Bopomofo Extended	|	BopoExt.
-  31C0..31EF; CJK Strokes	|	CjkStrokes.
+  31C0..31EF; CJK Strokes	|	CjkStrokes. ≈ HanStrokes.
   31F0..31FF; Katakana Phonetic Extensions	|	KanaExt.
   3200..32FF; Enclosed CJK Letters and Months	|	EncCJK.
-  3300..33FF; CJK Compatibility	|	CjkCom.
-  3400..4DBF; CJK Unified Ideographs Extension A	|	CjkExtA.
+  3300..33FF; CJK Compatibility	|	CjkCom. ≈ HanCom.
+  3400..4DBF; CJK Unified Ideographs Extension A	|	CjkExtA. ≈ HanExtA.
   4DC0..4DFF; Yijing Hexagram Symbols	|	Yijing.
   4E00..9FFF; CJK Unified Ideographs	|	CJK.
   A000..A48F; Yi Syllables	|	Yiii. = Yi.
@@ -151,13 +151,13 @@
   DB80..DBFF; High Private Use Surrogates	|	HighPUSrgs.
   DC00..DFFF; Low Surrogates	|	LowSrgs.
   E000..F8FF; Private Use Area	|	PUA.
-  F900..FAFF; CJK Compatibility Ideographs	|	CjkComIdeo.
+  F900..FAFF; CJK Compatibility Ideographs	|	CjkComIdeo. ≈ HanComIdeo.
   FB00..FB4F; Alphabetic Presentation Forms	|	AlbtPF.
   FB50..FDFF; Arabic Presentation Forms-A	|	ArabPFA.
   FE00..FE0F; Variation Selectors	|	VS.
   FE10..FE1F; Vertical Forms	|	Vert.
   FE20..FE2F; Combining Half Marks	|	Half.
-  FE30..FE4F; CJK Compatibility Forms	|	CjkComForm.
+  FE30..FE4F; CJK Compatibility Forms	|	CjkComForm. ≈ HanComForm.
   FE50..FE6F; Small Form Variants	|	SmlForm.
   FE70..FEFF; Arabic Presentation Forms-B	|	ArabPFB.
   FF00..FFEF; Halfwidth and Fullwidth Forms	|	HalfFull.
@@ -274,14 +274,14 @@
 1B170..1B2FF; Nüshu	|	Nshu.
 1BC00..1BC9F; Duployan	|	Dupl.
 1BCA0..1BCAF; Shorthand Format Controls	|	ShFormCtrl. = ShFC.
-1CF00..1CFCF; Znamenny Musical Notation	|	Znamenny.
+1CF00..1CFCF; Znamenny Musical Notation	|	Znamenny. ≈ ZnaMu.
 1D000..1D0FF; Byzantine Musical Symbols	|	ByzMu.
 1D100..1D1FF; Musical Symbols	|	Music.
 1D200..1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
-1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik.
+1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik. ≈ KkkNum.
 1D2E0..1D2FF; Mayan Numerals	|	MayaNum.
 1D300..1D35F; Tai Xuan Jing Symbols	|	TXjing.
-1D360..1D37F; Counting Rod Numerals	|	CountRod.
+1D360..1D37F; Counting Rod Numerals	|	RodNum.
 1D400..1D7FF; Mathematical Alphanumeric Symbols	|	MathAaNum.
 1D800..1DAAF; Sutton SignWriting	|	Sgnw.
 1DF00..1DFFF; Latin Extended-G	|	LatnExtG.
@@ -294,8 +294,8 @@
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
-1EC70..1ECBF; Indic Siyaq Numbers	|	IndiSiyaqNum.
-1ED00..1ED4F; Ottoman Siyaq Numbers	|	OttoSiyaqNum.
+1EC70..1ECBF; Indic Siyaq Numbers	|	IndiSiyaqNum. ≈ IsyqNum.
+1ED00..1ED4F; Ottoman Siyaq Numbers	|	OttoSiyaqNum. ≈ OsyqNum.
 1EE00..1EEFF; Arabic Mathematical Alphabetic Symbols	|	ArabMath.
 1F000..1F02F; Mahjong Tiles	|	Majg.
 1F030..1F09F; Domino Tiles	|	Domino.
@@ -313,14 +313,14 @@
 1FA00..1FA6F; Chess Symbols	|	ChessSym.
 1FA70..1FAFF; Symbols and Pictographs Extended-A	|	SymPicExtA.
 1FB00..1FBFF; Symbols for Legacy Computing	|	SymfLC.
-20000..2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB.
-2A700..2B73F; CJK Unified Ideographs Extension C	|	CjkExtC.
-2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD.
-2B820..2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE.
-2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF.
-2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup.
-30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG.
-31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH.
+20000..2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB. ≈ HanExtB.
+2A700..2B73F; CJK Unified Ideographs Extension C	|	CjkExtC. ≈ HanExtC.
+2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD. ≈ HanExtD.
+2B820..2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE. ≈ HanExtE.
+2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF. ≈ HanExtF.
+2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup. ≈ HanComIdeoSup.
+30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG. ≈ HanExtG.
+31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. ≈ HanExtH.
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.

@@ -6,7 +6,7 @@
   - 2.1版，2021-1-5，更正：“阿拉伯数学字母符号”
 - 第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
   - 3.1版，更正：“图符”
-- 第4版：添加统一码14.0新增区段，及改动区段范围：阿含扩到..1174F，西夏补充..18D8F修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。略译文件开头注释。
+- 第4版：添加统一码14.0新增区段，及改动区段范围：阿含扩到..1174F，西夏补充修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。略译文件开头注释。
   - 4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
   - 4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
 - 第5版：添加统一码15.0新增区段，改动部分区段范围，修改译名：那巴泰 → 奈伯特、王朝阿拉姆 → 帝国阿拉姆、…象形文字 → …意音文字，等。
@@ -121,10 +121,13 @@
 |16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|1|65534|0|
 
 ## 图外
-- Visible Speech：钟雨柔：“**可视语音**”:汉字革命与字母普遍主义在中国
+- Visible Speech
+  - <sup>ISO 15924</sup>`Visp`	`280`	`Visible Speech`
+  - 钟雨柔：“**可视语音**”:汉字革命与字母普遍主义在中国
   - 这是类似音标的非语言，且没有主流语言用它作为文字。
-  - ISO 15924	Visp	280	Visible Speech
-- KLI：[Klingon Language Institute](http://klingon.wiki/En/KlingonLanguageInstitute)（克林贡语言学院）的缩写，可简称“克语”
-  - ISO 15924	Piqd	293	Klingon (KLI pIqaD)
-- Sarati：https://lotr.huijiwiki.com/wiki/**萨拉提**
-  - ISO 15924	Sara	292	Sarati
+- Klingon
+  - <sup>ISO 15924</sup>`Piqd`	`293`	`Klingon (KLI pIqaD)`
+  - KLI：[Klingon Language Institute](http://klingon.wiki/En/KlingonLanguageInstitute)（克林贡语言学院）的缩写，可简称“克语”
+- Sarati
+  - <sup>ISO 15924</sup>`Sara`	`292`	`Sarati`
+  - https://lotr.huijiwiki.com/wiki/萨拉提
