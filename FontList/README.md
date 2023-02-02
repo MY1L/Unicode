@@ -24,6 +24,7 @@
 - [Monu Hani](/Hani) 9.2
   - Monu Han2 4.393
   - Monu Han3 1.175
+- [Monu Last 8](https://github.com/MY1L/Unicode/releases/tag/Last8)（非必要）
 
 [Ctrl]<sup>Control</sup> Ctrl<sup>Control**s**</sup> 是个将发布的完全原创工具字体，用于让那些统一码规定没有字形的 控制字、变体选择符、格式控制符、空格、标签 等尽量显示替代字形以便选择复制。其字形形如 Last 和 [Monu Hani](/Hani)的表意描述符。这个工具字体会干扰日常使用——你应该不会希望网页上每个空格都是可见的吧？所以NotoUni只会选择性包含，出于需要可以另外下载它。
 

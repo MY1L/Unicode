@@ -1,6 +1,6 @@
 起始,区段名,需安装,系统字体,备注
-0000..,Basic Latin,Noto Unicode 6.9,,一般字体不覆盖控制字
-0080..,Latin-1 Supplement,Noto Unicode,,一般字体不覆盖控制字
+0000..,Basic Latin,Noto Unicode 6.9,,一般不必覆盖控制字
+0080..,Latin-1 Supplement,Noto Unicode,,一般不必覆盖控制字
 0100..,Latin Extended-A,Noto Unicode,Arial 7.00，等,
 0180..,Latin Extended-B,Noto Unicode,Arial，等,
 0250..,IPA Extensions,Noto Unicode,Arial，等,
@@ -148,14 +148,14 @@ AB70..,Cherokee Supplement,,Gadugi,
 ABC0..,Meetei Mayek,,Nirmala UI,
 AC00..,Hangul Syllables,,Malgun Gothic,
 D7B0..,Hangul Jamo Extended-B,,Malgun Gothic,
-D800..,High Surrogates,,,不是字
-DB80..,High Private Use Surrogates,,,不是字
-DC00..,Low Surrogates,,,不是字
-E000..,Private Use Area,,,私用区
+D800..,High Surrogates,Monu Last 8,,不是字
+DB80..,High Private Use Surrogates,Monu Last,,不是字
+DC00..,Low Surrogates,Monu Last,,不是字
+E000..,Private Use Area,Monu Last,,私用区
 F900..,CJK Compatibility Ideographs,Monu Hani,,
 FB00..,Alphabetic Presentation Forms,Noto Unicode,Arial，等,
 FB50..,Arabic Presentation Forms-A,,,！Noto缺字严重
-FE00..,Variation Selectors,,,！
+FE00..,Variation Selectors,Noto Unicode ⊃ Ctrl Ctrl ?,,！
 FE10..,Vertical Forms,,微软雅黑，等,
 FE20..,Combining Half Marks,Noto Unicode,,
 FE30..,CJK Compatibility Forms,,微软雅黑，等,
@@ -254,7 +254,7 @@ FFF0..,Specials,Noto Unicode,,
 12480.,Early Dynastic Cuneiform,Noto Unicode,,
 12F90.,Cypro-Minoan,Noto Unicode,,
 13000.,Egyptian Hieroglyphs,,,！
-13430.,Egyptian Hieroglyph Format Controls,Ctrl Ctrl ?,,！
+13430.,Egyptian Hieroglyph Format Controls,Noto Unicode ⊃ Ctrl Ctrl,,！
 14400.,Anatolian Hieroglyphs,Noto Unicode,,
 16800.,Bamum Supplement,Noto Unicode,,
 16A40.,Mro,Noto Unicode,,
@@ -272,7 +272,7 @@ FFF0..,Specials,Noto Unicode,,
 1B000.,Kana Supplement,,,！
 1B100.,Kana Extended-A,,,！
 1B130.,Small Kana Extension,,,！
-1B170.,Nushu,Noto Unicode,,！
+1B170.,Nushu,Noto Unicode,,
 1BC00.,Duployan,Noto Unicode,,
 1BCA0.,Shorthand Format Controls,Noto Unicode,,
 1CF00.,Znamenny Musical Notation,Noto Unicode,,
@@ -322,7 +322,7 @@ FFF0..,Specials,Noto Unicode,,
 2F800.,CJK Compatibility Ideographs Supplement,Monu Han2,,
 30000.,CJK Unified Ideographs Extension G,Monu Han3 1.175,,
 31350.,CJK Unified Ideographs Extension H,Monu Han3,,
-E0000.,Tags,Ctrl Ctrl ?,,！
-E0100.,Variation Selectors Supplement,Ctrl Ctrl ?,,！
-F0000.,Supplementary Private Use Area-A,,,私用区
-100000,Supplementary Private Use Area-B,,,私用区
+E0000.,Tags,Noto Unicode ⊃ Ctrl Ctrl,,！
+E0100.,Variation Selectors Supplement,Noto Unicode ⊃ Ctrl Ctrl,,！
+F0000.,Supplementary Private Use Area-A,Monu Last,,私用区
+100000,Supplementary Private Use Area-B,Monu Last,,私用区
