@@ -1,5 +1,5 @@
 起始,区段名,需安装,系统字体,备注
-0000..,Basic Latin,Noto Unicode 7 ⊃ Ctrl Ctrl 1,,一般不必覆盖控制字
+0000..,Basic Latin,Noto Unicode 7 ⊃ Ctrl Ctrl 1.002,,一般不必覆盖控制字
 0080..,Latin-1 Supplement,Noto Unicode ⊃ Ctrl Ctrl,,一般不必覆盖控制字
 0100..,Latin Extended-A,Noto Unicode,Arial 7.00，等,
 0180..,Latin Extended-B,Noto Unicode,Arial，等,
@@ -56,7 +56,7 @@
 19E0..,Khmer Symbols,,Leelawadee UI,
 1A00..,Buginese,,Leelawadee UI,
 1A20..,Tai Tham,Noto Unicode,,
-1AB0..,Combining Diacritical Marks Extended,Noto Unicode,,NotoSans 2.010(26/31)
+1AB0..,Combining Diacritical Marks Extended,Noto Unicode,,NotoSans 2.010缺字(26/31)，补之
 1B00..,Balinese,Noto Unicode,,
 1B80..,Sundanese,Noto Unicode,,
 1BC0..,Batak,Noto Unicode,,
@@ -79,7 +79,7 @@
 2150..,Number Forms,Noto Unicode,Tahoma，等,
 2190..,Arrows,,Segoe UI Symbol，等,
 2200..,Mathematical Operators,,Segoe UI Symbol，等,
-2300..,Miscellaneous Technical,,,！
+2300..,Miscellaneous Technical,Noto Unicode,,SegoeUI Sym.、Noto都缺字，补之
 2400..,Control Pictures,,Segoe UI Symbol,
 2440..,Optical Character Recognition,,Segoe UI Symbol,
 2460..,Enclosed Alphanumerics,,Segoe UI Symbol，等,
@@ -88,7 +88,7 @@
 25A0..,Geometric Shapes,,Segoe UI Symbol，等,
 2600..,Miscellaneous Symbols,,Segoe UI Symbol,
 2700..,Dingbats,,Segoe UI Symbol,
-27C0..,Miscellaneous Mathematical Symbols-A,,Segoe UI Symbol，等,从NotoUni移除
+27C0..,Miscellaneous Mathematical Symbols-A,,Segoe UI Symbol，等,NotoUni曾有
 27F0..,Supplemental Arrows-A,,Segoe UI Symbol，等,
 2800..,Braille Patterns,,Segoe UI Symbol,
 2900..,Supplemental Arrows-B,,Segoe UI Symbol，等,
@@ -214,14 +214,14 @@ FFF0..,Specials,Noto Unicode,,
 10F70.,Old Uyghur,Noto Unicode,,
 10FB0.,Chorasmian,Noto Unicode,,
 10FE0.,Elymaic,Noto Unicode,,
-11000.,Brahmi,,,！
+11000.,Brahmi,Noto Unicode,,SegoeUI His.、Noto都缺或误字，改之
 11080.,Kaithi,Noto Unicode,,
 110D0.,Sora Sompeng,,Nirmala UI,
 11100.,Chakma,Noto Unicode,,
 11150.,Mahajani,Noto Unicode,,
 11180.,Sharada,Noto Unicode,,
 111E0.,Sinhala Archaic Numbers,Noto Unicode,Nirmala UI,
-11200.,Khojki,,,！
+11200.,Khojki,Noto Unicode,,Noto缺字，补之
 11280.,Multani,Noto Unicode,,
 112B0.,Khudawadi,Noto Unicode,,
 11300.,Grantha,Noto Unicode,,
@@ -230,8 +230,8 @@ FFF0..,Specials,Noto Unicode,,
 11580.,Siddham,Noto Unicode,,
 11600.,Modi,Noto Unicode,,
 11660.,Mongolian Supplement,Noto Unicode,,
-11680.,Takri,Noto Unicode,,
-11700.,Ahom,Noto Unicode,,
+11680.,Takri,Noto Unicode,,Noto缺字，补之
+11700.,Ahom,Noto Unicode,,Noto缺字，补之
 11800.,Dogra,Noto Unicode,,
 118A0.,Warang Citi,Noto Unicode,,
 11900.,Dives Akuru,Noto Unicode,,
@@ -240,7 +240,7 @@ FFF0..,Specials,Noto Unicode,,
 11A50.,Soyombo,Noto Unicode,,
 11AB0.,Unified Canadian Aboriginal Syllabics Extended-A,Noto Unicode,,
 11AC0.,Pau Cin Hau,Noto Unicode,,
-11B00.,Devanagari Extended-A,Noto Unicode,,！
+11B00.,Devanagari Extended-A,Noto Unicode,,！Noto干脆就没有，在补
 11C00.,Bhaiksuki,Noto Unicode,,
 11C70.,Marchen,Noto Unicode,,
 11D00.,Masaram Gondi,Noto Unicode,,
@@ -253,7 +253,7 @@ FFF0..,Specials,Noto Unicode,,
 12400.,Cuneiform Numbers and Punctuation,,Segoe UI Historic,
 12480.,Early Dynastic Cuneiform,Noto Unicode,,
 12F90.,Cypro-Minoan,Noto Unicode,,
-13000.,Egyptian Hieroglyphs,,,！Segoe UI Historic缺1字
+13000.,Egyptian Hieroglyphs,Noto Unicode,,SegoeUI His.、Noto都缺或误字，改之
 13430.,Egyptian Hieroglyph Format Controls,Noto Unicode ⊃ Ctrl Ctrl,,
 14400.,Anatolian Hieroglyphs,Noto Unicode,,
 16800.,Bamum Supplement,Noto Unicode,,
@@ -277,17 +277,17 @@ FFF0..,Specials,Noto Unicode,,
 1BCA0.,Shorthand Format Controls,Noto Unicode,,
 1CF00.,Znamenny Musical Notation,Noto Unicode,,
 1D000.,Byzantine Musical Symbols,Noto Unicode,,
-1D100.,Musical Symbols,,,！
+1D100.,Musical Symbols,Noto Unicode,,SegoeUI Sym.、Noto都(?)缺字，补之
 1D200.,Ancient Greek Musical Notation,Noto Unicode,,
-1D2C0.,Kaktovik Numerals,Noto Unicode ⊃ Ctrl Knum ?,,！
+1D2C0.,Kaktovik Numerals,Noto Unicode ⊃ Ctrl Knum ?,,
 1D2E0.,Mayan Numerals,Noto Unicode,,
 1D300.,Tai Xuan Jing Symbols,,Segoe UI Symbol,
 1D360.,Counting Rod Numerals,Noto Unicode,,
 1D400.,Mathematical Alphanumeric Symbols,,Segoe UI Symbol，等,
 1D800.,Sutton SignWriting,Noto Unicode,,
-1DF00.,Latin Extended-G,Noto Unicode,,！NotoSans(31/37)，待补
+1DF00.,Latin Extended-G,Noto Unicode,,！NotoSans缺字(31/37)，待补
 1E000.,Glagolitic Supplement,Noto Unicode,,
-1E030.,Cyrillic Extended-D,Noto Unicode,,！
+1E030.,Cyrillic Extended-D,Noto Unicode,,！Noto干脆就没有，在补
 1E100.,Nyiakeng Puachue Hmong,Noto Unicode,,
 1E290.,Toto,Noto Unicode,,
 1E2C0.,Wancho,Noto Unicode,,
@@ -303,16 +303,16 @@ FFF0..,Specials,Noto Unicode,,
 1F0A0.,Playing Cards,,Segoe UI Symbol,
 1F100.,Enclosed Alphanumeric Supplement,Noto Unicode,,
 1F200.,Enclosed Ideographic Supplement,Noto Unicode,,
-1F300.,Miscellaneous Symbols and Pictographs,,,！
+1F300.,Miscellaneous Symbols and Pictographs,,,！Noto严重缺字，SegoeUI Sym.缺1字
 1F600.,Emoticons,,Segoe UI Emoji，等,
 1F650.,Ornamental Dingbats,,Segoe UI Symbol,
-1F680.,Transport and Map Symbols,,,！
-1F700.,Alchemical Symbols,,,！
+1F680.,Transport and Map Symbols,,,！Noto严重缺字，SegoeUI Sym.缺15字
+1F700.,Alchemical Symbols,Noto Unicode,,！SegoeUI Sym.、Noto都缺字，补之
 1F780.,Geometric Shapes Extended,Noto Unicode,,
 1F800.,Supplemental Arrows-C,Noto Unicode,,
-1F900.,Supplemental Symbols and Pictographs,,,！
+1F900.,Supplemental Symbols and Pictographs,,,！Noto严重缺字，SegoeUI Emj.缺26字
 1FA00.,Chess Symbols,Noto Unicode,,
-1FA70.,Symbols and Pictographs Extended-A,,,！
+1FA70.,Symbols and Pictographs Extended-A,,,！Noto严重缺字
 1FB00.,Symbols for Legacy Computing,Noto Unicode,,
 20000.,CJK Unified Ideographs Extension B,Monu Han2 4.393,,
 2A700.,CJK Unified Ideographs Extension C,Monu Han2,,

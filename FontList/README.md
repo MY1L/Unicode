@@ -19,7 +19,7 @@
 字体名第一次出现时后方附带的是分析时的版本号。“，等”表示能完全覆盖的系统字体不只一个。
 
 如列表所示，如需视窗10环境下几乎全覆盖统一码，~~仅~~需额外安装下列字体：
-- [Noto Unicode](/NotoUnicode) 6.9（已含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6。未来将含部分[Ctrl Ctrl][Ctrl]）
+- [Noto Unicode](/NotoUnicode) 6.9（已含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6、[Ctrl Ctrl] 1.002）
 - [Monu Hani](/Hani) 9.2
   - Monu Han2 4.393
   - Monu Han3 1.175
@@ -28,9 +28,9 @@
 
 注意以上排序严格按后备（fallback）顺序从上至下，尤其Noto西夏宋包含的非西夏衬线体字符会覆盖其它字体的，所以应垫底（被其它字体覆盖非西夏区段）
 
-[Ctrl]<sup>Control</sup> Ctrl<sup>Control**s**</sup> 是个完全原创工具字体，用于让那些统一码规定没有字形的 控制字、变体选择符、格式控制符、空格、标签 等尽量显示替代字形以便选择复制。其字形形如 Last 和 [Monu Hani](/Hani)的表意描述符。作为有专门用途的工具，它会干扰日常使用——你应该不会希望网页上每个空格都是可见的吧？所以NotoUni只会选择性包含，出于需要可以另外下载它。
+[Ctrl Ctrl] 是个完全的原创工具字体，用于让那些统一码规定没有字形的 控制字、变体选择符、格式控制符、空格、标签 等尽量显示替代字形以便选择复制。其字形形如 Last 和 [Monu Hani](/Hani)的表意描述符。作为有专门用途的工具，它会干扰日常使用——你应该不会希望网页上每个空格都是可见的吧？所以NotoUni只会选择性包含它的部分字形，出于需要可以另外下载它。
 
-[Ctrl]: https://github.com/MY1L/Ctrl#ctrl
+[Ctrl Ctrl]: https://github.com/MY1L/Ctrl#ctrl
 
 ## 注册表与“关键”字体
 如果你还了解注册表，可以安装字体后查阅`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts`，然后到
