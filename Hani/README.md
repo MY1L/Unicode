@@ -3,9 +3,7 @@
 
 包含若干思源黑体没有的自制汉字字形、原创表意描述字符、注音扩充、算筹的画正字，和一些古文字形，等等。
 
-> 汉字符号“Han”定义考虑以 [Scripts-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Scripts.txt) 、
-> 
-> 泛汉字符号“Hani”定义考虑以 [ScriptExtensions-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/ScriptExtensions.txt) 为准
+汉字符号“Han”定义考虑以 [Scripts-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Scripts.txt) 、<br/>泛汉字符号“Hani”定义考虑以 [ScriptExtensions-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/ScriptExtensions.txt) 为准。
 
 由于统一码收录汉字总量超出单字体可容字形量上限(65536)，又考虑到向后兼容，遂拆分为 Han2、Han3 等[负责对应的表意平面](/Blocks#平面)，可在[Releases](https://github.com/MY1L/Unicode/releases?q=MonuHani&expanded=true)搜索下载。
 
@@ -58,5 +56,5 @@ TIP平面目前虽然还剩余5,6403个码位，但考虑到向后兼容，前�
 - 2023-1-29 v9 示亡号特性支持，尝试BMP平面`Hani`支持，修正错字，等 ← 这里开始扩展
   - 为避让BMP平面汉字，v8.x 的一些字形移动到私用区增乙或不再支持，由我其它字体接手
 - 2023-1-30 v9.001 微调、补充或替换，来自 Last8
-- 2023-1-31 v9.1 硬是自己补了百余个字，全BMP平面`Hani`支持，等
-- 2023-2-1  v9.2 添加原创表意描述字符、补充注音、附围中日韩字母及月份，等
+- 2023-1-31 v9.1 硬是自己补了百余个字：全BMP平面`Hani`支持，添加原创表意描述字符，等
+- 2023-2-1  v9.2 补充注音、附围中日韩字母及月份，等

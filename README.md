@@ -11,7 +11,7 @@
 我b站的旧介绍文章：[100+字体合一：工具字体Noto Unicode](https://www.bilibili.com/read/cv8805564)，用途类似Unifont字体。可在[Releases][r]下载。
 
 ## Monu Last
-我b站的旧介绍视频：[1个对应111万4112个字符的字体](https://www.bilibili.com/video/BV1XT4y1N7TG/)，Last取“Last Resort”之意。可在[Releases][r]下载。
+我b站的旧介绍视频：[1个对应111万4112个字符的字体](https://www.bilibili.com/video/BV1XT4y1N7TG/)，Last取“最后手段(Last Resort)”之意。可在[Releases][r]下载。
 
 ## [Monu Hani](/Hani)
 包含若干思源黑体没有的自制汉字字形、算筹的画正字，和一些古文字形，`Hani`是泛指汉字的 [ISO 15924 四字代码](/abbr)。

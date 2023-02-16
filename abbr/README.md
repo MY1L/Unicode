@@ -1,14 +1,14 @@
-# 区段名缩略
+# 统一码名词缩略
 **abbreviate**，“缩略”，简写作abbr。
 
-苦于名称过长，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见abbr.txt。
+苦于名称过长，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称等作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见[abbr.txt](/abbr/abbr.txt)。
 
 ### 更新记录
 - 2021-3-3 v1.1：修改太玄经和3个Letter相关的缩略。
 - 2021-9-16 v2：修正、添加统一码14.0版新增区段缩略。
   - 2022-‎9-‎12 修正下方表格。
 - 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略。
-- 2023-1-16 v4：追加路线图版 `abbr-roadmap.txt`。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
+- 2023-1-16 v4：追加路线图版 [abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
   - v4.1：更改：CountingRod. → RodNum.
 
 ## 出典
@@ -125,13 +125,14 @@
 |GeoShape||Geometric Shapes|
 |Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
-|Horz||Horizontal|Vert反义词，这里没用上|
+|Horz||Horizontal|Vert反义词|
 |Indi||Indic|
 |Kbn||Kanbun|如[Roadmaps]|
 |Kgxi|Kangxi|Kangxi Radicals|缩略存疑|
 |Lttr||Letter(s)|
 |Lttrlike||Letterlike Symbols|
 |Majg|Mahjong|Mahjong Tiles|
+|mir||mirror|Noto Math描述镜像字符的缩略，没用上|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|

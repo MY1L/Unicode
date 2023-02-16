@@ -1,5 +1,5 @@
-# 统一码区段汉化
-苦于译名混乱，对统一码[Blocks-15.0.0.txt](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)文件内区段名称作汉化。
+# 统一码名词汉化
+苦于译名混乱，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称等作汉化，详见[Blocks.txt](/Blocks/Blocks.txt)。
 
 ## 更新
 - 第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，改动之处见注释。
@@ -10,7 +10,7 @@
   - 4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
   - 4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
 - 第5版：添加统一码15.0新增区段，改动部分区段范围，修改译名：那巴泰 → 奈伯特、王朝阿拉姆 → 帝国阿拉姆、…象形文字 → …意音文字，等。
-- 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版 `Blocks-roadmap.txt`
+- 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版 [Blocks-roadmap.txt](/Blocks/Blocks-roadmap.txt)。
   - 6.1版：修正路线图版区段范围。补充有 ISO 15924 代码的路线图外译名。
 
 ## 对译表
@@ -25,7 +25,8 @@
 |Ancient|古代|实际多为古罗马……|
 |and|及||
 |Arrows|箭头||
-|Block Elements|方块构素|Block作区段名不译“区段”|
+|*Block* Elements|方块构素|Block作区段名不译“区段”|
+|Block|区段|不译“区块”|
 |Box Drawing|制表符||
 |Character(s)|字符||
 |CJK|中日韩||
@@ -58,12 +59,12 @@
 |Musical Notation|音符|Note“音符”，Notation“谱”|
 |Musical Symbols|乐符||
 |Counting Rod *Numerals*|算筹|“算筹”已含数字涵义|
-|Number(s)／Numeral(s)|数字||
+|Number(s)／Numeral(s)|数字|Numbers不必区分为“数量”|
 |Old Turkic|突厥|没有“(今)突厥”了|
 |Operators|运算符||
 |Patterns|点字|仅限描述盲文|
 |Phonetic|音标||
-|Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌|
+|Playing Cards|扑克|亦译“纸牌”，但语感似泛指纸质牌而不用|
 |Pictographs|象形|这才是“象形文字”吧……|
 |Pictographic|图形||
 |Pictures|图符|曾译“图形”|
@@ -106,19 +107,27 @@
 |Tai Le|傣㐻|又译“德宏傣文”|
 |Tai Tham|傣昙|即 老傣文、(老)傣泐文|
 
+#### 序数对应
+
+甲乙丙丁戊己庚辛壬癸子丑寅卯辰已午未申酉戌亥物天地人
+
+ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ
+
+用“天、地、人、物”代字母的做法源自李善兰译《代数学》，其参考朱世杰《四元玉鉴》(1303年)——如“一元二次方程”那样，「元」指未知数源于宋元“天元术”，未知数为“天”元，常数项为“太”极。
+
 ## 平面
 ~~或译“飞机”~~。统计截至统一码15.0.0版：
 
-|#|简称|原称|译称|区数|字数|余数|
-| -: | -: | -: | :- | -: | -: | -: |
-|0|BMP|Basic Multilingual Plane|基本多文种平面|161|62034|1420|
-|1|SMP|Supplementary Multilingual Plane|增补多文种平面|151|23276|42258|
-|2|SIP|Supplementary Ideographic Plane|增补表意平面|6|60873|4661|
-|3|TIP|Tertiary Ideographic Plane|第三表意平面|2|9131|56403|
-|4~13|-|-|-|0|0|65534|
-|14|SSP|Supplementary Special-purpose Plane|增补殊用平面|2|337|65197|
-|15|PUA-A|Supplementary Private Use Area-A|增补私用区甲|1|65534|0|
-|16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|1|65534|0|
+|#|简称|原称|译称|略称|区数|字数|余数|
+| -: | -: | -: | :- | :- | -: | -: | -: |
+|0|BMP|Basic Multilingual Plane|基本多文种平面|基本平面|161|62034|1420|
+|1|SMP|Supplementary Multilingual Plane|增补多文种平面|第一平面|151|23276|42258|
+|2|SIP|Supplementary Ideographic Plane|增补表意平面|第二平面|6|60873|4661|
+|3|TIP|Tertiary Ideographic Plane|第三表意平面|第三平面|2|9131|56403|
+|4~13|-|-|-| |0|0|65534|
+|14|SSP|Supplementary Special-purpose Plane|增补殊用平面|~~别致平面~~|2|337|65197|
+|15|PUA-A|Supplementary Private Use Area-A|增补私用区甲|私用区增甲|1|65534|0|
+|16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|私用区增乙|1|65534|0|
 
 ## 图外
 - Visible Speech
