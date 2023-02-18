@@ -10,11 +10,12 @@
 - 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略。
 - 2023-1-16 v4：追加路线图版 [abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
   - v4.1：更改：CountingRod. → RodNum.
+  - v4.2：修正遗漏缩略，补充底部标注。
 
 ## 出典
 
 ### ISO四字代码
-国际标准化组织的标准：[ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。四字代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
+国际标准化组织的标准 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。代码当缩写用的唯一问题是某些文种名称少于4字也得补长到4字。
 
 #### 区段名没用上，但字符可以用
 |缩略|原意|注释|
@@ -57,8 +58,8 @@
 ||Alchemical|Alchemical Symbols|
 |ArabMath|Arabic Math|Arabic Mathematical Alphabetic Symbols|
 |Brai|Braille|Braille Patterns|
-|Cjk／Han|CJK|CJK Unified Ideographs|
-|CjkSym／HanSym|CJK Symbols|CJK Symbols And Punctuation|
+|Han|CJK|CJK Unified Ideographs|
+|HanSym|CJK Symbols|CJK Symbols And Punctuation|
 |ComJamo|Compat Jamo|Hangul Compatibility Jamo|
 ||Domino|Domino Tiles|
 |EncCJK|Enclosed CJK|Enclosed CJK Letters And Months|
@@ -105,7 +106,7 @@
 ### 已有实例，以及我编的
 |缩略|简写|原文|注释|
 | -: | :- | :- | :- |
-|AaNum|Alpanum|Alphanumeric(s)|缩略存疑|
+|AaNum|Alpanum|Alphanumeric(s)|缩略自撰|
 |Albt||Alphabetic|
 |Alch||Alchemical|
 |Anc||Ancient|如[Roadmaps]|
@@ -117,9 +118,9 @@
 |Ctrl||Control(s)|
 |comb||combining|
 |Diac|Diacriticals|Combining Diacritical Marks|如[Roadmaps]|
-|Ding||Dingbats|缩略存疑|
-|EyDy||EarlyDynastic|缩略存疑|
-|Emon||Emoticons|
+|Ding||Dingbats|缩略自撰|
+|EyDy||EarlyDynastic|缩略自撰|
+|Emon||Emoticons|缩略自撰?|
 |Form||Form(s)／Format|
 |FC|FormCtrl.|Format Controls|如[Roadmaps]|
 |GeoShape||Geometric Shapes|
@@ -127,33 +128,38 @@
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
 |Horz||Horizontal|Vert反义词|
 |Indi||Indic|
+|Janz||Jianzi|缩略自撰|
+|Kakk||Kaktovik|缩略自撰|
 |Kbn||Kanbun|如[Roadmaps]|
-|Kgxi|Kangxi|Kangxi Radicals|缩略存疑|
+|Kgxi|Kangxi|Kangxi Radicals|缩略自撰|
 |Lttr||Letter(s)|
 |Lttrlike||Letterlike Symbols|
-|Majg|Mahjong|Mahjong Tiles|
+|Majg|Mahjong|Mahjong Tiles|缩略自撰?|
 |mir||mirror|Noto Math描述镜像字符的缩略，没用上|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
-|Opor||Operators|缩略存疑|
+|Opor||Operators|缩略自撰|
+|Orcl|Oracle|Oracle Bone Script|甲骨文公司的纳斯达克股票代码缩写|
 |Otto||Ottoman|欧陆风云作`TUR`，不适合|
 |Phon||Phonetic|
 |Pic||Pictographs|
 |PlayCard||Playing Cards|
 |Punc|Punct.|Punctuation|如[Roadmaps]|
-|Radi||Radicals|缩略存疑|
+|Radi||Radicals|缩略自撰|
 |RodNum.|Rod Nums|Counting Rod Numerals|如[Roadmaps]|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
+|~syqNum|~SiyaqNum.|~ Siyaq Numbers|
 |Spec||Specials|如[Roadmaps]|
-|Srgs||Surrogates|缩略存疑|
+|Srgs||Surrogates|缩略自撰|
 |Syll||Syllabic(s)／Syllabary|如不重复可省略|
-|SymfLC||Symbols for Legacy Computing|缩略存疑|
+|SymfLC||Symbols for Legacy Computing|缩略自撰|
 |Tech||Technical|
 |Trans||Transport|
 |TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|仿`Yijing`|
 |Vert.|VertForm.|Vertical Forms|如[Roadmaps]|
+|Zna||Znamenny|缩略自撰|
 
 #### 见于[Roadmaps]但未用
 |简写|原文|
