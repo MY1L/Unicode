@@ -268,7 +268,7 @@ FFF0..,Specials,Noto Unicode,,
 18800.,Tangut Components,Noto Serif Tangut,,
 18B00.,Khitan Small Script,Noto Unicode,,
 18D00.,Tangut Supplement,Noto Serif Tangut,,
-1AFF0.,Kana Extended-B,Monu Hani,,思源完全没有，原创之
+1AFF0.,Kana Extended-B,Monu Hani ⊃ Ctrl Kana 1,,思源完全没有，原创之
 1B000.,Kana Supplement,Monu Temp,,！思源完全没有，Last有1个，Monu有2个
 1B100.,Kana Extended-A,Monu Temp,,！思源完全没有，Last有1个，Monu有4个
 1B130.,Small Kana Extension,Monu Hani ⊃ Monu 12,,思源完全没有，补之
@@ -279,7 +279,7 @@ FFF0..,Specials,Noto Unicode,,
 1D000.,Byzantine Musical Symbols,Noto Unicode,,
 1D100.,Musical Symbols,Noto Unicode ⊃ Ctrl Ctrl,,SegoeUI Sym.、Noto2.002都(?)缺字，补之
 1D200.,Ancient Greek Musical Notation,Noto Unicode,,
-1D2C0.,Kaktovik Numerals,Noto Unicode ⊃ Ctrl Math,,Noto完全没有，原创之
+1D2C0.,Kaktovik Numerals,Noto Unicode ⊃ Ctrl Math 1,,Noto完全没有，原创之
 1D2E0.,Mayan Numerals,Noto Unicode,,
 1D300.,Tai Xuan Jing Symbols,,Segoe UI Symbol,
 1D360.,Counting Rod Numerals,Noto Unicode,,Noto字形有修

@@ -10,7 +10,7 @@
 
 ## BMP,SMP,PUA*
 ### Hani v9.5
-用于覆盖BMP、SMP平面`Hani`字符。[支持一些别致的排版特性](https://github.com/MY1L/Unicode/releases/tag/Hani9)，且SIP、TIP、三个私用区均有若干备用字形。目前为3次曲线（.otf）版本。SMP平面除了支持全部小型假名，还有少量算筹、减字谱。
+用于覆盖BMP、SMP平面`Hani` `Bopo` `Hira` `Kana`字符。[支持一些别致的排版特性](https://github.com/MY1L/Unicode/releases/tag/Hani9)，且SIP、TIP、三个私用区均有若干备用字形。目前为3次曲线（.otf）版本。SMP平面除了支持全部小型假名，还有少量算筹、减字谱。
 对照的思源黑体为2.004版。
 
 #### BMP
@@ -31,7 +31,7 @@
 - F900..CJK Compatibility Ideographs		；思源黑(472／366字)
   - 2023-1-29 v9：补充思源没有的 𢡊𢡄𣏕𥉉𥳐𧻓
   - 2023-1-30：微调 喝`uFA36`
-  - 2023-1-31：硬是补完了思源和遍黑都没有的 uFA70~FAD9 内剩余的100个字！
+  - 2023-1-31：硬是补完了思源和遍黑都没有的`uFA70~FAD9`内剩余的100个字！
     - 其中有这么些尚需检查的奇怪映射（不完全列举）
 <details><summary>——点此展开\折叠——</summary>
 
@@ -70,7 +70,7 @@
 
 </details>
 
-#### SMP
+#### SMP,SIP
 - 1AFF0..Kana Extended-B	；思源黑(13／0字)
   - 2023-2-18 v9.5：原创以补全：𚿰𚿱𚿲𚿳𚿵𚿶𚿷𚿸𚿹𚿺𚿻𚿽𚿾
 - 1B000..Kana Supplement	；思源黑(256／0字)
@@ -78,12 +78,14 @@
 - 1B100..Kana Extended-A	；思源黑(35／0字)
   - 有，但欠很多字，见下。
 - 1B130..Small Kana Extension	；思源黑(9／0字)
-  - 2023-2-3~14：添加假名：`u1AFFB` `u1B000` `u1B001` `u1B108` `u1B11F` `u1B120` `u1B121` `u1B122` `u2A708` `u2CF00`、<br/>`u1B130` `u1B131` `u1B132` `u1B133` `u1B134` `u1B135` `u1B136` `u1B137` `u1B138` `u1B139` `u1B13A` `u1B13B` `u1B13C` `u1B13D` `u1B13E` `u1B13F` `u1B140` `u1B141` `u1B142` `u1B143` `u1B144` `u1B145` `u1B146` `u1B147` `u1B148` `u1B149` `u1B14A` `u1B14B` `u1B14C` `u1B14D` `u1B14E` `u1B14F` `u1B150` `u1B151` `u1B152` `u1B153` `u1B154` `u1B155` `u1B156` `u1B157` `u1B158` `u1B159` `u1B15A` `u1B15B` `u1B15C` `u1B15D` `u1B15E` `u1B15F` `u1B160` `u1B161` `u1B162` `u1B163` `u1B164` `u1B165` `u1B166` `u1B167`——即除了 𛄲𛅐𛅑𛅒𛅕𛅤𛅥𛅦𛅧，把未来（如有）的小型假名也填了。其中2个汉字 𪜈𬼀，其实是合略仮名“ゟ(より) ヿ(コト) 𪜈(トモ) 𬼀(シテ)”后2个。
+  - 2023-2-3~14：添加我以前给Monu 12补画的假名：`u1AFFB` `u1B000` `u1B001` `u1B108` `u1B11F` `u1B120` `u1B121` `u1B122` `u2A708` `u2CF00`、\
+`u1B130` `u1B131` `u1B132` `u1B133` `u1B134` `u1B135` `u1B136` `u1B137` `u1B138` `u1B139` `u1B13A` `u1B13B` `u1B13C` `u1B13D` `u1B13E` `u1B13F` `u1B140` `u1B141` `u1B142` `u1B143` `u1B144` `u1B145` `u1B146` `u1B147` `u1B148` `u1B149` `u1B14A` `u1B14B` `u1B14C` `u1B14D` `u1B14E` `u1B14F` `u1B150` `u1B151` `u1B152` `u1B153` `u1B154` `u1B155` `u1B156` `u1B157` `u1B158` `u1B159` `u1B15A` `u1B15B` `u1B15C` `u1B15D` `u1B15E` `u1B15F` `u1B160` `u1B161` `u1B162` `u1B163` `u1B164` `u1B165` `u1B166` `u1B167`——即除了 𛄲𛅐𛅑𛅒𛅕𛅤𛅥𛅦𛅧，把未来（如有）的小型假名也填了，它们全都不是由对应“大型”假名缩小而来的，那样字重会变细。其中2个SIP汉字 𪜈𬼀，其实是合略仮名“ゟ(より) ヿ(コト) 𪜈(トモ) 𬼀(シテ)”后2个，所以[它们都是比例宽度](https://www.bilibili.com/read/cv5457108)。
 
 [idc5]: https://www.unicode.org/L2/L2022/22191-five-new-idc-chars.pdf
 [CtrlCtrl]: https://github.com/MY1L/Ctrl/releases/tag/Ctr1
-#### SIP,TIP
+#### TIP
 - 2023-1-29 v9
+  - 添加 𱝫`u3176B`
   - 修正8.1版 U+3205D → 𲁓`u32053`
 #### E000..私用区
 v9 之前的私用字形暂略，不妨查阅[之前每版发布的说明图文](/Hani#更新)。
@@ -129,7 +131,7 @@ font-family:"随便一个不含汉字的字体",Monu Hani,Microsoft YaHei UI,Mon
 }
 ```
 
-实际浏览器渲染如图（b站审核认为此图不适宜）
+实际浏览器渲染如图（b站审核认为此图不适宜）\
 ![【林奇】](https://user-images.githubusercontent.com/58043328/215335730-ad4dcf43-aa94-463d-9ff2-94597240ef3f.png)<br/>
 不用说我这字体肯定还有点彩蛋的。
 

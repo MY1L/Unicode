@@ -11,6 +11,7 @@
 - 2023-1-16 v4：追加路线图版 [abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
   - v4.1：更改：CountingRod. → RodNum.
   - v4.2：修正遗漏缩略，补充底部标注。
+  - v4.3：略改，添加备注。
 
 ## 出典
 

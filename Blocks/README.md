@@ -112,21 +112,22 @@
 
 甲乙丙丁戊己庚辛壬癸子丑寅卯辰已午未申酉戌亥物天地人<br/>ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ
 
-用“天、地、人、物”代字母的做法源自李善兰译《代数学》，其参考朱世杰《四元玉鉴》(1303年)——如“一元二次方程”那样，「元」指未知数源于宋元“天元术”，未知数为“天”元，常数项为“太”极……
+用“天、地、人、物”代字母的做法源自李善兰译《代数学》，其参考朱世杰《四元玉鉴》(1303年)——如“一元二次方程”那样，「元」指未知数源于宋元“天元术”，未知数为“天”元，常数项为“太”极……\
+![天干地支](https://user-images.githubusercontent.com/58043328/219867554-fceff807-b3fe-4496-86eb-19cde5ab134c.jpg)
 
 ## 平面
 ~~或译“飞机”~~。统计截至统一码15.0.0版：
 
-|#|简称|原称|译称|略称|区数|字数|余数|
-| -: | -: | -: | :- | :- | -: | -: | -: |
-|0|BMP|Basic Multilingual Plane|基本多文种平面|基本平面|161|62034|1420|
-|1|SMP|Supplementary Multilingual Plane|增补多文种平面|第一平面|151|23276|42258|
-|2|SIP|Supplementary Ideographic Plane|增补表意平面|第二平面|6|60873|4661|
-|3|TIP|Tertiary Ideographic Plane|第三表意平面|第三平面|2|9131|56403|
-|4~13|-|-|-| |0|0|65534|
-|14|SSP|Supplementary Special-purpose Plane|增补殊用平面|~~别致平面~~|2|337|65197|
-|15|PUA-A|Supplementary Private Use Area-A|增补私用区甲|私用区增甲|1|65534|0|
-|16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|私用区增乙|1|65534|0|
+|#|简称|原称|译称|略称|别称|区数|字数|余数|
+| -: | -: | -: | - | - | - | -: | -: | -: |
+|0|BMP|Basic Multilingual Plane|基本多文种平面|基本平面|-|161|62034|1420|
+|1|SMP|Supplementary Multilingual Plane|增补多文种平面|第一平面|多文种辅助平面|151|23276|42258|
+|2|SIP|Supplementary Ideographic Plane|增补表意平面|第二平面|汉字辅助平面|6|60873|4661|
+|3|TIP|Tertiary Ideographic Plane|第三表意平面|第三平面|汉字第三平面|2|9131|56403|
+|4~13|-|-|-|-|-|0|0|65534|
+|14|SSP|Supplementary Special-purpose Plane|增补殊用平面|-|特殊用途平面|2|337|65197|
+|15|PUA-A|Supplementary Private Use Area-A|增补私用区甲|私用区增甲|私用辅助平面甲|1|65534|0|
+|16|PUA-B|Supplementary Private Use Area-B|增补私用区乙|私用区增乙|私用辅助平面乙|1|65534|0|
 
 ## 图外
 - Visible Speech
