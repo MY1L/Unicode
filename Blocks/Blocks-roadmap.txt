@@ -30,6 +30,7 @@
 #	¿尚未编写详细提案的?
 #	~标示码位有冲突~
 #	¿¿¿欠分配的???
+#	✱标示此区段有意外用途，未来码位或有冲突。
 
 0000..007F; 0000基本拉丁|Basic Latin
 0080..00FF; 0080拉丁一补充|Latin-1 Supplement
@@ -75,7 +76,7 @@
 1400..167F; 1400统一加拿大土著音节|Unified Canadian Aboriginal Syllabics
 1680..169F; 1680欧甘|᚛ᚑᚌᚐᚋ᚜|Ogham
 16A0..16FF; 16A0卢恩|ᚱᚢᚾᛟ|Runic
-1700..171F; 1700他加禄|Tagalog
+1700..171F; 1700他加禄|ᜊᜌ᜔ᜊᜌᜒᜈ᜔|Tagalog
 1720..173F; 1720哈努努奥|Hanunoo
 1740..175F; 1740布希德|Buhid
 1760..177F; 1760蒂亚格班瓦|Tagbanwa
@@ -153,7 +154,7 @@
 3400..4DBF; 3400中日韩统一表意扩充甲|CJK Unified Ideographs Extension A
 4DC0..4DFF; 4DC0易经六十四卦|Yijing Hexagram Symbols
 4E00..9FFF; 4E00中日韩统一表意文字|CJK Unified Ideographs
-A000..A48F; A000彝文音节|ꆀꉙ|Yi Syllables
+A000..A48F; A000彝文音节|ꆈꌠꁱꂷ|Yi Syllables
 A490..A4CF; A490彝文部首|Yi Radicals
 A4D0..A4FF; A4D0傈僳(老)|ꓡꓲꓢꓴ|Lisu
 A500..A63F; A500瓦伊|Vai
@@ -450,6 +451,7 @@ FFF0..FFFF; FFF0特殊|Specials
 31350..323AF; 31350中日韩统一表意扩充辛|CJK Unified Ideographs Extension H
 32400..352FF; 〓3240?篆书(Seal Script)
 35400..36BFF; 〓3540?甲骨(Oracle Bone Script)
+A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字
 E0000..E007F; E0000标签|Tags
 E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
 F0000..FFFFF; F0000增补私用区甲|Supplementary Private Use Area-A

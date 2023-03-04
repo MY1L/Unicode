@@ -8,7 +8,7 @@
 |颜色| |绿|蓝|青| |黄|黑| | |橙|||||紫|褐|灰|粉||
 |预留未用|红||||粉| | |白|透||紫|灰|茶|堇|||||橙|<!-- www.docin.com/p-447661016.html -->
 
-下文凡`uXXXX`是具体码位，而`XXXX..`是区段，相关对应[首页都有](https://github.com/MY1L/Unicode)。
+下文凡`uXXXX`是具体码位，而`XXXX..`是区段，相关对应[首页都有](../../../)。
 
 ## 简要回顾
 第一至五版略，见[自述文件](/NotoUnicode)。
@@ -34,11 +34,11 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 
   > 非问题
   > 1. 本字体如预想那样相比Noto系列全装总体积要小不少，唯Noto西夏宋缺乏可压缩空间（除非搞类似有损曲线之类我不愿做的事）字多、体积又大，不如单独安装，所以未合并它。
-  > 2. [如我之前展示的](https://www.bilibili.com/read/cv9204898)，契丹小字有不同于汉字、契丹大字…的“拼字”性质，让它呈现为非黑体有利于上下文区分。
+  > 2. [如我之前展示的](https://www.bilibili.com/read/cv9204898 "契丹小字黑体组词・西夏文黑体试作 - 哔哩哔哩")，契丹小字有不同于汉字、契丹大字…的“拼字”性质，让它呈现为非黑体有利于上下文区分。
 
 - v6.9
   - 从[Monu Hani 9](https://github.com/MY1L/Unicode/releases/tag/Hani9)迁来我做的画正字，改善若干字形
-  - 考虑到Noto女书[有多余汉字](https://github.com/notofonts/nushu/issues/7)影响[fallback]，添加`1B170..`，采用2.003版已修正的传统字形，并替换原有的女书重复号
+  - 考虑到Noto女书[有多余汉字](https://github.com/notofonts/nushu/issues/7)影响[fallback]，添加`1B170..`，采用2.003版已修正的传统字形，并替换原有的女书叠字号 𖿡
   - 我补完的`31A0..`整个区段字形现在移给[Monu Hani 9.x](https://github.com/MY1L/Unicode/blob/main/Hani)
   - 其它更新…
 
@@ -129,7 +129,7 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 
 ### 2023-2-15 v7.02
 - 据 Ctrl Math 1 修正卡克托维克数字：4𝋄 9𝋉 14𝋎 19𝋓
-- 改善.notdef字形
+- 改善`.notdef`字形
 - 其它更新…
 
 ### 2023-2-17~18 v7.1
@@ -155,7 +155,7 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 
 - `1E030..`CyrlExtD.，Noto全无(缺63字)
   - 补全！𞀰𞀱𞀲𞀳𞀴𞀵𞀶𞀷𞀸𞀹𞀺𞀻𞀼𞀽𞀾𞀿𞁀𞁁𞁂𞁃𞁄𞁅𞁆𞁇𞁈𞁉𞁊𞁋𞁌𞁍𞁎𞁏𞁐𞁑𞁒𞁓𞁔𞁕𞁖𞁗𞁘𞁙𞁚𞁛𞁜𞁝𞁞𞁟𞁠𞁡𞁢𞁣𞁤𞁥𞁦𞁧𞁨𞁩𞁪𞁫𞁬𞁭 𞂏
-    - 可见[Cyrillic Ext-D与Noto原有音标混排的截屏](https://www.bilibili.com/read/cv21785991)
+    - 可见[Cyrillic Ext-D与Noto原有音标混排的截屏](https://www.bilibili.com/read/cv21785991 "全统一码覆盖计划：NotoUni7.1、MonuHani9.5等字体制作后记 - 哔哩哔哩")
 
 #### 修改
 - 调整阿拉伯字形名称：`0600..` `0750..` `0870..` `08A0..` `FB50..` `FE70..`

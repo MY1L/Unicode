@@ -12,6 +12,7 @@
   - v4.1：更改：CountingRod. → RodNum.
   - v4.2：修正遗漏缩略，补充底部标注。
   - v4.3：略改，添加备注。
+  - v4.4：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
 
 ## 出典
 
@@ -107,57 +108,57 @@
 ### 已有实例，以及我编的
 |缩略|简写|原文|注释|
 | -: | :- | :- | :- |
-|AaNum|Alpanum|Alphanumeric(s)|缩略自撰|
-|Albt||Alphabetic|
-|Alch||Alchemical|
+|AaNum|Alpanum|Alphanumeric(s)|缩略自撰；[allacronyms]是A/N等|
+|Albt||Alphabetic|缩略自撰|
+|Alch||Alchemical|常见缩略|
 |Anc||Ancient|如[Roadmaps]|
 |Arch||Archaic|如[Roadmaps]|
-|Arow||Arrows|
+|Arow||Arrows|缩略自撰|
 |Blocks|BlockEle.|Block Elements|如[Roadmaps]|
 |BoxDraw||Box Drawing|
 |Byz||Byzantine|同欧陆风云|
-|Ctrl||Control(s)|
-|comb||combining|
+|Ctrl||Control(s)|常见于键盘|
+|comb||combining|常见缩略；[allacronyms]有|
 |Diac|Diacriticals|Combining Diacritical Marks|如[Roadmaps]|
 |Ding||Dingbats|缩略自撰|
-|EyDy||EarlyDynastic|缩略自撰|
-|Emon||Emoticons|缩略自撰?|
+|EyDy||Early Dynastic|缩略自撰；[allacronyms]是ED|
+|Emos||Emoticons|缩略自撰|
 |Form||Form(s)／Format|
 |FC|FormCtrl.|Format Controls|如[Roadmaps]|
-|GeoShape||Geometric Shapes|
+|GeoShape||Geometric Shapes|[allacronyms]是Geom ~等|
 |Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
-|Horz||Horizontal|Vert反义词|
+|Horz||Horizontal|Vert反义词，常见缩略；[allacronyms]有|
 |Indi||Indic|
 |Janz||Jianzi|缩略自撰|
 |Kakk||Kaktovik|缩略自撰|
 |Kbn||Kanbun|如[Roadmaps]|
 |Kgxi|Kangxi|Kangxi Radicals|缩略自撰|
-|Lttr||Letter(s)|
+|Lttr||Letter(s)|已有实例|
 |Lttrlike||Letterlike Symbols|
-|Majg|Mahjong|Mahjong Tiles|缩略自撰?|
+|Majg|Mahjong|Mahjong Tiles|微软Bing认同|
 |mir||mirror|Noto Math描述镜像字符的缩略，没用上|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
-|Opor||Operators|缩略自撰|
+|Opor||Operators|缩略自撰；[allacronyms]是Ops|
 |Orcl|Oracle|Oracle Bone Script|甲骨文公司的纳斯达克股票代码缩写|
-|Otto||Ottoman|欧陆风云作`TUR`，不适合|
-|Phon||Phonetic|
-|Pic||Pictographs|
+|Otto||Ottoman|欧陆风云作`TUR`，不适合；[allacronyms]是Ott|
+|Phon||Phonetic|[allacronyms]有|
+|Pic||Pictographs|常见缩略|
 |PlayCard||Playing Cards|
 |Punc|Punct.|Punctuation|如[Roadmaps]|
-|Radi||Radicals|缩略自撰|
+|Rad||Radicals|[allacronyms]有|
 |RodNum.|Rod Nums|Counting Rod Numerals|如[Roadmaps]|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
-|~syqNum|~SiyaqNum.|~ Siyaq Numbers|
+|~syqNum|~SiyaqNum.|~ Siyaq Numbers|别人缩略
 |Spec||Specials|如[Roadmaps]|
-|Srgs||Surrogates|缩略自撰|
+|Srgs||Surrogates|缩略自撰；[allacronyms]是Surr等|
 |Syll||Syllabic(s)／Syllabary|如不重复可省略|
 |SymfLC||Symbols for Legacy Computing|缩略自撰|
-|Tech||Technical|
-|Trans||Transport|
+|Tech||Technical|常见缩略；[allacronyms]有|
+|Trans||Transport|常见缩略；[allacronyms]有|
 |TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|仿`Yijing`|
 |Vert.|VertForm.|Vertical Forms|如[Roadmaps]|
 |Zna||Znamenny|缩略自撰|
@@ -181,3 +182,4 @@
 |Unif.|Unified|
 
 [Roadmaps]: https://www.unicode.org/roadmaps/index.html
+[allacronyms]: https://www.allacronyms.com

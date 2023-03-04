@@ -1,11 +1,11 @@
 # Monu Han* 系列
 「典迹汉字」，又一套负责泛汉字的显示、不太负责排版的工具字体，`Hani`是泛指汉字的[ISO 15924 四字代码](/abbr)。
 
-包含思源黑体没有的 汉字`Hani`自制字形、表意描述字符`Zyyy`原创字形、算筹的画正字、注音`Bopo`扩充、更多假名`Hira` `Kana`，未收录古文字形，等等。
+包含思源黑体没有的 汉字`Hani`自制字形、表意描述字符`Zyyy`原创字形、算筹的画正字、注音`Bopo`扩充、更多假名`Hira` `Kana`，统一码尚未收录的古文字形，等等。
 
 汉字`Han`定义以 [Scripts-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Scripts.txt)、泛汉字符号`Hani`定义以 [ScriptExtensions-15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/ScriptExtensions.txt) 为准。`Bopo` `Hira` `Kana`也是。
 
-由于统一码收录汉字总量超出单字体可容字形量上限(65536)，又考虑到向后兼容，遂拆分为 Han2、Han3 等[负责对应的表意平面](/Blocks#平面)，可在[Releases](https://github.com/MY1L/Unicode/releases?q=MonuHani&expanded=true)搜索下载。
+由于统一码收录汉字总量超出单字体可容字形量上限(2¹⁶-1=65535)，又考虑到向后兼容，遂拆分为 Han2、Han3 等[负责对应的表意平面](/Blocks#平面)，可在[Releases](https://github.com/MY1L/Unicode/releases?q=MonuHani&expanded=true)搜索下载。
 
 > 顺带一提，该字体系列原打算命名为 SourceHanSans<sub>XXX</sub>Plane（思源黑体<sub>某</sub>平面），其中 HanSans（汉字无衬线体）想简称4字的“Hans”，但和 <sup>ISO 15924</sup>`Hans`撞了，要改称“SrcHei<sub>XXX</sub>Plan”……但为了追加那些跟思源无关的字形，仍用我非完全原创字体“Monu「典迹」”开头。
 

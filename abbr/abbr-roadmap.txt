@@ -102,7 +102,7 @@
   2D80..2DDF; Ethiopic Extended	|	EthiExt.
   2DE0..2DFF; Cyrillic Extended-A	|	CyrlExtA.
   2E00..2E7F; Supplemental Punctuation	|	SupPunc.
-  2E80..2EFF; CJK Radicals Supplement	|	CjkRadiSup. = HanRadiSup.
+  2E80..2EFF; CJK Radicals Supplement	|	CjkRadSup. = HanRadSup.
   2F00..2FDF; Kangxi Radicals	|	Kgxi.
   2FF0..2FFF; Ideographic Description Characters	|	IDC.
   3000..303F; CJK Symbols and Punctuation	|	CjkSym. = HanSym.
@@ -120,7 +120,7 @@
   4DC0..4DFF; Yijing Hexagram Symbols	|	Yijing.
   4E00..9FFF; CJK Unified Ideographs	|	CJK. = Han.
   A000..A48F; Yi Syllables	|	Yiii. = Yi.
-  A490..A4CF; Yi Radicals	|	YiRadi.
+  A490..A4CF; Yi Radicals	|	YiRad.
   A4D0..A4FF; Lisu	|	Lisu.
   A500..A63F; Vai	|	Vaii. = Vai.
   A640..A69F; Cyrillic Extended-B	|	CyrlExtB.
@@ -351,7 +351,7 @@
 1D200..1D24F; Ancient Greek Musical Notation	|	AncGrekMu.
 1D250..1D26F; 〓(Flute)	|	Flute.
 1D280..1D2AF; 〓(Pipa)	|	Pipa!
-1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik. ≈ KakkNum.
+1D2C0..1D2DF; Kaktovik Numerals	|	Kaktovik. = KakkNum.
 1D2E0..1D2FF; Mayan Numerals	|	MayaNum.
 1D300..1D35F; Tai Xuan Jing Symbols	|	TXjing.
 1D360..1D37F; Counting Rod Numerals	|	RodNum.
@@ -395,7 +395,7 @@
 1F100..1F1FF; Enclosed Alphanumeric Supplement	|	EncAaNumSup.
 1F200..1F2FF; Enclosed Ideographic Supplement	|	EncIdeoSup.
 1F300..1F5FF; Miscellaneous Symbols and Pictographs	|	MiscPic.
-1F600..1F64F; Emoticons	|	Emon.
+1F600..1F64F; Emoticons	|	Emos.
 1F650..1F67F; Ornamental Dingbats	|	OrnaDing.
 1F680..1F6FF; Transport and Map Symbols	|	TransMap.
 1F700..1F77F; Alchemical Symbols	|	Alch.
@@ -416,6 +416,7 @@
 31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. = HanExtH.
 32400..352FF; 〓(Seal Script)	|	Seal!
 35400..36BFF; 〓(Oracle Bone Script)	|	Orcl!
+A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字	|	GB18030.2022
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
@@ -433,6 +434,7 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
 #	不冲突的更短缩略：=
 #	我诌不出来：？
 #	备注：;
+#	标示此区段有意外用途，未来码位或有冲突：✱
 
 # ??80..??FF; Visible Speech	|	Visp.
 # ??D0..??FF; Klingon (KLI pIqaD)	|	Piqd.

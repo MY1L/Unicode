@@ -23,8 +23,8 @@
 - [Monu Hani](/Hani) 9.5「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11
 - Monu Han2 4.393「典迹汉辅」
 - Monu Han3 1.175「典迹汉叁」
-- Noto Serif Tangut 2.169「…西夏宋[^Noto]」
-- Monu Temp 0.1「典迹权暂」
+- [Noto Serif Tangut](https://github.com/notofonts/tangut) 2.169「…西夏宋[^Noto]」
+- [Monu Temp](https://github.com/MY1L/Unicode/releases/tag/Temp) 0.101「典迹权暂」
 
 可选，非必要：
 - [Monu Last 8](https://github.com/MY1L/Unicode/releases/tag/Last8)「典迹末境」
