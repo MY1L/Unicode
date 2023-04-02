@@ -19,12 +19,12 @@
 字体名第一次出现时后方附带的是分析时的版本号。“，等”表示能完全覆盖的系统字体不只一个。
 
 如列表所示，如需视窗10环境下几乎全覆盖统一码，仅需额外安装下列字体：
-- [Noto Unicode](/NotoUnicode) 7.1[^Noto]，含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6、Ctrl Ctrl[^Ctrl] 1.1、Ctrl Math 1
-- [Monu Hani](/Hani) 9.5「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11
+- [Noto Unicode](/NotoUnicode) 7.2[^Noto]，含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6、Ctrl Ctrl[^Ctrl] 1.1、Ctrl Math 1
+- [Monu Hani](/Hani) 9.5「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11、[Ctrl Kana](https://github.com/MY1L/Ctrl/releases/tag/Kana) 1.001
 - Monu Han2 4.393「典迹汉辅」
 - Monu Han3 1.175「典迹汉叁」
 - [Noto Serif Tangut](https://github.com/notofonts/tangut) 2.169「…西夏宋[^Noto]」
-- [Monu Temp](https://github.com/MY1L/Unicode/releases/tag/Temp) 0.101「典迹权暂」
+- [Monu Temp](https://github.com/MY1L/Unicode/releases/tag/Temp) 0.111「典迹权暂」
 
 可选，非必要：
 - [Monu Last 8](https://github.com/MY1L/Unicode/releases/tag/Last8)「典迹末境」

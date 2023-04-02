@@ -323,8 +323,8 @@
 31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. = HanExtH.
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
-F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
-100000..10FFFF; Supplementary Private Use Area-B	|	PUAB.
+F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
+100000..10FFFF; Supplementary Private Use Area-B	|	PUAB. = SPB.
 
 # 标注：
 #	可能冲突的缩略：≈

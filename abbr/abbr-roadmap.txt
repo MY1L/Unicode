@@ -419,8 +419,8 @@
 A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字	|	GB18030.2022
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
-F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA.
-100000..10FFFF; Supplementary Private Use Area-B	|	PUAB.
+F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
+100000..10FFFF; Supplementary Private Use Area-B	|	PUAB. = SPB.
 
 # 标注：
 #	区段名与Blocks-roadmap.txt不一致的是来自ISO 15924

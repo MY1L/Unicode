@@ -1,5 +1,5 @@
 起始,区段名,需安装,系统字体,备注
-0000..,Basic Latin,Noto Unicode 7.1 ⊃ Ctrl Ctrl 1.11,,一般不必覆盖控制字
+0000..,Basic Latin,Noto Unicode 7.2 ⊃ Ctrl Ctrl 1.11,,一般不必覆盖控制字
 0080..,Latin-1 Supplement,Noto Unicode ⊃ Ctrl Ctrl,,一般不必覆盖控制字
 0100..,Latin Extended-A,Noto Unicode,Arial 7.00，等,或可精简
 0180..,Latin Extended-B,Noto Unicode,Arial，等,或可精简
@@ -208,7 +208,7 @@ FFF0..,Specials,Noto Unicode,,
 10D00.,Hanifi Rohingya,Noto Unicode,,
 10E60.,Rumi Numeral Symbols,Noto Unicode,,
 10E80.,Yezidi,Noto Unicode,,
-10EC0.,Arabic Extended-C,Monu Temp 0.1,,！Noto完全没有，在补，Monu Last有1个
+10EC0.,Arabic Extended-C,Monu Temp 0.111,,！Noto完全没有，在补，Monu Last有1个
 10F00.,Old Sogdian,Noto Unicode,,
 10F30.,Sogdian,Noto Unicode,,
 10F70.,Old Uyghur,Noto Unicode,,
@@ -246,7 +246,7 @@ FFF0..,Specials,Noto Unicode,,
 11D00.,Masaram Gondi,Noto Unicode,,
 11D60.,Gunjala Gondi,Noto Unicode,,
 11EE0.,Makasar,Noto Unicode,,
-11F00.,Kawi,Monu Temp,,！Noto完全没有，待补
+11F00.,Kawi,Noto Unicode,,Noto偷跑版缺1字，补之
 11FB0.,Lisu Supplement,Noto Unicode,,
 11FC0.,Tamil Supplement,Noto Unicode,,
 12000.,Cuneiform,Noto Unicode,,SegoeUI His.缺1字
@@ -291,12 +291,12 @@ FFF0..,Specials,Noto Unicode,,
 1E100.,Nyiakeng Puachue Hmong,Noto Unicode,,
 1E290.,Toto,Noto Unicode,,
 1E2C0.,Wancho,Noto Unicode,,
-1E4D0.,Nag Mundari,Monu Temp,,！Noto完全没有，在补，Last有1个
+1E4D0.,Nag Mundari,Noto Unicode,,Last有1个
 1E7E0.,Ethiopic Extended-B,Noto Unicode,,
 1E800.,Mende Kikakui,Noto Unicode,,
 1E900.,Adlam,,Ebrima,NotoUni曾有
 1EC70.,Indic Siyaq Numbers,Noto Unicode,,
-1ED00.,Ottoman Siyaq Numbers,Monu Temp,,！Noto完全没有，在补，Last有1个
+1ED00.,Ottoman Siyaq Numbers,Noto Unicode,,Last有1个
 1EE00.,Arabic Mathematical Alphabetic Symbols,Noto Unicode,,
 1F000.,Mahjong Tiles,,Segoe UI Emoji 1.29，等,
 1F030.,Domino Tiles,,Segoe UI Symbol,

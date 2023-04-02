@@ -13,6 +13,7 @@
   - v4.2：修正遗漏缩略，补充底部标注。
   - v4.3：略改，添加备注。
   - v4.4：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
+  - v4.5：补充实例。
 
 ## 出典
 
@@ -136,7 +137,7 @@
 |Kgxi|Kangxi|Kangxi Radicals|缩略自撰|
 |Lttr||Letter(s)|已有实例|
 |Lttrlike||Letterlike Symbols|
-|Majg|Mahjong|Mahjong Tiles|微软Bing认同|
+|Majg|Mahjong|Mahjong Tiles|微软Bing认同，搜索缩略“微软麻将”在前|
 |mir||mirror|Noto Math描述镜像字符的缩略，没用上|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
@@ -154,12 +155,13 @@
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
 |~syqNum|~SiyaqNum.|~ Siyaq Numbers|别人缩略
 |Spec||Specials|如[Roadmaps]|
+|SP|SPUA-|Supplementary Private Use Area-|[n3412-last-resort](https://unicode.org/wg2/docs/n3412.pdf)|
 |Srgs||Surrogates|缩略自撰；[allacronyms]是Surr等|
 |Syll||Syllabic(s)／Syllabary|如不重复可省略|
 |SymfLC||Symbols for Legacy Computing|缩略自撰|
 |Tech||Technical|常见缩略；[allacronyms]有|
 |Trans||Transport|常见缩略；[allacronyms]有|
-|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|仿`Yijing`|
+|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|自撰，仿“Yijing”|
 |Vert.|VertForm.|Vertical Forms|如[Roadmaps]|
 |Zna||Znamenny|缩略自撰|
 
