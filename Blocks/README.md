@@ -6,13 +6,14 @@
   - 2.1版，2021-1-5，更正：“阿拉伯数学字母符号”
 - 第3版：就[cv8280047 - 哔哩哔哩](https://www.bilibili.com/read/cv8280047#reply3919855387)评论区讨论结果修改存疑部分。
   - 3.1版，更正：“图符”
-- 第4版：添加统一码14.0新增区段，及改动区段范围：阿含扩到..1174F，西夏补充修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体Last发布延迟）。略译文件开头注释。
+- 第4版：添加统一码14.0新增区段，及改动区段范围：阿含扩到..1174F，西夏补充修正为..18D7F（[13.0.0勘误：2020-3-11](https://www.unicode.org/versions/Unicode14.0.0/erratafixed.html)，该错误导致字体[Last](../../../../Unicode#monu-last)发布延迟）。略译文件开头注释。
   - 4.1版：就[Kushim-Jiang/Zhuanlan-Zhihu/006](https://github.com/Kushim-Jiang/Zhuanlan-Zhihu/tree/master/006)更新内容修改。
   - 4.2版：就[有哪些语言学术语翻译得并不恰当？ - 知乎](https://www.zhihu.com/answer/2076356395)内容修改。
 - 第5版：添加统一码15.0新增区段，改动部分区段范围，修改译名：那巴泰 → 奈伯特、王朝阿拉姆 → 帝国阿拉姆、…象形文字 → …意音文字，等。
-- 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版 [Blocks-roadmap.txt](/Blocks/Blocks-roadmap.txt)。
+- 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版[Blocks-roadmap.txt](/Blocks/Blocks-roadmap.txt)。
   - 6.1版：修正路线图版区段范围。补充有 ISO 15924 代码的路线图外译名。
   - 6.2版：彝文例字改为“ꆈꌠꁱꂷ”，等；补充“第十平面”🥴
+- 第7版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt，补充梅代法伊德林例字“𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯（[Obɛri Ɔkaimɛ](https://www.omniglot.com/writing/medefaidrin.htm)）”
 
 ## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。

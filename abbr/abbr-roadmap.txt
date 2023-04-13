@@ -198,7 +198,7 @@
 108E0..108FF; Hatran	|	Hatr.
 10900..1091F; Phoenician	|	Phnx.
 10920..1093F; Lydian	|	Lydi.
-10940..1095F; 〓(Sidetic)	|	？
+10940..1095F; 〓【Sidetic】	|	？
 10960..1097F; 〓¿Numidian?	|	？
 10980..1099F; Meroitic Hieroglyphs	|	Mero.
 109A0..109FF; Meroitic Cursive	|	Merc.
@@ -217,7 +217,7 @@
 10C80..10CFF; Old Hungarian	|	Hung.
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
 10D40..10D8F; 〓【Garay】	|	？
-10D90..10DFF; 〓¿Byblos?	|	？
+10D90..10E5F; 〓(Arabic Extended-D)	|	ArabExtD.
 10E60..10E7F; Rumi Numeral Symbols	|	Rumi.
 10E80..10EBF; Yezidi	|	Yezi.
 10EC0..10EFF; Arabic Extended-C	|	ArabExtC.
@@ -263,13 +263,13 @@
 11AC0..11AFF; Pau Cin Hau	|	Pauc.
 11B00..11B5F; Devanagari Extended-A	|	DevaExtA.
 11B60..11B7F; 〓¿Sharada Extensions?	|	ShrdExt.
-11B80..11BBF; 〓(Tolong Siki)	|	？
+11B80..11BBF; 〓(Leke)	|	Leke.
 11BC0..11BFF; 〓【Sunuwar】	|	Sunu.
 11C00..11C6F; Bhaiksuki	|	Bhks.
 11C70..11CBF; Marchen	|	Marc.
 11D00..11D5F; Masaram Gondi	|	Gonm.
 11D60..11DAF; Gunjala Gondi	|	Gong.
-11DB0..11DEF; 〓(Leke)	|	Leke.
+11DB0..11DEF; 〓【Tolong Siki】	|	？
 11E00..11E6F; 〓(Tocharian)	|	？
 11E70..11ECF; 〓(Khotanese)	|	？
 11EE0..11EFF; Makasar	|	Maka.
@@ -309,7 +309,7 @@
 16CD0..16CFF; 〓(Tangsa(Khimhun))	|	Tnsa(K)!
 16D00..16D3F; 〓(Tikamuli)	|	？
 16D40..16D7F; 〓【Kirat Rai】	|	？
-16D80..16DAF; 〓(Chisoi)	|	？
+16D80..16DAF; 〓【Chisoi】	|	？
 16DB0..16DCF; 〓¿Lontara bilang-bilang?	|	？
 16DD0..16DFF; 〓(Kulitan)	|	？
 16E00..16E3F; 〓(Mwangwego)	|	？
@@ -378,11 +378,12 @@
 1E5D0..1E5FF; 〓【Ol Onal】	|	？
 1E600..1E65F; 〓¿Chola?	|	？
 1E660..1E6BF; 〓¿Chalukya (Box-Headed)?	|	？
-1E6C0..1E6FF; 〓(Yo Lai Tay)	|	？ ; Tai Yo
+1E6C0..1E6FF; 〓【Tai Yo】	|	？
 1E700..1E72F; 〓¿Beria?	|	？
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
+1EB90..1EBFF; 〓¿Byblos?	|	？
 1EC00..1EC6F; 〓(Persian Siyaq Numbers)	|	PersSiyaqNum! ≈ PsyqNum.
 1EC70..1ECBF; Indic Siyaq Numbers	|	IndiSiyaqNum. ≈ IsyqNum.
 1ECC0..1ECFF; 〓(Diwani Siyaq Numbers)	|	DwniSiyaqNum! ≈ DsyqNum.

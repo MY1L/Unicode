@@ -233,7 +233,7 @@ FFF0..FFFF; FFF0特殊|Specials
 108E0..108FF; 108E0哈特拉|Hatran
 10900..1091F; 10900腓尼基|Phoenician
 10920..1093F; 10920吕底亚|Lydian
-10940..1095F; 〓1094?塞德(Sidetic)
+10940..1095F; 〓10940塞德【Sidetic】
 10960..1097F; 〓109??努米底亚¿Numidian?
 10980..1099F; 10980麦罗埃圣书体|Meroitic Hieroglyphs
 109A0..109FF; 109A0麦罗埃草书体|Meroitic Cursive
@@ -252,7 +252,7 @@ FFF0..FFFF; FFF0特殊|Specials
 10C80..10CFF; 10C80古匈牙利|Old Hungarian
 10D00..10D3F; 10D00哈尼菲罗兴亚|Hanifi Rohingya
 10D40..10D8F; 〓10D40加拉伊【Garay】
-10D90..10DFF; 〓10D??比布鲁斯¿Byblos?
+10D90..10E5F; 〓10D9?阿拉伯扩充丁(Arabic Extended-D)
 10E60..10E7F; 10E60鲁米数字符号|Rumi Numeral Symbols
 10E80..10EBF; 10E80耶西迪|Yezidi
 10EC0..10EFF; 10EC0阿拉伯扩充丙|Arabic Extended-C
@@ -298,13 +298,13 @@ FFF0..FFFF; FFF0特殊|Specials
 11AC0..11AFF; 11AC0包钦豪|Pau Cin Hau
 11B00..11B5F; 11B00天城体扩充甲|Devanagari Extended-A
 11B60..11B7F; 〓11B??沙勒德扩充¿Sharada Extensions?
-11B80..11BBF; 〓11B8?托隆西基(Tolong Siki)
+11B80..11BBF; 〓11B8?莱革(Leke)
 11BC0..11BFF; 〓11BC0苏努瓦尔【Sunuwar】
 11C00..11C6F; 11C00比克舒基|Bhaiksuki
 11C70..11CBF; 11C70玛尔钦体|Marchen
 11D00..11D5F; 11D00马萨拉姆贡德|Masaram Gondi
 11D60..11DAF; 11D60贡贾尔贡德|Gunjala Gondi
-11DB0..11DEF; 〓11DB?莱革(Leke)
+11DB0..11DEF; 〓11DB0托隆西基【Tolong Siki】
 11E00..11E6F; 〓11E0?焉耆-龟兹(吐火罗)(Tocharian)
 11E70..11ECF; 〓11E7?于阗(Khotanese)
 11EE0..11EFF; 11EE0望加锡|Makasar
@@ -344,11 +344,11 @@ FFF0..FFFF; FFF0特殊|Specials
 16CD0..16CFF; 〓16CD?通萨(基姆洪)(Tangsa(Khimhun))
 16D00..16D3F; 〓16D0?蒂卡穆利(Tikamuli)
 16D40..16D7F; 〓16D40基勒特赖【Kirat Rai】
-16D80..16DAF; 〓16D8?奇索伊(Chisoi)
+16D80..16DAF; 〓16D80奇索伊【Chisoi】
 16DB0..16DCF; 〓16D??隆塔拉比朗比朗¿Lontara bilang-bilang?
 16DD0..16DFF; 〓16DD?库利坦(Kulitan)
 16E00..16E3F; 〓16E0?姆万圭戈(Mwangwego)
-16E40..16E9F; 16E40梅代法伊德林|Medefaidrin
+16E40..16E9F; 16E40梅代法伊德林|𖹝𖹰𖹯𖹼𖹫𖹚𖹬𖹾𖹠𖹯|Medefaidrin
 16EA0..16EFF; 〓16EA?布吉补充(Buginese Supplement)
 16F00..16F9F; 16F00苗(老)|Miao
 16FA0..16FAF; 〓16F??注音扩充甲¿Bopomofo Extended-A?
@@ -413,11 +413,12 @@ FFF0..FFFF; FFF0特殊|Specials
 1E5D0..1E5FF; 〓1E5D0奥尔奥诺尔【Ol Onal】
 1E600..1E65F; 〓1E6??朱罗¿Chola?
 1E660..1E6BF; 〓1E6??遮娄其 (方头)¿Chalukya (Box-Headed)?
-1E6C0..1E6FF; 〓1E6C?傣侥(Yo Lai Tay)
+1E6C0..1E6FF; 〓1E6C0傣侥【Tai Yo】
 1E700..1E72F; 〓1E7??贝里亚¿Beria?
 1E7E0..1E7FF; 1E7E0埃塞扩充乙|Ethiopic Extended-B
 1E800..1E8DF; 1E800门迪基卡奎|Mende Kikakui
 1E900..1E95F; 1E900阿德拉姆|Adlam
+1EB90..1EBFF; 〓10D??比布鲁斯¿Byblos?
 1EC00..1EC6F; 〓1EC0?波斯帐目数字(Persian Siyaq Numbers)
 1EC70..1ECBF; 1EC70印度帐目数字|Indic Siyaq Numbers
 1ECC0..1ECFF; 〓1ECC?迪万尼帐目数字(Diwani Siyaq Numbers)

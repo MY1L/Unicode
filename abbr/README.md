@@ -3,17 +3,18 @@
 
 苦于名称过长，对统一码[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称等作缩写，且缩写具有唯一性。其实我已经在很多场合用过了，详见[abbr.txt](/abbr/abbr.txt)。
 
-### 更新记录
-- 2021-3-3 v1.1：修改太玄经和3个Letter相关的缩略。
-- 2021-9-16 v2：修正、添加统一码14.0版新增区段缩略。
+## 更新
+- 第1.1版，2021-3-3：修改太玄经和3个Letter相关的缩略。
+- 第2版，2021-9-16：修正、添加统一码14.0版新增区段缩略。
   - 2022-‎9-‎12 修正下方表格。
-- 2023-1-14 v3：修正、添加统一码15.0版新增区段缩略。
-- 2023-1-16 v4：追加路线图版 [abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
-  - v4.1：更改：CountingRod. → RodNum.
-  - v4.2：修正遗漏缩略，补充底部标注。
-  - v4.3：略改，添加备注。
-  - v4.4：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
-  - v4.5：补充实例。
+- 第3版，2023-1-14：修正、添加统一码15.0版新增区段缩略。
+- 第4版，2023-1-16：追加路线图版[abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
+  - 4.1版：更改：CountingRod. → RodNum.
+  - 4.2版：修正遗漏缩略，补充底部标注。
+  - 4.3版：略改，添加备注。
+  - 4.4版：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
+  - 4.5版：补充实例。
+- 第5版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt。
 
 ## 出典
 
