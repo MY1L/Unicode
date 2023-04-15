@@ -418,7 +418,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1E7E0..1E7FF; 1E7E0埃塞扩充乙|Ethiopic Extended-B
 1E800..1E8DF; 1E800门迪基卡奎|Mende Kikakui
 1E900..1E95F; 1E900阿德拉姆|Adlam
-1EB90..1EBFF; 〓10D??比布鲁斯¿Byblos?
+1EB90..1EBFF; 〓1EB??比布鲁斯¿Byblos?
 1EC00..1EC6F; 〓1EC0?波斯帐目数字(Persian Siyaq Numbers)
 1EC70..1ECBF; 1EC70印度帐目数字|Indic Siyaq Numbers
 1ECC0..1ECFF; 〓1ECC?迪万尼帐目数字(Diwani Siyaq Numbers)
