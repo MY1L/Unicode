@@ -15,6 +15,7 @@
   - 4.4版：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
   - 4.5版：补充实例。
 - 第5版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt。
+  - 5.1版：略修路线图版。
 
 ## 出典
 

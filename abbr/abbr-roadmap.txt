@@ -292,12 +292,12 @@
 15B00..15B3F; 〓(Lampung)	|	？
 15B40..15B6F; 〓(Kerinci)	|	？
 15B80..15FFF; 〓(Mandombe)	|	？
-16000..1607F; 〓Cirth	|	Cirt.
-16080..160FF; 〓Tengwar	|	Teng.
+16000..1607F; 〓(Cirth)	|	Cirt.
+16080..160FF; 〓(Tengwar)	|	Teng.
 16100..1613F; 〓【Gurung Khema】	|	？
 16140..1617F; 〓¿¿¿Khe Prih???	|	？
-161A0..161FF; 〓Moon	|	Moon.
-16200..1677F; 〓Blissymbols	|	Blis.
+161A0..161FF; 〓(Moon)	|	Moon.
+16200..1677F; 〓(Blissymbols)	|	Blis.
 16800..16A3F; Bamum Supplement	|	BamuSup.
 16A40..16A6F; Mro	|	Mroo. = Mro.
 16A70..16ACF; Tangsa	|	Tnsa.
@@ -440,3 +440,5 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
 # ??80..??FF; Visible Speech	|	Visp.
 # ??D0..??FF; Klingon (KLI pIqaD)	|	Piqd.
 # ???0..???F; Sarati	|	Sara.
+
+# ISO 15924 为私用保留“Qaaa~Qabx”、为继承文种保留“Zinh”、为非书面文种保留“Zxxx”、为未确定文种保留“Zyyy”、为未编码文种保留“Zzzz”、为布尔值保留“True”、为CLDR保留“Root”，这些不用于缩写。
