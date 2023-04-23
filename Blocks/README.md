@@ -13,9 +13,15 @@
 - 第6版，2023-1-15：改善和添加示例。此页补充平面翻译。追加路线图版[Blocks-roadmap.txt](/Blocks/Blocks-roadmap.txt)。
   - 6.1版：修正路线图版区段范围。补充有 ISO 15924 代码的路线图外译名。
   - 6.2版：彝文例字改为“ꆈꌠꁱꂷ”，等；补充“第十平面”🥴
-- 第7版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt，补充梅代法伊德林例字“𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯（[Obɛri Ɔkaimɛ](https://www.omniglot.com/writing/medefaidrin.htm)）”
+- 第7版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt，补充梅代法伊德林例字“𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯 ([Obɛri Ɔkaimɛ](https://www.omniglot.com/writing/medefaidrin.htm))”
   - 7.1版，2023-4-15：小更正，此页补充 GB18030-2022 第6页7.3四字节部分名称（下略称“GB’22”）。同日发布[Last 8](https://github.com/MY1L/Unicode/releases/tag/Last8).10版。
-  - 7.2版：补充例字“ࡓࡀࡈࡍࡀ”、“ᜱᜨᜳᜨᜳᜢ”、“ᝊᝓᝑᝒ”、“ᝦᝤᝪᝨᝯ”、“ᤕᤠᤰᤌᤢᤱᤐᤠᤴ”、“ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ”、“ᦅᧄᦺᦑᦟᦹᧉ”、“ᨅᨔᨕᨘᨁᨗ”、“ᬩᬲᬩᬮᬶ”、“ꡍꡂꡛꡌ”、“𐐔𐐯𐑅𐐨𐑉𐐯𐐻”，如有误请指出。
+  - 7.2版：补充例字：“ࡓࡀࡈࡍࡀ”、“ᜱᜨᜳᜨᜳᜢ”、“ᝊᝓᝑᝒ”、“ᝦᝤᝪᝨᝯ”、“[ᤕᤠᤰᤌᤢᤱ ᤐᤠᤴ](https://www.omniglot.com/writing/limbu.htm)”、“ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ”、“ᦅᧄᦺᦑᦟᦹᧉ”、“ᨕᨘᨁᨗ”、“ᬩᬲᬩᬮᬶ”、“ꡍꡂꡛ ꡌ”、“𐐔𐐯𐑅𐐨𐑉𐐯𐐻”，如有误请指出。
+- 第8版，2023-4-23：修正，补充例字：“[ᨲ᩠ᩅᩫᨵᩢᨾ᩠ᨾ᩼](https://en.wikipedia.org/wiki/Tai_Tham_script)”、“ᮞᮥᮔ᮪ᮓ”、“ᯅᯖᯂ᯲”、“[ᰛᰩᰵᰛᰧᰵᰶ](https://www.omniglot.com/writing/lepcha.htm)”、“[⠠⠃⠗⠇](https://www.brailletranslator.org/)”、“ⰳⰾⰰⰳⱁⰾⰹⱌⰰ”、“ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ”、“ⵜⵉⴼⵉⵏⴰⵖ”、“ꕙꔤ”、“[ꛀꛣꚧꚳ](https://www.omniglot.com/writing/bamumsyllabary.htm)”、“ꠍꠤꠟꠐꠤ (西洛蒂 ~~(城体)~~ )”、“ꢱꣃꢬꢵꢰ꣄ꢜ꣄ꢬ”、“ꤜꤟꤤ꤬ ( ~~(克耶)~~ 利)”、“ꤽꥍꤺꥏ”、“ꦗꦮ”、“ꨌꩌ”、“ꪎꪳ ꪼꪕ”、“ꯃꯤꯇꯩ ꯃꯌꯦꯛ”、“𐊗𐊕𐊐𐊎𐊆𐊍𐊆 (trm̃mili)”、“𐌲𐌿𐍄𐌹𐍃𐌺𐌰 (Gutiska)”、“𐑖𐑱𐑝𐑾𐑯”、“[𐒋𐒘𐒈𐒑𐒛𐒒𐒕𐒀](https://www.omniglot.com/writing/somali.htm#osmanya)”、“𐓏𐒰𐓓𐒰𐓓𐒷 (Wažáže)”、“𐔇𐔐𐔁𐔀𐔛𐔀𐔓𐔍𐔝 ([Elbasanit](https://en.wikipedia.org/wiki/Elbasan_script))”、“[𐕲𐖻𐖶𐖨𐖷𐖰𐖥](https://en.wikipedia.org/wiki/Vithkuqi_script)”、“𐡀𐡓𐡌𐡉𐡀 (arāmāyā)”、“𐢕𐢂𐢋𐢈 (奈伯特)”、“𐣤𐣵𐣣𐣭 (哈特拉)”、“𐤊𐤍𐤀𐤍𐤌 ([迦南](https://www.omniglot.com/writing/phoenician.htm))”、“𐤮𐤱𐤠𐤭𐤣𐤶𐤯𐤦𐤳 (sfardẽtiš)”、“𐨑𐨪𐨆𐨯𐨠𐨁 (Kharoṣṭhī)”、“𐩣𐩯𐩬𐩵 (ms³nd)”、“𐬛𐬍𐬥 𐬛𐬀𐬠𐬌𐬫𐬭𐬵 ([Avestan?](https://www.omniglot.com/writing/avestan.htm))”、“𐭯𐭠𐭫𐭮𐭩𐭪 (Pārsīk)”、“𐴌𐴗𐴥𐴝𐴙𐴚𐴒𐴙𐴝 (rwâyṅgya)”、“𐺨𐺦𐺏𐺨𐺋𐺨 (Yazidi?)”、“𐿯𐿫𐿩𐿬𐿠𐿪 (Elymaic?)”、“𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻”、“𑂍𑂶𑂟𑂲”、“𑃐𑃦𑃝𑃗 𑃐𑃦𑃖𑃣𑃗”、“𑄌𑄋𑄴𑄟𑄳𑄦”、“𑅬𑅱𑅐𑅛𑅧𑅑”、“𑆯𑆳𑆫𑆢𑆳”、“𑈉𑈲𑈐𑈈𑈮”、“𑊠𑊂𑊣𑊖𑊀𑊚𑊁”、“𑊻𑋩𑋣𑋏𑋠𑋔𑋠𑋏𑋢”、“𑌗𑍍𑌰𑌨𑍍𑌥”、“𑐣𑐾𑐰𑐵𑑅”、“𑒞𑒱𑒩𑒯𑒳𑒞𑒰”、“𑘦𑘻𑘚𑘲”、“𑚔𑚭𑚊𑚤𑚯”、“𑜒𑜑𑜪𑜨”、“𑠖𑠵𑠌𑠤𑠬”、“𑢹𑣗𑣁𑣜𑣊 𑢯𑣂𑣕𑣂”、“𑤝𑤱𑤩𑤴𑤬𑤽 𑤥𑤌𑤳𑤧𑤳”、“𑧁𑧞𑦿𑧒𑧁𑧑𑦰𑧈𑧓”、“𑨢𑨆𑨏𑨳𑨋𑨆𑨬𑨳”、“𑪁𑩖𑩻𑩖𑪌𑩰𑩖”、“𑰥𑰹𑰎𑰿𑰬𑰲𑰎𑰱”、“𑴤𑴫𑴦𑴱𑴤 𑴎𑴽𑵀𑴘𑴳”、“𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋”、“𑻪𑻢𑻪𑻢 (Jangang-jangang)”、“𑼒𑼮𑼶”、“𖩃𖩓𖩑”、“𖪰𖩵𖪂𖪫𖩸”、“𖫔𖫧𖫱𖫒𖫨𖫴 𖫣𖫧𖫱”、“𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬌𖬣𖬵”、“𘱿𘱤”、“[𞄀𞄄𞄰𞄩](https://zh.wikipedia.org/wiki/創世紀苗文) ( ~~(创世)~~ 苗)”、“𞊒𞊪𞊒𞊪”、“𞋒𞋀𞋉𞋃𞋕”、“𞓧𞓟𞓨𞓜𞓕𞓣𞓚 ( ~~(纳格)~~ 蒙达里)”、“𞠗𞢱 𞠀𞠁𞠂 (Mɛɛnde Ki-ka-ku)”、“𞤀𞤣𞤤𞤢𞤥 (ADLaM)”。注意某些引号内文字是自右向左的。
+  - 8.0版备注：
+    - 以上例字有注释或带链接的表示该文种自称与统一码取名差异较大，例如Lepcha使用者自称用语名为“Róngríng”。
+    - 顺带尝试 [线形乙\塞浦路斯 机翻](https://linear-b.kinezika.com/) 翻译“linear 2”获得“l𐀂𐀚𐀀𐄈”，翻译“cypriot”获得“cyr𐠂𐠃”显然不对。
+    - 我不确定巴尔米拉例字是否是“[𐡶𐡣𐡬𐡥𐡴](https://www.omniglot.com/writing/palmyrene.htm) (t_d_m_w_r)”、突厥是否是“[𐰜𐰇𐰛](https://www.omniglot.com/writing/orkhon.htm) (oek_oe_aek)”，自己拼的。花剌子模“[𐾳𐾲𐾲𐿋𐾲𐾲𐾽𐾻](https://en.wikipedia.org/wiki/Khwarezmian_language)”例字中的“𐿋”是数字100，可疑。古北阿拉比亚应该不是“[𐪀𐪁𐪂𐪃𐪄](https://www.omniglot.com/writing/northarabian.htm) (h_l_ḥ_m_q)”。注意到[维基上似乎有人传了错误的回鹘例字](https://en.wikipedia.org/wiki/File:Uighur_native_name.svg)。
+
 
 ## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
@@ -103,7 +109,7 @@
 | -: | :- | - |
 |Duployan|杜普雷速记|字客网译“杜洛耶速记”，“尝试”按法语Duployé译“迪普卢瓦耶”|
 |Ethiopic|埃塞|直译“埃塞俄比亚”，但区段收的是ግዕዝ([格厄兹字母](https://www.zhihu.com/topic/21821106/hot))|
-|Hangul Jamo|谚文字母|直译“韩文字母”，但有朝鲜|
+|Hangul Jamo|谚文<br/>字母|直译“韩文字母”，但有朝鲜|
 |Lisu|傈僳(老)|直译“傈僳”，但区段收的是缅甸克伦族传教士Sara Ba Thaw创制的老傈僳文，亦名“富能仁文”(Fraser)，“GB’22”作“傈僳文”|
 |Miao|苗(老)|直译“苗”，但区段收的是传教士柏格理(Pollard，ISO 15924：Plrd)等人创制的滇东北**老苗文**，“GB’22”作“滇东北苗文”|
 |Pahawh Hmong|帕皓苗|直译“字母表苗”，“尝试”译“帕皓苗”，“GB/T”译“苗文”，异名“救世苗文”|

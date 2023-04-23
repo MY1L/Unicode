@@ -73,17 +73,17 @@
 1780..17FF; 1780高棉|ខ្មែរ|Khmer
 1800..18AF; 1800蒙文|ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ|Mongolian
 18B0..18FF; 18B0统一加拿大土著音节扩充|Unified Canadian Aboriginal Syllabics Extended
-1900..194F; 1900林布|ᤕᤠᤰᤌᤢᤱᤐᤠᤴ|Limbu
+1900..194F; 1900林布|ᤕᤠᤰᤌᤢᤱ ᤐᤠᤴ|Limbu
 1950..197F; 1950傣㐻|ᥖᥭᥰᥖᥬᥳᥑᥨᥒᥰ|Tai Le
 1980..19DF; 1980新傣仂|ᦟᦲᧅᦷᦎᦺᦑᦟᦹᧉ|New Tai Lue
 19E0..19FF; 19E0高棉符号|Khmer Symbols
-1A00..1A1F; 1A00布吉|ᨅᨔᨕᨘᨁᨗ|Buginese
-1A20..1AAF; 1A20傣昙|Tai Tham
+1A00..1A1F; 1A00布吉|ᨕᨘᨁᨗ|Buginese
+1A20..1AAF; 1A20傣昙|ᨲ᩠ᩅᩫᨵᩢᨾ᩠ᨾ᩼|Tai Tham
 1AB0..1AFF; 1AB0结合变音标记扩充|Combining Diacritical Marks Extended
 1B00..1B7F; 1B00巴厘|ᬩᬲᬩᬮᬶ|Balinese
-1B80..1BBF; 1B80巽他|Sundanese
-1BC0..1BFF; 1BC0巴塔克|Batak
-1C00..1C4F; 1C00雷布查|Lepcha
+1B80..1BBF; 1B80巽他|ᮞᮥᮔ᮪ᮓ|Sundanese
+1BC0..1BFF; 1BC0巴塔克|ᯅᯖᯂ᯲|Batak
+1C00..1C4F; 1C00雷布查|ᰛᰩᰵᰛᰧᰵᰶ|Lepcha
 1C50..1C7F; 1C50奥尔奇基|ᱚᱞ ᱪᱤᱠᱤ|Ol Chiki
 1C80..1C8F; 1C80西里尔扩充丙|Cyrillic Extended-C
 1C90..1CBF; 1C90格鲁吉亚扩充|Georgian Extended
@@ -113,16 +113,16 @@
 2700..27BF; 2700什锦|Dingbats
 27C0..27EF; 27C0各式数学符号甲|Miscellaneous Mathematical Symbols-A
 27F0..27FF; 27F0增补箭头甲|Supplemental Arrows-A
-2800..28FF; 2800布莱叶盲文点字|Braille Patterns
+2800..28FF; 2800布莱叶盲文点字|⠠⠃⠗⠇|Braille Patterns
 2900..297F; 2900增补箭头乙|Supplemental Arrows-B
 2980..29FF; 2980各式数学符号乙|Miscellaneous Mathematical Symbols-B
 2A00..2AFF; 2A00增补数学运算符|Supplemental Mathematical Operators
 2B00..2BFF; 2B00各式符号及箭头|Miscellaneous Symbols and Arrows
-2C00..2C5F; 2C00格拉哥里|Glagolitic
+2C00..2C5F; 2C00格拉哥里|ⰳⰾⰰⰳⱁⰾⰹⱌⰰ|Glagolitic
 2C60..2C7F; 2C60拉丁扩充丙|Latin Extended-C
-2C80..2CFF; 2C80科普特|Coptic
+2C80..2CFF; 2C80科普特|ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ|Coptic
 2D00..2D2F; 2D00格鲁吉亚补充|Georgian Supplement
-2D30..2D7F; 2D30提非纳|Tifinagh
+2D30..2D7F; 2D30提非纳|ⵜⵉⴼⵉⵏⴰⵖ|Tifinagh
 2D80..2DDF; 2D80埃塞扩充|Ethiopic Extended
 2DE0..2DFF; 2DE0西里尔扩充甲|Cyrillic Extended-A
 2E00..2E7F; 2E00增补标点|Supplemental Punctuation
@@ -146,29 +146,29 @@
 A000..A48F; A000彝文音节|ꆈꌠꁱꂷ|Yi Syllables
 A490..A4CF; A490彝文部首|Yi Radicals
 A4D0..A4FF; A4D0傈僳(老)|ꓡꓲꓢꓴ|Lisu
-A500..A63F; A500瓦伊|Vai
+A500..A63F; A500瓦伊|ꕙꔤ|Vai
 A640..A69F; A640西里尔扩充乙|Cyrillic Extended-B
-A6A0..A6FF; A6A0巴默姆|Bamum
+A6A0..A6FF; A6A0巴默姆|ꛀꛣꚧꚳ|Bamum
 A700..A71F; A700声调修饰字|Modifier Tone Letters
 A720..A7FF; A720拉丁扩充丁|Latin Extended-D
-A800..A82F; A800西洛蒂城体|Syloti Nagri
+A800..A82F; A800西洛蒂城体|ꠍꠤꠟꠐꠤ|Syloti Nagri
 A830..A83F; A830通用印度数字形式|Common Indic Number Forms
-A840..A87F; A840八思巴|ꡍꡂꡛꡌ|Phags-pa
-A880..A8DF; A880索拉什特拉|Saurashtra
+A840..A87F; A840八思巴|ꡍꡂꡛ ꡌ|Phags-pa
+A880..A8DF; A880索拉什特拉|ꢱꣃꢬꢵꢰ꣄ꢜ꣄ꢬ|Saurashtra
 A8E0..A8FF; A8E0天城体扩充|Devanagari Extended
-A900..A92F; A900克耶利|Kayah Li
-A930..A95F; A930雷姜|Rejang
+A900..A92F; A900克耶利|ꤜꤟꤤ꤬|Kayah Li
+A930..A95F; A930雷姜|ꤽꥍꤺꥏ|Rejang
 A960..A97F; A960谚文字母扩充甲|Hangul Jamo Extended-A
-A980..A9DF; A980爪哇|Javanese
+A980..A9DF; A980爪哇|ꦗꦮ|Javanese
 A9E0..A9FF; A9E0缅文扩充乙|Myanmar Extended-B
-AA00..AA5F; AA00占文|Cham
+AA00..AA5F; AA00占文|ꨌꩌ|Cham
 AA60..AA7F; AA60缅文扩充甲|Myanmar Extended-A
-AA80..AADF; AA80傣越|Tai Viet
+AA80..AADF; AA80傣越|ꪎꪳ ꪼꪕ|Tai Viet
 AAE0..AAFF; AAE0米代文扩充|Meetei Mayek Extensions
 AB00..AB2F; AB00埃塞扩充甲|Ethiopic Extended-A
 AB30..AB6F; AB30拉丁扩充戊|Latin Extended-E
 AB70..ABBF; AB70切罗基补充|Cherokee Supplement
-ABC0..ABFF; ABC0米代文|Meetei Mayek
+ABC0..ABFF; ABC0米代文|ꯃꯤꯇꯩ ꯃꯌꯦꯛ|Meetei Mayek
 AC00..D7AF; AC00谚文音节|한글|Hangul Syllables
 D7B0..D7FF; D7B0谚文字母扩充乙|Hangul Jamo Extended-B
 D800..DB7F; D800高位替代|High Surrogates
@@ -192,84 +192,84 @@ FFF0..FFFF; FFF0特殊|Specials
 10140..1018F; 10140古希腊数字|Ancient Greek Numbers
 10190..101CF; 10190古代符号|Ancient Symbols
 101D0..101FF; 101D0费斯托斯圆盘|Phaistos Disc
-10280..1029F; 10280吕基亚|Lycian
+10280..1029F; 10280吕基亚|𐊗𐊕𐊐𐊎𐊆𐊍𐊆|Lycian
 102A0..102DF; 102A0加里亚|Carian
 102E0..102FF; 102E0科普特闰余数字|Coptic Epact Numbers
 10300..1032F; 10300古意大利|Old Italic
-10330..1034F; 10330哥特|Gothic
+10330..1034F; 10330哥特|𐌲𐌿𐍄𐌹𐍃𐌺𐌰|Gothic
 10350..1037F; 10350古彼尔姆|Old Permic
 10380..1039F; 10380乌加里特|Ugaritic
 103A0..103DF; 103A0古波斯|Old Persian
 10400..1044F; 10400德撒律|𐐔𐐯𐑅𐐨𐑉𐐯𐐻|Deseret
-10450..1047F; 10450萧伯纳|Shavian
-10480..104AF; 10480伊斯马尼亚|Osmanya
-104B0..104FF; 104B0奥色治|Osage
-10500..1052F; 10500爱尔巴桑|Elbasan
+10450..1047F; 10450萧伯纳|𐑖𐑱𐑝𐑾𐑯|Shavian
+10480..104AF; 10480伊斯马尼亚|𐒋𐒘𐒈𐒑𐒛𐒒𐒕𐒀|Osmanya
+104B0..104FF; 104B0奥色治|𐓏𐒰𐓓𐒰𐓓𐒷|Osage
+10500..1052F; 10500爱尔巴桑|𐔇𐔐𐔁𐔀𐔛𐔀𐔓𐔍𐔝|Elbasan
 10530..1056F; 10530高加索阿尔巴尼亚|Caucasian Albanian
-10570..105BF; 10570维斯库奇|Vithkuqi
+10570..105BF; 10570维斯库奇|𐕲𐖻𐖶𐖨𐖷𐖰𐖥|Vithkuqi
 10600..1077F; 10600线形文字甲|Linear A
 10780..107BF; 10780拉丁扩充己|Latin Extended-F
 10800..1083F; 10800塞浦路斯音节|Cypriot Syllabary
-10840..1085F; 10840帝国阿拉姆|Imperial Aramaic
-10860..1087F; 10860巴尔米拉|Palmyrene
-10880..108AF; 10880奈伯特|Nabataean
-108E0..108FF; 108E0哈特拉|Hatran
-10900..1091F; 10900腓尼基|Phoenician
-10920..1093F; 10920吕底亚|Lydian
+10840..1085F; 10840帝国阿拉姆|𐡀𐡓𐡌𐡉𐡀|Imperial Aramaic
+10860..1087F; 10860巴尔米拉|𐡶𐡣𐡬𐡥𐡴|Palmyrene
+10880..108AF; 10880奈伯特|𐢕𐢂𐢋𐢈|Nabataean
+108E0..108FF; 108E0哈特拉|𐣤𐣵𐣣𐣭|Hatran
+10900..1091F; 10900腓尼基|𐤊𐤍𐤀𐤍𐤌|Phoenician
+10920..1093F; 10920吕底亚|𐤮𐤱𐤠𐤭𐤣𐤶𐤯𐤦𐤳|Lydian
 10980..1099F; 10980麦罗埃圣书体|Meroitic Hieroglyphs
 109A0..109FF; 109A0麦罗埃草书体|Meroitic Cursive
-10A00..10A5F; 10A00佉卢|Kharoshthi
-10A60..10A7F; 10A60古南阿拉比亚|Old South Arabian
+10A00..10A5F; 10A00佉卢|𐨑𐨪𐨆𐨯𐨠𐨁|Kharoshthi
+10A60..10A7F; 10A60古南阿拉比亚|𐩣𐩯𐩬𐩵|Old South Arabian
 10A80..10A9F; 10A80古北阿拉比亚|Old North Arabian
 10AC0..10AFF; 10AC0摩尼|Manichaean
-10B00..10B3F; 10B00阿维斯塔|Avestan
+10B00..10B3F; 10B00阿维斯塔|𐬛𐬍𐬥 𐬛𐬀𐬠𐬌𐬫𐬭𐬵|Avestan
 10B40..10B5F; 10B40碑铭体帕提亚|Inscriptional Parthian
-10B60..10B7F; 10B60碑铭体巴列维|Inscriptional Pahlavi
+10B60..10B7F; 10B60碑铭体巴列维|𐭯𐭠𐭫𐭮𐭩𐭪|Inscriptional Pahlavi
 10B80..10BAF; 10B80诗篇体巴列维|Psalter Pahlavi
-10C00..10C4F; 10C00突厥|Old Turkic
+10C00..10C4F; 10C00突厥|𐰜𐰇𐰛|Old Turkic
 10C80..10CFF; 10C80古匈牙利|Old Hungarian
-10D00..10D3F; 10D00哈尼菲罗兴亚|Hanifi Rohingya
+10D00..10D3F; 10D00哈尼菲罗兴亚|𐴌𐴗𐴥𐴝𐴙𐴚𐴒𐴙𐴝|Hanifi Rohingya
 10E60..10E7F; 10E60鲁米数字符号|Rumi Numeral Symbols
-10E80..10EBF; 10E80耶西迪|Yezidi
+10E80..10EBF; 10E80耶西迪|𐺨𐺦𐺏𐺨𐺋𐺨|Yezidi
 10EC0..10EFF; 10EC0阿拉伯扩充丙|Arabic Extended-C
 10F00..10F2F; 10F00古粟特|Old Sogdian
 10F30..10F6F; 10F30粟特|Sogdian
 10F70..10FAF; 10F70回鹘|Old Uyghur
-10FB0..10FDF; 10FB0花剌子模|Chorasmian
-10FE0..10FFF; 10FE0以利买|Elymaic
-11000..1107F; 11000婆罗米|Brahmi
-11080..110CF; 11080开梯|Kaithi
-110D0..110FF; 110D0索拉索姆彭|Sora Sompeng
-11100..1114F; 11100查克马|Chakma
-11150..1117F; 11150默哈杰内|Mahajani
-11180..111DF; 11180沙勒德|Sharada
+10FB0..10FDF; 10FB0花剌子模|𐾳𐾲𐾲𐿋𐾲𐾲𐾽𐾻|Chorasmian
+10FE0..10FFF; 10FE0以利买|𐿯𐿫𐿩𐿬𐿠𐿪|Elymaic
+11000..1107F; 11000婆罗米|𑀩𑁆𑀭𑀸𑀳𑁆𑀫𑀻|Brahmi
+11080..110CF; 11080开梯|𑂍𑂶𑂟𑂲|Kaithi
+110D0..110FF; 110D0索拉索姆彭|𑃐𑃦𑃝𑃗 𑃐𑃦𑃖𑃣𑃗|Sora Sompeng
+11100..1114F; 11100查克马|𑄌𑄋𑄴𑄟𑄳𑄦|Chakma
+11150..1117F; 11150默哈杰内|𑅬𑅱𑅐𑅛𑅧𑅑|Mahajani
+11180..111DF; 11180沙勒德|𑆯𑆳𑆫𑆢𑆳|Sharada
 111E0..111FF; 111E0僧伽罗古数字|Sinhala Archaic Numbers
-11200..1124F; 11200科杰基|Khojki
-11280..112AF; 11280木尔坦|Multani
-112B0..112FF; 112B0库达本德|Khudawadi
-11300..1137F; 11300格兰他|Grantha
-11400..1147F; 11400内瓦|Newa
-11480..114DF; 11480蒂勒胡塔|Tirhuta
+11200..1124F; 11200科杰基|𑈉𑈲𑈐𑈈𑈮|Khojki
+11280..112AF; 11280木尔坦|𑊠𑊂𑊣𑊖𑊀𑊚𑊁|Multani
+112B0..112FF; 112B0库达本德|𑊻𑋩𑋣𑋏𑋠𑋔𑋠𑋏𑋢|Khudawadi
+11300..1137F; 11300格兰他|𑌗𑍍𑌰𑌨𑍍𑌥|Grantha
+11400..1147F; 11400内瓦|𑐣𑐾𑐰𑐵𑑅|Newa
+11480..114DF; 11480蒂勒胡塔|𑒞𑒱𑒩𑒯𑒳𑒞𑒰|Tirhuta
 11580..115FF; 11580悉昙|𑖭𑖰𑖟𑖿𑖠𑖽|Siddham
-11600..1165F; 11600莫迪|Modi
+11600..1165F; 11600莫迪|𑘦𑘻𑘚𑘲|Modi
 11660..1167F; 11660蒙文补充|Mongolian Supplement
-11680..116CF; 11680塔克里|Takri
-11700..1174F; 11700阿含|Ahom
-11800..1184F; 11800道格拉|Dogra
-118A0..118FF; 118A0瓦朗奇蒂|Warang Citi
-11900..1195F; 11900迪维希阿库鲁|Dives Akuru
-119A0..119FF; 119A0嫩迪城体|Nandinagari
-11A00..11A4F; 11A00札那巴札尔方字|Zanabazar Square
-11A50..11AAF; 11A50索永布|Soyombo
+11680..116CF; 11680塔克里|𑚔𑚭𑚊𑚤𑚯|Takri
+11700..1174F; 11700阿含|𑜒𑜑𑜪𑜨|Ahom
+11800..1184F; 11800道格拉|𑠖𑠵𑠌𑠤𑠬|Dogra
+118A0..118FF; 118A0瓦朗奇蒂|𑢹𑣗𑣁𑣜𑣊 𑢯𑣂𑣕𑣂|Warang Citi
+11900..1195F; 11900迪维希阿库鲁|𑤝𑤱𑤩𑤴𑤬𑤽 𑤥𑤌𑤳𑤧𑤳|Dives Akuru
+119A0..119FF; 119A0嫩迪城体|𑧁𑧞𑦿𑧒𑧁𑧑𑦰𑧈𑧓|Nandinagari
+11A00..11A4F; 11A00札那巴札尔方字|𑨢𑨆𑨏𑨳𑨋𑨆𑨬𑨳|Zanabazar Square
+11A50..11AAF; 11A50索永布|𑪁𑩖𑩻𑩖𑪌𑩰𑩖|Soyombo
 11AB0..11ABF; 11AB0统一加拿大土著音节扩充甲|Unified Canadian Aboriginal Syllabics Extended-A
 11AC0..11AFF; 11AC0包钦豪|Pau Cin Hau
 11B00..11B5F; 11B00天城体扩充甲|Devanagari Extended-A
-11C00..11C6F; 11C00比克舒基|Bhaiksuki
+11C00..11C6F; 11C00比克舒基|𑰥𑰹𑰎𑰿𑰬𑰲𑰎𑰱|Bhaiksuki
 11C70..11CBF; 11C70玛尔钦体|Marchen
-11D00..11D5F; 11D00马萨拉姆贡德|Masaram Gondi
-11D60..11DAF; 11D60贡贾尔贡德|Gunjala Gondi
-11EE0..11EFF; 11EE0望加锡|Makasar
-11F00..11F5F; 11F00克维|Kawi
+11D00..11D5F; 11D00马萨拉姆贡德|𑴤𑴫𑴦𑴱𑴤 𑴎𑴽𑵀𑴘𑴳|Masaram Gondi
+11D60..11DAF; 11D60贡贾尔贡德|𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋|Gunjala Gondi
+11EE0..11EFF; 11EE0望加锡|𑻪𑻢𑻪𑻢|Makasar
+11F00..11F5F; 11F00克维|𑼒𑼮𑼶|Kawi
 11FB0..11FBF; 11FB0傈僳补充|Lisu Supplement
 11FC0..11FFF; 11FC0泰米尔补充|Tamil Supplement
 12000..123FF; 12000楔形文字|Cuneiform
@@ -280,16 +280,16 @@ FFF0..FFFF; FFF0特殊|Specials
 13430..1345F; 13430埃及圣书体格式控制符|Egyptian Hieroglyph Format Controls
 14400..1467F; 14400安纳托利亚意音文字|Anatolian Hieroglyphs
 16800..16A3F; 16800巴默姆补充|Bamum Supplement
-16A40..16A6F; 16A40姆鲁|Mro
-16A70..16ACF; 16A70通萨|Tangsa
-16AD0..16AFF; 16AD0巴索奥瓦|Bassa Vah
-16B00..16B8F; 16B00帕皓苗|Pahawh Hmong
-16E40..16E9F; 16E40梅代法伊德林|𖹝𖹰𖹯𖹼𖹫𖹚𖹬𖹾𖹠𖹯|Medefaidrin
+16A40..16A6F; 16A40姆鲁|𖩃𖩓𖩑|Mro
+16A70..16ACF; 16A70通萨|𖪰𖩵𖪂𖪫𖩸|Tangsa
+16AD0..16AFF; 16AD0巴索奥瓦|𖫔𖫧𖫱𖫒𖫨𖫴 𖫣𖫧𖫱|Bassa Vah
+16B00..16B8F; 16B00帕皓苗|𖬖𖬰𖬝𖬵 𖬄𖬶𖬟 𖬌𖬣𖬵|Pahawh Hmong
+16E40..16E9F; 16E40梅代法伊德林|𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯|Medefaidrin
 16F00..16F9F; 16F00苗(老)|Miao
 16FE0..16FFF; 16FE0表意符号及标点|Ideographic Symbols and Punctuation
 17000..187FF; 17000西夏|𗼇𗟲|Tangut
 18800..18AFF; 18800西夏偏旁|Tangut Components
-18B00..18CFF; 18B00契丹小字|Khitan Small Script
+18B00..18CFF; 18B00契丹小字|𘱿𘱤|Khitan Small Script
 18D00..18D7F; 18D00西夏补充|Tangut Supplement
 1AFF0..1AFFF; 1AFF0假名扩充乙|Kana Extended-B
 1B000..1B0FF; 1B000假名补充|Kana Supplement
@@ -311,13 +311,13 @@ FFF0..FFFF; FFF0特殊|Specials
 1DF00..1DFFF; 1DF00拉丁扩充庚|Latin Extended-G
 1E000..1E02F; 1E000格拉哥里补充|Glagolitic Supplement
 1E030..1E08F; 1E030西里尔扩充丁|Cyrillic Extended-D
-1E100..1E14F; 1E100苗(创世)|Nyiakeng Puachue Hmong
-1E290..1E2BF; 1E290托托|Toto
-1E2C0..1E2FF; 1E2C0万乔|Wancho
-1E4D0..1E4FF; 1E4D0纳格蒙达里|Nag Mundari
+1E100..1E14F; 1E100苗(创世)|𞄀𞄄𞄰𞄩|Nyiakeng Puachue Hmong
+1E290..1E2BF; 1E290托托|𞊒𞊪𞊒𞊪|Toto
+1E2C0..1E2FF; 1E2C0万乔|𞋒𞋀𞋉𞋃𞋕|Wancho
+1E4D0..1E4FF; 1E4D0纳格蒙达里|𞓧𞓟𞓨𞓜𞓕𞓣𞓚|Nag Mundari
 1E7E0..1E7FF; 1E7E0埃塞扩充乙|Ethiopic Extended-B
-1E800..1E8DF; 1E800门迪基卡奎|Mende Kikakui
-1E900..1E95F; 1E900阿德拉姆|Adlam
+1E800..1E8DF; 1E800门迪基卡奎|𞠗𞢱 𞠀𞠁𞠂|Mende Kikakui
+1E900..1E95F; 1E900阿德拉姆|𞤀𞤣𞤤𞤢𞤥|Adlam
 1EC70..1ECBF; 1EC70印度帐目数字|Indic Siyaq Numbers
 1ED00..1ED4F; 1ED00奥斯曼帐目数字|Ottoman Siyaq Numbers
 1EE00..1EEFF; 1EE00阿拉伯数学字母符号|Arabic Mathematical Alphabetic Symbols
