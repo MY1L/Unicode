@@ -164,7 +164,7 @@ A700..A71F; A700声调修饰字|Modifier Tone Letters
 A720..A7FF; A720拉丁扩充丁|Latin Extended-D
 A800..A82F; A800西洛蒂城体|ꠍꠤꠟꠐꠤ|Syloti Nagri
 A830..A83F; A830通用印度数字形式|Common Indic Number Forms
-A840..A87F; A840八思巴|ꡍꡂꡛ ꡌ|Phags-pa
+A840..A87F; A840八思巴|ꡖꡍꡂꡛ ꡌ|Phags-pa
 A880..A8DF; A880索拉什特拉|ꢱꣃꢬꢵꢰ꣄ꢜ꣄ꢬ|Saurashtra
 A8E0..A8FF; A8E0天城体扩充|Devanagari Extended
 A900..A92F; A900克耶利|ꤜꤟꤤ꤬|Kayah Li
