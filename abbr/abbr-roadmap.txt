@@ -412,11 +412,12 @@
 2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD. = HanExtD.
 2B820..2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE. = HanExtE.
 2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF. = HanExtF.
+2EBF0..2EE4F; 〓【CJK Unified Ideographs Extension I】	|	CjkExtI. = HanExtI.
 2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup. = HanComIdeoSup.
 30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG. = HanExtG.
 31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. = HanExtH.
-32400..352FF; 〓(Seal Script)	|	Seal!
-35400..36BFF; 〓(Oracle Bone Script)	|	Orcl!
+35400..36BFF; 〓¿¿¿Oracle Bone Script???	|	Orcl!
+38000..3AB9F; 〓(Seal Script)	|	Seal!
 A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字	|	GB18030.2022
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.

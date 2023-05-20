@@ -330,7 +330,7 @@ FFF0..FFFF; FFF0特殊|Specials
 16000..1607F; 〓1600?奇尔斯(Cirth)
 16080..160FF; 〓1608?滕格瓦(Tengwar)
 16100..1613F; 〓16100古隆凯玛【Gurung Khema】
-16140..1617F; 〓16???凯普里赫¿¿¿Khe Prih???
+16140..1617F; 〓凯普里赫¿¿¿Khe Prih???~16140..~
 161A0..161FF; 〓161A?穆恩盲文(Moon)
 16200..1677F; 〓1620?布利斯符(Blissymbols)
 16800..16A3F; 16800巴默姆补充|Bamum Supplement
@@ -378,7 +378,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1BCB0..1BCFF; 〓1BCB?皮特曼速记(Pitman Shorthand)
 1BD00..1C37F; 〓1BD0?原始埃兰(Proto-Elamite)
 1C380..1C4FF; 〓1C38?线形埃兰(Linear Elamite)
-1CA80..1CBFF; 〓1C???罗鄂罗鄂¿¿¿Rongorongo??? ~1CA80..1CDBF~
+1CA80..1CBFF; 〓罗鄂罗鄂¿¿¿Rongorongo???~1CA80..~
 1CC00..1CEBF; 〓1CC00遗留电脑符号补充【Symbols for Legacy Computing Supplement】
 1CF00..1CFCF; 1CF00兹纳缅内音符|Znamenny Musical Notation
 1D000..1D0FF; 1D000拜占庭乐符|Byzantine Musical Symbols
@@ -447,11 +447,12 @@ FFF0..FFFF; FFF0特殊|Specials
 2B740..2B81F; 2B740中日韩统一表意扩充丁|CJK Unified Ideographs Extension D
 2B820..2CEAF; 2B820中日韩统一表意扩充戊|CJK Unified Ideographs Extension E
 2CEB0..2EBEF; 2CEB0中日韩统一表意扩充己|CJK Unified Ideographs Extension F
+2EBF0..2EE4F; 〓2EBF0中日韩统一表意扩充壬【CJK Unified Ideographs Extension I】
 2F800..2FA1F; 2F800中日韩兼容表意补充|CJK Compatibility Ideographs Supplement
 30000..3134F; 30000中日韩统一表意扩充庚|CJK Unified Ideographs Extension G
 31350..323AF; 31350中日韩统一表意扩充辛|CJK Unified Ideographs Extension H
-32400..352FF; 〓3240?篆书(Seal Script)
-35400..36BFF; 〓3540?甲骨(Oracle Bone Script)
+35400..36BFF; 〓甲骨¿¿¿Oracle Bone Script???~35400..~
+38000..3AB9F; 〓3800?篆书(Seal Script)
 A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字
 E0000..E007F; E0000标签|Tags
 E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
