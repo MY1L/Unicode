@@ -145,6 +145,7 @@
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
+|Olon||Ol Onal|印度人编的，[第10页](https://www.unicode.org/L2/L2022/22151r-ol-onal-script.pdf)|
 |Opor||Operators|缩略自撰；[allacronyms]是Ops|
 |Orcl|Oracle|Oracle Bone Script|甲骨文公司的纳斯达克股票代码缩写|
 |Otto||Ottoman|欧陆风云作`TUR`，不适合；[allacronyms]是Ott|
@@ -154,6 +155,7 @@
 |Punc|Punct.|Punctuation|如[Roadmaps]|
 |Rad||Radicals|[allacronyms]有|
 |RodNum.|Rod Nums|Counting Rod Numerals|如[Roadmaps]|
+|Rot|Rotat|Rotation|描述字形顺时针旋转90°的缩略，没用上；[allacronyms]有|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
 |~syqNum|~SiyaqNum.|~ Siyaq Numbers|别人缩略

@@ -375,7 +375,7 @@
 1E530..1E55F; 〓¿Pungchung?	|	？
 1E560..1E59F; 〓¿Marchung?	|	？
 1E5A0..1E5CF; 〓(Brusha)	|	？
-1E5D0..1E5FF; 〓【Ol Onal】	|	？
+1E5D0..1E5FF; 〓【Ol Onal】	|	Olon.
 1E600..1E65F; 〓¿Chola?	|	？
 1E660..1E6BF; 〓¿Chalukya (Box-Headed)?	|	？
 1E6C0..1E6FF; 〓【Tai Yo】	|	？
