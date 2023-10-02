@@ -105,7 +105,7 @@
 2E00..,Supplemental Punctuation,Noto Unicode,,
 2E80..,CJK Radicals Supplement,,微软雅黑 6.25，等,
 2F00..,Kangxi Radicals,,微软雅黑，等,
-2FF0..,Ideographic Description Characters,Monu Hani 9.5 ⊃ Ctrl Ctrl,微软雅黑，等,
+2FF0..,Ideographic Description Characters,Monu Hani 9.5 ⊃ Ctrl Ctrl,,微软雅黑等缺字
 3000..,CJK Symbols and Punctuation,,微软雅黑，等,
 3040..,Hiragana,,微软雅黑，等,
 30A0..,Katakana,,微软雅黑，等,
@@ -113,7 +113,7 @@
 3130..,Hangul Compatibility Jamo,,Malgun Gothic,
 3190..,Kanbun,,微软雅黑，等,
 31A0..,Bopomofo Extended,Monu Hani,,思源缺字，补之：从NotoUni迁来
-31C0..,CJK Strokes,Monu Hani ⊃ Ctrl Ctrl,微软雅黑，等,
+31C0..,CJK Strokes,Monu Hani ⊃ Ctrl Ctrl,,思源缺字，补之
 31F0..,Katakana Phonetic Extensions,,微软雅黑，等,
 3200..,Enclosed CJK Letters and Months,Monu Hani,,
 3300..,CJK Compatibility,,Yu Gothic 1.90，等,
@@ -319,6 +319,7 @@ FFF0..,Specials,Noto Unicode,,
 2B740.,CJK Unified Ideographs Extension D,Monu Han2,SimSun-ExtB 5.03，等,或可精简，但欠黑体
 2B820.,CJK Unified Ideographs Extension E,Monu Han2,,
 2CEB0.,CJK Unified Ideographs Extension F,Monu Han2,,
+2EBF0.,CJK Unified Ideographs Extension I,Monu Han2,,
 2F800.,CJK Compatibility Ideographs Supplement,Monu Han2,,
 30000.,CJK Unified Ideographs Extension G,Monu Han3 1.175,,
 31350.,CJK Unified Ideographs Extension H,Monu Han3,,

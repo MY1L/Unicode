@@ -1,6 +1,6 @@
-﻿# Blocks-15.0.0.txt
-# 日期：2022-01-28, 20:58:00 GMT [KW]
-# © 2022 Unicode®, Inc.
+﻿# Blocks-15.1.0.txt
+# 日期：2023-07-28, 15:47:20 GMT
+# © 2023 Unicode®, Inc.
 # 使用条款详见 https://www.unicode.org/terms_of_use.html
 #
 # Unicode Character Database
@@ -136,9 +136,9 @@
 2D80..2DDF; 2D80埃塞扩充|Ethiopic Extended
 2DE0..2DFF; 2DE0西里尔扩充甲|Cyrillic Extended-A
 2E00..2E7F; 2E00增补标点|Supplemental Punctuation
-2E80..2EFF; 2E80中日韩部首补充|CJK Radicals Supplement
+2E80..2EFF; 2E80汉字部首补充|CJK Radicals Supplement
 2F00..2FDF; 2F00康熙部首|Kangxi Radicals
-2FE0..2FEF; 〓???(2FE0..2FEF)
+2FE0..2FEF; 〓???~2FE0..~
 2FF0..2FFF; 2FF0表意描述字符|Ideographic Description Characters
 3000..303F; 3000中日韩符号及标点|CJK Symbols and Punctuation
 3040..309F; 3040平假名|ひらがな|Hiragana
@@ -147,13 +147,13 @@
 3130..318F; 3130谚文兼容字母|Hangul Compatibility Jamo
 3190..319F; 3190汉文训读|Kanbun
 31A0..31BF; 31A0注音扩充|Bopomofo Extended
-31C0..31EF; 31C0中日韩笔画|CJK Strokes
+31C0..31EF; 31C0汉字笔画|CJK Strokes
 31F0..31FF; 31F0片假名音标扩充|Katakana Phonetic Extensions
 3200..32FF; 3200附围中日韩字母及月份|Enclosed CJK Letters and Months
 3300..33FF; 3300中日韩兼容|CJK Compatibility
-3400..4DBF; 3400中日韩统一表意扩充甲|CJK Unified Ideographs Extension A
+3400..4DBF; 3400汉字统一表意扩充甲|CJK Unified Ideographs Extension A
 4DC0..4DFF; 4DC0易经六十四卦|Yijing Hexagram Symbols
-4E00..9FFF; 4E00中日韩统一表意文字|CJK Unified Ideographs
+4E00..9FFF; 4E00汉字统一表意|CJK Unified Ideographs
 A000..A48F; A000彝文音节|ꆈꌠꁱꂷ|Yi Syllables
 A490..A4CF; A490彝文部首|Yi Radicals
 A4D0..A4FF; A4D0傈僳(老)|ꓡꓲꓢꓴ|Lisu
@@ -186,7 +186,7 @@ D800..DB7F; D800高位替代|High Surrogates
 DB80..DBFF; DB80高位私用替代|High Private Use Surrogates
 DC00..DFFF; DC00低位替代|Low Surrogates
 E000..F8FF; E000私用区|Private Use Area
-F900..FAFF; F900中日韩兼容表意文字|CJK Compatibility Ideographs
+F900..FAFF; F900汉字兼容表意|CJK Compatibility Ideographs
 FB00..FB4F; FB00字母表现形式|Alphabetic Presentation Forms
 FB50..FDFF; FB50阿拉伯表现形式甲|Arabic Presentation Forms-A
 FE00..FE0F; FE00变体选择符|Variation Selectors
@@ -224,7 +224,6 @@ FFF0..FFFF; FFF0特殊|Specials
 105C0..105FF; 〓105C0托兹里【Todhri】
 10600..1077F; 10600线形文字甲|Linear A
 10780..107BF; 10780拉丁扩充己|Latin Extended-F
-107C0..107FF; 〓107C?雷姜扩充(Rejang Extended)
 10800..1083F; 10800塞浦路斯音节|Cypriot Syllabary
 10840..1085F; 10840帝国阿拉姆|𐡀𐡓𐡌𐡉𐡀|Imperial Aramaic
 10860..1087F; 10860巴尔米拉|𐡶𐡣𐡬𐡥𐡴|Palmyrene
@@ -297,15 +296,16 @@ FFF0..FFFF; FFF0特殊|Specials
 11AB0..11ABF; 11AB0统一加拿大土著音节扩充甲|Unified Canadian Aboriginal Syllabics Extended-A
 11AC0..11AFF; 11AC0包钦豪|Pau Cin Hau
 11B00..11B5F; 11B00天城体扩充甲|Devanagari Extended-A
-11B60..11B7F; 〓11B??沙勒德扩充¿Sharada Extensions?
+11B60..11B7F; 〓11B60沙勒德补充【Sharada Supplement】
 11B80..11BBF; 〓11B8?莱革(Leke)
 11BC0..11BFF; 〓11BC0苏努瓦尔【Sunuwar】
 11C00..11C6F; 11C00比克舒基|𑰥𑰹𑰎𑰿𑰬𑰲𑰎𑰱|Bhaiksuki
 11C70..11CBF; 11C70玛尔钦体|Marchen
+11CC0..11CFF; 〓11CC?巴尔蒂乙(Balti-B)
 11D00..11D5F; 11D00马萨拉姆贡德|𑴤𑴫𑴦𑴱𑴤 𑴎𑴽𑵀𑴘𑴳|Masaram Gondi
 11D60..11DAF; 11D60贡贾尔贡德|𑵶𑶓𑶕𑶂𑶋 𑵵𑶋𑶅𑶋|Gunjala Gondi
-11DB0..11DEF; 〓11DB0托隆西基【Tolong Siki】
-11E00..11E6F; 〓11E0?焉耆-龟兹(吐火罗)(Tocharian)
+11DB0..11DEF; 〓11DB0托隆西基|𑶻𑶳𑷑𑶳𑷎 𑷔𑶰𑷊𑶰【Tolong Siki】
+11E00..11E6F; 〓11E0?焉耆-龟兹｢吐火罗｣(Tocharian)
 11E70..11ECF; 〓11E7?于阗(Khotanese)
 11EE0..11EFF; 11EE0望加锡|𑻪𑻢𑻪𑻢|Makasar
 11F00..11F5F; 11F00克维|𑼒𑼮𑼶|Kawi
@@ -315,17 +315,14 @@ FFF0..FFFF; FFF0特殊|Specials
 12000..123FF; 12000楔形文字|Cuneiform
 12400..1247F; 12400楔形数字及标点|Cuneiform Numbers and Punctuation
 12480..1254F; 12480早王朝楔形文字|Early Dynastic Cuneiform
-12580..12DFF; 〓1258?原始楔形文字(Proto-Cuneiform)
-12E00..12F8F; 〓12E0?印度河文(Indus)
+12580..12ECF; 〓1258?原始楔形文字(Proto-Cuneiform)
 12F90..12FFF; 12F90塞浦路斯-米诺斯|Cypro-Minoan
 13000..1342F; 13000埃及圣书体|Egyptian Hieroglyphs
 13430..1345F; 13430埃及圣书体格式控制符|Egyptian Hieroglyph Format Controls
-13480..143FF; 〓1348?埃及圣书体扩充甲(Egyptian Hieroglyphs Extended-A)
+13460..143FF; 〓13460埃及圣书体扩充甲【Egyptian Hieroglyphs Extended-A】
 14400..1467F; 14400安纳托利亚意音文字|Anatolian Hieroglyphs
-14680..151FF; 〓1468?埃及圣书体扩充乙(Egyptian Hieroglyphs Extended-B)
+14680..151FF; 〓146??埃及圣书体扩充乙¿Egyptian Hieroglyphs Extended-B?
 15500..15AFF; 〓1550?玛雅意音文字(Mayan Hieroglyphs)
-15B00..15B3F; 〓15B0?楠榜(Lampung)
-15B40..15B6F; 〓15B4?葛林芝(Kerinci)
 15B80..15FFF; 〓15B8?曼东贝(Mandombe)
 16000..1607F; 〓1600?奇尔斯(Cirth)
 16080..160FF; 〓1608?滕格瓦(Tengwar)
@@ -345,11 +342,10 @@ FFF0..FFFF; FFF0特殊|Specials
 16D00..16D3F; 〓16D0?蒂卡穆利(Tikamuli)
 16D40..16D7F; 〓16D40基勒特赖【Kirat Rai】
 16D80..16DAF; 〓16D80奇索伊【Chisoi】
-16DB0..16DCF; 〓16D??隆塔拉比朗比朗¿Lontara bilang-bilang?
 16DD0..16DFF; 〓16DD?库利坦(Kulitan)
 16E00..16E3F; 〓16E0?姆万圭戈(Mwangwego)
 16E40..16E9F; 16E40梅代法伊德林|𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯|Medefaidrin
-16EA0..16EFF; 〓16EA?布吉补充(Buginese Supplement)
+16EA0..16ECF; 〓16EA?贝里亚(Beria)
 16F00..16F9F; 16F00苗(老)|Miao
 16FA0..16FAF; 〓16F??注音扩充甲¿Bopomofo Extended-A?
 16FB0..16FDF; 〓16FB?汉文扩充甲(Kanbun Extended-A)
@@ -358,13 +354,15 @@ FFF0..FFFF; FFF0特殊|Specials
 18800..18AFF; 18800西夏偏旁|Tangut Components
 18B00..18CFF; 18B00契丹小字|𘱿𘱤|Khitan Small Script
 18D00..18D7F; 18D00西夏补充|Tangut Supplement
-18D80..195FF; 〓18D??契丹大字(Khitan Ideographs) ~18D90..195FF~
+18D80..18DFF; 〓18D0?西夏偏旁补充(Tangut Component(s?) Supplement)
+18E00..195FF; 〓18E0?契丹大字(Khitan Ideographs)
 19600..19B9F; 〓1960?女真(Jurchen)
 19E00..1A2FF; 〓19E0?包钦豪音节(Pau Cin Hau Syllabary)
 1A300..1A75F; 〓1A30?埃斯卡亚(Eskaya)
+1A760..1A77F; 〓1A76?雷姜扩充(Rejang Extended)
 1A780..1A7FF; 〓1A7??假屋¿Kaida?
 1A800..1ACFF; 〓1A80?纳西东巴(Naxi Dongba)
-1AD00..1AFCF; 〓1AD??纳西哥巴¿Naxi Geba? ~1AD00..1AFEF~
+1AD00..1AFCF; 〓1AD??纳西哥巴¿Naxi Geba? ~..1AFEF~
 1AFD0..1AFEF; 〓1AF??假名扩充丙¿Kana Extended-C?
 1AFF0..1AFFF; 1AFF0假名扩充乙|Kana Extended-B
 1B000..1B0FF; 1B000假名补充|Kana Supplement
@@ -373,6 +371,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1B170..1B2FF; 1B170女书|𛆁𛈬|Nüshu
 1B300..1B5FF; 〓1B30?水书语素文字(Shuishu Logograms)
 1B600..1B9FF; 〓1B60?傈僳音节文字(Lisu Syllabic Script)
+1BA00..1BB8F; 〓1BA0?印度河文(Indus)
 1BC00..1BC9F; 1BC00杜普雷速记|Duployan
 1BCA0..1BCAF; 1BCA0速记格式控制符|Shorthand Format Controls
 1BCB0..1BCFF; 〓1BCB?皮特曼速记(Pitman Shorthand)
@@ -414,7 +413,10 @@ FFF0..FFFF; FFF0特殊|Specials
 1E600..1E65F; 〓1E6??朱罗¿Chola?
 1E660..1E6BF; 〓1E6??遮娄其 (方头)¿Chalukya (Box-Headed)?
 1E6C0..1E6FF; 〓1E6C0傣侥【Tai Yo】
-1E700..1E72F; 〓1E7??贝里亚¿Beria?
+1E700..1E73F; 〓1E70?楠榜(Lampung)
+1E740..1E76F; 〓1E74?葛林芝(Kerinci)
+1E770..1E7BF; 〓1E77?布吉补充(Buginese Supplement)
+1E7C0..1E7DF; 〓1E7??隆塔拉比朗比朗¿Lontara bilang-bilang?
 1E7E0..1E7FF; 1E7E0埃塞扩充乙|Ethiopic Extended-B
 1E800..1E8DF; 1E800门迪基卡奎|𞠗𞢱 𞠀𞠁𞠂|Mende Kikakui
 1E900..1E95F; 1E900阿德拉姆|𞤀𞤣𞤤𞤢𞤥|Adlam
@@ -442,18 +444,18 @@ FFF0..FFFF; FFF0特殊|Specials
 1FA70..1FAFF; 1FA70符号及象形扩充甲|Symbols and Pictographs Extended-A
 1FB00..1FBFF; 1FB00遗留电脑符号|Symbols for Legacy Computing
 1FC00..1FFFF; 〓1FC??扩充图形字符 (绘文字)¿Extended Pictographic Characters (Emoji)?
-20000..2A6DF; 20000中日韩统一表意扩充乙|CJK Unified Ideographs Extension B
-2A700..2B73F; 2A700中日韩统一表意扩充丙|CJK Unified Ideographs Extension C
-2B740..2B81F; 2B740中日韩统一表意扩充丁|CJK Unified Ideographs Extension D
-2B820..2CEAF; 2B820中日韩统一表意扩充戊|CJK Unified Ideographs Extension E
-2CEB0..2EBEF; 2CEB0中日韩统一表意扩充己|CJK Unified Ideographs Extension F
-2EBF0..2EE4F; 〓2EBF0中日韩统一表意扩充壬【CJK Unified Ideographs Extension I】
-2F800..2FA1F; 2F800中日韩兼容表意补充|CJK Compatibility Ideographs Supplement
-30000..3134F; 30000中日韩统一表意扩充庚|CJK Unified Ideographs Extension G
-31350..323AF; 31350中日韩统一表意扩充辛|CJK Unified Ideographs Extension H
+20000..2A6DF; 20000汉字统一表意扩充乙|CJK Unified Ideographs Extension B
+2A700..2B73F; 2A700汉字统一表意扩充丙|CJK Unified Ideographs Extension C
+2B740..2B81F; 2B740汉字统一表意扩充丁|CJK Unified Ideographs Extension D
+2B820..2CEAF; 2B820汉字统一表意扩充戊|CJK Unified Ideographs Extension E
+2CEB0..2EBEF; 2CEB0汉字统一表意扩充己|CJK Unified Ideographs Extension F
+2EBF0..2EE5F; 2EBF0汉字统一表意扩充壬|CJK Unified Ideographs Extension I
+2F800..2FA1F; 2F800汉字兼容表意补充|CJK Compatibility Ideographs Supplement
+30000..3134F; 30000汉字统一表意扩充庚|CJK Unified Ideographs Extension G
+31350..323AF; 31350汉字统一表意扩充辛|CJK Unified Ideographs Extension H
 35400..36BFF; 〓甲骨¿¿¿Oracle Bone Script???~35400..~
 38000..3AB9F; 〓3800?篆书(Seal Script)
-A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字
+A0000..A027B; ✱GB18030-2022 公安人口信息专用字库补充汉字
 E0000..E007F; E0000标签|Tags
 E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
 F0000..FFFFF; F0000增补私用区甲|Supplementary Private Use Area-A

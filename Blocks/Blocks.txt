@@ -1,6 +1,6 @@
-﻿# Blocks-15.0.0.txt
-# 日期：2022-01-28, 20:58:00 GMT [KW]
-# © 2022 Unicode®, Inc.
+﻿# Blocks-15.1.0.txt
+# 日期：2023-07-28, 15:47:20 GMT
+# © 2023 Unicode®, Inc.
 # 使用条款详见 https://www.unicode.org/terms_of_use.html
 #
 # Unicode Character Database
@@ -126,7 +126,7 @@
 2D80..2DDF; 2D80埃塞扩充|Ethiopic Extended
 2DE0..2DFF; 2DE0西里尔扩充甲|Cyrillic Extended-A
 2E00..2E7F; 2E00增补标点|Supplemental Punctuation
-2E80..2EFF; 2E80中日韩部首补充|CJK Radicals Supplement
+2E80..2EFF; 2E80汉字部首补充|CJK Radicals Supplement
 2F00..2FDF; 2F00康熙部首|Kangxi Radicals
 2FF0..2FFF; 2FF0表意描述字符|Ideographic Description Characters
 3000..303F; 3000中日韩符号及标点|CJK Symbols and Punctuation
@@ -136,13 +136,13 @@
 3130..318F; 3130谚文兼容字母|Hangul Compatibility Jamo
 3190..319F; 3190汉文训读|Kanbun
 31A0..31BF; 31A0注音扩充|Bopomofo Extended
-31C0..31EF; 31C0中日韩笔画|CJK Strokes
+31C0..31EF; 31C0汉字笔画|CJK Strokes
 31F0..31FF; 31F0片假名音标扩充|Katakana Phonetic Extensions
 3200..32FF; 3200附围中日韩字母及月份|Enclosed CJK Letters and Months
 3300..33FF; 3300中日韩兼容|CJK Compatibility
-3400..4DBF; 3400中日韩统一表意扩充甲|CJK Unified Ideographs Extension A
+3400..4DBF; 3400汉字统一表意扩充甲|CJK Unified Ideographs Extension A
 4DC0..4DFF; 4DC0易经六十四卦|Yijing Hexagram Symbols
-4E00..9FFF; 4E00中日韩统一表意文字|CJK Unified Ideographs
+4E00..9FFF; 4E00汉字统一表意|CJK Unified Ideographs
 A000..A48F; A000彝文音节|ꆈꌠꁱꂷ|Yi Syllables
 A490..A4CF; A490彝文部首|Yi Radicals
 A4D0..A4FF; A4D0傈僳(老)|ꓡꓲꓢꓴ|Lisu
@@ -175,7 +175,7 @@ D800..DB7F; D800高位替代|High Surrogates
 DB80..DBFF; DB80高位私用替代|High Private Use Surrogates
 DC00..DFFF; DC00低位替代|Low Surrogates
 E000..F8FF; E000私用区|Private Use Area
-F900..FAFF; F900中日韩兼容表意文字|CJK Compatibility Ideographs
+F900..FAFF; F900汉字兼容表意|CJK Compatibility Ideographs
 FB00..FB4F; FB00字母表现形式|Alphabetic Presentation Forms
 FB50..FDFF; FB50阿拉伯表现形式甲|Arabic Presentation Forms-A
 FE00..FE0F; FE00变体选择符|Variation Selectors
@@ -337,14 +337,15 @@ FFF0..FFFF; FFF0特殊|Specials
 1FA00..1FA6F; 1FA00棋符|Chess Symbols
 1FA70..1FAFF; 1FA70符号及象形扩充甲|Symbols and Pictographs Extended-A
 1FB00..1FBFF; 1FB00遗留电脑符号|Symbols for Legacy Computing
-20000..2A6DF; 20000中日韩统一表意扩充乙|CJK Unified Ideographs Extension B
-2A700..2B73F; 2A700中日韩统一表意扩充丙|CJK Unified Ideographs Extension C
-2B740..2B81F; 2B740中日韩统一表意扩充丁|CJK Unified Ideographs Extension D
-2B820..2CEAF; 2B820中日韩统一表意扩充戊|CJK Unified Ideographs Extension E
-2CEB0..2EBEF; 2CEB0中日韩统一表意扩充己|CJK Unified Ideographs Extension F
-2F800..2FA1F; 2F800中日韩兼容表意补充|CJK Compatibility Ideographs Supplement
-30000..3134F; 30000中日韩统一表意扩充庚|CJK Unified Ideographs Extension G
-31350..323AF; 31350中日韩统一表意扩充辛|CJK Unified Ideographs Extension H
+20000..2A6DF; 20000汉字统一表意扩充乙|CJK Unified Ideographs Extension B
+2A700..2B73F; 2A700汉字统一表意扩充丙|CJK Unified Ideographs Extension C
+2B740..2B81F; 2B740汉字统一表意扩充丁|CJK Unified Ideographs Extension D
+2B820..2CEAF; 2B820汉字统一表意扩充戊|CJK Unified Ideographs Extension E
+2CEB0..2EBEF; 2CEB0汉字统一表意扩充己|CJK Unified Ideographs Extension F
+2EBF0..2EE5F; 2EBF0汉字统一表意扩充壬|CJK Unified Ideographs Extension I
+2F800..2FA1F; 2F800汉字兼容表意补充|CJK Compatibility Ideographs Supplement
+30000..3134F; 30000汉字统一表意扩充庚|CJK Unified Ideographs Extension G
+31350..323AF; 31350汉字统一表意扩充辛|CJK Unified Ideographs Extension H
 E0000..E007F; E0000标签|Tags
 E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
 F0000..FFFFF; F0000增补私用区甲|Supplementary Private Use Area-A

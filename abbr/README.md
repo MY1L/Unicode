@@ -8,26 +8,40 @@
 - 第2版，2021-9-16：修正、添加统一码14.0版新增区段缩略。
   - 2022-‎9-‎12 修正下方表格。
 - 第3版，2023-1-14：修正、添加统一码15.0版新增区段缩略。
-- 第4版，2023-1-16：追加路线图版[abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
+- 第4版，2023-1-16：追加规划版[abbr-roadmap.txt](/abbr/abbr-roadmap.txt)，注意标注在文本底部。更改：FormCtrl. → FC.，MiscMathSym → MiscMath
   - 4.1版：更改：CountingRod. → RodNum.
   - 4.2版：修正遗漏缩略，补充底部标注。
   - 4.3版：略改，添加备注。
   - 4.4版：更新实例，更改：Radi → Rad，Emon. → Emos.，补充“第十平面”🥴
   - 4.5版：补充实例。
-- 第5版，2023-4-12：据[SMP路线图15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新路线图版.txt。
-  - 5.1版：略修路线图版。
-- 第6版，2023-5-20：更新SIP、TIP平面路线图版区段。
+- 第5版，2023-4-12：据[SMP规划15.0.2](https://www.unicode.org/roadmaps/smp/smp-15-0-2.html)更新规划版.txt。
+  - 5.1版：略修规划版。
+- 第6版，2023-5-20：更新SIP、TIP平面规划版区段。
+- 第7版，2023-10-1：更新至统一码15.1版、更新ISO四字代码、据[SMP规划15.0.3](https://www.unicode.org/roadmaps/smp/smp-15-0-3.html)更新规划版.txt，等。
 
 ## 出典
 
 ### ISO四字代码
 国际标准化组织的标准 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。代码当缩写用的唯一问题是某些文种名称少于4字也得补长到4字。
 
-#### 区段名没用上，但字符可以用
+#### 区段名不用，字符名或可用
 |缩略|原意|注释|
-| -: | :- | :- |
+| -: | - | :- |
+|Aran|Arabic (Nastaliq variant)|阿拉伯 波斯体|
+|Cyrs|Cyrillic (Old Church Slavonic variant)|古教会斯拉夫语|
+|Hanb|Han + Bopomofo|`Hani`+`Bopo`|
 |Hani|Han|Hanzi, Kanji, Hanja|
-|Jpan|Japanese|Han + Hiragana + Katakana|
+|Hans|Han (Simplified variant)|简化字|
+|Hant|Han (Traditional variant)|傳承字|
+|Hrkt|Japanese syllabaries|`Hira`+`Kana`|
+|Jamo|[Jamo](https://www.unicode.org/glossary/#jamo) (subset of Hangul)|组成谚文的字母|
+|Jpan|Japanese|`Hani`+`Hrkt`|
+|Kore|Korean|`Hang`+`Hani`|
+|Latf|Latin (Fraktur variant)|德文尖角体|
+|Latg|Latin (Gaelic variant)|盖尔语|
+|Syre|Syriac (Estrangelo variant)|叙利亚 经典|
+|Syrj|Syriac (Western variant)|叙利亚 西部|
+|Syrn|Syriac (Eastern variant)|叙利亚 东部<!--景教-->|
 |Qaaa|Reserved for private use|私用始|
 |Qabx|Reserved for private use|私用终|
 |Zinh|Inherited|继承|
@@ -145,7 +159,6 @@
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
 |Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
-|Olon||Ol Onal|印度人编的，[第10页](https://www.unicode.org/L2/L2022/22151r-ol-onal-script.pdf)|
 |Opor||Operators|缩略自撰；[allacronyms]是Ops|
 |Orcl|Oracle|Oracle Bone Script|甲骨文公司的纳斯达克股票代码缩写|
 |Otto||Ottoman|欧陆风云作`TUR`，不适合；[allacronyms]是Ott|
@@ -158,7 +171,7 @@
 |Rot|Rotat|Rotation|描述字形顺时针旋转90°的缩略，没用上；[allacronyms]有|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
-|~syqNum|~SiyaqNum.|~ Siyaq Numbers|别人缩略
+|~syqNum|~SiyaqNum.|~ Siyaq Numbers|老外缩略
 |Spec||Specials|如[Roadmaps]|
 |SP|SPUA-|Supplementary Private Use Area-|[n3412-last-resort](https://unicode.org/wg2/docs/n3412.pdf)|
 |Srgs||Surrogates|缩略自撰；[allacronyms]是Surr等|

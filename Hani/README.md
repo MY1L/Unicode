@@ -29,13 +29,13 @@
 - 1B130..Small Kana Extension	　　	　　	；思源黑(9／0字)
 
 ### Han2「汉辅」
-SIP平面目前剩余不到4661个码位，不够挤啥区段了（唉，HanExtI.）。目前为ttf格式，因为工作量，可能不会制作otf版。
+SIP平面目前剩余4039个码位，区段不够挤了。目前为ttf格式，因为工作量，可能不会制作otf版。
 - 20000..CJK Unified Ideographs Extension B　	；思源黑(42720／2108字)
 - 2A700..CJK Unified Ideographs Extension C　	；思源黑(4154／47字)
 - 2B740..CJK Unified Ideographs Extension D　	；思源黑(222／34字) ← 系统字体反而完全支持
 - 2B820..CJK Unified Ideographs Extension E　	；思源黑(5762／112字)
 - 2CEB0..CJK Unified Ideographs Extension F　	；思源黑(7473／5字)
-- 2EBF?..CJK Unified Ideographs Extension I　	；思源黑(6??／0字)
+- 2EBF0..CJK Unified Ideographs Extension I　	；思源黑(622／0字)
 - 2F800..CJK Compatibility Ideographs Supplement；思源黑(542／55字)
 
 ### Han3「汉叁」

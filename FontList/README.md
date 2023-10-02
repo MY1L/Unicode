@@ -2,19 +2,19 @@
 分析视窗10系统字体对统一码的覆盖情况，减轻工具字体的制作量、减少目标字体文件体积：省略系统字体完全覆盖的区段。
 
 ## 平面状况
-所需覆盖量如下，统计截至统一码15.0.0版。
+所需覆盖量如下，统计截至统一码15.1版。
 
 |#|缩略|平面名|[译名](/Blocks#平面)|字数|余数|
 | -: | -: | -: | :- | -: | -: |
-|0|BMP|Basic Multilingual Plane|基本多文种平面|62034|1420|
+|0|BMP|Basic Multilingual Plane|基本多文种平面|62039|1415|
 |1|SMP|Supplementary Multilingual Plane|增补多文种平面|23276|42258|
-|2|SIP|Supplementary Ideographic Plane|增补表意平面|60873|4661|
+|2|SIP|Supplementary Ideographic Plane|增补表意平面|61495|4039|
 |3|TIP|Tertiary Ideographic Plane|第三表意平面|9131|56403|
 |…| | | | | |
 |E|SSP|Supp. Special-purpose Plane|增补殊用平面|337|65197|
 
 ## 列表说明
-[FontList.csv](/FontList/FontList.csv)，截止统一码15.0.0版，仅反映视窗10的字体覆盖情况。
+[FontList.csv](/FontList/FontList.csv)，截止统一码15.1版，仅反映视窗10的字体覆盖情况。
 
 字体名第一次出现时后方附带的是分析时的版本号。“，等”表示能完全覆盖的系统字体不只一个。
 

@@ -102,23 +102,23 @@
   2D80..2DDF; Ethiopic Extended	|	EthiExt.
   2DE0..2DFF; Cyrillic Extended-A	|	CyrlExtA.
   2E00..2E7F; Supplemental Punctuation	|	SupPunc.
-  2E80..2EFF; CJK Radicals Supplement	|	CjkRadSup. = HanRadSup.
+  2E80..2EFF; CJK Radicals Supplement	|	HanRadSup.
   2F00..2FDF; Kangxi Radicals	|	Kgxi.
   2FF0..2FFF; Ideographic Description Characters	|	IDC.
-  3000..303F; CJK Symbols and Punctuation	|	CjkSym. = HanSym.
+  3000..303F; CJK Symbols and Punctuation	|	HanSym.
   3040..309F; Hiragana	|	Hira.
   30A0..30FF; Katakana	|	Kana.
   3100..312F; Bopomofo	|	Bopo.
   3130..318F; Hangul Compatibility Jamo	|	ComJamo.
   3190..319F; Kanbun	|	Kbn.
   31A0..31BF; Bopomofo Extended	|	BopoExt.
-  31C0..31EF; CJK Strokes	|	CjkStrokes. = HanStrokes.
+  31C0..31EF; CJK Strokes	|	HanStrokes.
   31F0..31FF; Katakana Phonetic Extensions	|	KanaExt.
   3200..32FF; Enclosed CJK Letters and Months	|	EncCJK. ≈ EncHan.
-  3300..33FF; CJK Compatibility	|	CjkCom. = HanCom.
-  3400..4DBF; CJK Unified Ideographs Extension A	|	CjkExtA. = HanExtA.
+  3300..33FF; CJK Compatibility	|	HanCom.
+  3400..4DBF; CJK Unified Ideographs Extension A	|	HanExtA.
   4DC0..4DFF; Yijing Hexagram Symbols	|	Yijing.
-  4E00..9FFF; CJK Unified Ideographs	|	CJK. = Han.
+  4E00..9FFF; CJK Unified Ideographs	|	Han. = CJK.
   A000..A48F; Yi Syllables	|	Yiii. = Yi.
   A490..A4CF; Yi Radicals	|	YiRad.
   A4D0..A4FF; Lisu	|	Lisu.
@@ -151,13 +151,13 @@
   DB80..DBFF; High Private Use Surrogates	|	HighPUSrgs.
   DC00..DFFF; Low Surrogates	|	LowSrgs.
   E000..F8FF; Private Use Area	|	PUA.
-  F900..FAFF; CJK Compatibility Ideographs	|	CjkComIdeo. = HanComIdeo.
+  F900..FAFF; CJK Compatibility Ideographs	|	HanComIdeo.
   FB00..FB4F; Alphabetic Presentation Forms	|	AlbtPF.
   FB50..FDFF; Arabic Presentation Forms-A	|	ArabPFA.
   FE00..FE0F; Variation Selectors	|	VS.
   FE10..FE1F; Vertical Forms	|	Vert.
   FE20..FE2F; Combining Half Marks	|	Half.
-  FE30..FE4F; CJK Compatibility Forms	|	CjkComForm. = HanComForm.
+  FE30..FE4F; CJK Compatibility Forms	|	HanComForm.
   FE50..FE6F; Small Form Variants	|	SmlForm.
   FE70..FEFF; Arabic Presentation Forms-B	|	ArabPFB.
   FF00..FFEF; Halfwidth and Fullwidth Forms	|	HalfFull.
@@ -186,10 +186,9 @@
 10500..1052F; Elbasan	|	Elba.
 10530..1056F; Caucasian Albanian	|	Aghb.
 10570..105BF; Vithkuqi	|	Vith.
-105C0..105FF; 〓【Todhri】	|	？
+105C0..105FF; 〓【Todhri】	|	Todr.
 10600..1077F; Linear A	|	Lina.
 10780..107BF; Latin Extended-F	|	LatnExtF.
-107C0..107FF; 〓(Rejang Extended)	|	RjngExt.
 10800..1083F; Cypriot Syllabary	|	Cprt.
 10840..1085F; Imperial Aramaic	|	Armi.
 10860..1087F; Palmyrene	|	Palm.
@@ -198,7 +197,7 @@
 108E0..108FF; Hatran	|	Hatr.
 10900..1091F; Phoenician	|	Phnx.
 10920..1093F; Lydian	|	Lydi.
-10940..1095F; 〓【Sidetic】	|	？
+10940..1095F; 〓【Sidetic】	|	Sidt.
 10960..1097F; 〓¿Numidian?	|	？
 10980..1099F; Meroitic Hieroglyphs	|	Mero.
 109A0..109FF; Meroitic Cursive	|	Merc.
@@ -216,7 +215,7 @@
 10C00..10C4F; Old Turkic	|	Orkh.
 10C80..10CFF; Old Hungarian	|	Hung.
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
-10D40..10D8F; 〓【Garay】	|	？
+10D40..10D8F; 〓【Garay】	|	Gara.
 10D90..10E5F; 〓(Arabic Extended-D)	|	ArabExtD.
 10E60..10E7F; Rumi Numeral Symbols	|	Rumi.
 10E80..10EBF; Yezidi	|	Yezi.
@@ -238,7 +237,7 @@
 11280..112AF; Multani	|	Mult.
 112B0..112FF; Khudawadi	|	Sind. ; Sindhi
 11300..1137F; Grantha	|	Gran.
-11380..113FF; 〓【Tulu-Tigalari】	|	？
+11380..113FF; 〓【Tulu-Tigalari】	|	Tutg.
 11400..1147F; Newa	|	Newa.
 11480..114DF; Tirhuta	|	Tirh.
 114E0..114FF; 〓(Tani)	|	Tani!
@@ -262,14 +261,15 @@
 11AB0..11ABF; Unified Canadian Aboriginal Syllabics Extended-A	|	CansExtA.
 11AC0..11AFF; Pau Cin Hau	|	Pauc.
 11B00..11B5F; Devanagari Extended-A	|	DevaExtA.
-11B60..11B7F; 〓¿Sharada Extensions?	|	ShrdExt.
+11B60..11B7F; 〓【Sharada Supplement】	|	ShrdSup.
 11B80..11BBF; 〓(Leke)	|	Leke.
 11BC0..11BFF; 〓【Sunuwar】	|	Sunu.
 11C00..11C6F; Bhaiksuki	|	Bhks.
 11C70..11CBF; Marchen	|	Marc.
+11CC0..11CFF; 〓(Balti-B)	|	？
 11D00..11D5F; Masaram Gondi	|	Gonm.
 11D60..11DAF; Gunjala Gondi	|	Gong.
-11DB0..11DEF; 〓【Tolong Siki】	|	？
+11DB0..11DEF; 〓【Tolong Siki】	|	Tols.
 11E00..11E6F; 〓(Tocharian)	|	？
 11E70..11ECF; 〓(Khotanese)	|	？
 11EE0..11EFF; Makasar	|	Maka.
@@ -280,21 +280,18 @@
 12000..123FF; Cuneiform	|	Xsux.
 12400..1247F; Cuneiform Numbers and Punctuation	|	XsuxNum.
 12480..1254F; Early Dynastic Cuneiform	|	EyDyXsux.
-12580..12DFF; 〓(Proto-Cuneiform)	|	Pcun.
-12E00..12F8F; 〓(Indus)	|	Inds.
+12580..12ECF; 〓(Proto-Cuneiform)	|	Pcun.
 12F90..12FFF; Cypro-Minoan	|	Cpmn.
 13000..1342F; Egyptian Hieroglyphs	|	Egyp.
 13430..1345F; Egyptian Hieroglyph Format Controls	|	EgypFC.
-13480..143FF; 〓(Egyptian Hieroglyphs Extended-A)	|	EgypExtA.
+13460..143FF; 〓【Egyptian Hieroglyphs Extended-A】	|	EgypExtA.
 14400..1467F; Anatolian Hieroglyphs	|	Hluw. ; Luwian Hieroglyphs
-14680..151FF; 〓(Egyptian Hieroglyphs Extended-B)	|	EgypExtB.
+14680..151FF; 〓¿Egyptian Hieroglyphs Extended-B?	|	EgypExtB.
 15500..15AFF; 〓(Mayan Hieroglyphs)	|	Maya.
-15B00..15B3F; 〓(Lampung)	|	？
-15B40..15B6F; 〓(Kerinci)	|	？
 15B80..15FFF; 〓(Mandombe)	|	？
 16000..1607F; 〓(Cirth)	|	Cirt.
 16080..160FF; 〓(Tengwar)	|	Teng.
-16100..1613F; 〓【Gurung Khema】	|	？
+16100..1613F; 〓【Gurung Khema】	|	Gukh.
 16140..1617F; 〓¿¿¿Khe Prih???	|	？
 161A0..161FF; 〓(Moon)	|	Moon.
 16200..1677F; 〓(Blissymbols)	|	Blis.
@@ -306,15 +303,14 @@
 16B90..16BFF; 〓(Woleai)	|	Wole.
 16C00..16C7F; 〓(Kpelle)	|	Kpel.
 16C80..16CCF; 〓(Afaka)	|	Afak.
-16CD0..16CFF; 〓(Tangsa(Khimhun))	|	Tnsa(K)!
+16CD0..16CFF; 〓(Tangsa(Khimhun))	|	TnsaK!
 16D00..16D3F; 〓(Tikamuli)	|	？
-16D40..16D7F; 〓【Kirat Rai】	|	？
-16D80..16DAF; 〓【Chisoi】	|	？
-16DB0..16DCF; 〓¿Lontara bilang-bilang?	|	？
+16D40..16D7F; 〓【Kirat Rai】	|	Krai.
+16D80..16DAF; 〓【Chisoi】	|	Chis.
 16DD0..16DFF; 〓(Kulitan)	|	？
 16E00..16E3F; 〓(Mwangwego)	|	？
 16E40..16E9F; Medefaidrin	|	Medf.
-16EA0..16EFF; 〓(Buginese Supplement)	|	BugiSup.
+16EA0..16ECF; 〓(Beria)	|	？
 16F00..16F9F; Miao	|	Plrd. ; Pollard
 16FA0..16FAF; 〓¿Bopomofo Extended-A?	|	BopoExtA.
 16FB0..16FDF; 〓(Kanbun Extended-A)	|	KbnExtA.
@@ -323,10 +319,12 @@
 18800..18AFF; Tangut Components	|	TangComp.
 18B00..18CFF; Khitan Small Script	|	Kits.
 18D00..18D7F; Tangut Supplement	|	TangSup.
-18D80..195FF; 〓(Khitan large script)	|	Kitl.
+18D80..18DFF; 〓(Tangut Component Supplement)
+18E00..195FF; 〓(Khitan large script)	|	Kitl.
 19600..19B9F; 〓(Jurchen)	|	Jurc.
 19E00..1A2FF; 〓(Pau Cin Hau Syllabary)	|	PaucSyll.
 1A300..1A75F; 〓(Eskaya)	|	？
+1A760..1A77F; 〓(Rejang Extended)	|	RjngExt.
 1A780..1A7FF; 〓¿Kaida?	|	？
 1A800..1ACFF; 〓(Naxi Dongba)	|	Nkdb. ; Nakhi Tomba
 1AD00..1AFCF; 〓¿Naxi Geba?	|	Nkgb. ; Nakhi Geba
@@ -338,6 +336,7 @@
 1B170..1B2FF; Nüshu	|	Nshu.
 1B300..1B5FF; 〓(Shuishu)	|	Shui.
 1B600..1B9FF; 〓(Lisu Syllabic Script)	|	LisuSyll.
+1BA00..1BB8F; 〓(Indus)	|	Inds.
 1BC00..1BC9F; Duployan	|	Dupl.
 1BCA0..1BCAF; Shorthand Format Controls	|	ShFC.
 1BCB0..1BCFF; 〓(Pitman Shorthand)	|	PitmanSh.
@@ -375,11 +374,14 @@
 1E530..1E55F; 〓¿Pungchung?	|	？
 1E560..1E59F; 〓¿Marchung?	|	？
 1E5A0..1E5CF; 〓(Brusha)	|	？
-1E5D0..1E5FF; 〓【Ol Onal】	|	Olon.
+1E5D0..1E5FF; 〓【Ol Onal】	|	Onao.
 1E600..1E65F; 〓¿Chola?	|	？
 1E660..1E6BF; 〓¿Chalukya (Box-Headed)?	|	？
-1E6C0..1E6FF; 〓【Tai Yo】	|	？
-1E700..1E72F; 〓¿Beria?	|	？
+1E6C0..1E6FF; 〓【Tai Yo】	|	Tayo.
+1E700..1E73F; 〓(Lampung)	|	？
+1E740..1E76F; 〓(Kerinci)	|	？
+1E770..1E7BF; 〓(Buginese Supplement)	|	BugiSup.
+1E7C0..1E7DF; 〓¿Lontara bilang-bilang?	|	？
 1E7E0..1E7FF; Ethiopic Extended-B	|	EthiExtB.
 1E800..1E8DF; Mende Kikakui	|	Mend.
 1E900..1E95F; Adlam	|	Adlm.
@@ -406,19 +408,19 @@
 1FA00..1FA6F; Chess Symbols	|	ChessSym.
 1FA70..1FAFF; Symbols and Pictographs Extended-A	|	SymPicExtA.
 1FB00..1FBFF; Symbols for Legacy Computing	|	SymfLC.
-1FC00..1FFFF; 〓¿Extended Pictographic Characters (Emoji)?	|	ExtPictChar(E)! = Zsye.
-20000..2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB. = HanExtB.
-2A700..2B73F; CJK Unified Ideographs Extension C	|	CjkExtC. = HanExtC.
-2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD. = HanExtD.
-2B820..2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE. = HanExtE.
-2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF. = HanExtF.
-2EBF0..2EE4F; 〓【CJK Unified Ideographs Extension I】	|	CjkExtI. = HanExtI.
-2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup. = HanComIdeoSup.
-30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG. = HanExtG.
-31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. = HanExtH.
+1FC00..1FFFF; 〓¿Extended Pictographic Characters (Emoji)?	|	ExtPictCharE! = Zsye.
+20000..2A6DF; CJK Unified Ideographs Extension B	|	HanExtB.
+2A700..2B73F; CJK Unified Ideographs Extension C	|	HanExtC.
+2B740..2B81F; CJK Unified Ideographs Extension D	|	HanExtD.
+2B820..2CEAF; CJK Unified Ideographs Extension E	|	HanExtE.
+2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	HanExtF.
+2EBF0..2EE5F; CJK Unified Ideographs Extension I	|	HanExtI.
+2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	HanComIdeoSup.
+30000..3134F; CJK Unified Ideographs Extension G	|	HanExtG.
+31350..323AF; CJK Unified Ideographs Extension H	|	HanExtH.
 35400..36BFF; 〓¿¿¿Oracle Bone Script???	|	Orcl!
 38000..3AB9F; 〓(Seal Script)	|	Seal!
-A0000..A0380; ✱GB18030-2022 公安人口信息专用字库补充汉字	|	GB18030.2022
+A0000..A027B; ✱GB18030-2022 公安人口信息专用字库补充汉字	|	GB18030.2022
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.

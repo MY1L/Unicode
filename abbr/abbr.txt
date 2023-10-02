@@ -102,23 +102,23 @@
   2D80..2DDF; Ethiopic Extended	|	EthiExt.
   2DE0..2DFF; Cyrillic Extended-A	|	CyrlExtA.
   2E00..2E7F; Supplemental Punctuation	|	SupPunc.
-  2E80..2EFF; CJK Radicals Supplement	|	CjkRadSup. = HanRadSup.
+  2E80..2EFF; CJK Radicals Supplement	|	HanRadSup.
   2F00..2FDF; Kangxi Radicals	|	Kgxi.
   2FF0..2FFF; Ideographic Description Characters	|	IDC.
-  3000..303F; CJK Symbols and Punctuation	|	CjkSym. = HanSym.
+  3000..303F; CJK Symbols and Punctuation	|	HanSym.
   3040..309F; Hiragana	|	Hira.
   30A0..30FF; Katakana	|	Kana.
   3100..312F; Bopomofo	|	Bopo.
   3130..318F; Hangul Compatibility Jamo	|	ComJamo.
   3190..319F; Kanbun	|	Kbn.
   31A0..31BF; Bopomofo Extended	|	BopoExt.
-  31C0..31EF; CJK Strokes	|	CjkStrokes. = HanStrokes.
+  31C0..31EF; CJK Strokes	|	HanStrokes.
   31F0..31FF; Katakana Phonetic Extensions	|	KanaExt.
   3200..32FF; Enclosed CJK Letters and Months	|	EncCJK. ≈ EncHan.
-  3300..33FF; CJK Compatibility	|	CjkCom. = HanCom.
-  3400..4DBF; CJK Unified Ideographs Extension A	|	CjkExtA. = HanExtA.
+  3300..33FF; CJK Compatibility	|	HanCom.
+  3400..4DBF; CJK Unified Ideographs Extension A	|	HanExtA.
   4DC0..4DFF; Yijing Hexagram Symbols	|	Yijing.
-  4E00..9FFF; CJK Unified Ideographs	|	CJK. = Han.
+  4E00..9FFF; CJK Unified Ideographs	|	Han. = CJK.
   A000..A48F; Yi Syllables	|	Yiii. = Yi.
   A490..A4CF; Yi Radicals	|	YiRad.
   A4D0..A4FF; Lisu	|	Lisu.
@@ -151,13 +151,13 @@
   DB80..DBFF; High Private Use Surrogates	|	HighPUSrgs.
   DC00..DFFF; Low Surrogates	|	LowSrgs.
   E000..F8FF; Private Use Area	|	PUA.
-  F900..FAFF; CJK Compatibility Ideographs	|	CjkComIdeo. = HanComIdeo.
+  F900..FAFF; CJK Compatibility Ideographs	|	HanComIdeo.
   FB00..FB4F; Alphabetic Presentation Forms	|	AlbtPF.
   FB50..FDFF; Arabic Presentation Forms-A	|	ArabPFA.
   FE00..FE0F; Variation Selectors	|	VS.
   FE10..FE1F; Vertical Forms	|	Vert.
   FE20..FE2F; Combining Half Marks	|	Half.
-  FE30..FE4F; CJK Compatibility Forms	|	CjkComForm. = HanComForm.
+  FE30..FE4F; CJK Compatibility Forms	|	HanComForm.
   FE50..FE6F; Small Form Variants	|	SmlForm.
   FE70..FEFF; Arabic Presentation Forms-B	|	ArabPFB.
   FF00..FFEF; Halfwidth and Fullwidth Forms	|	HalfFull.
@@ -313,14 +313,15 @@
 1FA00..1FA6F; Chess Symbols	|	ChessSym.
 1FA70..1FAFF; Symbols and Pictographs Extended-A	|	SymPicExtA.
 1FB00..1FBFF; Symbols for Legacy Computing	|	SymfLC.
-20000..2A6DF; CJK Unified Ideographs Extension B	|	CjkExtB. = HanExtB.
-2A700..2B73F; CJK Unified Ideographs Extension C	|	CjkExtC. = HanExtC.
-2B740..2B81F; CJK Unified Ideographs Extension D	|	CjkExtD. = HanExtD.
-2B820..2CEAF; CJK Unified Ideographs Extension E	|	CjkExtE. = HanExtE.
-2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	CjkExtF. = HanExtF.
-2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	CjkComIdeoSup. = HanComIdeoSup.
-30000..3134F; CJK Unified Ideographs Extension G	|	CjkExtG. = HanExtG.
-31350..323AF; CJK Unified Ideographs Extension H	|	CjkExtH. = HanExtH.
+20000..2A6DF; CJK Unified Ideographs Extension B	|	HanExtB.
+2A700..2B73F; CJK Unified Ideographs Extension C	|	HanExtC.
+2B740..2B81F; CJK Unified Ideographs Extension D	|	HanExtD.
+2B820..2CEAF; CJK Unified Ideographs Extension E	|	HanExtE.
+2CEB0..2EBEF; CJK Unified Ideographs Extension F	|	HanExtF.
+2EBF0..2EE5F; CJK Unified Ideographs Extension I	|	HanExtI.
+2F800..2FA1F; CJK Compatibility Ideographs Supplement	|	HanComIdeoSup.
+30000..3134F; CJK Unified Ideographs Extension G	|	HanExtG.
+31350..323AF; CJK Unified Ideographs Extension H	|	HanExtH.
 E0000..E007F; Tags	|	Tags.
 E0100..E01EF; Variation Selectors Supplement	|	VsSup.
 F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
