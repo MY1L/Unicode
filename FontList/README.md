@@ -21,13 +21,13 @@
 如列表所示，如需视窗10环境下几乎全覆盖统一码，仅需额外安装下列字体：
 - [Noto Unicode](/NotoUnicode) 7.2[^Noto]，含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6、Ctrl Ctrl[^Ctrl] 1.1、Ctrl Math 1
 - [Monu Hani](/Hani) 9.5「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11、[Ctrl Kana](https://github.com/MY1L/Ctrl/releases/tag/Kana) 1.001
-- Monu Han2 4.393「典迹汉辅」
+- Monu Han2 6.399「典迹汉辅」
 - Monu Han3 1.175「典迹汉叁」
 - [Noto Serif Tangut](https://github.com/notofonts/tangut) 2.169「…西夏宋[^Noto]」
 - [Monu Temp](https://github.com/MY1L/Unicode/releases/tag/Temp) 0.111「典迹权暂」
 
 可选，非必要：
-- [Monu Last 8](https://github.com/MY1L/Unicode/releases/tag/Last8)「典迹末境」
+- [Monu Last 8.x](https://github.com/MY1L/Unicode/releases/tag/Last8)「典迹末境」
 
 注意以上排序严格按后备（fallback）顺序从上至下，尤其西夏宋包含的非西夏衬线体字符会覆盖其它字体的，所以应垫底（让其它字体覆盖非西夏区段）。
 NotoUni暂时不含西夏宋的原因是它会增大字体文件体积近一倍，需要斟酌……

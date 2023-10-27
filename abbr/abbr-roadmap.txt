@@ -271,7 +271,7 @@
 11D60..11DAF; Gunjala Gondi	|	Gong.
 11DB0..11DEF; 〓【Tolong Siki】	|	Tols.
 11E00..11E6F; 〓(Tocharian)	|	？
-11E70..11ECF; 〓(Khotanese)	|	？
+11E70..11ECF; 〓(Khotanese)	|	Khotan!
 11EE0..11EFF; Makasar	|	Maka.
 11F00..11F5F; Kawi	|	Kawi.
 11F60..11FAF; 〓(Pallava)	|	？
@@ -319,7 +319,7 @@
 18800..18AFF; Tangut Components	|	TangComp.
 18B00..18CFF; Khitan Small Script	|	Kits.
 18D00..18D7F; Tangut Supplement	|	TangSup.
-18D80..18DFF; 〓(Tangut Component Supplement)
+18D80..18DFF; 〓(Tangut Components Supplement)	|	TangCompSup.
 18E00..195FF; 〓(Khitan large script)	|	Kitl.
 19600..19B9F; 〓(Jurchen)	|	Jurc.
 19E00..1A2FF; 〓(Pau Cin Hau Syllabary)	|	PaucSyll.

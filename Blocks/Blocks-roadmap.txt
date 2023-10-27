@@ -354,7 +354,7 @@ FFF0..FFFF; FFF0特殊|Specials
 18800..18AFF; 18800西夏偏旁|Tangut Components
 18B00..18CFF; 18B00契丹小字|𘱿𘱤|Khitan Small Script
 18D00..18D7F; 18D00西夏补充|Tangut Supplement
-18D80..18DFF; 〓18D0?西夏偏旁补充(Tangut Component(s?) Supplement)
+18D80..18DFF; 〓18D8?西夏偏旁补充(Tangut Components Supplement)
 18E00..195FF; 〓18E0?契丹大字(Khitan Ideographs)
 19600..19B9F; 〓1960?女真(Jurchen)
 19E00..1A2FF; 〓19E0?包钦豪音节(Pau Cin Hau Syllabary)

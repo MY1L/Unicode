@@ -9,16 +9,16 @@
 
 > 顺带一提，该字体系列原打算命名为 SourceHanSans<sub>XXX</sub>Plane（思源黑体<sub>某</sub>平面），其中 HanSans（汉字无衬线体）想简称4字的“Hans”，但和 <sup>ISO 15924</sup>`Hans`撞了，要改称“SrcHei<sub>XXX</sub>Plan”……但为了追加那些跟思源无关的字形，仍用我非完全原创字体“Monu「典迹」”开头。
 
-当然不可能命名为“Gothic”的，因为是统一码已有文种（<sup>ISO 15924</sup>`Goth`，如“𐌰𐌱𐌲𐌳”）的名称。
+当然不能命名为“Gothic”，这是统一码已有文种（<sup>ISO 15924</sup>`Goth`，如“𐌰𐌱𐌲𐌳”）的名称。
 
 ## 规划
-以下展示各个字体支持方向，和目前（截至统一码15.0版）完全覆盖的区段，选择这些区段的缘由见[FontList](/FontList)的分析。对照的是2.004版思源黑体，不过思源黑从2.002版起就没加过字。
+以下展示各个字体支持方向，和目前（截至统一码15.1版）完全覆盖的区段，选择这些区段的缘由见[FontList](/FontList)的分析。对照的是2.004版思源黑体，不过思源黑从2.002版起就没加过字。
 ### Hani「汉字」
 用于覆盖BMP、SMP平面`Hani`字符。支持一些特殊的排版特性，且三个私用区均有若干备用字形。目前为3次曲线（.otf）版本。SMP平面已支持一些算筹、减字谱、假名。
-- 2FF0..Ideographic Description Characters	；思源黑(12／12字) ← 未用，我自制了一套16字
+- 2FF0..Ideographic Description Characters	；思源黑(12／16字) ← 未用，我自制了一套16字
 - 3100..Bopomofo　　　	　　	　　	　　	；思源黑(43／43字)
 - 31A0..Bopomofo Extended　	　　	　　	；思源黑(32／28字)
-- 31C0..CJK Strokes　　	　　　	　　	　　	；思源黑(36／36字)
+- 31C0..CJK Strokes　　	　　　	　　	　　	；思源黑(36／37字) ← 我补了1字，同IDC.
 - 3200..Enclosed CJK Letters and Months	　	；思源黑(255／255字)
 - 3400..CJK Unified Ideographs Extension A	；思源黑(6592／6582字)
 - 4E00..CJK Unified Ideographs	　　	　	；思源黑(20992／20976字)
