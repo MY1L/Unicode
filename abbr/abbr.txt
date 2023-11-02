@@ -181,7 +181,7 @@
 10480..104AF; Osmanya	|	Osma.
 104B0..104FF; Osage	|	Osge.
 10500..1052F; Elbasan	|	Elba.
-10530..1056F; Caucasian Albanian	|	Aghb.
+10530..1056F; Caucasian Albanian	|	Aghb. ; aghbanien (fr)
 10570..105BF; Vithkuqi	|	Vith.
 10600..1077F; Linear A	|	Lina.
 10780..107BF; Latin Extended-F	|	LatnExtF.
@@ -248,7 +248,7 @@
 11F00..11F5F; Kawi	|	Kawi.
 11FB0..11FBF; Lisu Supplement	|	LisuSup.
 11FC0..11FFF; Tamil Supplement	|	TamlSup.
-12000..123FF; Cuneiform	|	Xsux.
+12000..123FF; Cuneiform	|	Xsux. ; Sumero-Akkadian
 12400..1247F; Cuneiform Numbers and Punctuation	|	XsuxNum.
 12480..1254F; Early Dynastic Cuneiform	|	EyDyXsux.
 12F90..12FFF; Cypro-Minoan	|	Cpmn.

@@ -184,7 +184,7 @@
 10480..104AF; Osmanya	|	Osma.
 104B0..104FF; Osage	|	Osge.
 10500..1052F; Elbasan	|	Elba.
-10530..1056F; Caucasian Albanian	|	Aghb.
+10530..1056F; Caucasian Albanian	|	Aghb. ; aghbanien (fr)
 10570..105BF; Vithkuqi	|	Vith.
 105C0..105FF; 〓【Todhri】	|	Todr.
 10600..1077F; Linear A	|	Lina.
@@ -277,7 +277,7 @@
 11F60..11FAF; 〓(Pallava)	|	？
 11FB0..11FBF; Lisu Supplement	|	LisuSup.
 11FC0..11FFF; Tamil Supplement	|	TamlSup.
-12000..123FF; Cuneiform	|	Xsux.
+12000..123FF; Cuneiform	|	Xsux. ; Sumero-Akkadian
 12400..1247F; Cuneiform Numbers and Punctuation	|	XsuxNum.
 12480..1254F; Early Dynastic Cuneiform	|	EyDyXsux.
 12580..12ECF; 〓(Proto-Cuneiform)	|	Pcun.
@@ -444,4 +444,4 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
 # ??D0..??FF; Klingon (KLI pIqaD)	|	Piqd.
 # ???0..???F; Sarati	|	Sara.
 
-# ISO 15924 为私用保留“Qaaa~Qabx”、为继承文种保留“Zinh”、为非书面文种保留“Zxxx”、为未确定文种保留“Zyyy”、为未编码文种保留“Zzzz”、为布尔值保留“True”、为CLDR保留“Root”，这些不用于缩写。
+# ISO 15924 为私用保留“Qaaa~Qabx”、为继承文字保留“Zinh”、为非书面文档保留“Zxxx”、为公用字符保留“Zyyy”、为未编码文字保留“Zzzz”、为布尔值保留“True”、为CLDR保留“Root”，这些不用于缩写。

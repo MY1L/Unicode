@@ -86,7 +86,7 @@
 1C00..1C4F; 1C00雷布查|ᰛᰩᰵᰛᰧᰵᰶ|Lepcha
 1C50..1C7F; 1C50奥尔奇基|ᱚᱞ ᱪᱤᱠᱤ|Ol Chiki
 1C80..1C8F; 1C80西里尔扩充丙|Cyrillic Extended-C
-1C90..1CBF; 1C90格鲁吉亚扩充|Georgian Extended
+1C90..1CBF; 1C90格鲁吉亚扩充|ᲛᲮᲔᲓᲠᲣᲚᲘ|Georgian Extended
 1CC0..1CCF; 1CC0巽他补充|Sundanese Supplement
 1CD0..1CFF; 1CD0吠陀扩充|Vedic Extensions
 1D00..1D7F; 1D00音标扩充|Phonetic Extensions
@@ -121,7 +121,7 @@
 2C00..2C5F; 2C00格拉哥里|ⰳⰾⰰⰳⱁⰾⰹⱌⰰ|Glagolitic
 2C60..2C7F; 2C60拉丁扩充丙|Latin Extended-C
 2C80..2CFF; 2C80科普特|ⲘⲉⲧⲢⲉⲙ̀ⲛⲭⲏⲙⲓ|Coptic
-2D00..2D2F; 2D00格鲁吉亚补充|Georgian Supplement
+2D00..2D2F; 2D00格鲁吉亚补充|ⴌⴓⴑⴞⴓⴐⴈ|Georgian Supplement
 2D30..2D7F; 2D30提非纳|ⵜⵉⴼⵉⵏⴰⵖ|Tifinagh
 2D80..2DDF; 2D80埃塞扩充|Ethiopic Extended
 2DE0..2DFF; 2DE0西里尔扩充甲|Cyrillic Extended-A

@@ -1,5 +1,5 @@
 起始,区段名,需安装,系统字体,备注
-0000..,Basic Latin,Noto Unicode 7.2 ⊃ Ctrl Ctrl 1.11,,一般不必覆盖控制字
+0000..,Basic Latin,Noto Unicode 7.3 ⊃ Ctrl Ctrl 1.11,,一般不必覆盖控制字
 0080..,Latin-1 Supplement,Noto Unicode ⊃ Ctrl Ctrl,,一般不必覆盖控制字
 0100..,Latin Extended-A,Noto Unicode,Arial 7.00，等,或可精简
 0180..,Latin Extended-B,Noto Unicode,Arial，等,或可精简
@@ -11,7 +11,7 @@
 0500..,Cyrillic Supplement,Noto Unicode,Arial，等,或可精简
 0530..,Armenian,Noto Unicode,Calibri 6.23,或可精简
 0590..,Hebrew,Noto Unicode,Segoe UI 5.62,或可精简
-0600..,Arabic,Noto Unicode,,
+0600..,Arabic,Noto Unicode,,Noto2.011有误且u061C为空白
 0700..,Syriac,,Segoe UI Historic 1.03,
 0750..,Arabic Supplement,Noto Unicode,Arial，等,或可精简
 0780..,Thaana,,MV Boli 6.84,
@@ -19,8 +19,8 @@
 0800..,Samaritan,Noto Unicode,,
 0840..,Mandaic,Noto Unicode,,
 0860..,Syriac Supplement,Noto Unicode,,！
-0870..,Arabic Extended-B,Noto Unicode,,Noto完全没有，补之，衬线体来自ScheherazadeNew 3.300
-08A0..,Arabic Extended-A,Noto Unicode,,Noto2.010缺21字，补之
+0870..,Arabic Extended-B,Noto Unicode,,Noto2.011补全
+08A0..,Arabic Extended-A,Noto Unicode,,Noto2.011补全
 0900..,Devanagari,Noto Unicode,Nirmala UI 1.40,或可精简
 0980..,Bengali,Noto Unicode,Nirmala UI,或可精简，但Noto更美观些
 0A00..,Gurmukhi,Noto Unicode,Nirmala UI,或可精简，但Noto更美观些
@@ -154,13 +154,13 @@ DC00..,Low Surrogates,Monu Last,,不是字
 E000..,Private Use Area,Monu Last,,私用区
 F900..,CJK Compatibility Ideographs,Monu Hani,,思源缺百余字，补之
 FB00..,Alphabetic Presentation Forms,Noto Unicode,Arial，等,
-FB50..,Arabic Presentation Forms-A,Noto Unicode,,Noto2.010缺20字，补之，衬线体来自ScheherazadeNew
+FB50..,Arabic Presentation Forms-A,Noto Unicode,,Noto2.011补全但有误
 FE00..,Variation Selectors,Noto Unicode ⊃ Ctrl Ctrl,,
 FE10..,Vertical Forms,,微软雅黑，等,
 FE20..,Combining Half Marks,Noto Unicode,,
 FE30..,CJK Compatibility Forms,,微软雅黑，等,
 FE50..,Small Form Variants,,微软雅黑，等,
-FE70..,Arabic Presentation Forms-B,Noto Unicode,Segoe UI，等,只是系统字体都把BOM(ZWNBSP)做成ZWSP
+FE70..,Arabic Presentation Forms-B,Noto Unicode,Segoe UI，等,只是大多字体都把BOM(ZWNBSP)做成ZWSP
 FF00..,Halfwidth and Fullwidth Forms,,Microsoft JhengHei 6.14，等,
 FFF0..,Specials,Noto Unicode,,
 10000.,Linear B Syllabary,Noto Unicode,,
@@ -208,7 +208,7 @@ FFF0..,Specials,Noto Unicode,,
 10D00.,Hanifi Rohingya,Noto Unicode,,
 10E60.,Rumi Numeral Symbols,Noto Unicode,,
 10E80.,Yezidi,Noto Unicode,,
-10EC0.,Arabic Extended-C,Monu Temp 0.111,,！Noto完全没有，在补，Monu Last有1个
+10EC0.,Arabic Extended-C,Noto Unicode,,Last有1个，Noto2.011补全但写法不同
 10F00.,Old Sogdian,Noto Unicode,,
 10F30.,Sogdian,Noto Unicode,,
 10F70.,Old Uyghur,Noto Unicode,,
@@ -240,7 +240,7 @@ FFF0..,Specials,Noto Unicode,,
 11A50.,Soyombo,Noto Unicode,,
 11AB0.,Unified Canadian Aboriginal Syllabics Extended-A,Noto Unicode,,
 11AC0.,Pau Cin Hau,Noto Unicode,,
-11B00.,Devanagari Extended-A,Monu Temp,,！Noto完全没有，在补，Last有1个
+11B00.,Devanagari Extended-A,Monu Temp 0.93,,！Noto完全没有，在补，Last有1个
 11C00.,Bhaiksuki,Noto Unicode,,
 11C70.,Marchen,Noto Unicode,,
 11D00.,Masaram Gondi,Noto Unicode,,

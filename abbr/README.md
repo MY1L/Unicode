@@ -19,19 +19,24 @@
 - 第6版，2023-5-20：更新SIP、TIP平面规划版区段。
 - 第7版，2023-10-1：更新至统一码15.1版、更新ISO四字代码、据[SMP规划15.0.3](https://www.unicode.org/roadmaps/smp/smp-15-0-3.html)更新规划版.txt，等。
   - 7.1版：几处小更正。
+  - 7.2版：几处补充，以利于理解ISO代码。
 
 ## 出典
 
 ### ISO四字代码
-国际标准化组织的标准 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。代码当缩写用的唯一问题是某些文种名称少于4字也得补长到4字。
+国际标准化组织的标准 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
 
 #### 区段名不用，字符名或可用
-|缩略|原意|注释|
+下表省略了[文件](https://www.unicode.org/iso15924/iso15924.txt)中的法文名。
+|缩略|英文|注释|
 | -: | - | :- |
 |Aran|Arabic (Nastaliq variant)|阿拉伯 波斯体|
 |Cyrs|Cyrillic (Old Church Slavonic variant)|古教会斯拉夫语|
+|Egyd|Egyptian demotic|埃及世俗体|
+|Egyh|Egyptian hieratic|埃及僧侣体|
+|Geok|Khutsuri (Asomtavruli and Nuskhuri)|格鲁吉亚 牧师体|
 |Hanb|Han + Bopomofo|`Hani`+`Bopo`|
-|Hani|Han|Hanzi, Kanji, Hanja|
+|Hani|Han (Hanzi, Kanji, Hanja)|汉字|
 |Hans|Han (Simplified variant)|简化字|
 |Hant|Han (Traditional variant)|傳承字|
 |Hrkt|Japanese syllabaries|`Hira`+`Kana`|
@@ -43,9 +48,12 @@
 |Syre|Syriac (Estrangelo variant)|叙利亚 经典|
 |Syrj|Syriac (Western variant)|叙利亚 西部|
 |Syrn|Syriac (Eastern variant)|叙利亚 东部<!--景教-->|
-|Qaaa|Reserved for private use|私用始|
-|Qabx|Reserved for private use|私用终|
+|Qaaa|Reserved for private use (start)|私用始|
+|Qabx|Reserved for private use (end)|私用终|
 |Zinh|Inherited|继承|
+|Zmth|Mathematical notation|数学符号|
+|Zsye|Symbols (Emoji variant)|绘文字|
+|Zsym|Symbols|符号|
 |Zyyy|Common|公用|
 |Zzzz|Unknown|[不明](https://github.com/MY1L/unMing)|
 

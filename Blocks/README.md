@@ -1,6 +1,8 @@
 # 统一码名词汉化
 苦于译名混乱，对统一码各种名词作汉化，如[Blocks-](https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt)[15.0.0.txt](https://www.unicode.org/Public/15.0.0/ucd/Blocks.txt)文件内区段名称，详见[Blocks.txt](/Blocks/Blocks.txt)。
 
+关于某些ISO 15924 四字代码的汉化，另见[abbr：区段名不用的ISO代码表格](/abbr#区段名不用字符名或可用)。
+
 ## 更新
 - 第2版：和英文一样不区分“某”文\字、“某”字母、“某”语的文字。据[Unicode Standard 译介尝试（一）・文种名、符号名与块名](https://zhuanlan.zhihu.com/p/240087278)（下略称“尝试”）修正大量译名，少量参考《GB/T 34836-2017 信息与文献　文字名称表示代码》（下略称“GB/T”）。更新对译表，改动之处见注释。
   - 2.1版，2021-1-5，更正为“阿拉伯数学字母符号”
@@ -25,6 +27,7 @@
 - 第9版，2023-5-20：更新SIP、TIP平面规划版区段。
 - 第10版，2023-10-1：更新至统一码15.1版、补充SMP大区翻译、据[SMP规划15.0.3](https://www.unicode.org/roadmaps/smp/smp-15-0-3.html)更新规划版.txt，等。
   - 10.1版：几处小更正。
+  - 10.2版：添加2个格鲁吉亚区段例字“[ᲛᲮᲔᲓᲠᲣᲚᲘ](https://www.omniglot.com/writing/mkhedruli.htm)” “[ⴌⴓⴑⴞⴓⴐⴈ](https://www.omniglot.com/writing/nuskhuri.htm)”
 
 ## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。
