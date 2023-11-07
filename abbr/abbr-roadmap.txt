@@ -212,7 +212,7 @@
 10B80..10BAF; Psalter Pahlavi	|	Phlp.
 10BB0..10BDF; 〓(Book Pahlavi)	|	Phlv.
 10BE0..10BFF; 〓(Baburi)	|	？
-10C00..10C4F; Old Turkic	|	Orkh.
+10C00..10C4F; Old Turkic	|	Orkh. ; Orkhon Runic
 10C80..10CFF; Old Hungarian	|	Hung.
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
 10D40..10D8F; 〓【Garay】	|	Gara.
@@ -444,4 +444,4 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
 # ??D0..??FF; Klingon (KLI pIqaD)	|	Piqd.
 # ???0..???F; Sarati	|	Sara.
 
-# ISO 15924 为私用保留“Qaaa~Qabx”、为继承文字保留“Zinh”、为非书面文档保留“Zxxx”、为公用字符保留“Zyyy”、为未编码文字保留“Zzzz”、为布尔值保留“True”、为CLDR保留“Root”，这些不用于缩写。
+# ISO 15924 为私用协议保留“Qaaa~Qabx”、为带继承性的文种保留“Zinh”、为非书面符号系统保留“Zxxx”、为通用文种保留“Zyyy”、为未编码文种保留“Zzzz”、为布尔值保留“True”、为CLDR数据结构根节点保留“Root”，这些不用于缩写。

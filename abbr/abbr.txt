@@ -202,7 +202,7 @@
 10B40..10B5F; Inscriptional Parthian	|	Prti.
 10B60..10B7F; Inscriptional Pahlavi	|	Phli.
 10B80..10BAF; Psalter Pahlavi	|	Phlp.
-10C00..10C4F; Old Turkic	|	Orkh.
+10C00..10C4F; Old Turkic	|	Orkh. ; Orkhon Runic
 10C80..10CFF; Old Hungarian	|	Hung.
 10D00..10D3F; Hanifi Rohingya	|	Rohg.
 10E60..10E7F; Rumi Numeral Symbols	|	Rumi.
