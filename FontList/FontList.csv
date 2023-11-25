@@ -103,17 +103,17 @@
 2D80..,Ethiopic Extended,,Ebrima,
 2DE0..,Cyrillic Extended-A,Noto Unicode,Segoe UI，等,或可精简
 2E00..,Supplemental Punctuation,Noto Unicode,,
-2E80..,CJK Radicals Supplement,,微软雅黑 6.25，等,
-2F00..,Kangxi Radicals,,微软雅黑，等,
-2FF0..,Ideographic Description Characters,Monu Hani 9.5 ⊃ Ctrl Ctrl,,微软雅黑等缺字
-3000..,CJK Symbols and Punctuation,,微软雅黑，等,
+2E80..,CJK Radicals Supplement,Monu Hani 9.6,微软雅黑 6.25，等,系统字体都不区分“⺫⺲”
+2F00..,Kangxi Radicals,Monu Hani,微软雅黑，等,系统字体难以与汉字区分
+2FF0..,Ideographic Description Characters,Monu Hani ⊃ Ctrl Ctrl,,微软雅黑等缺字
+3000..,CJK Symbols and Punctuation,Monu Hani ⊃ Ctrl Ctrl,微软雅黑，等,系统字体有误字
 3040..,Hiragana,,微软雅黑，等,
 30A0..,Katakana,,微软雅黑，等,
 3100..,Bopomofo,Monu Hani,,
 3130..,Hangul Compatibility Jamo,,Malgun Gothic,
 3190..,Kanbun,,微软雅黑，等,
 31A0..,Bopomofo Extended,Monu Hani,,思源缺字，补之：从NotoUni迁来
-31C0..,CJK Strokes,Monu Hani ⊃ Ctrl Ctrl,,思源缺字，补之
+31C0..,CJK Strokes,Monu Hani ⊃ Ctrl Ctrl,,思源缺字误字，补之改之
 31F0..,Katakana Phonetic Extensions,,微软雅黑，等,
 3200..,Enclosed CJK Letters and Months,Monu Hani,,
 3300..,CJK Compatibility,,Yu Gothic 1.90，等,
@@ -268,7 +268,7 @@ FFF0..,Specials,Noto Unicode,,
 18800.,Tangut Components,Noto Serif Tangut,,
 18B00.,Khitan Small Script,Noto Unicode,,
 18D00.,Tangut Supplement,Noto Serif Tangut,,
-1AFF0.,Kana Extended-B,Monu Hani ⊃ Ctrl Kana 1,,思源完全没有，原创之
+1AFF0.,Kana Extended-B,Monu Hani ⊃ Ctrl Kana 1.1,,思源完全没有，原创之
 1B000.,Kana Supplement,Monu Temp,,！思源完全没有，Last有1个，Monu有2个
 1B100.,Kana Extended-A,Monu Temp,,！思源完全没有，Last有1个，Monu有4个
 1B130.,Small Kana Extension,Monu Hani ⊃ Monu 12,,思源完全没有，补之
@@ -302,7 +302,7 @@ FFF0..,Specials,Noto Unicode,,
 1F030.,Domino Tiles,,Segoe UI Symbol,
 1F0A0.,Playing Cards,,Segoe UI Symbol,
 1F100.,Enclosed Alphanumeric Supplement,Noto Unicode,,
-1F200.,Enclosed Ideographic Supplement,Noto Unicode,,
+1F200.,Enclosed Ideographic Supplement,Monu Hani,,NotoUni曾有
 1F300.,Miscellaneous Symbols and Pictographs,Noto Unicode,,Noto2.001字形有修，SegoeUI Sym.缺1字
 1F600.,Emoticons,,Segoe UI Emoji，等,
 1F650.,Ornamental Dingbats,,Segoe UI Symbol,

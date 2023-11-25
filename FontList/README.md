@@ -20,7 +20,7 @@
 
 如列表所示，如需视窗10环境下几乎全覆盖统一码，仅需额外安装下列字体：
 - [Noto Unicode](/NotoUnicode) 7.3[^Noto]，含[Ctrl Runr](https://github.com/MY1L/Ctrl#runr) β6、Ctrl Ctrl[^Ctrl] 1.1、Ctrl Math 1
-- [Monu Hani](/Hani) 9.5「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11、[Ctrl Kana](https://github.com/MY1L/Ctrl/releases/tag/Kana) 1.001
+- [Monu Hani](/Hani) 9.6「典迹汉字」，含Monu[^Monu] 12、Ctrl Ctrl[^Ctrl] 1.11、[Ctrl Kana](https://github.com/MY1L/Ctrl/releases/tag/Kana) 1.1
 - Monu Han2 6.399「典迹汉辅」
 - Monu Han3 1.175「典迹汉叁」
 - [Noto Serif Tangut](https://github.com/notofonts/tangut) 2.169「…西夏宋[^Noto]」

@@ -25,7 +25,7 @@
 ## 出典
 
 ### ISO四字代码
-国际标准化组织的标准 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）为各种文字体系（scripts）定义了四字代码作区分。代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
+国际标准化组织的 [ISO 15924](https://www.unicode.org/iso15924/iso15924-codes.html)（[变更中](https://www.unicode.org/iso15924/codechanges.html)）对各种 scripts 规定了四字代码作区分。该代码当缩写用的唯一问题是某些文字名称少于4字也得补长到4字。
 
 #### 区段名不用，字符名或可用
 下表略去[文件](https://www.unicode.org/iso15924/iso15924.txt)中的法文名。`Geor`区段名在用，`Zsye`规划版区段名或可用。
@@ -45,8 +45,8 @@
 |Jamo|[Jamo](https://www.unicode.org/glossary/#jamo) (subset of Hangul)|字母（组成谚文的）|
 |Jpan|Japanese|`Hani`+`Hrkt`|
 |Kore|Korean|`Hang`+`Hani`|
-|Latf|Latin (Fraktur variant)|拉丁（德文尖角体）|
-|Latg|Latin (Gaelic variant)|拉丁（盖尔语）|
+|[Latf](https://github.com/MY1L/Ctrl#latf)|Latin (Fraktur variant)|拉丁（德文尖角体）|
+|Latg|Latin ([Gaelic](https://omniglot.com/writing/clogaelach.htm) variant)|拉丁（盖尔语）|
 |Syre|Syriac (Estrangelo variant)|叙利亚（经典）|
 |Syrj|Syriac (Western variant)|叙利亚（西部）|
 |Syrn|Syriac (Eastern variant)|叙利亚（东部）<!--景教-->|
@@ -54,7 +54,7 @@
 |Qabx|Reserved for private use (end)|私用（终）|
 |Zinh|Code for inherited script; Inherited|自形位簇继承的文种〔如：结合标记〕；继承|
 |Zmth|Mathematical notation|数学符号|
-|Zsye|Symbols (Emoji variant)|符号（绘文字）|
+|[Zsye](https://github.com/MY1L/Ctrl#zsye)|Symbols (Emoji variant)|符号（绘文字）|
 |Zsym|Symbols|符号|
 |Zxxx|Code for unwritten documents|非书面能指系统〔如：手语〕|
 |Zyyy|Code for undetermined script; Common|跨文种〔标点､货币符号､阿拉伯数字〕；通用|
@@ -138,7 +138,7 @@
 ### 已有实例，以及我编的
 |缩略|简写|原文|注释|
 | -: | :- | :- | :- |
-|AaNum|Alpanum|Alphanumeric(s)|缩略自撰；[allacronyms]是A/N等|
+|AaNum|Alpanum|Alphanumeric(s)|缩略自撰；[allacronyms]是`A/N`等|
 |Albt||Alphabetic|缩略自撰|
 |Alch||Alchemical|常见缩略|
 |Anc||Ancient|如[Roadmaps]|
@@ -151,14 +151,14 @@
 |comb||combining|常见缩略；[allacronyms]有|
 |Diac|Diacriticals|Combining Diacritical Marks|如[Roadmaps]|
 |Ding||Dingbats|缩略自撰|
-|EyDy||Early Dynastic|缩略自撰；[allacronyms]是ED|
+|EyDy||Early Dynastic|缩略自撰；[allacronyms]是`ED`|
 |Emos||Emoticons|缩略自撰|
 |Form||Form(s)／Format|
 |FC|FormCtrl.|Format Controls|如[Roadmaps]|
-|GeoShape||Geometric Shapes|[allacronyms]是Geom ~等|
+|GeoShape||Geometric Shapes|[allacronyms]是`Geom ~`等|
 |Half|HalfMarks.|Combining Half Marks|如[Roadmaps]|
 |HalfFull|Half And Full Forms|Halfwidth And Fullwidth Forms|
-|Horz||Horizontal|Vert反义词，常见缩略；[allacronyms]有|
+|Horz||Horizontal|`Vert`反义词，常见缩略；[allacronyms]有|
 |Indi||Indic|
 |Janz||Jianzi|缩略自撰|
 |Kakk||Kaktovik|缩略自撰|
@@ -170,28 +170,28 @@
 |mir||mirror|Noto Math描述镜像字符的缩略，没用上|
 |mirr||mirror|微软描述右到左文字的缩略，没用上|
 |MiscMath||Miscellaneous Mathematical Symbols|如[Roadmaps]|
-|Mu||Music|借鉴[Standard Music Font Layout (S**Mu**FL)](https://w3c.github.io/smufl/gitbook/)|
-|Opor||Operators|缩略自撰；[allacronyms]是Ops|
+|Mu||Music|借鉴[Standard Music Font Layout (S`Mu`FL)](https://w3c.github.io/smufl/gitbook/)|
+|Opor||Operators|缩略自撰；[allacronyms]是`Ops`|
 |Orcl|Oracle|Oracle Bone Script|甲骨文公司的纳斯达克股票代码缩写|
-|Otto||Ottoman|欧陆风云作`TUR`，不适合；[allacronyms]是Ott|
+|Otto||Ottoman|欧陆风云作`TUR`，不适合；[allacronyms]是`Ott`|
 |Phon||Phonetic|[allacronyms]有|
 |Pic||Pictographs|常见缩略|
 |PlayCard||Playing Cards|
 |Punc|Punct.|Punctuation|如[Roadmaps]|
 |Rad||Radicals|[allacronyms]有|
 |RodNum.|Rod Nums|Counting Rod Numerals|如[Roadmaps]|
-|Rot|Rotat|Rotation|描述字形顺时针旋转90°的缩略，没用上；[allacronyms]有|
+|Rot|Rotat|Rotation|描述字形顺时针旋转90°，没用上；[allacronyms]有|
 |Sh||Shorthand|如[Roadmaps]|
 |ShawQS|ShavianQS|Shavian Quikscript Extensions|如[Roadmaps]|
 |~syqNum|~SiyaqNum.|~ Siyaq Numbers|老外缩略
 |Spec||Specials|如[Roadmaps]|
 |SP|SPUA-|Supplementary Private Use Area-|[n3412-last-resort](https://unicode.org/wg2/docs/n3412.pdf)|
-|Srgs||Surrogates|缩略自撰；[allacronyms]是Surr等|
+|Srgs||Surrogates|缩略自撰；[allacronyms]是`Surr`等|
 |Syll||Syllabic(s)／Syllabary|如不重复可省略|
 |SymfLC||Symbols for Legacy Computing|缩略自撰|
 |Tech||Technical|常见缩略；[allacronyms]有|
 |Trans||Transport|常见缩略；[allacronyms]有|
-|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|自撰，仿“Yijing”|
+|TXjing|Tai Xuan Jing|Tai Xuan Jing Symbols|自撰，仿`Yijing`|
 |Vert.|VertForm.|Vertical Forms|如[Roadmaps]|
 |Zna||Znamenny|缩略自撰|
 

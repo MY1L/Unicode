@@ -6,7 +6,7 @@
 |缩写|R|G|B|C|M|Y|K|W|A|O|P|S|T|V|Pl|Br|Gy|Pk|Og|
 | -: |-|-|-|-|-|-|-|-|-|-|-|-|-|-|- |- |- |- |- |
 |颜色|红|绿|蓝|青| |黄|黑| | |橙|||||紫|褐|灰|粉||
-|预留未用|||||粉| | |白|透||紫|灰|茶|堇| | |||橙|<!-- www.docin.com/p-447661016.html -->
+|备用|||||品| | |白|透||紫|银|茶|堇| | |||橙|<!-- www.docin.com/p-447661016.html -->
 
 下文凡`uXXXX`是具体码位，而`XXXX..`是区段，相关对应[首页都有](../../../)。
 
@@ -168,7 +168,7 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 [fallback]: https://github.com/MY1L/Unicode/tree/main/FontList#列表说明 "FontList"
 
 ### 2023-4-2 v7.2
-当前总字形数约21725个，对应字码约21721+32个。
+当前总字形21725个，对应字码约21721+32个。
 
 #### 替换和补全
 - 补全`1E4D0..`Nagm.区段，[NotoSansNagMundari](https://github.com/notofonts/nag-mundari) 1.000，替换自制的𞓧`u1E4E7`
@@ -200,7 +200,7 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 - 刷新`0600..`Arab.、`0750..`ArabSup.、`0870..`ArabExtB.、\
 `08A0..`ArabExtA.、`FB50..`ArabPFA.(感觉[对照不上](https://www.unicode.org/charts/PDF/UFB50.pdf)，仅采用部分)、`FE70..`ArabPFB.区段的部分字形，NotoSansArabic 2.011
   - 两套阿文数字`٠١٢٣٤٥٦٧٨٩` `۰۱۲۳۴۵۶۷۸۹`跟进为等宽了。
-  - 当然`u061C`[ALM] `uFEFF`(BOM）这两个字形不变。我还发现NotoArab.有不少错误：[notofonts/arabic#206](https://github.com/notofonts/arabic/issues/206)、[#211](https://github.com/notofonts/arabic/issues/211)、[#219](https://github.com/notofonts/arabic/issues/219)，因此更改`u06C1`并自制了`u06C2` `u06C3`等。
+  - 当然`u061C`[ALM] `uFEFF`(BOM)这两个字形不变。我还发现NotoArab.有不少错误：[notofonts/arabic#206](https://github.com/notofonts/arabic/issues/206)、[#211](https://github.com/notofonts/arabic/issues/211)、[#219](https://github.com/notofonts/arabic/issues/219)，因此更改`u06C1`并自制了`u06C2` `u06C3`等。
 - 追加`10EC0..`ArabExtC.区段，NotoSansArabic 2.011
   - 需注意以上这些替换和追加区段里某些字写法与Noto旧2.010版或统一码所示不同。
 - 刷新`0000..`Latn.、`0080..`Latn1.、`1E00..`LatnExtAdd.、`0100..`LatnExtA.、`0180..`LatnExtB.、`2C60..`LatnExtC.、`A720..`LatnExtD.、`AB30..`LatnExtE.、`10780..`LatnExtF.、`1DF00..`LatnExtG.(Noto不全)、\
@@ -213,7 +213,7 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 `2070..`SupSub.、`20A0..`Currency.、`2100..`Lttrlike.(部分)、\
 `2150..`NumForm.(Noto不全)、`FB00..`AlbtPF.(Noto不全)、`FE20..`Half. 区段和若干字形，NotoSans 2.013
   - 尤其是更改了这些字形(不完全列举)：`u01B2` `u028B` `u1D9F` `u1DB9` `u20BE` `u20C0` `u2E3C` `u2E49` `uA798` `uA7AE` `uAB5A` `u10780` `u10784` `u1078E`
-  - 因此当前字体没有源自NotoSans 2.010版字形了。
+  - 因此当前字体没有源自NotoSans 2.010版字形了，顺带依据[统一码15.1.0勘误表](https://www.unicode.org/versions/Unicode15.1.0/erratafixed.html)替换“Ꞙꭚ”这2字的字形。
 - 刷新`11F00..`Kawi区段，NotoSansKawi 1.000
   - 当然`u11F42`字形不变。𑽏`u11F4F`经过调整。
 
@@ -221,6 +221,13 @@ v5→6.9 细节详见：[Release Noto Unicode v5.9~6.9 · MY1L/Unicode](https://
 解决先前NotoSans 2.010的`1AB0..`DiacExt.错误，更改大量内部字形名。\
 测试保留不会导致字形改变的西文`kern`特性（涵盖latn|拉丁、grek|希腊、cyrl|西里尔，取自NotoSans 2.013部分）
 
+### 2023-1\_-\_ v7.\_
+
+#### 自制
+补充Noncharacters，尤其位于阿文区段内的`U+FDD0..U+FDEF`
+
+#### ~追加~
+~NotoOrkh.何时能解决问题？~
 
 ## 已知问题
 Noto婆罗米字形与统一码 [U11000.pdf](http://www.unicode.org/charts/PDF/U11000.pdf) 范例不同。莫非是笈多文？待查。\
