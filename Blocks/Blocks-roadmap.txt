@@ -23,13 +23,13 @@
 # @missing: 0000..10FFFF; No_Block
 
 # ------------------------------------------------
-# 路线图区段名标注：
-#	〓标示此区段尚为路线图。
+# 规划区段名标注：
+#	〓标示此区段尚为规划。
 #	【已正式被UTC或WG2接受的】
 #	(已正式向UTC或WG2提案的)
 #	¿尚未编写详细提案的?
 #	~标示码位有冲突~
-#	¿¿¿欠分配的???
+#	¿¿¿欠规划的???
 #	✱标示此区段有意外用途，未来码位或有冲突。
 
 0000..007F; 0000基本拉丁|Basic Latin
@@ -327,7 +327,7 @@ FFF0..FFFF; FFF0特殊|Specials
 16000..1607F; 〓1600?奇尔斯(Cirth)
 16080..160FF; 〓1608?滕格瓦(Tengwar)
 16100..1613F; 〓16100古隆凯玛【Gurung Khema】
-16140..1617F; 〓凯普里赫¿¿¿Khe Prih???~16140..~
+16140..1618F; 〓1614?库鲁赫巴纳(Kurux Banna)
 161A0..161FF; 〓161A?穆恩盲文(Moon)
 16200..1677F; 〓1620?布利斯符(Blissymbols)
 16800..16A3F; 16800巴默姆补充|Bamum Supplement
@@ -379,6 +379,7 @@ FFF0..FFFF; FFF0特殊|Specials
 1C380..1C4FF; 〓1C38?线形埃兰(Linear Elamite)
 1CA80..1CBFF; 〓罗鄂罗鄂¿¿¿Rongorongo???~1CA80..~
 1CC00..1CEBF; 〓1CC00遗留电脑符号补充【Symbols for Legacy Computing Supplement】
+1CEC0..1CEFF; 〓1CEC0各式符号补充【Miscellaneous Symbols Supplement】
 1CF00..1CFCF; 1CF00兹纳缅内音符|Znamenny Musical Notation
 1D000..1D0FF; 1D000拜占庭乐符|Byzantine Musical Symbols
 1D100..1D1FF; 1D100乐符|Musical Symbols
@@ -461,11 +462,14 @@ E0100..E01EF; E0100变体选择符补充|Variation Selectors Supplement
 F0000..FFFFF; F0000增补私用区甲|Supplementary Private Use Area-A
 100000..10FFFF; 100000增补私用区乙|Supplementary Private Use Area-B
 
-# 路线图外格式:
+# 规划外格式：
 # ISO 15924代码.译名|原名
 
 # Visp.可视语音|Visible Speech
 # Piqd.克林贡(克语 皮卡德)|Klingon (KLI pIqaD)
 # Sara.萨拉提|Sarati
+
+# 已被挤出规划：
+#?6140..?617F; 凯普里赫¿¿¿Khe Prih???
 
 # EOF

@@ -103,7 +103,7 @@
 2D80..,Ethiopic Extended,,Ebrima,
 2DE0..,Cyrillic Extended-A,Noto Unicode,Segoe UI，等,或可精简
 2E00..,Supplemental Punctuation,Noto Unicode,,
-2E80..,CJK Radicals Supplement,Monu Hani 9.6,微软雅黑 6.25，等,系统字体都不区分“⺫⺲”
+2E80..,CJK Radicals Supplement,Monu Hani 9.6,微软雅黑 6.30，等,系统字体都不区分“⺫⺲”
 2F00..,Kangxi Radicals,Monu Hani,微软雅黑，等,系统字体难以与汉字区分
 2FF0..,Ideographic Description Characters,Monu Hani ⊃ Ctrl Ctrl,,微软雅黑等缺字
 3000..,CJK Symbols and Punctuation,Monu Hani ⊃ Ctrl Ctrl,微软雅黑，等,系统字体有误字
@@ -117,9 +117,9 @@
 31F0..,Katakana Phonetic Extensions,,微软雅黑，等,
 3200..,Enclosed CJK Letters and Months,Monu Hani,,
 3300..,CJK Compatibility,,Yu Gothic 1.90，等,
-3400..,CJK Unified Ideographs Extension A,Monu Hani,,思源缺字，补之
+3400..,CJK Unified Ideographs Extension A,Monu Hani,微软雅黑，等,思源缺字，补之；雅黑新增字难看
 4DC0..,Yijing Hexagram Symbols,,Segoe UI Symbol,
-4E00..,CJK Unified Ideographs,Monu Hani,,思源缺字，补之
+4E00..,CJK Unified Ideographs,Monu Hani,微软雅黑，等,思源缺字，补之；雅黑新增字难看
 A000..,Yi Syllables,,Microsoft Yi Baiti 6.00,
 A490..,Yi Radicals,,Microsoft Yi Baiti,
 A4D0..,Lisu,,Segoe UI,
@@ -316,9 +316,9 @@ FFF0..,Specials,Noto Unicode,,
 1FB00.,Symbols for Legacy Computing,Noto Unicode,,
 20000.,CJK Unified Ideographs Extension B,Monu Han2 6.399,,
 2A700.,CJK Unified Ideographs Extension C,Monu Han2,,
-2B740.,CJK Unified Ideographs Extension D,Monu Han2,SimSun-ExtB 5.03，等,或可精简，但欠黑体
-2B820.,CJK Unified Ideographs Extension E,Monu Han2,,
-2CEB0.,CJK Unified Ideographs Extension F,Monu Han2,,
+2B740.,CJK Unified Ideographs Extension D,Monu Han2,SimSun-ExtB 5.06，等,或可精简，但欠黑体
+2B820.,CJK Unified Ideographs Extension E,Monu Han2,SimSun-ExtB,或可精简，但欠黑体
+2CEB0.,CJK Unified Ideographs Extension F,Monu Han2,SimSun-ExtB,或可精简，但欠黑体
 2EBF0.,CJK Unified Ideographs Extension I,Monu Han2,,
 2F800.,CJK Compatibility Ideographs Supplement,Monu Han2,,
 30000.,CJK Unified Ideographs Extension G,Monu Han3 1.175,,

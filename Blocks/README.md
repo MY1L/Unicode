@@ -28,6 +28,7 @@
 - 第10版，2023-10-1：更新至统一码15.1版、补充SMP大区翻译、据[SMP规划15.0.3](https://www.unicode.org/roadmaps/smp/smp-15-0-3.html)更新规划版.txt，等。
   - 10.1版：几处小更正。
   - 10.2版：添加2个格鲁吉亚区段例字“[ᲛᲮᲔᲓᲠᲣᲚᲘ](https://www.omniglot.com/writing/mkhedruli.htm)” “[ⴌⴓⴑⴞⴓⴐⴈ](https://www.omniglot.com/writing/nuskhuri.htm)”
+  - 10.3版：更新SMP平面规划版区段。
 
 ## 对译表
 我推敲统一码取名不一定用英文原本含义，因此下列词组优先于词，已用 *着重样式* 标出。

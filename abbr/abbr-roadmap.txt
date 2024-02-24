@@ -292,7 +292,7 @@
 16000..1607F; 〓(Cirth)	|	Cirt.
 16080..160FF; 〓(Tengwar)	|	Teng.
 16100..1613F; 〓【Gurung Khema】	|	Gukh.
-16140..1617F; 〓¿¿¿Khe Prih???	|	？
+16140..1618F; 〓(Kurux Banna)	|	？
 161A0..161FF; 〓(Moon)	|	Moon.
 16200..1677F; 〓(Blissymbols)	|	Blis.
 16800..16A3F; Bamum Supplement	|	BamuSup.
@@ -344,6 +344,7 @@
 1C380..1C4FF; 〓(Linear Elamite)	|	LinElm!
 1CA80..1CBFF; 〓¿¿¿Rongorongo???	|	Roro.
 1CC00..1CEBF; 〓【Symbols for Legacy Computing Supplement】	|	SymfLCSup.
+1CEC0..1CEFF; 〓【Miscellaneous Symbols Supplement】	|	MiscSymSup.
 1CF00..1CFCF; Znamenny Musical Notation	|	Znamenny. = ZnaMu.
 1D000..1D0FF; Byzantine Musical Symbols	|	ByzMu.
 1D100..1D1FF; Musical Symbols	|	Music.
@@ -428,11 +429,11 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
 
 # 标注：
 #	区段名与Blocks-roadmap.txt不一致的是来自ISO 15924
-#	标示此区段尚为路线图，码位可能冲突：〓
+#	标示此区段尚为规划，码位可能冲突：〓
 #	【已正式被UTC或WG2接受的】
 #	(已正式向UTC或WG2提案的)
 #	¿尚未编写详细提案的?
-#	¿¿¿欠分配的???
+#	¿¿¿欠规划的???
 #	我诌的仿ISO15924缩写，缩略可能冲突：!
 #	其它可能冲突的缩略：≈
 #	不冲突的更短缩略：=
@@ -443,5 +444,7 @@ F0000..FFFFF; Supplementary Private Use Area-A	|	PUAA. = SPA.
 # ??80..??FF; Visible Speech	|	Visp.
 # ??D0..??FF; Klingon (KLI pIqaD)	|	Piqd.
 # ???0..???F; Sarati	|	Sara.
+
+#?6140..?617F; ¿¿¿Khe Prih???
 
 # ISO 15924 为私用协议保留“Qaaa~Qabx”、为带继承性的文种保留“Zinh”、为非书面符号系统保留“Zxxx”、为通用文种保留“Zyyy”、为未编码文种保留“Zzzz”、为布尔值保留“True”、为CLDR数据结构根节点保留“Root”，这些不用于缩写。
