@@ -13,7 +13,7 @@ Noto，no tofu「无缺字(豆腐块〼)」缩略，不译“谷歌”是因为�
 
 ## [Monu Last](/Last)
 「典迹末境」，我b站的旧介绍视频：[1个对应111万4112个字符的字体](https://www.bilibili.com/video/BV1XT4y1N7TG/)，用途类似 Last Resort「最后手段」字体。\
-Monu，Monument「典迹」缩略，起初是无衬线体“Montserrat”改，后来我的非全原创字体名称都统一用此开头……可在[Releases][r]下载。
+[**Monu**](https://github.com/MY1L/Monu)，Monument「典迹」缩略，起初是无衬线体“Montserrat”改，后来我的非全原创字体名称都统一用此开头……可在[Releases][r]下载。
 
 ## [Monu Hani](/Hani)
 「典迹汉字」，起初包含若干思源黑体没有的自制汉字字形、算筹的画正字和一些古文字形，第9版起大幅扩展。`Hani`是泛指汉字的 [ISO 15924 四字代码](/abbr)。\

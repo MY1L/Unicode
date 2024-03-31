@@ -310,7 +310,7 @@
 16DD0..16DFF; 〓(Kulitan)	|	？
 16E00..16E3F; 〓(Mwangwego)	|	？
 16E40..16E9F; Medefaidrin	|	Medf.
-16EA0..16ECF; 〓(Beria)	|	？
+16EA0..16EDF; 〓【Beria Erfe】	|	？
 16F00..16F9F; Miao	|	Plrd. ; Pollard
 16FA0..16FAF; 〓¿Bopomofo Extended-A?	|	BopoExtA.
 16FB0..16FDF; 〓(Kanbun Extended-A)	|	KbnExtA.

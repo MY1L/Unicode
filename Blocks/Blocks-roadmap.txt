@@ -345,7 +345,7 @@ FFF0..FFFF; FFF0特殊|Specials
 16DD0..16DFF; 〓16DD?库利坦(Kulitan)
 16E00..16E3F; 〓16E0?姆万圭戈(Mwangwego)
 16E40..16E9F; 16E40梅代法伊德林|𖹝𖹰𖹯𖹼𖹫 𖹚𖹬𖹾𖹠𖹯|Medefaidrin
-16EA0..16ECF; 〓16EA?贝里亚(Beria)
+16EA0..16EDF; 〓16EA?贝里烙印|𖺡𖺾𖻍𖻂【Beria Erfe】
 16F00..16F9F; 16F00苗(老)|Miao
 16FA0..16FAF; 〓16F??注音扩充甲¿Bopomofo Extended-A?
 16FB0..16FDF; 〓16FB?汉文扩充甲(Kanbun Extended-A)
